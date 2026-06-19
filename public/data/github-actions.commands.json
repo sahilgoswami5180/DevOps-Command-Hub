@@ -2,13 +2,253 @@
   {
     "id": "github-actions-gh-run-list",
     "command": "gh run list",
-    "title": "GitHub Actions runs list karna",
+    "title": "GitHub Actions list karna",
+    "category": "GitHub Actions",
+    "difficulty": "Beginner",
+    "use_case": "GitHub Actions related kaam me `gh run list` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "gh run list",
+    "example": "gh run list",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh",
+      "devops"
+    ]
+  },
+  {
+    "id": "github-actions-gh-run-view-run-id",
+    "command": "gh run view <run-id>",
+    "title": "GitHub Actions run karna",
+    "category": "GitHub Actions",
+    "difficulty": "Beginner",
+    "use_case": "GitHub Actions related kaam me `gh run view <run-id>` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "gh run view <run-id>",
+    "example": "gh run view <run-id>",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh",
+      "devops"
+    ]
+  },
+  {
+    "id": "github-actions-gh-run-watch-run-id",
+    "command": "gh run watch <run-id>",
+    "title": "GitHub Actions run karna",
+    "category": "GitHub Actions",
+    "difficulty": "Beginner",
+    "use_case": "GitHub Actions related kaam me `gh run watch <run-id>` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "gh run watch <run-id>",
+    "example": "gh run watch <run-id>",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh",
+      "devops"
+    ]
+  },
+  {
+    "id": "github-actions-gh-run-rerun-run-id",
+    "command": "gh run rerun <run-id>",
+    "title": "GitHub Actions run karna",
+    "category": "GitHub Actions",
+    "difficulty": "Beginner",
+    "use_case": "GitHub Actions related kaam me `gh run rerun <run-id>` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "gh run rerun <run-id>",
+    "example": "gh run rerun <run-id>",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh",
+      "devops"
+    ]
+  },
+  {
+    "id": "github-actions-gh-workflow-list",
+    "command": "gh workflow list",
+    "title": "GitHub Actions list karna",
+    "category": "GitHub Actions",
+    "difficulty": "Beginner",
+    "use_case": "GitHub Actions related kaam me `gh workflow list` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "gh workflow list",
+    "example": "gh workflow list",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh",
+      "devops"
+    ]
+  },
+  {
+    "id": "github-actions-gh-workflow-run-workflow-yml",
+    "command": "gh workflow run workflow.yml",
+    "title": "GitHub Actions run karna",
+    "category": "GitHub Actions",
+    "difficulty": "Beginner",
+    "use_case": "GitHub Actions related kaam me `gh workflow run workflow.yml` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "gh workflow run workflow.yml",
+    "example": "gh workflow run workflow.yml",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh",
+      "devops"
+    ]
+  },
+  {
+    "id": "github-actions-gh-auth-login",
+    "command": "gh auth login",
+    "title": "GitHub Actions login karna",
     "category": "GitHub Actions",
     "difficulty": "Intermediate",
-    "use_case": "CLI se recent workflow runs check karne ke liye.",
-    "syntax": "gh run list [flags]",
-    "example": "gh run list --limit 10",
-    "output_explanation": "Recent workflow run status, branch aur time show hota hai.",
-    "warning": "GitHub CLI login required hai.",
-    "related_commands": ["gh run view", "gh run watch", "gh auth login"],
-    "tags": ["github", "actions", "workflow", "ci"]
+    "use_case": "GitHub Actions related kaam me `gh auth login` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "gh auth login",
+    "example": "gh auth login",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh",
+      "devops"
+    ]
+  },
+  {
+    "id": "github-actions-gh-auth-status",
+    "command": "gh auth status",
+    "title": "GitHub Actions status check karna",
+    "category": "GitHub Actions",
+    "difficulty": "Intermediate",
+    "use_case": "GitHub Actions related kaam me `gh auth status` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "gh auth status",
+    "example": "gh auth status",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh",
+      "devops"
+    ]
+  },
+  {
+    "id": "github-actions-gh-secret-list",
+    "command": "gh secret list",
+    "title": "GitHub Actions list karna",
+    "category": "GitHub Actions",
+    "difficulty": "Intermediate",
+    "use_case": "GitHub Actions related kaam me `gh secret list` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "gh secret list",
+    "example": "gh secret list",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh",
+      "devops"
+    ]
+  },
+  {
+    "id": "github-actions-gh-secret-set-name",
+    "command": "gh secret set NAME",
+    "title": "GitHub Actions set karna",
+    "category": "GitHub Actions",
+    "difficulty": "Intermediate",
+    "use_case": "GitHub Actions related kaam me `gh secret set NAME` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "gh secret set NAME",
+    "example": "gh secret set NAME",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh",
+      "devops"
+    ]
+  },
+  {
+    "id": "github-actions-gh-variable-list",
+    "command": "gh variable list",
+    "title": "GitHub Actions list karna",
+    "category": "GitHub Actions",
+    "difficulty": "Intermediate",
+    "use_case": "GitHub Actions related kaam me `gh variable list` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "gh variable list",
+    "example": "gh variable list",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh",
+      "devops"
+    ]
+  },
+  {
+    "id": "github-actions-gh-variable-set-name-body-value",
+    "command": "gh variable set NAME --body value",
+    "title": "GitHub Actions set karna",
+    "category": "GitHub Actions",
+    "difficulty": "Intermediate",
+    "use_case": "GitHub Actions related kaam me `gh variable set NAME --body value` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "gh variable set NAME --body value",
+    "example": "gh variable set NAME --body value",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh",
+      "devops"
+    ]
+  },
+  {
+    "id": "github-actions-gh-release-create-v1-0-0",
+    "command": "gh release create v1.0.0",
+    "title": "GitHub Actions create karna",
+    "category": "GitHub Actions",
+    "difficulty": "Intermediate",
+    "use_case": "GitHub Actions related kaam me `gh release create v1.0.0` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "gh release create v1.0.0",
+    "example": "gh release create v1.0.0",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh",
+      "devops"
+    ]
+  },
+  {
+    "id": "github-actions-gh-api-repos-owner-repo-actions-runs",
+    "command": "gh api repos/:owner/:repo/actions/runs",
+    "title": "GitHub Actions run karna",
+    "category": "GitHub Actions",
+    "difficulty": "Intermediate",
+    "use_case": "GitHub Actions related kaam me `gh api repos/:owner/:repo/actions/runs` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "gh api repos/:owner/:repo/actions/runs",
+    "example": "gh api repos/:owner/:repo/actions/runs",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh",
+      "devops"
+    ]
+  }
+]

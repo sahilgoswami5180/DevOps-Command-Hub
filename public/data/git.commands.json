@@ -1,26 +1,384 @@
 [
   {
-    "id": "git-status",
+    "id": "git-github-git-status",
     "command": "git status",
-    "title": "Current git changes check karna",
+    "title": "Current changes check karna",
     "category": "Git / GitHub",
     "difficulty": "Beginner",
-    "use_case": "Branch, staged files, unstaged files aur untracked files dekhne ke liye.",
+    "use_case": "Branch, staged/unstaged/untracked files check karne ke liye.",
     "syntax": "git status",
     "example": "git status",
-    "output_explanation": "Current branch aur working tree state show hoti hai.",
-    "warning": "Read-only command hai, safe hai.",
-    "related_commands": ["git diff", "git add", "git branch"],
-    "tags": ["git", "status", "branch", "changes"]
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Read-only command hai.",
+    "related_commands": [
+      "git diff",
+      "git branch"
+    ],
+    "tags": [
+      "git",
+      "status"
+    ]
   },
   {
-    "id": "git-checkout-b",
-    "command": "git checkout -b <branch-name>",
-    "title": "New branch create karke switch karna",
+    "id": "git-github-git-branch",
+    "command": "git branch",
+    "title": "Branches list karna",
     "category": "Git / GitHub",
     "difficulty": "Beginner",
-    "use_case": "Feature/fix ke liye new branch banane ke liye.",
-    "syntax": "git checkout -b <branch-name>",
-    "example": "git checkout -b sahil",
-    "output_explanation": "New branch create hoti hai aur aap us branch par switch ho jate ho.",
-    "warning": "Branch create karne se pehle correct base branch confirm karo.",
+    "use_case": "Local branches dekhne ke liye.",
+    "syntax": "git branch",
+    "example": "git branch",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Read-only command hai.",
+    "related_commands": [
+      "git branch -a"
+    ],
+    "tags": [
+      "git",
+      "branch"
+    ]
+  },
+  {
+    "id": "git-github-git-branch-a",
+    "command": "git branch -a",
+    "title": "All branches dekhna",
+    "category": "Git / GitHub",
+    "difficulty": "Beginner",
+    "use_case": "Local + remote branches list karne ke liye.",
+    "syntax": "git branch -a",
+    "example": "git branch -a",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Read-only command hai.",
+    "related_commands": [
+      "git fetch"
+    ],
+    "tags": [
+      "git",
+      "remote",
+      "branch"
+    ]
+  },
+  {
+    "id": "git-github-git-checkout-b-name",
+    "command": "git checkout -b name",
+    "title": "New branch create/switch karna",
+    "category": "Git / GitHub",
+    "difficulty": "Beginner",
+    "use_case": "New branch banake usme switch karne ke liye.",
+    "syntax": "git checkout -b <branch>",
+    "example": "git checkout -b feature-login",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Correct base branch confirm karo.",
+    "related_commands": [
+      "git switch -c",
+      "git branch"
+    ],
+    "tags": [
+      "git",
+      "checkout",
+      "branch"
+    ]
+  },
+  {
+    "id": "git-github-git-switch-branch",
+    "command": "git switch branch",
+    "title": "Branch switch karna",
+    "category": "Git / GitHub",
+    "difficulty": "Beginner",
+    "use_case": "Existing branch par switch karne ke liye.",
+    "syntax": "git switch <branch>",
+    "example": "git switch main",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Uncommitted changes conflict kar sakte hain.",
+    "related_commands": [
+      "git status",
+      "git stash"
+    ],
+    "tags": [
+      "git",
+      "switch"
+    ]
+  },
+  {
+    "id": "git-github-git-add",
+    "command": "git add .",
+    "title": "Changes stage karna",
+    "category": "Git / GitHub",
+    "difficulty": "Beginner",
+    "use_case": "All current changes commit ke liye stage karne ke liye.",
+    "syntax": "git add .",
+    "example": "git add .",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Unwanted files stage na ho, status check karo.",
+    "related_commands": [
+      "git status",
+      "git reset"
+    ],
+    "tags": [
+      "git",
+      "add",
+      "stage"
+    ]
+  },
+  {
+    "id": "git-github-git-commit-m-message",
+    "command": "git commit -m \"message\"",
+    "title": "Commit create karna",
+    "category": "Git / GitHub",
+    "difficulty": "Beginner",
+    "use_case": "Staged changes ka commit banane ke liye.",
+    "syntax": "git commit -m <message>",
+    "example": "git commit -m \"Fix JSON data\"",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Clear message likho. Secrets commit mat karo.",
+    "related_commands": [
+      "git log",
+      "git push"
+    ],
+    "tags": [
+      "git",
+      "commit"
+    ]
+  },
+  {
+    "id": "git-github-git-diff",
+    "command": "git diff",
+    "title": "Unstaged diff dekhna",
+    "category": "Git / GitHub",
+    "difficulty": "Beginner",
+    "use_case": "Working tree changes compare karne ke liye.",
+    "syntax": "git diff",
+    "example": "git diff",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Read-only command hai.",
+    "related_commands": [
+      "git diff --staged"
+    ],
+    "tags": [
+      "git",
+      "diff"
+    ]
+  },
+  {
+    "id": "git-github-git-diff-staged",
+    "command": "git diff --staged",
+    "title": "Staged diff dekhna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Commit se pehle staged changes review karne ke liye.",
+    "syntax": "git diff --staged",
+    "example": "git diff --staged",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Read-only command hai.",
+    "related_commands": [
+      "git status"
+    ],
+    "tags": [
+      "git",
+      "staged",
+      "diff"
+    ]
+  },
+  {
+    "id": "git-github-git-log-oneline-graph",
+    "command": "git log --oneline --graph",
+    "title": "Commit history dekhna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Compact branch history visualize karne ke liye.",
+    "syntax": "git log --oneline --graph --decorate --all",
+    "example": "git log --oneline --graph --decorate --all",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Read-only command hai.",
+    "related_commands": [
+      "git show"
+    ],
+    "tags": [
+      "git",
+      "log",
+      "history"
+    ]
+  },
+  {
+    "id": "git-github-git-fetch-origin",
+    "command": "git fetch origin",
+    "title": "Remote updates fetch karna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Remote branches/commits local me fetch karne ke liye.",
+    "syntax": "git fetch <remote>",
+    "example": "git fetch origin",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Local files change nahi karta.",
+    "related_commands": [
+      "git pull",
+      "git branch -a"
+    ],
+    "tags": [
+      "git",
+      "fetch",
+      "remote"
+    ]
+  },
+  {
+    "id": "git-github-git-pull-origin-branch",
+    "command": "git pull origin branch",
+    "title": "Remote changes pull karna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Remote branch ke changes current branch me merge/rebase karne ke liye.",
+    "syntax": "git pull <remote> <branch>",
+    "example": "git pull origin main",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Conflicts aa sakte hain. Pehle status clean rakho.",
+    "related_commands": [
+      "git fetch",
+      "git merge"
+    ],
+    "tags": [
+      "git",
+      "pull",
+      "merge"
+    ]
+  },
+  {
+    "id": "git-github-git-push-origin-branch",
+    "command": "git push origin branch",
+    "title": "Branch push karna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Local commits remote branch par push karne ke liye.",
+    "syntax": "git push <remote> <branch>",
+    "example": "git push origin feature-login",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Wrong branch push na ho verify karo.",
+    "related_commands": [
+      "git status",
+      "git remote -v"
+    ],
+    "tags": [
+      "git",
+      "push"
+    ]
+  },
+  {
+    "id": "git-github-git-stash-push-m-msg",
+    "command": "git stash push -m \"msg\"",
+    "title": "Changes temporary save karna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Uncommitted changes temporarily side me rakhne ke liye.",
+    "syntax": "git stash push -m <message>",
+    "example": "git stash push -m \"wip before pull\"",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Untracked files ke liye -u use karo.",
+    "related_commands": [
+      "git stash list",
+      "git stash pop"
+    ],
+    "tags": [
+      "git",
+      "stash"
+    ]
+  },
+  {
+    "id": "git-github-git-stash-pop",
+    "command": "git stash pop",
+    "title": "Stash apply/remove karna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Latest stash changes wapas lane ke liye.",
+    "syntax": "git stash pop",
+    "example": "git stash pop",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Conflicts aa sakte hain.",
+    "related_commands": [
+      "git stash apply"
+    ],
+    "tags": [
+      "git",
+      "stash",
+      "pop"
+    ]
+  },
+  {
+    "id": "git-github-git-reset-soft-head-1",
+    "command": "git reset --soft HEAD~1",
+    "title": "Last commit undo keep changes",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Last commit remove karna but changes staged rakhna.",
+    "syntax": "git reset --soft HEAD~1",
+    "example": "git reset --soft HEAD~1",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Shared branch par history rewrite carefully karo.",
+    "related_commands": [
+      "git reset --mixed"
+    ],
+    "tags": [
+      "git",
+      "reset",
+      "undo"
+    ]
+  },
+  {
+    "id": "git-github-git-remote-v",
+    "command": "git remote -v",
+    "title": "Remote URLs dekhna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Repository remote origin URLs verify karne ke liye.",
+    "syntax": "git remote -v",
+    "example": "git remote -v",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Read-only command hai.",
+    "related_commands": [
+      "git remote set-url"
+    ],
+    "tags": [
+      "git",
+      "remote"
+    ]
+  },
+  {
+    "id": "git-github-gh-pr-create",
+    "command": "gh pr create",
+    "title": "GitHub PR create karna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "GitHub CLI se pull request create karne ke liye.",
+    "syntax": "gh pr create",
+    "example": "gh pr create --base main --head feature-login",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "GitHub CLI auth required hai.",
+    "related_commands": [
+      "gh pr status",
+      "gh auth login"
+    ],
+    "tags": [
+      "github",
+      "pr",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-gh-pr-status",
+    "command": "gh pr status",
+    "title": "PR status check karna",
+    "category": "Git / GitHub",
+    "difficulty": "Advanced",
+    "use_case": "Current repo ke PR status check karne ke liye.",
+    "syntax": "gh pr status",
+    "example": "gh pr status",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Read-only command hai.",
+    "related_commands": [
+      "gh pr view"
+    ],
+    "tags": [
+      "github",
+      "pr",
+      "status"
+    ]
+  }
+]

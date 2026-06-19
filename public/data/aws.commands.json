@@ -1,14 +1,362 @@
 [
   {
-    "id": "aws-sts-caller-identity",
-    "command": "aws sts get-caller-identity",
-    "title": "Current AWS identity check karna",
+    "id": "aws-cli-aws-configure",
+    "command": "aws configure",
+    "title": "aws configure command use karna",
     "category": "AWS CLI",
     "difficulty": "Beginner",
-    "use_case": "CLI kis AWS account/user/role se authenticated hai check karne ke liye.",
+    "use_case": "AWS CLI related kaam me `aws configure` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "aws configure",
+    "example": "aws configure",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "aws",
+      "aws",
+      "devops"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-configure-list",
+    "command": "aws configure list",
+    "title": "AWS CLI list karna",
+    "category": "AWS CLI",
+    "difficulty": "Beginner",
+    "use_case": "AWS CLI related kaam me `aws configure list` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "aws configure list",
+    "example": "aws configure list",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "aws",
+      "aws",
+      "devops"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-sts-get-caller-identity",
+    "command": "aws sts get-caller-identity",
+    "title": "AWS CLI dekhna",
+    "category": "AWS CLI",
+    "difficulty": "Beginner",
+    "use_case": "AWS CLI related kaam me `aws sts get-caller-identity` command practical DevOps usage ke liye use hota hai.",
     "syntax": "aws sts get-caller-identity",
     "example": "aws sts get-caller-identity",
-    "output_explanation": "Account ID, ARN aur UserId show hota hai.",
-    "warning": "Deployment se pehle correct AWS account verify karo.",
-    "related_commands": ["aws configure list", "aws s3 ls", "aws ec2 describe-instances"],
-    "tags": ["aws", "sts", "identity", "account"]
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "aws",
+      "aws",
+      "devops"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-s3-ls",
+    "command": "aws s3 ls",
+    "title": "aws s3 ls command use karna",
+    "category": "AWS CLI",
+    "difficulty": "Beginner",
+    "use_case": "AWS CLI related kaam me `aws s3 ls` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "aws s3 ls",
+    "example": "aws s3 ls",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "aws",
+      "aws",
+      "devops"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-s3-cp-file-s3-bucket-path",
+    "command": "aws s3 cp file s3://bucket/path",
+    "title": "aws s3 cp file s3://bucket/path command use karna",
+    "category": "AWS CLI",
+    "difficulty": "Beginner",
+    "use_case": "AWS CLI related kaam me `aws s3 cp file s3://bucket/path` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "aws s3 cp file s3://bucket/path",
+    "example": "aws s3 cp file s3://bucket/path",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "aws",
+      "aws",
+      "devops"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-s3-sync-dist-s3-bucket",
+    "command": "aws s3 sync ./dist s3://bucket",
+    "title": "aws s3 sync ./dist s3://bucket command use karna",
+    "category": "AWS CLI",
+    "difficulty": "Beginner",
+    "use_case": "AWS CLI related kaam me `aws s3 sync ./dist s3://bucket` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "aws s3 sync ./dist s3://bucket",
+    "example": "aws s3 sync ./dist s3://bucket",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "aws",
+      "aws",
+      "devops"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-ec2-describe-instances",
+    "command": "aws ec2 describe-instances",
+    "title": "aws ec2 describe-instances command use karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI related kaam me `aws ec2 describe-instances` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "aws ec2 describe-instances",
+    "example": "aws ec2 describe-instances",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "aws",
+      "aws",
+      "devops"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-ec2-describe-security-groups",
+    "command": "aws ec2 describe-security-groups",
+    "title": "aws ec2 describe-security-groups command use karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI related kaam me `aws ec2 describe-security-groups` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "aws ec2 describe-security-groups",
+    "example": "aws ec2 describe-security-groups",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "aws",
+      "aws",
+      "devops"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-ec2-start-instances-instance-ids-i-xxx",
+    "command": "aws ec2 start-instances --instance-ids i-xxx",
+    "title": "aws ec2 start-instances --instance-ids i-xxx command use karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI related kaam me `aws ec2 start-instances --instance-ids i-xxx` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "aws ec2 start-instances --instance-ids i-xxx",
+    "example": "aws ec2 start-instances --instance-ids i-xxx",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "aws",
+      "aws",
+      "devops"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-ec2-stop-instances-instance-ids-i-xxx",
+    "command": "aws ec2 stop-instances --instance-ids i-xxx",
+    "title": "aws ec2 stop-instances --instance-ids i-xxx command use karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI related kaam me `aws ec2 stop-instances --instance-ids i-xxx` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "aws ec2 stop-instances --instance-ids i-xxx",
+    "example": "aws ec2 stop-instances --instance-ids i-xxx",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup aur target 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "aws",
+      "aws",
+      "devops"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-logs-describe-log-groups",
+    "command": "aws logs describe-log-groups",
+    "title": "AWS CLI logs dekhna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI related kaam me `aws logs describe-log-groups` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "aws logs describe-log-groups",
+    "example": "aws logs describe-log-groups",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "aws",
+      "aws",
+      "devops"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-logs-tail-aws-lambda-name-follow",
+    "command": "aws logs tail /aws/lambda/name --follow",
+    "title": "AWS CLI logs dekhna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI related kaam me `aws logs tail /aws/lambda/name --follow` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "aws logs tail /aws/lambda/name --follow",
+    "example": "aws logs tail /aws/lambda/name --follow",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "aws",
+      "aws",
+      "devops"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-ecs-list-clusters",
+    "command": "aws ecs list-clusters",
+    "title": "AWS CLI list karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI related kaam me `aws ecs list-clusters` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "aws ecs list-clusters",
+    "example": "aws ecs list-clusters",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "aws",
+      "aws",
+      "devops"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-ecs-list-services-cluster-name",
+    "command": "aws ecs list-services --cluster name",
+    "title": "AWS CLI list karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI related kaam me `aws ecs list-services --cluster name` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "aws ecs list-services --cluster name",
+    "example": "aws ecs list-services --cluster name",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "aws",
+      "aws",
+      "devops"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-ecs-update-service-cluster-name-service-svc-force-new-deployment",
+    "command": "aws ecs update-service --cluster name --service svc --force-new-deployment",
+    "title": "AWS CLI deploy karna",
+    "category": "AWS CLI",
+    "difficulty": "Advanced",
+    "use_case": "AWS CLI related kaam me `aws ecs update-service --cluster name --service svc --force-new-deployment` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "aws ecs update-service --cluster name --service svc --force-new-deployment",
+    "example": "aws ecs update-service --cluster name --service svc --force-new-deployment",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "aws",
+      "aws",
+      "devops"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-ecr-get-login-password",
+    "command": "aws ecr get-login-password",
+    "title": "AWS CLI dekhna",
+    "category": "AWS CLI",
+    "difficulty": "Advanced",
+    "use_case": "AWS CLI related kaam me `aws ecr get-login-password` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "aws ecr get-login-password",
+    "example": "aws ecr get-login-password",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "aws",
+      "aws",
+      "devops"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-rds-describe-db-instances",
+    "command": "aws rds describe-db-instances",
+    "title": "aws rds describe-db-instances command use karna",
+    "category": "AWS CLI",
+    "difficulty": "Advanced",
+    "use_case": "AWS CLI related kaam me `aws rds describe-db-instances` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "aws rds describe-db-instances",
+    "example": "aws rds describe-db-instances",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "aws",
+      "aws",
+      "devops"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-iam-get-user",
+    "command": "aws iam get-user",
+    "title": "AWS CLI dekhna",
+    "category": "AWS CLI",
+    "difficulty": "Advanced",
+    "use_case": "AWS CLI related kaam me `aws iam get-user` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "aws iam get-user",
+    "example": "aws iam get-user",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "aws",
+      "aws",
+      "devops"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-cloudformation-describe-stacks",
+    "command": "aws cloudformation describe-stacks",
+    "title": "aws cloudformation describe-stacks command use karna",
+    "category": "AWS CLI",
+    "difficulty": "Advanced",
+    "use_case": "AWS CLI related kaam me `aws cloudformation describe-stacks` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "aws cloudformation describe-stacks",
+    "example": "aws cloudformation describe-stacks",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "aws",
+      "aws",
+      "devops"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-configure-set-region-ap-south-1",
+    "command": "aws configure set region ap-south-1",
+    "title": "AWS CLI set karna",
+    "category": "AWS CLI",
+    "difficulty": "Advanced",
+    "use_case": "AWS CLI related kaam me `aws configure set region ap-south-1` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "aws configure set region ap-south-1",
+    "example": "aws configure set region ap-south-1",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "aws",
+      "aws",
+      "devops"
+    ]
+  }
+]

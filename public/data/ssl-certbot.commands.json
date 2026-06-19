@@ -1,14 +1,218 @@
 [
   {
-    "id": "certbot-renew-dry-run",
-    "command": "sudo certbot renew --dry-run",
-    "title": "SSL renewal test karna",
+    "id": "ssl-certbot-sudo-certbot-certificates",
+    "command": "sudo certbot certificates",
+    "title": "sudo certbot certificates command use karna",
     "category": "SSL / Certbot",
     "difficulty": "Beginner",
-    "use_case": "Certificate auto-renewal working hai ya nahi safely test karne ke liye.",
+    "use_case": "SSL / Certbot related kaam me `sudo certbot certificates` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo certbot certificates",
+    "example": "sudo certbot certificates",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ssl",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "ssl-certbot-sudo-certbot-renew-dry-run",
+    "command": "sudo certbot renew --dry-run",
+    "title": "SSL / Certbot run karna",
+    "category": "SSL / Certbot",
+    "difficulty": "Beginner",
+    "use_case": "SSL / Certbot related kaam me `sudo certbot renew --dry-run` command practical DevOps usage ke liye use hota hai.",
     "syntax": "sudo certbot renew --dry-run",
     "example": "sudo certbot renew --dry-run",
-    "output_explanation": "Dry run successful aaye to renewal process mostly okay hai.",
-    "warning": "Rate limits avoid karne ke liye unnecessary real renew repeatedly mat karo.",
-    "related_commands": ["sudo certbot certificates", "sudo systemctl status certbot.timer"],
-    "tags": ["ssl", "certbot", "renew", "https"]
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ssl",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "ssl-certbot-sudo-certbot-renew",
+    "command": "sudo certbot renew",
+    "title": "sudo certbot renew command use karna",
+    "category": "SSL / Certbot",
+    "difficulty": "Beginner",
+    "use_case": "SSL / Certbot related kaam me `sudo certbot renew` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo certbot renew",
+    "example": "sudo certbot renew",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ssl",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "ssl-certbot-sudo-certbot-nginx-d-example-com",
+    "command": "sudo certbot --nginx -d example.com",
+    "title": "sudo certbot --nginx -d example.com command use karna",
+    "category": "SSL / Certbot",
+    "difficulty": "Beginner",
+    "use_case": "SSL / Certbot related kaam me `sudo certbot --nginx -d example.com` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo certbot --nginx -d example.com",
+    "example": "sudo certbot --nginx -d example.com",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ssl",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "ssl-certbot-sudo-certbot-apache-d-example-com",
+    "command": "sudo certbot --apache -d example.com",
+    "title": "sudo certbot --apache -d example.com command use karna",
+    "category": "SSL / Certbot",
+    "difficulty": "Beginner",
+    "use_case": "SSL / Certbot related kaam me `sudo certbot --apache -d example.com` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo certbot --apache -d example.com",
+    "example": "sudo certbot --apache -d example.com",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ssl",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "ssl-certbot-sudo-certbot-certonly-standalone-d-example-com",
+    "command": "sudo certbot certonly --standalone -d example.com",
+    "title": "sudo certbot certonly --standalone -d example.com command use karna",
+    "category": "SSL / Certbot",
+    "difficulty": "Beginner",
+    "use_case": "SSL / Certbot related kaam me `sudo certbot certonly --standalone -d example.com` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo certbot certonly --standalone -d example.com",
+    "example": "sudo certbot certonly --standalone -d example.com",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ssl",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "ssl-certbot-openssl-x509-in-cert-pem-text-noout",
+    "command": "openssl x509 -in cert.pem -text -noout",
+    "title": "openssl x509 -in cert.pem -text -noout command use karna",
+    "category": "SSL / Certbot",
+    "difficulty": "Intermediate",
+    "use_case": "SSL / Certbot related kaam me `openssl x509 -in cert.pem -text -noout` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "openssl x509 -in cert.pem -text -noout",
+    "example": "openssl x509 -in cert.pem -text -noout",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ssl",
+      "openssl",
+      "devops"
+    ]
+  },
+  {
+    "id": "ssl-certbot-openssl-s-client-connect-example-com-443-servername-example-com",
+    "command": "openssl s_client -connect example.com:443 -servername example.com",
+    "title": "openssl s_client -connect example.com:443 -servername example.com command use karna",
+    "category": "SSL / Certbot",
+    "difficulty": "Intermediate",
+    "use_case": "SSL / Certbot related kaam me `openssl s_client -connect example.com:443 -servername example.com` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "openssl s_client -connect example.com:443 -servername example.com",
+    "example": "openssl s_client -connect example.com:443 -servername example.com",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ssl",
+      "openssl",
+      "devops"
+    ]
+  },
+  {
+    "id": "ssl-certbot-curl-iv-https-example-com",
+    "command": "curl -Iv https://example.com",
+    "title": "curl -Iv https://example.com command use karna",
+    "category": "SSL / Certbot",
+    "difficulty": "Intermediate",
+    "use_case": "SSL / Certbot related kaam me `curl -Iv https://example.com` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "curl -Iv https://example.com",
+    "example": "curl -Iv https://example.com",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "ssl",
+      "curl",
+      "devops"
+    ]
+  },
+  {
+    "id": "ssl-certbot-sudo-systemctl-status-certbot-timer",
+    "command": "sudo systemctl status certbot.timer",
+    "title": "SSL / Certbot status check karna",
+    "category": "SSL / Certbot",
+    "difficulty": "Intermediate",
+    "use_case": "SSL / Certbot related kaam me `sudo systemctl status certbot.timer` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo systemctl status certbot.timer",
+    "example": "sudo systemctl status certbot.timer",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "ssl",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "ssl-certbot-sudo-journalctl-u-certbot-n-100",
+    "command": "sudo journalctl -u certbot -n 100",
+    "title": "sudo journalctl -u certbot -n 100 command use karna",
+    "category": "SSL / Certbot",
+    "difficulty": "Intermediate",
+    "use_case": "SSL / Certbot related kaam me `sudo journalctl -u certbot -n 100` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo journalctl -u certbot -n 100",
+    "example": "sudo journalctl -u certbot -n 100",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ssl",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "ssl-certbot-sudo-certbot-delete-cert-name-example-com",
+    "command": "sudo certbot delete --cert-name example.com",
+    "title": "SSL / Certbot delete karna",
+    "category": "SSL / Certbot",
+    "difficulty": "Intermediate",
+    "use_case": "SSL / Certbot related kaam me `sudo certbot delete --cert-name example.com` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo certbot delete --cert-name example.com",
+    "example": "sudo certbot delete --cert-name example.com",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup aur target 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ssl",
+      "cmd",
+      "devops"
+    ]
+  }
+]

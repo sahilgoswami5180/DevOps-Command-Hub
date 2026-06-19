@@ -1,14 +1,254 @@
 [
   {
-    "id": "ansible-ping",
-    "command": "ansible all -m ping",
-    "title": "Servers connectivity check karna",
+    "id": "ansible-ansible-version",
+    "command": "ansible --version",
+    "title": "ansible --version command use karna",
     "category": "Ansible",
     "difficulty": "Beginner",
-    "use_case": "Inventory ke servers Ansible se reachable hain ya nahi check karne ke liye.",
-    "syntax": "ansible <group> -m ping",
+    "use_case": "Ansible related kaam me `ansible --version` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "ansible --version",
+    "example": "ansible --version",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "ansible",
+      "ansible",
+      "devops"
+    ]
+  },
+  {
+    "id": "ansible-ansible-inventory-list",
+    "command": "ansible-inventory --list",
+    "title": "Ansible list karna",
+    "category": "Ansible",
+    "difficulty": "Beginner",
+    "use_case": "Ansible related kaam me `ansible-inventory --list` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "ansible-inventory --list",
+    "example": "ansible-inventory --list",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "ansible",
+      "ansible-inventory",
+      "devops"
+    ]
+  },
+  {
+    "id": "ansible-ansible-all-m-ping",
+    "command": "ansible all -m ping",
+    "title": "ansible all -m ping command use karna",
+    "category": "Ansible",
+    "difficulty": "Beginner",
+    "use_case": "Ansible related kaam me `ansible all -m ping` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "ansible all -m ping",
     "example": "ansible all -m ping",
-    "output_explanation": "pong response aaye to server reachable hai.",
-    "warning": "SSH keys aur inventory correct hone chahiye.",
-    "related_commands": ["ansible-playbook", "ansible-inventory --list"],
-    "tags": ["ansible", "ping", "inventory", "automation"]
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ansible",
+      "ansible",
+      "devops"
+    ]
+  },
+  {
+    "id": "ansible-ansible-all-a-uptime",
+    "command": "ansible all -a \"uptime\"",
+    "title": "ansible all -a \"uptime\" command use karna",
+    "category": "Ansible",
+    "difficulty": "Beginner",
+    "use_case": "Ansible related kaam me `ansible all -a \"uptime\"` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "ansible all -a \"uptime\"",
+    "example": "ansible all -a \"uptime\"",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "ansible",
+      "ansible",
+      "devops"
+    ]
+  },
+  {
+    "id": "ansible-ansible-all-m-shell-a-df-h",
+    "command": "ansible all -m shell -a \"df -h\"",
+    "title": "ansible all -m shell -a \"df -h\" command use karna",
+    "category": "Ansible",
+    "difficulty": "Beginner",
+    "use_case": "Ansible related kaam me `ansible all -m shell -a \"df -h\"` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "ansible all -m shell -a \"df -h\"",
+    "example": "ansible all -m shell -a \"df -h\"",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "ansible",
+      "ansible",
+      "devops"
+    ]
+  },
+  {
+    "id": "ansible-ansible-playbook-site-yml",
+    "command": "ansible-playbook site.yml",
+    "title": "ansible-playbook site.yml command use karna",
+    "category": "Ansible",
+    "difficulty": "Beginner",
+    "use_case": "Ansible related kaam me `ansible-playbook site.yml` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "ansible-playbook site.yml",
+    "example": "ansible-playbook site.yml",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ansible",
+      "ansible-playbook",
+      "devops"
+    ]
+  },
+  {
+    "id": "ansible-ansible-playbook-site-yml-check",
+    "command": "ansible-playbook site.yml --check",
+    "title": "ansible-playbook site.yml --check command use karna",
+    "category": "Ansible",
+    "difficulty": "Intermediate",
+    "use_case": "Ansible related kaam me `ansible-playbook site.yml --check` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "ansible-playbook site.yml --check",
+    "example": "ansible-playbook site.yml --check",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ansible",
+      "ansible-playbook",
+      "devops"
+    ]
+  },
+  {
+    "id": "ansible-ansible-playbook-site-yml-limit-web",
+    "command": "ansible-playbook site.yml --limit web",
+    "title": "ansible-playbook site.yml --limit web command use karna",
+    "category": "Ansible",
+    "difficulty": "Intermediate",
+    "use_case": "Ansible related kaam me `ansible-playbook site.yml --limit web` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "ansible-playbook site.yml --limit web",
+    "example": "ansible-playbook site.yml --limit web",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ansible",
+      "ansible-playbook",
+      "devops"
+    ]
+  },
+  {
+    "id": "ansible-ansible-playbook-site-yml-tags-deploy",
+    "command": "ansible-playbook site.yml --tags deploy",
+    "title": "Ansible deploy karna",
+    "category": "Ansible",
+    "difficulty": "Intermediate",
+    "use_case": "Ansible related kaam me `ansible-playbook site.yml --tags deploy` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "ansible-playbook site.yml --tags deploy",
+    "example": "ansible-playbook site.yml --tags deploy",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ansible",
+      "ansible-playbook",
+      "devops"
+    ]
+  },
+  {
+    "id": "ansible-ansible-vault-encrypt-file-yml",
+    "command": "ansible-vault encrypt file.yml",
+    "title": "ansible-vault encrypt file.yml command use karna",
+    "category": "Ansible",
+    "difficulty": "Intermediate",
+    "use_case": "Ansible related kaam me `ansible-vault encrypt file.yml` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "ansible-vault encrypt file.yml",
+    "example": "ansible-vault encrypt file.yml",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ansible",
+      "ansible-vault",
+      "devops"
+    ]
+  },
+  {
+    "id": "ansible-ansible-vault-decrypt-file-yml",
+    "command": "ansible-vault decrypt file.yml",
+    "title": "ansible-vault decrypt file.yml command use karna",
+    "category": "Ansible",
+    "difficulty": "Intermediate",
+    "use_case": "Ansible related kaam me `ansible-vault decrypt file.yml` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "ansible-vault decrypt file.yml",
+    "example": "ansible-vault decrypt file.yml",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ansible",
+      "ansible-vault",
+      "devops"
+    ]
+  },
+  {
+    "id": "ansible-ansible-vault-edit-secrets-yml",
+    "command": "ansible-vault edit secrets.yml",
+    "title": "ansible-vault edit secrets.yml command use karna",
+    "category": "Ansible",
+    "difficulty": "Intermediate",
+    "use_case": "Ansible related kaam me `ansible-vault edit secrets.yml` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "ansible-vault edit secrets.yml",
+    "example": "ansible-vault edit secrets.yml",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ansible",
+      "ansible-vault",
+      "devops"
+    ]
+  },
+  {
+    "id": "ansible-ansible-galaxy-install-role-name",
+    "command": "ansible-galaxy install role.name",
+    "title": "ansible-galaxy install role.name command use karna",
+    "category": "Ansible",
+    "difficulty": "Intermediate",
+    "use_case": "Ansible related kaam me `ansible-galaxy install role.name` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "ansible-galaxy install role.name",
+    "example": "ansible-galaxy install role.name",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ansible",
+      "ansible-galaxy",
+      "devops"
+    ]
+  },
+  {
+    "id": "ansible-ansible-galaxy-collection-install-namespace-collection",
+    "command": "ansible-galaxy collection install namespace.collection",
+    "title": "ansible-galaxy collection install namespace.collection command use karna",
+    "category": "Ansible",
+    "difficulty": "Intermediate",
+    "use_case": "Ansible related kaam me `ansible-galaxy collection install namespace.collection` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "ansible-galaxy collection install namespace.collection",
+    "example": "ansible-galaxy collection install namespace.collection",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ansible",
+      "ansible-galaxy",
+      "devops"
+    ]
+  }
+]

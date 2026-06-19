@@ -1,14 +1,182 @@
 [
   {
-    "id": "jenkins-status",
+    "id": "jenkins-sudo-systemctl-status-jenkins",
     "command": "sudo systemctl status jenkins",
-    "title": "Jenkins service status check karna",
+    "title": "Jenkins status check karna",
     "category": "Jenkins",
     "difficulty": "Beginner",
-    "use_case": "Jenkins server running hai ya nahi check karne ke liye.",
+    "use_case": "Jenkins related kaam me `sudo systemctl status jenkins` command practical DevOps usage ke liye use hota hai.",
     "syntax": "sudo systemctl status jenkins",
     "example": "sudo systemctl status jenkins",
-    "output_explanation": "Active/running status Jenkins service healthy hone ka signal hai.",
-    "warning": "Agar failed status hai to logs check karo.",
-    "related_commands": ["sudo journalctl -u jenkins", "sudo systemctl restart jenkins"],
-    "tags": ["jenkins", "service", "status", "cicd"]
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "jenkins",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "jenkins-sudo-systemctl-restart-jenkins",
+    "command": "sudo systemctl restart jenkins",
+    "title": "Jenkins restart karna",
+    "category": "Jenkins",
+    "difficulty": "Beginner",
+    "use_case": "Jenkins related kaam me `sudo systemctl restart jenkins` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo systemctl restart jenkins",
+    "example": "sudo systemctl restart jenkins",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "jenkins",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "jenkins-sudo-journalctl-u-jenkins-f",
+    "command": "sudo journalctl -u jenkins -f",
+    "title": "sudo journalctl -u jenkins -f command use karna",
+    "category": "Jenkins",
+    "difficulty": "Beginner",
+    "use_case": "Jenkins related kaam me `sudo journalctl -u jenkins -f` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo journalctl -u jenkins -f",
+    "example": "sudo journalctl -u jenkins -f",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "jenkins",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "jenkins-sudo-cat-var-lib-jenkins-secrets-initialadminpassword",
+    "command": "sudo cat /var/lib/jenkins/secrets/initialAdminPassword",
+    "title": "sudo cat /var/lib/jenkins/secrets/initialAdminPassword command use karna",
+    "category": "Jenkins",
+    "difficulty": "Beginner",
+    "use_case": "Jenkins related kaam me `sudo cat /var/lib/jenkins/secrets/initialAdminPassword` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo cat /var/lib/jenkins/secrets/initialAdminPassword",
+    "example": "sudo cat /var/lib/jenkins/secrets/initialAdminPassword",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "jenkins",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "jenkins-java-jar-jenkins-cli-jar-s-http-localhost-8080-who-am-i",
+    "command": "java -jar jenkins-cli.jar -s http://localhost:8080/ who-am-i",
+    "title": "java -jar jenkins-cli.jar -s http://localhost:8080/ who-am-i command use karna",
+    "category": "Jenkins",
+    "difficulty": "Beginner",
+    "use_case": "Jenkins related kaam me `java -jar jenkins-cli.jar -s http://localhost:8080/ who-am-i` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "java -jar jenkins-cli.jar -s http://localhost:8080/ who-am-i",
+    "example": "java -jar jenkins-cli.jar -s http://localhost:8080/ who-am-i",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "jenkins",
+      "java",
+      "devops"
+    ]
+  },
+  {
+    "id": "jenkins-java-jar-jenkins-cli-jar-s-http-localhost-8080-list-jobs",
+    "command": "java -jar jenkins-cli.jar -s http://localhost:8080/ list-jobs",
+    "title": "Jenkins list karna",
+    "category": "Jenkins",
+    "difficulty": "Beginner",
+    "use_case": "Jenkins related kaam me `java -jar jenkins-cli.jar -s http://localhost:8080/ list-jobs` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "java -jar jenkins-cli.jar -s http://localhost:8080/ list-jobs",
+    "example": "java -jar jenkins-cli.jar -s http://localhost:8080/ list-jobs",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "jenkins",
+      "java",
+      "devops"
+    ]
+  },
+  {
+    "id": "jenkins-java-jar-jenkins-cli-jar-s-http-localhost-8080-build-job-name",
+    "command": "java -jar jenkins-cli.jar -s http://localhost:8080/ build job-name",
+    "title": "Jenkins build karna",
+    "category": "Jenkins",
+    "difficulty": "Intermediate",
+    "use_case": "Jenkins related kaam me `java -jar jenkins-cli.jar -s http://localhost:8080/ build job-name` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "java -jar jenkins-cli.jar -s http://localhost:8080/ build job-name",
+    "example": "java -jar jenkins-cli.jar -s http://localhost:8080/ build job-name",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "jenkins",
+      "java",
+      "devops"
+    ]
+  },
+  {
+    "id": "jenkins-java-jar-jenkins-cli-jar-s-http-localhost-8080-console-job-name",
+    "command": "java -jar jenkins-cli.jar -s http://localhost:8080/ console job-name",
+    "title": "java -jar jenkins-cli.jar -s http://localhost:8080/ console job-name command use karna",
+    "category": "Jenkins",
+    "difficulty": "Intermediate",
+    "use_case": "Jenkins related kaam me `java -jar jenkins-cli.jar -s http://localhost:8080/ console job-name` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "java -jar jenkins-cli.jar -s http://localhost:8080/ console job-name",
+    "example": "java -jar jenkins-cli.jar -s http://localhost:8080/ console job-name",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "jenkins",
+      "java",
+      "devops"
+    ]
+  },
+  {
+    "id": "jenkins-sudo-chown-r-jenkins-jenkins-var-lib-jenkins",
+    "command": "sudo chown -R jenkins:jenkins /var/lib/jenkins",
+    "title": "sudo chown -R jenkins:jenkins /var/lib/jenkins command use karna",
+    "category": "Jenkins",
+    "difficulty": "Intermediate",
+    "use_case": "Jenkins related kaam me `sudo chown -R jenkins:jenkins /var/lib/jenkins` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo chown -R jenkins:jenkins /var/lib/jenkins",
+    "example": "sudo chown -R jenkins:jenkins /var/lib/jenkins",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "jenkins",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "jenkins-sudo-systemctl-enable-jenkins",
+    "command": "sudo systemctl enable jenkins",
+    "title": "sudo systemctl enable jenkins command use karna",
+    "category": "Jenkins",
+    "difficulty": "Intermediate",
+    "use_case": "Jenkins related kaam me `sudo systemctl enable jenkins` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo systemctl enable jenkins",
+    "example": "sudo systemctl enable jenkins",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "jenkins",
+      "cmd",
+      "devops"
+    ]
+  }
+]

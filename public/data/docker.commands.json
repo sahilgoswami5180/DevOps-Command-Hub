@@ -1,26 +1,431 @@
 [
   {
-    "id": "docker-ps",
+    "id": "docker-docker-version",
+    "command": "docker --version",
+    "title": "Docker version check karna",
+    "category": "Docker",
+    "difficulty": "Beginner",
+    "use_case": "Installed Docker version verify karne ke liye.",
+    "syntax": "docker --version",
+    "example": "docker --version",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Read-only command hai.",
+    "related_commands": [
+      "docker info"
+    ],
+    "tags": [
+      "docker",
+      "version"
+    ]
+  },
+  {
+    "id": "docker-docker-info",
+    "command": "docker info",
+    "title": "Docker engine info dekhna",
+    "category": "Docker",
+    "difficulty": "Beginner",
+    "use_case": "Docker daemon, storage driver aur runtime info dekhne ke liye.",
+    "syntax": "docker info",
+    "example": "docker info",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Sensitive environment details share mat karo.",
+    "related_commands": [
+      "docker version"
+    ],
+    "tags": [
+      "docker",
+      "info"
+    ]
+  },
+  {
+    "id": "docker-docker-ps",
     "command": "docker ps",
     "title": "Running containers dekhna",
     "category": "Docker",
     "difficulty": "Beginner",
-    "use_case": "Currently running Docker containers dekhne ke liye use hota hai.",
-    "syntax": "docker ps [options]",
-    "example": "docker ps -a",
-    "output_explanation": "-a use karne se stopped containers bhi show hote hain.",
-    "warning": "Read-only command hai, safe hai.",
-    "related_commands": ["docker logs", "docker inspect", "docker stop"],
-    "tags": ["docker", "container", "list", "debug"]
+    "use_case": "Currently running containers list karne ke liye.",
+    "syntax": "docker ps",
+    "example": "docker ps",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Read-only command hai.",
+    "related_commands": [
+      "docker ps -a",
+      "docker logs"
+    ],
+    "tags": [
+      "docker",
+      "container",
+      "list"
+    ]
   },
   {
-    "id": "docker-logs",
-    "command": "docker logs -f <container_name>",
-    "title": "Container logs live dekhna",
+    "id": "docker-docker-ps-a",
+    "command": "docker ps -a",
+    "title": "All containers dekhna",
     "category": "Docker",
     "difficulty": "Beginner",
-    "use_case": "Application container ke live logs debug karne ke liye.",
+    "use_case": "Running + stopped containers list karne ke liye.",
+    "syntax": "docker ps -a",
+    "example": "docker ps -a",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Read-only command hai.",
+    "related_commands": [
+      "docker rm",
+      "docker start"
+    ],
+    "tags": [
+      "docker",
+      "container",
+      "all"
+    ]
+  },
+  {
+    "id": "docker-docker-images",
+    "command": "docker images",
+    "title": "Images list karna",
+    "category": "Docker",
+    "difficulty": "Beginner",
+    "use_case": "Local Docker images dekhne ke liye.",
+    "syntax": "docker images",
+    "example": "docker images",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Read-only command hai.",
+    "related_commands": [
+      "docker rmi",
+      "docker pull"
+    ],
+    "tags": [
+      "docker",
+      "images"
+    ]
+  },
+  {
+    "id": "docker-docker-pull-image",
+    "command": "docker pull image",
+    "title": "Image download karna",
+    "category": "Docker",
+    "difficulty": "Beginner",
+    "use_case": "Registry se image pull karne ke liye.",
+    "syntax": "docker pull <image>",
+    "example": "docker pull nginx:latest",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Production me latest tag avoid karo.",
+    "related_commands": [
+      "docker images",
+      "docker run"
+    ],
+    "tags": [
+      "docker",
+      "pull",
+      "image"
+    ]
+  },
+  {
+    "id": "docker-docker-build-t-name",
+    "command": "docker build -t name .",
+    "title": "Image build karna",
+    "category": "Docker",
+    "difficulty": "Beginner",
+    "use_case": "Dockerfile se custom image build karne ke liye.",
+    "syntax": "docker build -t <name>:<tag> <path>",
+    "example": "docker build -t myapp:latest .",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Secrets image me bake mat karo.",
+    "related_commands": [
+      "docker run",
+      "docker push"
+    ],
+    "tags": [
+      "docker",
+      "build",
+      "image"
+    ]
+  },
+  {
+    "id": "docker-docker-run-d-name-app-image",
+    "command": "docker run -d --name app image",
+    "title": "Container run karna",
+    "category": "Docker",
+    "difficulty": "Beginner",
+    "use_case": "Image se detached container start karne ke liye.",
+    "syntax": "docker run [options] <image>",
+    "example": "docker run -d --name web -p 8080:80 nginx",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Port conflicts aur env variables verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs"
+    ],
+    "tags": [
+      "docker",
+      "run",
+      "container"
+    ]
+  },
+  {
+    "id": "docker-docker-logs-f-container",
+    "command": "docker logs -f container",
+    "title": "Container logs live dekhna",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Running container ke live logs dekhne ke liye.",
     "syntax": "docker logs [options] <container>",
     "example": "docker logs -f app-container",
-    "output_explanation": "-f live follow mode enable karta hai.",
-    "warning": "High traffic app me logs bahut fast aa sakte hain.",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Logs me secrets ho sakte hain.",
+    "related_commands": [
+      "docker ps",
+      "docker exec"
+    ],
+    "tags": [
+      "docker",
+      "logs",
+      "debug"
+    ]
+  },
+  {
+    "id": "docker-docker-exec-it-container-bash",
+    "command": "docker exec -it container bash",
+    "title": "Container shell open karna",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Container ke andar debug karne ke liye.",
+    "syntax": "docker exec -it <container> <shell>",
+    "example": "docker exec -it app bash",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Production container me manual changes avoid karo.",
+    "related_commands": [
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "exec",
+      "shell"
+    ]
+  },
+  {
+    "id": "docker-docker-inspect-container",
+    "command": "docker inspect container",
+    "title": "Container details dekhna",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Network, mounts, env aur metadata inspect karne ke liye.",
+    "syntax": "docker inspect <container>",
+    "example": "docker inspect app-container",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Env secrets output me ho sakte hain.",
+    "related_commands": [
+      "docker ps",
+      "docker network inspect"
+    ],
+    "tags": [
+      "docker",
+      "inspect"
+    ]
+  },
+  {
+    "id": "docker-docker-stop-container",
+    "command": "docker stop container",
+    "title": "Container stop karna",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Running container stop karne ke liye.",
+    "syntax": "docker stop <container>",
+    "example": "docker stop app-container",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Production app down ho sakti hai.",
+    "related_commands": [
+      "docker start",
+      "docker restart"
+    ],
+    "tags": [
+      "docker",
+      "stop",
+      "container"
+    ]
+  },
+  {
+    "id": "docker-docker-restart-container",
+    "command": "docker restart container",
+    "title": "Container restart karna",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Container ko restart karne ke liye.",
+    "syntax": "docker restart <container>",
+    "example": "docker restart app-container",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Short downtime aa sakta hai.",
+    "related_commands": [
+      "docker stop",
+      "docker start"
+    ],
+    "tags": [
+      "docker",
+      "restart"
+    ]
+  },
+  {
+    "id": "docker-docker-rm-container",
+    "command": "docker rm container",
+    "title": "Stopped container delete karna",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Stopped container remove karne ke liye.",
+    "syntax": "docker rm <container>",
+    "example": "docker rm old-container",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Data volume me nahi hai to data loss ho sakta hai.",
+    "related_commands": [
+      "docker ps -a",
+      "docker stop"
+    ],
+    "tags": [
+      "docker",
+      "remove",
+      "container"
+    ]
+  },
+  {
+    "id": "docker-docker-rmi-image",
+    "command": "docker rmi image",
+    "title": "Image delete karna",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Local image remove karne ke liye.",
+    "syntax": "docker rmi <image>",
+    "example": "docker rmi myapp:old",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Image used by container ho to fail hoga.",
+    "related_commands": [
+      "docker images",
+      "docker image prune"
+    ],
+    "tags": [
+      "docker",
+      "remove",
+      "image"
+    ]
+  },
+  {
+    "id": "docker-docker-volume-ls",
+    "command": "docker volume ls",
+    "title": "Volumes list karna",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker volumes dekhne ke liye.",
+    "syntax": "docker volume ls",
+    "example": "docker volume ls",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Read-only command hai.",
+    "related_commands": [
+      "docker volume inspect",
+      "docker volume rm"
+    ],
+    "tags": [
+      "docker",
+      "volume"
+    ]
+  },
+  {
+    "id": "docker-docker-volume-inspect-volume",
+    "command": "docker volume inspect volume",
+    "title": "Volume details dekhna",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Volume mount path aur details inspect karne ke liye.",
+    "syntax": "docker volume inspect <volume>",
+    "example": "docker volume inspect db_data",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Sensitive path info share mat karo.",
+    "related_commands": [
+      "docker volume ls"
+    ],
+    "tags": [
+      "docker",
+      "volume",
+      "inspect"
+    ]
+  },
+  {
+    "id": "docker-docker-network-ls",
+    "command": "docker network ls",
+    "title": "Networks list karna",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker networks dekhne ke liye.",
+    "syntax": "docker network ls",
+    "example": "docker network ls",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Read-only command hai.",
+    "related_commands": [
+      "docker network inspect"
+    ],
+    "tags": [
+      "docker",
+      "network"
+    ]
+  },
+  {
+    "id": "docker-docker-compose-up-d",
+    "command": "docker compose up -d",
+    "title": "Compose services start karna",
+    "category": "Docker",
+    "difficulty": "Advanced",
+    "use_case": "docker-compose.yml ke services background me start karne ke liye.",
+    "syntax": "docker compose up -d",
+    "example": "docker compose up -d",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Config aur ports verify karo.",
+    "related_commands": [
+      "docker compose ps",
+      "docker compose logs"
+    ],
+    "tags": [
+      "docker",
+      "compose",
+      "up"
+    ]
+  },
+  {
+    "id": "docker-docker-compose-down",
+    "command": "docker compose down",
+    "title": "Compose services stop/remove karna",
+    "category": "Docker",
+    "difficulty": "Advanced",
+    "use_case": "Compose stack stop aur containers remove karne ke liye.",
+    "syntax": "docker compose down",
+    "example": "docker compose down",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Volumes delete nahi hote jab tak -v na ho; -v dangerous ho sakta hai.",
+    "related_commands": [
+      "docker compose up -d"
+    ],
+    "tags": [
+      "docker",
+      "compose",
+      "down"
+    ]
+  },
+  {
+    "id": "docker-docker-system-prune",
+    "command": "docker system prune",
+    "title": "Unused data clean karna",
+    "category": "Docker",
+    "difficulty": "Advanced",
+    "use_case": "Stopped containers, unused networks/cache clean karne ke liye.",
+    "syntax": "docker system prune",
+    "example": "docker system prune",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Production me carefully use karo. Data remove ho sakta hai.",
+    "related_commands": [
+      "docker image prune",
+      "docker volume prune"
+    ],
+    "tags": [
+      "docker",
+      "cleanup",
+      "danger"
+    ]
+  }
+]

@@ -1,14 +1,290 @@
 [
   {
-    "id": "cicd-run-build",
-    "command": "npm run build",
-    "title": "Frontend production build banana",
+    "id": "ci-cd-npm-install",
+    "command": "npm install",
+    "title": "npm install command use karna",
     "category": "CI/CD",
     "difficulty": "Beginner",
-    "use_case": "Deployment se pehle frontend app ka optimized build generate karne ke liye.",
+    "use_case": "CI/CD related kaam me `npm install` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "npm install",
+    "example": "npm install",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "npm",
+      "devops"
+    ]
+  },
+  {
+    "id": "ci-cd-npm-ci",
+    "command": "npm ci",
+    "title": "npm ci command use karna",
+    "category": "CI/CD",
+    "difficulty": "Beginner",
+    "use_case": "CI/CD related kaam me `npm ci` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "npm ci",
+    "example": "npm ci",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "npm",
+      "devops"
+    ]
+  },
+  {
+    "id": "ci-cd-npm-run-build",
+    "command": "npm run build",
+    "title": "CI/CD run karna",
+    "category": "CI/CD",
+    "difficulty": "Beginner",
+    "use_case": "CI/CD related kaam me `npm run build` command practical DevOps usage ke liye use hota hai.",
     "syntax": "npm run build",
     "example": "npm run build",
-    "output_explanation": "Build successful ho to dist/build folder generate hota hai.",
-    "warning": "Build fail ho to deployment continue mat karo.",
-    "related_commands": ["npm install", "npm run test", "npm run lint"],
-    "tags": ["cicd", "build", "deploy", "frontend"]
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "npm",
+      "devops"
+    ]
+  },
+  {
+    "id": "ci-cd-npm-run-test",
+    "command": "npm run test",
+    "title": "CI/CD run karna",
+    "category": "CI/CD",
+    "difficulty": "Beginner",
+    "use_case": "CI/CD related kaam me `npm run test` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "npm run test",
+    "example": "npm run test",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "npm",
+      "devops"
+    ]
+  },
+  {
+    "id": "ci-cd-npm-run-lint",
+    "command": "npm run lint",
+    "title": "CI/CD run karna",
+    "category": "CI/CD",
+    "difficulty": "Beginner",
+    "use_case": "CI/CD related kaam me `npm run lint` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "npm run lint",
+    "example": "npm run lint",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "npm",
+      "devops"
+    ]
+  },
+  {
+    "id": "ci-cd-composer-install-no-dev-optimize-autoloader",
+    "command": "composer install --no-dev --optimize-autoloader",
+    "title": "composer install --no-dev --optimize-autoloader command use karna",
+    "category": "CI/CD",
+    "difficulty": "Beginner",
+    "use_case": "CI/CD related kaam me `composer install --no-dev --optimize-autoloader` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "composer install --no-dev --optimize-autoloader",
+    "example": "composer install --no-dev --optimize-autoloader",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "composer",
+      "devops"
+    ]
+  },
+  {
+    "id": "ci-cd-php-artisan-migrate-force",
+    "command": "php artisan migrate --force",
+    "title": "php artisan migrate --force command use karna",
+    "category": "CI/CD",
+    "difficulty": "Intermediate",
+    "use_case": "CI/CD related kaam me `php artisan migrate --force` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "php artisan migrate --force",
+    "example": "php artisan migrate --force",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "php",
+      "devops"
+    ]
+  },
+  {
+    "id": "ci-cd-php-artisan-config-cache",
+    "command": "php artisan config:cache",
+    "title": "php artisan config:cache command use karna",
+    "category": "CI/CD",
+    "difficulty": "Intermediate",
+    "use_case": "CI/CD related kaam me `php artisan config:cache` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "php artisan config:cache",
+    "example": "php artisan config:cache",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "php",
+      "devops"
+    ]
+  },
+  {
+    "id": "ci-cd-php-artisan-queue-restart",
+    "command": "php artisan queue:restart",
+    "title": "CI/CD restart karna",
+    "category": "CI/CD",
+    "difficulty": "Intermediate",
+    "use_case": "CI/CD related kaam me `php artisan queue:restart` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "php artisan queue:restart",
+    "example": "php artisan queue:restart",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "php",
+      "devops"
+    ]
+  },
+  {
+    "id": "ci-cd-docker-build-t-app-latest",
+    "command": "docker build -t app:latest .",
+    "title": "CI/CD build karna",
+    "category": "CI/CD",
+    "difficulty": "Intermediate",
+    "use_case": "CI/CD related kaam me `docker build -t app:latest .` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "docker build -t app:latest .",
+    "example": "docker build -t app:latest .",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "docker",
+      "devops"
+    ]
+  },
+  {
+    "id": "ci-cd-docker-push-registry-app-tag",
+    "command": "docker push registry/app:tag",
+    "title": "docker push registry/app:tag command use karna",
+    "category": "CI/CD",
+    "difficulty": "Intermediate",
+    "use_case": "CI/CD related kaam me `docker push registry/app:tag` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "docker push registry/app:tag",
+    "example": "docker push registry/app:tag",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "docker",
+      "devops"
+    ]
+  },
+  {
+    "id": "ci-cd-kubectl-apply-f-deployment-yaml",
+    "command": "kubectl apply -f deployment.yaml",
+    "title": "CI/CD apply karna",
+    "category": "CI/CD",
+    "difficulty": "Intermediate",
+    "use_case": "CI/CD related kaam me `kubectl apply -f deployment.yaml` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "kubectl apply -f deployment.yaml",
+    "example": "kubectl apply -f deployment.yaml",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "kubectl",
+      "devops"
+    ]
+  },
+  {
+    "id": "ci-cd-kubectl-rollout-status-deploy-app",
+    "command": "kubectl rollout status deploy/app",
+    "title": "CI/CD status check karna",
+    "category": "CI/CD",
+    "difficulty": "Intermediate",
+    "use_case": "CI/CD related kaam me `kubectl rollout status deploy/app` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "kubectl rollout status deploy/app",
+    "example": "kubectl rollout status deploy/app",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "kubectl",
+      "devops"
+    ]
+  },
+  {
+    "id": "ci-cd-git-tag-v1-0-0",
+    "command": "git tag v1.0.0",
+    "title": "git tag v1.0.0 command use karna",
+    "category": "CI/CD",
+    "difficulty": "Intermediate",
+    "use_case": "CI/CD related kaam me `git tag v1.0.0` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "git tag v1.0.0",
+    "example": "git tag v1.0.0",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "git",
+      "devops"
+    ]
+  },
+  {
+    "id": "ci-cd-git-push-origin-tags",
+    "command": "git push origin --tags",
+    "title": "git push origin --tags command use karna",
+    "category": "CI/CD",
+    "difficulty": "Advanced",
+    "use_case": "CI/CD related kaam me `git push origin --tags` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "git push origin --tags",
+    "example": "git push origin --tags",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "git",
+      "devops"
+    ]
+  },
+  {
+    "id": "ci-cd-ssh-deploy-server-cd-app-git-pull",
+    "command": "ssh deploy@server \"cd app && git pull\"",
+    "title": "CI/CD deploy karna",
+    "category": "CI/CD",
+    "difficulty": "Advanced",
+    "use_case": "CI/CD related kaam me `ssh deploy@server \"cd app && git pull\"` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "ssh deploy@server \"cd app && git pull\"",
+    "example": "ssh deploy@server \"cd app && git pull\"",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "ssh",
+      "devops"
+    ]
+  }
+]

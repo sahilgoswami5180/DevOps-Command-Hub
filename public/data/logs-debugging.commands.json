@@ -1,14 +1,326 @@
 [
   {
-    "id": "journalctl-service",
-    "command": "sudo journalctl -u <service-name> -f",
-    "title": "Service logs live dekhna",
+    "id": "logs-debugging-sudo-journalctl-u-service-f",
+    "command": "sudo journalctl -u service -f",
+    "title": "sudo journalctl -u service -f command use karna",
     "category": "Logs / Debugging",
     "difficulty": "Beginner",
-    "use_case": "Systemd service ke live logs debug karne ke liye.",
-    "syntax": "sudo journalctl -u <service-name> [options]",
-    "example": "sudo journalctl -u nginx -f",
-    "output_explanation": "-u service select karta hai aur -f live follow mode enable karta hai.",
-    "warning": "Logs me secrets/tokens ho sakte hain, share karte time careful raho.",
-    "related_commands": ["systemctl status", "tail -f", "grep"],
-    "tags": ["logs", "debug", "journalctl", "service"]
+    "use_case": "Logs / Debugging related kaam me `sudo journalctl -u service -f` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo journalctl -u service -f",
+    "example": "sudo journalctl -u service -f",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "logs-debugging-sudo-journalctl-xe",
+    "command": "sudo journalctl -xe",
+    "title": "sudo journalctl -xe command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Beginner",
+    "use_case": "Logs / Debugging related kaam me `sudo journalctl -xe` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo journalctl -xe",
+    "example": "sudo journalctl -xe",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "logs-debugging-tail-f-var-log-syslog",
+    "command": "tail -f /var/log/syslog",
+    "title": "Logs / Debugging live logs dekhna",
+    "category": "Logs / Debugging",
+    "difficulty": "Beginner",
+    "use_case": "Logs / Debugging related kaam me `tail -f /var/log/syslog` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "tail -f /var/log/syslog",
+    "example": "tail -f /var/log/syslog",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "tail",
+      "devops"
+    ]
+  },
+  {
+    "id": "logs-debugging-tail-f-var-log-auth-log",
+    "command": "tail -f /var/log/auth.log",
+    "title": "Logs / Debugging live logs dekhna",
+    "category": "Logs / Debugging",
+    "difficulty": "Beginner",
+    "use_case": "Logs / Debugging related kaam me `tail -f /var/log/auth.log` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "tail -f /var/log/auth.log",
+    "example": "tail -f /var/log/auth.log",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "tail",
+      "devops"
+    ]
+  },
+  {
+    "id": "logs-debugging-tail-f-var-log-nginx-error-log",
+    "command": "tail -f /var/log/nginx/error.log",
+    "title": "Logs / Debugging live logs dekhna",
+    "category": "Logs / Debugging",
+    "difficulty": "Beginner",
+    "use_case": "Logs / Debugging related kaam me `tail -f /var/log/nginx/error.log` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "tail -f /var/log/nginx/error.log",
+    "example": "tail -f /var/log/nginx/error.log",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "tail",
+      "devops"
+    ]
+  },
+  {
+    "id": "logs-debugging-grep-i-error-app-log",
+    "command": "grep -i error app.log",
+    "title": "grep -i error app.log command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Beginner",
+    "use_case": "Logs / Debugging related kaam me `grep -i error app.log` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "grep -i error app.log",
+    "example": "grep -i error app.log",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "grep",
+      "devops"
+    ]
+  },
+  {
+    "id": "logs-debugging-grep-r-exception-storage-logs",
+    "command": "grep -R \"Exception\" storage/logs",
+    "title": "Logs / Debugging logs dekhna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging related kaam me `grep -R \"Exception\" storage/logs` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "grep -R \"Exception\" storage/logs",
+    "example": "grep -R \"Exception\" storage/logs",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "grep",
+      "devops"
+    ]
+  },
+  {
+    "id": "logs-debugging-awk-print-1-access-log-sort-uniq-c-sort-nr",
+    "command": "awk '{print $1}' access.log | sort | uniq -c | sort -nr",
+    "title": "awk '{print $1}' access.log | sort | uniq -c | sort -nr command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging related kaam me `awk '{print $1}' access.log | sort | uniq -c | sort -nr` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "awk '{print $1}' access.log | sort | uniq -c | sort -nr",
+    "example": "awk '{print $1}' access.log | sort | uniq -c | sort -nr",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "awk",
+      "devops"
+    ]
+  },
+  {
+    "id": "logs-debugging-sed-n-1-100p-file-log",
+    "command": "sed -n \"1,100p\" file.log",
+    "title": "sed -n \"1,100p\" file.log command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging related kaam me `sed -n \"1,100p\" file.log` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sed -n \"1,100p\" file.log",
+    "example": "sed -n \"1,100p\" file.log",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "sed",
+      "devops"
+    ]
+  },
+  {
+    "id": "logs-debugging-less-f-app-log",
+    "command": "less +F app.log",
+    "title": "less +F app.log command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging related kaam me `less +F app.log` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "less +F app.log",
+    "example": "less +F app.log",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "less",
+      "devops"
+    ]
+  },
+  {
+    "id": "logs-debugging-docker-logs-f-container",
+    "command": "docker logs -f container",
+    "title": "Logs / Debugging logs dekhna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging related kaam me `docker logs -f container` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "docker logs -f container",
+    "example": "docker logs -f container",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "docker",
+      "devops"
+    ]
+  },
+  {
+    "id": "logs-debugging-kubectl-logs-f-pod-n-ns",
+    "command": "kubectl logs -f pod -n ns",
+    "title": "Logs / Debugging logs dekhna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging related kaam me `kubectl logs -f pod -n ns` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "kubectl logs -f pod -n ns",
+    "example": "kubectl logs -f pod -n ns",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "kubectl",
+      "devops"
+    ]
+  },
+  {
+    "id": "logs-debugging-curl-v-http-localhost",
+    "command": "curl -v http://localhost",
+    "title": "curl -v http://localhost command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging related kaam me `curl -v http://localhost` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "curl -v http://localhost",
+    "example": "curl -v http://localhost",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "curl",
+      "devops"
+    ]
+  },
+  {
+    "id": "logs-debugging-curl-i-https-domain-com",
+    "command": "curl -I https://domain.com",
+    "title": "curl -I https://domain.com command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging related kaam me `curl -I https://domain.com` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "curl -I https://domain.com",
+    "example": "curl -I https://domain.com",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "curl",
+      "devops"
+    ]
+  },
+  {
+    "id": "logs-debugging-ping-domain-com",
+    "command": "ping domain.com",
+    "title": "ping domain.com command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Advanced",
+    "use_case": "Logs / Debugging related kaam me `ping domain.com` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "ping domain.com",
+    "example": "ping domain.com",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "ping",
+      "devops"
+    ]
+  },
+  {
+    "id": "logs-debugging-traceroute-domain-com",
+    "command": "traceroute domain.com",
+    "title": "traceroute domain.com command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Advanced",
+    "use_case": "Logs / Debugging related kaam me `traceroute domain.com` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "traceroute domain.com",
+    "example": "traceroute domain.com",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "traceroute",
+      "devops"
+    ]
+  },
+  {
+    "id": "logs-debugging-dig-domain-com",
+    "command": "dig domain.com",
+    "title": "dig domain.com command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Advanced",
+    "use_case": "Logs / Debugging related kaam me `dig domain.com` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "dig domain.com",
+    "example": "dig domain.com",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "dig",
+      "devops"
+    ]
+  },
+  {
+    "id": "logs-debugging-nslookup-domain-com",
+    "command": "nslookup domain.com",
+    "title": "nslookup domain.com command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Advanced",
+    "use_case": "Logs / Debugging related kaam me `nslookup domain.com` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "nslookup domain.com",
+    "example": "nslookup domain.com",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "nslookup",
+      "devops"
+    ]
+  }
+]

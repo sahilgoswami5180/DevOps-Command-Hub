@@ -1,14 +1,254 @@
 [
   {
-    "id": "prometheus-targets",
+    "id": "prometheus-grafana-curl-http-localhost-9090-healthy",
+    "command": "curl http://localhost:9090/-/healthy",
+    "title": "curl http://localhost:9090/-/healthy command use karna",
+    "category": "Prometheus / Grafana",
+    "difficulty": "Beginner",
+    "use_case": "Prometheus / Grafana related kaam me `curl http://localhost:9090/-/healthy` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "curl http://localhost:9090/-/healthy",
+    "example": "curl http://localhost:9090/-/healthy",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "prometheus",
+      "curl",
+      "devops"
+    ]
+  },
+  {
+    "id": "prometheus-grafana-curl-http-localhost-9090-api-v1-targets",
     "command": "curl http://localhost:9090/api/v1/targets",
-    "title": "Prometheus targets check karna",
+    "title": "Prometheus / Grafana dekhna",
+    "category": "Prometheus / Grafana",
+    "difficulty": "Beginner",
+    "use_case": "Prometheus / Grafana related kaam me `curl http://localhost:9090/api/v1/targets` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "curl http://localhost:9090/api/v1/targets",
+    "example": "curl http://localhost:9090/api/v1/targets",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "prometheus",
+      "curl",
+      "devops"
+    ]
+  },
+  {
+    "id": "prometheus-grafana-curl-http-localhost-9090-api-v1-query-query-up",
+    "command": "curl \"http://localhost:9090/api/v1/query?query=up\"",
+    "title": "curl \"http://localhost:9090/api/v1/query?query=up\" command use karna",
+    "category": "Prometheus / Grafana",
+    "difficulty": "Beginner",
+    "use_case": "Prometheus / Grafana related kaam me `curl \"http://localhost:9090/api/v1/query?query=up\"` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "curl \"http://localhost:9090/api/v1/query?query=up\"",
+    "example": "curl \"http://localhost:9090/api/v1/query?query=up\"",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "prometheus",
+      "curl",
+      "devops"
+    ]
+  },
+  {
+    "id": "prometheus-grafana-systemctl-status-prometheus",
+    "command": "systemctl status prometheus",
+    "title": "Prometheus / Grafana status check karna",
+    "category": "Prometheus / Grafana",
+    "difficulty": "Beginner",
+    "use_case": "Prometheus / Grafana related kaam me `systemctl status prometheus` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "systemctl status prometheus",
+    "example": "systemctl status prometheus",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "prometheus",
+      "systemctl",
+      "devops"
+    ]
+  },
+  {
+    "id": "prometheus-grafana-journalctl-u-prometheus-f",
+    "command": "journalctl -u prometheus -f",
+    "title": "journalctl -u prometheus -f command use karna",
+    "category": "Prometheus / Grafana",
+    "difficulty": "Beginner",
+    "use_case": "Prometheus / Grafana related kaam me `journalctl -u prometheus -f` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "journalctl -u prometheus -f",
+    "example": "journalctl -u prometheus -f",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "prometheus",
+      "journalctl",
+      "devops"
+    ]
+  },
+  {
+    "id": "prometheus-grafana-promtool-check-config-prometheus-yml",
+    "command": "promtool check config prometheus.yml",
+    "title": "promtool check config prometheus.yml command use karna",
+    "category": "Prometheus / Grafana",
+    "difficulty": "Beginner",
+    "use_case": "Prometheus / Grafana related kaam me `promtool check config prometheus.yml` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "promtool check config prometheus.yml",
+    "example": "promtool check config prometheus.yml",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "prometheus",
+      "promtool",
+      "devops"
+    ]
+  },
+  {
+    "id": "prometheus-grafana-promtool-check-rules-rules-yml",
+    "command": "promtool check rules rules.yml",
+    "title": "promtool check rules rules.yml command use karna",
     "category": "Prometheus / Grafana",
     "difficulty": "Intermediate",
-    "use_case": "Prometheus scrape targets up/down status API se check karne ke liye.",
-    "syntax": "curl <prometheus-url>/api/v1/targets",
-    "example": "curl http://localhost:9090/api/v1/targets",
-    "output_explanation": "Targets health aur scrape status JSON me show hota hai.",
-    "warning": "Prometheus URL aur network access correct hona chahiye.",
-    "related_commands": ["systemctl status prometheus", "journalctl -u prometheus"],
-    "tags": ["prometheus", "grafana", "monitoring", "targets"]
+    "use_case": "Prometheus / Grafana related kaam me `promtool check rules rules.yml` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "promtool check rules rules.yml",
+    "example": "promtool check rules rules.yml",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "prometheus",
+      "promtool",
+      "devops"
+    ]
+  },
+  {
+    "id": "prometheus-grafana-systemctl-status-grafana-server",
+    "command": "systemctl status grafana-server",
+    "title": "Prometheus / Grafana status check karna",
+    "category": "Prometheus / Grafana",
+    "difficulty": "Intermediate",
+    "use_case": "Prometheus / Grafana related kaam me `systemctl status grafana-server` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "systemctl status grafana-server",
+    "example": "systemctl status grafana-server",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "prometheus",
+      "systemctl",
+      "devops"
+    ]
+  },
+  {
+    "id": "prometheus-grafana-journalctl-u-grafana-server-f",
+    "command": "journalctl -u grafana-server -f",
+    "title": "journalctl -u grafana-server -f command use karna",
+    "category": "Prometheus / Grafana",
+    "difficulty": "Intermediate",
+    "use_case": "Prometheus / Grafana related kaam me `journalctl -u grafana-server -f` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "journalctl -u grafana-server -f",
+    "example": "journalctl -u grafana-server -f",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "prometheus",
+      "journalctl",
+      "devops"
+    ]
+  },
+  {
+    "id": "prometheus-grafana-curl-http-localhost-3000-api-health",
+    "command": "curl http://localhost:3000/api/health",
+    "title": "curl http://localhost:3000/api/health command use karna",
+    "category": "Prometheus / Grafana",
+    "difficulty": "Intermediate",
+    "use_case": "Prometheus / Grafana related kaam me `curl http://localhost:3000/api/health` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "curl http://localhost:3000/api/health",
+    "example": "curl http://localhost:3000/api/health",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "prometheus",
+      "curl",
+      "devops"
+    ]
+  },
+  {
+    "id": "prometheus-grafana-docker-logs-f-prometheus",
+    "command": "docker logs -f prometheus",
+    "title": "Prometheus / Grafana logs dekhna",
+    "category": "Prometheus / Grafana",
+    "difficulty": "Intermediate",
+    "use_case": "Prometheus / Grafana related kaam me `docker logs -f prometheus` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "docker logs -f prometheus",
+    "example": "docker logs -f prometheus",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "prometheus",
+      "docker",
+      "devops"
+    ]
+  },
+  {
+    "id": "prometheus-grafana-docker-logs-f-grafana",
+    "command": "docker logs -f grafana",
+    "title": "Prometheus / Grafana logs dekhna",
+    "category": "Prometheus / Grafana",
+    "difficulty": "Intermediate",
+    "use_case": "Prometheus / Grafana related kaam me `docker logs -f grafana` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "docker logs -f grafana",
+    "example": "docker logs -f grafana",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "prometheus",
+      "docker",
+      "devops"
+    ]
+  },
+  {
+    "id": "prometheus-grafana-kubectl-port-forward-svc-prometheus-9090-9090-n-monitoring",
+    "command": "kubectl port-forward svc/prometheus 9090:9090 -n monitoring",
+    "title": "kubectl port-forward svc/prometheus 9090:9090 -n monitoring command use karna",
+    "category": "Prometheus / Grafana",
+    "difficulty": "Intermediate",
+    "use_case": "Prometheus / Grafana related kaam me `kubectl port-forward svc/prometheus 9090:9090 -n monitoring` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "kubectl port-forward svc/prometheus 9090:9090 -n monitoring",
+    "example": "kubectl port-forward svc/prometheus 9090:9090 -n monitoring",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "prometheus",
+      "kubectl",
+      "devops"
+    ]
+  },
+  {
+    "id": "prometheus-grafana-kubectl-port-forward-svc-grafana-3000-80-n-monitoring",
+    "command": "kubectl port-forward svc/grafana 3000:80 -n monitoring",
+    "title": "kubectl port-forward svc/grafana 3000:80 -n monitoring command use karna",
+    "category": "Prometheus / Grafana",
+    "difficulty": "Intermediate",
+    "use_case": "Prometheus / Grafana related kaam me `kubectl port-forward svc/grafana 3000:80 -n monitoring` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "kubectl port-forward svc/grafana 3000:80 -n monitoring",
+    "example": "kubectl port-forward svc/grafana 3000:80 -n monitoring",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "prometheus",
+      "kubectl",
+      "devops"
+    ]
+  }
+]
