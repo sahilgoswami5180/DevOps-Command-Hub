@@ -1,14 +1,254 @@
 [
   {
-    "id": "apache-configtest",
+    "id": "apache-sudo-apachectl-configtest",
     "command": "sudo apachectl configtest",
-    "title": "Apache config test karna",
+    "title": "sudo apachectl configtest command use karna",
     "category": "Apache",
     "difficulty": "Beginner",
-    "use_case": "Apache restart/reload se pehle configuration syntax check karne ke liye.",
+    "use_case": "Apache related kaam me `sudo apachectl configtest` command practical DevOps usage ke liye use hota hai.",
     "syntax": "sudo apachectl configtest",
     "example": "sudo apachectl configtest",
-    "output_explanation": "Syntax OK aaye to config valid hai.",
-    "warning": "Invalid config ke saath reload karne se website down ho sakti hai.",
-    "related_commands": ["sudo systemctl reload apache2", "sudo systemctl status apache2"],
-    "tags": ["apache", "config", "test", "webserver"]
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "apache",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "apache-sudo-systemctl-status-apache2",
+    "command": "sudo systemctl status apache2",
+    "title": "Apache status check karna",
+    "category": "Apache",
+    "difficulty": "Beginner",
+    "use_case": "Apache related kaam me `sudo systemctl status apache2` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo systemctl status apache2",
+    "example": "sudo systemctl status apache2",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "apache",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "apache-sudo-systemctl-reload-apache2",
+    "command": "sudo systemctl reload apache2",
+    "title": "sudo systemctl reload apache2 command use karna",
+    "category": "Apache",
+    "difficulty": "Beginner",
+    "use_case": "Apache related kaam me `sudo systemctl reload apache2` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo systemctl reload apache2",
+    "example": "sudo systemctl reload apache2",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "apache",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "apache-sudo-systemctl-restart-apache2",
+    "command": "sudo systemctl restart apache2",
+    "title": "Apache restart karna",
+    "category": "Apache",
+    "difficulty": "Beginner",
+    "use_case": "Apache related kaam me `sudo systemctl restart apache2` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo systemctl restart apache2",
+    "example": "sudo systemctl restart apache2",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "apache",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "apache-sudo-journalctl-u-apache2-f",
+    "command": "sudo journalctl -u apache2 -f",
+    "title": "sudo journalctl -u apache2 -f command use karna",
+    "category": "Apache",
+    "difficulty": "Beginner",
+    "use_case": "Apache related kaam me `sudo journalctl -u apache2 -f` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo journalctl -u apache2 -f",
+    "example": "sudo journalctl -u apache2 -f",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "apache",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "apache-tail-f-var-log-apache2-access-log",
+    "command": "tail -f /var/log/apache2/access.log",
+    "title": "Apache live logs dekhna",
+    "category": "Apache",
+    "difficulty": "Beginner",
+    "use_case": "Apache related kaam me `tail -f /var/log/apache2/access.log` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "tail -f /var/log/apache2/access.log",
+    "example": "tail -f /var/log/apache2/access.log",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "apache",
+      "tail",
+      "devops"
+    ]
+  },
+  {
+    "id": "apache-tail-f-var-log-apache2-error-log",
+    "command": "tail -f /var/log/apache2/error.log",
+    "title": "Apache live logs dekhna",
+    "category": "Apache",
+    "difficulty": "Intermediate",
+    "use_case": "Apache related kaam me `tail -f /var/log/apache2/error.log` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "tail -f /var/log/apache2/error.log",
+    "example": "tail -f /var/log/apache2/error.log",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "apache",
+      "tail",
+      "devops"
+    ]
+  },
+  {
+    "id": "apache-sudo-a2ensite-example-conf",
+    "command": "sudo a2ensite example.conf",
+    "title": "sudo a2ensite example.conf command use karna",
+    "category": "Apache",
+    "difficulty": "Intermediate",
+    "use_case": "Apache related kaam me `sudo a2ensite example.conf` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo a2ensite example.conf",
+    "example": "sudo a2ensite example.conf",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "apache",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "apache-sudo-a2dissite-example-conf",
+    "command": "sudo a2dissite example.conf",
+    "title": "sudo a2dissite example.conf command use karna",
+    "category": "Apache",
+    "difficulty": "Intermediate",
+    "use_case": "Apache related kaam me `sudo a2dissite example.conf` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo a2dissite example.conf",
+    "example": "sudo a2dissite example.conf",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "apache",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "apache-sudo-a2enmod-rewrite",
+    "command": "sudo a2enmod rewrite",
+    "title": "sudo a2enmod rewrite command use karna",
+    "category": "Apache",
+    "difficulty": "Intermediate",
+    "use_case": "Apache related kaam me `sudo a2enmod rewrite` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo a2enmod rewrite",
+    "example": "sudo a2enmod rewrite",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "apache",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "apache-sudo-a2enmod-ssl",
+    "command": "sudo a2enmod ssl",
+    "title": "sudo a2enmod ssl command use karna",
+    "category": "Apache",
+    "difficulty": "Intermediate",
+    "use_case": "Apache related kaam me `sudo a2enmod ssl` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo a2enmod ssl",
+    "example": "sudo a2enmod ssl",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "apache",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "apache-sudo-apache2ctl-s",
+    "command": "sudo apache2ctl -S",
+    "title": "sudo apache2ctl -S command use karna",
+    "category": "Apache",
+    "difficulty": "Intermediate",
+    "use_case": "Apache related kaam me `sudo apache2ctl -S` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo apache2ctl -S",
+    "example": "sudo apache2ctl -S",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "apache",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "apache-curl-i-http-example-com",
+    "command": "curl -I http://example.com",
+    "title": "curl -I http://example.com command use karna",
+    "category": "Apache",
+    "difficulty": "Intermediate",
+    "use_case": "Apache related kaam me `curl -I http://example.com` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "curl -I http://example.com",
+    "example": "curl -I http://example.com",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "apache",
+      "curl",
+      "devops"
+    ]
+  },
+  {
+    "id": "apache-sudo-systemctl-enable-apache2",
+    "command": "sudo systemctl enable apache2",
+    "title": "sudo systemctl enable apache2 command use karna",
+    "category": "Apache",
+    "difficulty": "Intermediate",
+    "use_case": "Apache related kaam me `sudo systemctl enable apache2` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo systemctl enable apache2",
+    "example": "sudo systemctl enable apache2",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "apache",
+      "cmd",
+      "devops"
+    ]
+  }
+]

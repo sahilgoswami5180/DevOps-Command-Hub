@@ -1,14 +1,398 @@
 [
   {
-    "id": "kubectl-get-pods",
-    "command": "kubectl get pods -A",
-    "title": "All namespaces ke pods dekhna",
+    "id": "kubernetes-kubectl-version-client",
+    "command": "kubectl version --client",
+    "title": "kubectl version --client command use karna",
     "category": "Kubernetes",
     "difficulty": "Beginner",
-    "use_case": "Cluster me running/pending/error pods quickly check karne ke liye.",
-    "syntax": "kubectl get pods [options]",
-    "example": "kubectl get pods -A",
-    "output_explanation": "-A all namespaces ke pods show karta hai.",
+    "use_case": "Kubernetes related kaam me `kubectl version --client` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "kubectl version --client",
+    "example": "kubectl version --client",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
     "warning": "Read-only command hai, safe hai.",
-    "related_commands": ["kubectl describe pod", "kubectl logs", "kubectl get svc"],
-    "tags": ["kubernetes", "kubectl", "pods", "cluster"]
+    "related_commands": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-cluster-info",
+    "command": "kubectl cluster-info",
+    "title": "kubectl cluster-info command use karna",
+    "category": "Kubernetes",
+    "difficulty": "Beginner",
+    "use_case": "Kubernetes related kaam me `kubectl cluster-info` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "kubectl cluster-info",
+    "example": "kubectl cluster-info",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-get-nodes",
+    "command": "kubectl get nodes",
+    "title": "Kubernetes dekhna",
+    "category": "Kubernetes",
+    "difficulty": "Beginner",
+    "use_case": "Kubernetes related kaam me `kubectl get nodes` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "kubectl get nodes",
+    "example": "kubectl get nodes",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-get-pods-a",
+    "command": "kubectl get pods -A",
+    "title": "Kubernetes dekhna",
+    "category": "Kubernetes",
+    "difficulty": "Beginner",
+    "use_case": "Kubernetes related kaam me `kubectl get pods -A` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "kubectl get pods -A",
+    "example": "kubectl get pods -A",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-get-svc-a",
+    "command": "kubectl get svc -A",
+    "title": "Kubernetes dekhna",
+    "category": "Kubernetes",
+    "difficulty": "Beginner",
+    "use_case": "Kubernetes related kaam me `kubectl get svc -A` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "kubectl get svc -A",
+    "example": "kubectl get svc -A",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-get-deploy-a",
+    "command": "kubectl get deploy -A",
+    "title": "Kubernetes dekhna",
+    "category": "Kubernetes",
+    "difficulty": "Beginner",
+    "use_case": "Kubernetes related kaam me `kubectl get deploy -A` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "kubectl get deploy -A",
+    "example": "kubectl get deploy -A",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-describe-pod-pod-n-ns",
+    "command": "kubectl describe pod <pod> -n <ns>",
+    "title": "kubectl describe pod <pod> -n <ns> command use karna",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes related kaam me `kubectl describe pod <pod> -n <ns>` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "kubectl describe pod <pod> -n <ns>",
+    "example": "kubectl describe pod <pod> -n <ns>",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-logs-pod-n-ns",
+    "command": "kubectl logs <pod> -n <ns>",
+    "title": "Kubernetes logs dekhna",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes related kaam me `kubectl logs <pod> -n <ns>` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "kubectl logs <pod> -n <ns>",
+    "example": "kubectl logs <pod> -n <ns>",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-logs-f-pod-n-ns",
+    "command": "kubectl logs -f <pod> -n <ns>",
+    "title": "Kubernetes logs dekhna",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes related kaam me `kubectl logs -f <pod> -n <ns>` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "kubectl logs -f <pod> -n <ns>",
+    "example": "kubectl logs -f <pod> -n <ns>",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-exec-it-pod-n-ns-sh",
+    "command": "kubectl exec -it <pod> -n <ns> -- sh",
+    "title": "kubectl exec -it <pod> -n <ns> -- sh command use karna",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes related kaam me `kubectl exec -it <pod> -n <ns> -- sh` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "kubectl exec -it <pod> -n <ns> -- sh",
+    "example": "kubectl exec -it <pod> -n <ns> -- sh",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-apply-f-file-yaml",
+    "command": "kubectl apply -f file.yaml",
+    "title": "Kubernetes apply karna",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes related kaam me `kubectl apply -f file.yaml` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "kubectl apply -f file.yaml",
+    "example": "kubectl apply -f file.yaml",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-delete-f-file-yaml",
+    "command": "kubectl delete -f file.yaml",
+    "title": "Kubernetes delete karna",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes related kaam me `kubectl delete -f file.yaml` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "kubectl delete -f file.yaml",
+    "example": "kubectl delete -f file.yaml",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup aur target 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-rollout-status-deploy-name-n-ns",
+    "command": "kubectl rollout status deploy/<name> -n <ns>",
+    "title": "Kubernetes status check karna",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes related kaam me `kubectl rollout status deploy/<name> -n <ns>` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "kubectl rollout status deploy/<name> -n <ns>",
+    "example": "kubectl rollout status deploy/<name> -n <ns>",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-rollout-restart-deploy-name-n-ns",
+    "command": "kubectl rollout restart deploy/<name> -n <ns>",
+    "title": "Kubernetes restart karna",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes related kaam me `kubectl rollout restart deploy/<name> -n <ns>` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "kubectl rollout restart deploy/<name> -n <ns>",
+    "example": "kubectl rollout restart deploy/<name> -n <ns>",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-scale-deploy-name-replicas-3-n-ns",
+    "command": "kubectl scale deploy/<name> --replicas=3 -n <ns>",
+    "title": "Kubernetes deploy karna",
+    "category": "Kubernetes",
+    "difficulty": "Advanced",
+    "use_case": "Kubernetes related kaam me `kubectl scale deploy/<name> --replicas=3 -n <ns>` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "kubectl scale deploy/<name> --replicas=3 -n <ns>",
+    "example": "kubectl scale deploy/<name> --replicas=3 -n <ns>",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-top-nodes",
+    "command": "kubectl top nodes",
+    "title": "kubectl top nodes command use karna",
+    "category": "Kubernetes",
+    "difficulty": "Advanced",
+    "use_case": "Kubernetes related kaam me `kubectl top nodes` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "kubectl top nodes",
+    "example": "kubectl top nodes",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-top-pods-a",
+    "command": "kubectl top pods -A",
+    "title": "kubectl top pods -A command use karna",
+    "category": "Kubernetes",
+    "difficulty": "Advanced",
+    "use_case": "Kubernetes related kaam me `kubectl top pods -A` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "kubectl top pods -A",
+    "example": "kubectl top pods -A",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-get-events-a-sort-by-metadata-creationtimestamp",
+    "command": "kubectl get events -A --sort-by=.metadata.creationTimestamp",
+    "title": "Kubernetes dekhna",
+    "category": "Kubernetes",
+    "difficulty": "Advanced",
+    "use_case": "Kubernetes related kaam me `kubectl get events -A --sort-by=.metadata.creationTimestamp` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "kubectl get events -A --sort-by=.metadata.creationTimestamp",
+    "example": "kubectl get events -A --sort-by=.metadata.creationTimestamp",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-config-get-contexts",
+    "command": "kubectl config get-contexts",
+    "title": "Kubernetes dekhna",
+    "category": "Kubernetes",
+    "difficulty": "Advanced",
+    "use_case": "Kubernetes related kaam me `kubectl config get-contexts` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "kubectl config get-contexts",
+    "example": "kubectl config get-contexts",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-config-use-context-context",
+    "command": "kubectl config use-context <context>",
+    "title": "kubectl config use-context <context> command use karna",
+    "category": "Kubernetes",
+    "difficulty": "Advanced",
+    "use_case": "Kubernetes related kaam me `kubectl config use-context <context>` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "kubectl config use-context <context>",
+    "example": "kubectl config use-context <context>",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-create-secret-generic-name-from-literal-key-value",
+    "command": "kubectl create secret generic <name> --from-literal=KEY=value",
+    "title": "Kubernetes create karna",
+    "category": "Kubernetes",
+    "difficulty": "Advanced",
+    "use_case": "Kubernetes related kaam me `kubectl create secret generic <name> --from-literal=KEY=value` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "kubectl create secret generic <name> --from-literal=KEY=value",
+    "example": "kubectl create secret generic <name> --from-literal=KEY=value",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-port-forward-svc-service-8080-80-n-ns",
+    "command": "kubectl port-forward svc/<service> 8080:80 -n <ns>",
+    "title": "kubectl port-forward svc/<service> 8080:80 -n <ns> command use karna",
+    "category": "Kubernetes",
+    "difficulty": "Advanced",
+    "use_case": "Kubernetes related kaam me `kubectl port-forward svc/<service> 8080:80 -n <ns>` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "kubectl port-forward svc/<service> 8080:80 -n <ns>",
+    "example": "kubectl port-forward svc/<service> 8080:80 -n <ns>",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops"
+    ]
+  }
+]

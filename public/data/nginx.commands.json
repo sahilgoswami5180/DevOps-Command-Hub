@@ -1,14 +1,272 @@
 [
   {
-    "id": "nginx-test-config",
+    "id": "nginx-sudo-nginx-t",
     "command": "sudo nginx -t",
-    "title": "Nginx config test karna",
+    "title": "sudo nginx -t command use karna",
     "category": "Nginx",
     "difficulty": "Beginner",
-    "use_case": "Reload/restart se pehle Nginx config syntax valid hai ya nahi check karne ke liye.",
+    "use_case": "Nginx related kaam me `sudo nginx -t` command practical DevOps usage ke liye use hota hai.",
     "syntax": "sudo nginx -t",
     "example": "sudo nginx -t",
-    "output_explanation": "Syntax ok aur test successful message aayega agar config valid hai.",
-    "warning": "Reload se pehle ye command zarur run karo.",
-    "related_commands": ["sudo systemctl reload nginx", "sudo systemctl status nginx"],
-    "tags": ["nginx", "config", "test", "webserver"]
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "nginx",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "nginx-sudo-systemctl-status-nginx",
+    "command": "sudo systemctl status nginx",
+    "title": "Nginx status check karna",
+    "category": "Nginx",
+    "difficulty": "Beginner",
+    "use_case": "Nginx related kaam me `sudo systemctl status nginx` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo systemctl status nginx",
+    "example": "sudo systemctl status nginx",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "nginx",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "nginx-sudo-systemctl-reload-nginx",
+    "command": "sudo systemctl reload nginx",
+    "title": "sudo systemctl reload nginx command use karna",
+    "category": "Nginx",
+    "difficulty": "Beginner",
+    "use_case": "Nginx related kaam me `sudo systemctl reload nginx` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo systemctl reload nginx",
+    "example": "sudo systemctl reload nginx",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "nginx",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "nginx-sudo-systemctl-restart-nginx",
+    "command": "sudo systemctl restart nginx",
+    "title": "Nginx restart karna",
+    "category": "Nginx",
+    "difficulty": "Beginner",
+    "use_case": "Nginx related kaam me `sudo systemctl restart nginx` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo systemctl restart nginx",
+    "example": "sudo systemctl restart nginx",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "nginx",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "nginx-sudo-journalctl-u-nginx-f",
+    "command": "sudo journalctl -u nginx -f",
+    "title": "sudo journalctl -u nginx -f command use karna",
+    "category": "Nginx",
+    "difficulty": "Beginner",
+    "use_case": "Nginx related kaam me `sudo journalctl -u nginx -f` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo journalctl -u nginx -f",
+    "example": "sudo journalctl -u nginx -f",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "nginx",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "nginx-tail-f-var-log-nginx-access-log",
+    "command": "tail -f /var/log/nginx/access.log",
+    "title": "Nginx live logs dekhna",
+    "category": "Nginx",
+    "difficulty": "Beginner",
+    "use_case": "Nginx related kaam me `tail -f /var/log/nginx/access.log` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "tail -f /var/log/nginx/access.log",
+    "example": "tail -f /var/log/nginx/access.log",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "nginx",
+      "tail",
+      "devops"
+    ]
+  },
+  {
+    "id": "nginx-tail-f-var-log-nginx-error-log",
+    "command": "tail -f /var/log/nginx/error.log",
+    "title": "Nginx live logs dekhna",
+    "category": "Nginx",
+    "difficulty": "Intermediate",
+    "use_case": "Nginx related kaam me `tail -f /var/log/nginx/error.log` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "tail -f /var/log/nginx/error.log",
+    "example": "tail -f /var/log/nginx/error.log",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "nginx",
+      "tail",
+      "devops"
+    ]
+  },
+  {
+    "id": "nginx-sudo-nginx-s-reload",
+    "command": "sudo nginx -s reload",
+    "title": "sudo nginx -s reload command use karna",
+    "category": "Nginx",
+    "difficulty": "Intermediate",
+    "use_case": "Nginx related kaam me `sudo nginx -s reload` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo nginx -s reload",
+    "example": "sudo nginx -s reload",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "nginx",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "nginx-sudo-ln-s-etc-nginx-sites-available-site-etc-nginx-sites-enabled-site",
+    "command": "sudo ln -s /etc/nginx/sites-available/site /etc/nginx/sites-enabled/site",
+    "title": "sudo ln -s /etc/nginx/sites-available/site /etc/nginx/sites-enabled/site command use karna",
+    "category": "Nginx",
+    "difficulty": "Intermediate",
+    "use_case": "Nginx related kaam me `sudo ln -s /etc/nginx/sites-available/site /etc/nginx/sites-enabled/site` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo ln -s /etc/nginx/sites-available/site /etc/nginx/sites-enabled/site",
+    "example": "sudo ln -s /etc/nginx/sites-available/site /etc/nginx/sites-enabled/site",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "nginx",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "nginx-sudo-rm-etc-nginx-sites-enabled-site",
+    "command": "sudo rm /etc/nginx/sites-enabled/site",
+    "title": "sudo rm /etc/nginx/sites-enabled/site command use karna",
+    "category": "Nginx",
+    "difficulty": "Intermediate",
+    "use_case": "Nginx related kaam me `sudo rm /etc/nginx/sites-enabled/site` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo rm /etc/nginx/sites-enabled/site",
+    "example": "sudo rm /etc/nginx/sites-enabled/site",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup aur target 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "nginx",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "nginx-sudo-certbot-nginx-d-example-com",
+    "command": "sudo certbot --nginx -d example.com",
+    "title": "sudo certbot --nginx -d example.com command use karna",
+    "category": "Nginx",
+    "difficulty": "Intermediate",
+    "use_case": "Nginx related kaam me `sudo certbot --nginx -d example.com` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo certbot --nginx -d example.com",
+    "example": "sudo certbot --nginx -d example.com",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "nginx",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "nginx-curl-i-https-example-com",
+    "command": "curl -I https://example.com",
+    "title": "curl -I https://example.com command use karna",
+    "category": "Nginx",
+    "difficulty": "Intermediate",
+    "use_case": "Nginx related kaam me `curl -I https://example.com` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "curl -I https://example.com",
+    "example": "curl -I https://example.com",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "nginx",
+      "curl",
+      "devops"
+    ]
+  },
+  {
+    "id": "nginx-sudo-grep-r-server-name-etc-nginx",
+    "command": "sudo grep -R \"server_name\" /etc/nginx",
+    "title": "sudo grep -R \"server_name\" /etc/nginx command use karna",
+    "category": "Nginx",
+    "difficulty": "Intermediate",
+    "use_case": "Nginx related kaam me `sudo grep -R \"server_name\" /etc/nginx` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo grep -R \"server_name\" /etc/nginx",
+    "example": "sudo grep -R \"server_name\" /etc/nginx",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "nginx",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "nginx-sudo-nginx-t",
+    "command": "sudo nginx -T",
+    "title": "sudo nginx -T command use karna",
+    "category": "Nginx",
+    "difficulty": "Intermediate",
+    "use_case": "Nginx related kaam me `sudo nginx -T` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo nginx -T",
+    "example": "sudo nginx -T",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "nginx",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "nginx-sudo-systemctl-enable-nginx",
+    "command": "sudo systemctl enable nginx",
+    "title": "sudo systemctl enable nginx command use karna",
+    "category": "Nginx",
+    "difficulty": "Advanced",
+    "use_case": "Nginx related kaam me `sudo systemctl enable nginx` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo systemctl enable nginx",
+    "example": "sudo systemctl enable nginx",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "nginx",
+      "cmd",
+      "devops"
+    ]
+  }
+]

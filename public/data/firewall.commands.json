@@ -1,14 +1,272 @@
 [
   {
-    "id": "ufw-status",
-    "command": "sudo ufw status numbered",
-    "title": "Firewall rules numbered list dekhna",
+    "id": "firewall-sudo-ufw-status",
+    "command": "sudo ufw status",
+    "title": "Firewall status check karna",
     "category": "Firewall",
     "difficulty": "Beginner",
-    "use_case": "UFW firewall rules ko number ke saath dekhne ke liye.",
+    "use_case": "Firewall related kaam me `sudo ufw status` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo ufw status",
+    "example": "sudo ufw status",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "firewall-sudo-ufw-status-numbered",
+    "command": "sudo ufw status numbered",
+    "title": "Firewall status check karna",
+    "category": "Firewall",
+    "difficulty": "Beginner",
+    "use_case": "Firewall related kaam me `sudo ufw status numbered` command practical DevOps usage ke liye use hota hai.",
     "syntax": "sudo ufw status numbered",
     "example": "sudo ufw status numbered",
-    "output_explanation": "Allowed/denied ports aur rule numbers show hote hain.",
-    "warning": "SSH port allow hai ya nahi zarur verify karo.",
-    "related_commands": ["sudo ufw allow", "sudo ufw delete", "sudo ufw enable"],
-    "tags": ["firewall", "ufw", "security", "ports"]
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "firewall-sudo-ufw-allow-22-tcp",
+    "command": "sudo ufw allow 22/tcp",
+    "title": "sudo ufw allow 22/tcp command use karna",
+    "category": "Firewall",
+    "difficulty": "Beginner",
+    "use_case": "Firewall related kaam me `sudo ufw allow 22/tcp` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo ufw allow 22/tcp",
+    "example": "sudo ufw allow 22/tcp",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "firewall-sudo-ufw-allow-80-tcp",
+    "command": "sudo ufw allow 80/tcp",
+    "title": "sudo ufw allow 80/tcp command use karna",
+    "category": "Firewall",
+    "difficulty": "Beginner",
+    "use_case": "Firewall related kaam me `sudo ufw allow 80/tcp` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo ufw allow 80/tcp",
+    "example": "sudo ufw allow 80/tcp",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "firewall-sudo-ufw-allow-443-tcp",
+    "command": "sudo ufw allow 443/tcp",
+    "title": "sudo ufw allow 443/tcp command use karna",
+    "category": "Firewall",
+    "difficulty": "Beginner",
+    "use_case": "Firewall related kaam me `sudo ufw allow 443/tcp` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo ufw allow 443/tcp",
+    "example": "sudo ufw allow 443/tcp",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "firewall-sudo-ufw-deny-3306-tcp",
+    "command": "sudo ufw deny 3306/tcp",
+    "title": "sudo ufw deny 3306/tcp command use karna",
+    "category": "Firewall",
+    "difficulty": "Beginner",
+    "use_case": "Firewall related kaam me `sudo ufw deny 3306/tcp` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo ufw deny 3306/tcp",
+    "example": "sudo ufw deny 3306/tcp",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "firewall-sudo-ufw-delete-1",
+    "command": "sudo ufw delete 1",
+    "title": "Firewall delete karna",
+    "category": "Firewall",
+    "difficulty": "Intermediate",
+    "use_case": "Firewall related kaam me `sudo ufw delete 1` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo ufw delete 1",
+    "example": "sudo ufw delete 1",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup aur target 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "firewall-sudo-ufw-enable",
+    "command": "sudo ufw enable",
+    "title": "sudo ufw enable command use karna",
+    "category": "Firewall",
+    "difficulty": "Intermediate",
+    "use_case": "Firewall related kaam me `sudo ufw enable` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo ufw enable",
+    "example": "sudo ufw enable",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "firewall-sudo-ufw-disable",
+    "command": "sudo ufw disable",
+    "title": "sudo ufw disable command use karna",
+    "category": "Firewall",
+    "difficulty": "Intermediate",
+    "use_case": "Firewall related kaam me `sudo ufw disable` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo ufw disable",
+    "example": "sudo ufw disable",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup aur target 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "firewall-sudo-ufw-reload",
+    "command": "sudo ufw reload",
+    "title": "sudo ufw reload command use karna",
+    "category": "Firewall",
+    "difficulty": "Intermediate",
+    "use_case": "Firewall related kaam me `sudo ufw reload` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo ufw reload",
+    "example": "sudo ufw reload",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "firewall-sudo-iptables-l-n-v",
+    "command": "sudo iptables -L -n -v",
+    "title": "sudo iptables -L -n -v command use karna",
+    "category": "Firewall",
+    "difficulty": "Intermediate",
+    "use_case": "Firewall related kaam me `sudo iptables -L -n -v` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo iptables -L -n -v",
+    "example": "sudo iptables -L -n -v",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "firewall-sudo-iptables-s",
+    "command": "sudo iptables -S",
+    "title": "sudo iptables -S command use karna",
+    "category": "Firewall",
+    "difficulty": "Intermediate",
+    "use_case": "Firewall related kaam me `sudo iptables -S` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo iptables -S",
+    "example": "sudo iptables -S",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "firewall-sudo-firewall-cmd-list-all",
+    "command": "sudo firewall-cmd --list-all",
+    "title": "Firewall list karna",
+    "category": "Firewall",
+    "difficulty": "Intermediate",
+    "use_case": "Firewall related kaam me `sudo firewall-cmd --list-all` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo firewall-cmd --list-all",
+    "example": "sudo firewall-cmd --list-all",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "firewall-sudo-firewall-cmd-add-service-http-permanent",
+    "command": "sudo firewall-cmd --add-service=http --permanent",
+    "title": "sudo firewall-cmd --add-service=http --permanent command use karna",
+    "category": "Firewall",
+    "difficulty": "Intermediate",
+    "use_case": "Firewall related kaam me `sudo firewall-cmd --add-service=http --permanent` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo firewall-cmd --add-service=http --permanent",
+    "example": "sudo firewall-cmd --add-service=http --permanent",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops"
+    ]
+  },
+  {
+    "id": "firewall-sudo-firewall-cmd-reload",
+    "command": "sudo firewall-cmd --reload",
+    "title": "sudo firewall-cmd --reload command use karna",
+    "category": "Firewall",
+    "difficulty": "Advanced",
+    "use_case": "Firewall related kaam me `sudo firewall-cmd --reload` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sudo firewall-cmd --reload",
+    "example": "sudo firewall-cmd --reload",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops"
+    ]
+  }
+]

@@ -1,14 +1,326 @@
 [
   {
-    "id": "top-command",
+    "id": "system-monitoring-top",
     "command": "top",
-    "title": "Live process monitoring karna",
+    "title": "top command use karna",
     "category": "System Monitoring",
     "difficulty": "Beginner",
-    "use_case": "CPU, memory aur running processes live dekhne ke liye.",
+    "use_case": "System Monitoring related kaam me `top` command practical DevOps usage ke liye use hota hai.",
     "syntax": "top",
     "example": "top",
-    "output_explanation": "CPU usage, memory usage, load average aur processes show hote hain.",
-    "warning": "Read-only monitoring command hai.",
-    "related_commands": ["htop", "free -h", "uptime"],
-    "tags": ["monitoring", "cpu", "memory", "process"]
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "top",
+      "devops"
+    ]
+  },
+  {
+    "id": "system-monitoring-htop",
+    "command": "htop",
+    "title": "htop command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Beginner",
+    "use_case": "System Monitoring related kaam me `htop` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "htop",
+    "example": "htop",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "htop",
+      "devops"
+    ]
+  },
+  {
+    "id": "system-monitoring-uptime",
+    "command": "uptime",
+    "title": "uptime command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Beginner",
+    "use_case": "System Monitoring related kaam me `uptime` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "uptime",
+    "example": "uptime",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "uptime",
+      "devops"
+    ]
+  },
+  {
+    "id": "system-monitoring-free-h",
+    "command": "free -h",
+    "title": "free -h command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Beginner",
+    "use_case": "System Monitoring related kaam me `free -h` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "free -h",
+    "example": "free -h",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "free",
+      "devops"
+    ]
+  },
+  {
+    "id": "system-monitoring-df-h",
+    "command": "df -h",
+    "title": "df -h command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Beginner",
+    "use_case": "System Monitoring related kaam me `df -h` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "df -h",
+    "example": "df -h",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "df",
+      "devops"
+    ]
+  },
+  {
+    "id": "system-monitoring-du-sh",
+    "command": "du -sh *",
+    "title": "du -sh * command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Beginner",
+    "use_case": "System Monitoring related kaam me `du -sh *` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "du -sh *",
+    "example": "du -sh *",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "du",
+      "devops"
+    ]
+  },
+  {
+    "id": "system-monitoring-ps-aux",
+    "command": "ps aux",
+    "title": "ps aux command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Intermediate",
+    "use_case": "System Monitoring related kaam me `ps aux` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "ps aux",
+    "example": "ps aux",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "ps",
+      "devops"
+    ]
+  },
+  {
+    "id": "system-monitoring-ss-tulpn",
+    "command": "ss -tulpn",
+    "title": "ss -tulpn command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Intermediate",
+    "use_case": "System Monitoring related kaam me `ss -tulpn` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "ss -tulpn",
+    "example": "ss -tulpn",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "ss",
+      "devops"
+    ]
+  },
+  {
+    "id": "system-monitoring-netstat-tulpn",
+    "command": "netstat -tulpn",
+    "title": "netstat -tulpn command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Intermediate",
+    "use_case": "System Monitoring related kaam me `netstat -tulpn` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "netstat -tulpn",
+    "example": "netstat -tulpn",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "netstat",
+      "devops"
+    ]
+  },
+  {
+    "id": "system-monitoring-iostat",
+    "command": "iostat",
+    "title": "iostat command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Intermediate",
+    "use_case": "System Monitoring related kaam me `iostat` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "iostat",
+    "example": "iostat",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "iostat",
+      "devops"
+    ]
+  },
+  {
+    "id": "system-monitoring-vmstat-1",
+    "command": "vmstat 1",
+    "title": "vmstat 1 command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Intermediate",
+    "use_case": "System Monitoring related kaam me `vmstat 1` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "vmstat 1",
+    "example": "vmstat 1",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "vmstat",
+      "devops"
+    ]
+  },
+  {
+    "id": "system-monitoring-sar-u-1-5",
+    "command": "sar -u 1 5",
+    "title": "sar -u 1 5 command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Intermediate",
+    "use_case": "System Monitoring related kaam me `sar -u 1 5` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "sar -u 1 5",
+    "example": "sar -u 1 5",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "sar",
+      "devops"
+    ]
+  },
+  {
+    "id": "system-monitoring-dmesg-t-tail",
+    "command": "dmesg -T | tail",
+    "title": "System Monitoring live logs dekhna",
+    "category": "System Monitoring",
+    "difficulty": "Intermediate",
+    "use_case": "System Monitoring related kaam me `dmesg -T | tail` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "dmesg -T | tail",
+    "example": "dmesg -T | tail",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "dmesg",
+      "devops"
+    ]
+  },
+  {
+    "id": "system-monitoring-journalctl-p-err-n-50",
+    "command": "journalctl -p err -n 50",
+    "title": "journalctl -p err -n 50 command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Intermediate",
+    "use_case": "System Monitoring related kaam me `journalctl -p err -n 50` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "journalctl -p err -n 50",
+    "example": "journalctl -p err -n 50",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "journalctl",
+      "devops"
+    ]
+  },
+  {
+    "id": "system-monitoring-systemctl-failed",
+    "command": "systemctl --failed",
+    "title": "systemctl --failed command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Advanced",
+    "use_case": "System Monitoring related kaam me `systemctl --failed` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "systemctl --failed",
+    "example": "systemctl --failed",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "systemctl",
+      "devops"
+    ]
+  },
+  {
+    "id": "system-monitoring-lsof-i-80",
+    "command": "lsof -i :80",
+    "title": "lsof -i :80 command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Advanced",
+    "use_case": "System Monitoring related kaam me `lsof -i :80` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "lsof -i :80",
+    "example": "lsof -i :80",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "lsof",
+      "devops"
+    ]
+  },
+  {
+    "id": "system-monitoring-lsof-p-pid",
+    "command": "lsof -p <pid>",
+    "title": "lsof -p <pid> command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Advanced",
+    "use_case": "System Monitoring related kaam me `lsof -p <pid>` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "lsof -p <pid>",
+    "example": "lsof -p <pid>",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "lsof",
+      "devops"
+    ]
+  },
+  {
+    "id": "system-monitoring-watch-n-1-df-h",
+    "command": "watch -n 1 df -h",
+    "title": "watch -n 1 df -h command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Advanced",
+    "use_case": "System Monitoring related kaam me `watch -n 1 df -h` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "watch -n 1 df -h",
+    "example": "watch -n 1 df -h",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "watch",
+      "devops"
+    ]
+  }
+]

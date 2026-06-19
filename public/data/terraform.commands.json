@@ -1,14 +1,344 @@
 [
   {
-    "id": "terraform-plan",
+    "id": "terraform-terraform-version",
+    "command": "terraform version",
+    "title": "terraform version command use karna",
+    "category": "Terraform",
+    "difficulty": "Beginner",
+    "use_case": "Terraform related kaam me `terraform version` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "terraform version",
+    "example": "terraform version",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup aur target 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "terraform",
+      "terraform",
+      "devops"
+    ]
+  },
+  {
+    "id": "terraform-terraform-init",
+    "command": "terraform init",
+    "title": "terraform init command use karna",
+    "category": "Terraform",
+    "difficulty": "Beginner",
+    "use_case": "Terraform related kaam me `terraform init` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "terraform init",
+    "example": "terraform init",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup aur target 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "terraform",
+      "terraform",
+      "devops"
+    ]
+  },
+  {
+    "id": "terraform-terraform-fmt",
+    "command": "terraform fmt",
+    "title": "terraform fmt command use karna",
+    "category": "Terraform",
+    "difficulty": "Beginner",
+    "use_case": "Terraform related kaam me `terraform fmt` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "terraform fmt",
+    "example": "terraform fmt",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup aur target 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "terraform",
+      "terraform",
+      "devops"
+    ]
+  },
+  {
+    "id": "terraform-terraform-validate",
+    "command": "terraform validate",
+    "title": "terraform validate command use karna",
+    "category": "Terraform",
+    "difficulty": "Beginner",
+    "use_case": "Terraform related kaam me `terraform validate` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "terraform validate",
+    "example": "terraform validate",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup aur target 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "terraform",
+      "terraform",
+      "devops"
+    ]
+  },
+  {
+    "id": "terraform-terraform-plan",
     "command": "terraform plan",
-    "title": "Infrastructure changes preview karna",
+    "title": "terraform plan command use karna",
+    "category": "Terraform",
+    "difficulty": "Beginner",
+    "use_case": "Terraform related kaam me `terraform plan` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "terraform plan",
+    "example": "terraform plan",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup aur target 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "terraform",
+      "terraform",
+      "devops"
+    ]
+  },
+  {
+    "id": "terraform-terraform-plan-out-tfplan",
+    "command": "terraform plan -out=tfplan",
+    "title": "terraform plan -out=tfplan command use karna",
+    "category": "Terraform",
+    "difficulty": "Beginner",
+    "use_case": "Terraform related kaam me `terraform plan -out=tfplan` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "terraform plan -out=tfplan",
+    "example": "terraform plan -out=tfplan",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup aur target 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "terraform",
+      "terraform",
+      "devops"
+    ]
+  },
+  {
+    "id": "terraform-terraform-apply",
+    "command": "terraform apply",
+    "title": "Terraform apply karna",
     "category": "Terraform",
     "difficulty": "Intermediate",
-    "use_case": "Apply se pehle kya create/update/delete hoga ye check karne ke liye.",
-    "syntax": "terraform plan [options]",
-    "example": "terraform plan -out=tfplan",
-    "output_explanation": "Terraform proposed infrastructure changes show karta hai.",
-    "warning": "Destroy actions carefully review karo.",
-    "related_commands": ["terraform init", "terraform apply", "terraform destroy"],
-    "tags": ["terraform", "iac", "plan", "infra"]
+    "use_case": "Terraform related kaam me `terraform apply` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "terraform apply",
+    "example": "terraform apply",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup aur target 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "terraform",
+      "terraform",
+      "devops"
+    ]
+  },
+  {
+    "id": "terraform-terraform-apply-tfplan",
+    "command": "terraform apply tfplan",
+    "title": "Terraform apply karna",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform related kaam me `terraform apply tfplan` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "terraform apply tfplan",
+    "example": "terraform apply tfplan",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup aur target 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "terraform",
+      "terraform",
+      "devops"
+    ]
+  },
+  {
+    "id": "terraform-terraform-destroy",
+    "command": "terraform destroy",
+    "title": "terraform destroy command use karna",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform related kaam me `terraform destroy` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "terraform destroy",
+    "example": "terraform destroy",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup aur target 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "terraform",
+      "terraform",
+      "devops"
+    ]
+  },
+  {
+    "id": "terraform-terraform-show",
+    "command": "terraform show",
+    "title": "Terraform details dekhna",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform related kaam me `terraform show` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "terraform show",
+    "example": "terraform show",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup aur target 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "terraform",
+      "terraform",
+      "devops"
+    ]
+  },
+  {
+    "id": "terraform-terraform-state-list",
+    "command": "terraform state list",
+    "title": "Terraform list karna",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform related kaam me `terraform state list` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "terraform state list",
+    "example": "terraform state list",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup aur target 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "terraform",
+      "terraform",
+      "devops"
+    ]
+  },
+  {
+    "id": "terraform-terraform-state-show-resource",
+    "command": "terraform state show resource",
+    "title": "Terraform details dekhna",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform related kaam me `terraform state show resource` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "terraform state show resource",
+    "example": "terraform state show resource",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup aur target 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "terraform",
+      "terraform",
+      "devops"
+    ]
+  },
+  {
+    "id": "terraform-terraform-output",
+    "command": "terraform output",
+    "title": "terraform output command use karna",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform related kaam me `terraform output` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "terraform output",
+    "example": "terraform output",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup aur target 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "terraform",
+      "terraform",
+      "devops"
+    ]
+  },
+  {
+    "id": "terraform-terraform-workspace-list",
+    "command": "terraform workspace list",
+    "title": "Terraform list karna",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform related kaam me `terraform workspace list` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "terraform workspace list",
+    "example": "terraform workspace list",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup aur target 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "terraform",
+      "terraform",
+      "devops"
+    ]
+  },
+  {
+    "id": "terraform-terraform-workspace-new-dev",
+    "command": "terraform workspace new dev",
+    "title": "terraform workspace new dev command use karna",
+    "category": "Terraform",
+    "difficulty": "Advanced",
+    "use_case": "Terraform related kaam me `terraform workspace new dev` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "terraform workspace new dev",
+    "example": "terraform workspace new dev",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup aur target 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "terraform",
+      "terraform",
+      "devops"
+    ]
+  },
+  {
+    "id": "terraform-terraform-workspace-select-prod",
+    "command": "terraform workspace select prod",
+    "title": "terraform workspace select prod command use karna",
+    "category": "Terraform",
+    "difficulty": "Advanced",
+    "use_case": "Terraform related kaam me `terraform workspace select prod` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "terraform workspace select prod",
+    "example": "terraform workspace select prod",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup aur target 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "terraform",
+      "terraform",
+      "devops"
+    ]
+  },
+  {
+    "id": "terraform-terraform-import-resource-id",
+    "command": "terraform import resource id",
+    "title": "terraform import resource id command use karna",
+    "category": "Terraform",
+    "difficulty": "Advanced",
+    "use_case": "Terraform related kaam me `terraform import resource id` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "terraform import resource id",
+    "example": "terraform import resource id",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup aur target 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "terraform",
+      "terraform",
+      "devops"
+    ]
+  },
+  {
+    "id": "terraform-terraform-providers",
+    "command": "terraform providers",
+    "title": "terraform providers command use karna",
+    "category": "Terraform",
+    "difficulty": "Advanced",
+    "use_case": "Terraform related kaam me `terraform providers` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "terraform providers",
+    "example": "terraform providers",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup aur target 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "terraform",
+      "terraform",
+      "devops"
+    ]
+  },
+  {
+    "id": "terraform-terraform-refresh",
+    "command": "terraform refresh",
+    "title": "terraform refresh command use karna",
+    "category": "Terraform",
+    "difficulty": "Advanced",
+    "use_case": "Terraform related kaam me `terraform refresh` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "terraform refresh",
+    "example": "terraform refresh",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup aur target 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "terraform",
+      "terraform",
+      "devops"
+    ]
+  }
+]

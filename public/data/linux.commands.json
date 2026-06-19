@@ -1,26 +1,552 @@
 [
   {
+    "id": "linux-pwd",
+    "command": "pwd",
+    "title": "Current directory path dekhna",
+    "category": "Linux",
+    "difficulty": "Beginner",
+    "use_case": "Current working directory ka full path dekhne ke liye.",
+    "syntax": "pwd",
+    "example": "pwd",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [
+      "ls",
+      "cd",
+      "tree"
+    ],
+    "tags": [
+      "linux",
+      "path",
+      "directory"
+    ]
+  },
+  {
     "id": "linux-ls-la",
     "command": "ls -la",
     "title": "Files aur folders list karna",
     "category": "Linux",
     "difficulty": "Beginner",
-    "use_case": "Current directory ke files, hidden files aur permissions dekhne ke liye.",
+    "use_case": "Files, hidden files aur permissions dekhne ke liye.",
     "syntax": "ls [options] [path]",
     "example": "ls -la /var/www",
-    "output_explanation": "Permissions, owner, group, size, date aur filename show hota hai.",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
     "warning": "Read-only command hai, safe hai.",
-    "related_commands": ["pwd", "cd", "tree"],
-    "tags": ["linux", "files", "list", "permissions"]
+    "related_commands": [
+      "pwd",
+      "cd",
+      "tree"
+    ],
+    "tags": [
+      "linux",
+      "files",
+      "list",
+      "permissions"
+    ]
+  },
+  {
+    "id": "linux-cd-path-to-folder",
+    "command": "cd /path/to/folder",
+    "title": "Directory change karna",
+    "category": "Linux",
+    "difficulty": "Beginner",
+    "use_case": "Terminal me kisi folder me move karne ke liye.",
+    "syntax": "cd <path>",
+    "example": "cd /var/www/html",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Path galat hoga to directory change nahi hogi.",
+    "related_commands": [
+      "pwd",
+      "ls"
+    ],
+    "tags": [
+      "linux",
+      "directory",
+      "navigation"
+    ]
+  },
+  {
+    "id": "linux-mkdir-p-folder-subfolder",
+    "command": "mkdir -p folder/subfolder",
+    "title": "Folder create karna",
+    "category": "Linux",
+    "difficulty": "Beginner",
+    "use_case": "Single ya nested folders create karne ke liye.",
+    "syntax": "mkdir [options] <folder>",
+    "example": "mkdir -p backups/db",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Existing important path overwrite nahi hota, but naming carefully rakho.",
+    "related_commands": [
+      "rmdir",
+      "rm -rf"
+    ],
+    "tags": [
+      "linux",
+      "folder",
+      "create"
+    ]
+  },
+  {
+    "id": "linux-touch-file-txt",
+    "command": "touch file.txt",
+    "title": "Empty file create karna",
+    "category": "Linux",
+    "difficulty": "Beginner",
+    "use_case": "New empty file create karne ya timestamp update karne ke liye.",
+    "syntax": "touch <file>",
+    "example": "touch deploy.log",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Existing file ka timestamp update ho jayega.",
+    "related_commands": [
+      "nano",
+      "cat"
+    ],
+    "tags": [
+      "linux",
+      "file",
+      "create"
+    ]
+  },
+  {
+    "id": "linux-cp-r-source-destination",
+    "command": "cp -r source destination",
+    "title": "File/folder copy karna",
+    "category": "Linux",
+    "difficulty": "Beginner",
+    "use_case": "Files ya folders copy karne ke liye.",
+    "syntax": "cp [options] <source> <destination>",
+    "example": "cp -r /var/www/app /backup/app",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Destination confirm karo, existing files overwrite ho sakti hain.",
+    "related_commands": [
+      "rsync",
+      "mv"
+    ],
+    "tags": [
+      "linux",
+      "copy",
+      "backup"
+    ]
+  },
+  {
+    "id": "linux-mv-old-new",
+    "command": "mv old new",
+    "title": "File/folder move ya rename karna",
+    "category": "Linux",
+    "difficulty": "Beginner",
+    "use_case": "File rename/move karne ke liye.",
+    "syntax": "mv <source> <destination>",
+    "example": "mv app.log app-old.log",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Destination existing ho to overwrite risk hai.",
+    "related_commands": [
+      "cp",
+      "rename"
+    ],
+    "tags": [
+      "linux",
+      "move",
+      "rename"
+    ]
+  },
+  {
+    "id": "linux-rm-file-txt",
+    "command": "rm file.txt",
+    "title": "File delete karna",
+    "category": "Linux",
+    "difficulty": "Beginner",
+    "use_case": "Single file delete karne ke liye.",
+    "syntax": "rm <file>",
+    "example": "rm old.log",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Delete permanent ho sakta hai, pehle file path verify karo.",
+    "related_commands": [
+      "rm -i",
+      "trash-cli"
+    ],
+    "tags": [
+      "linux",
+      "delete",
+      "file"
+    ]
+  },
+  {
+    "id": "linux-rm-rf-folder",
+    "command": "rm -rf folder",
+    "title": "Folder force delete karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Folder aur andar ka data recursively delete karne ke liye.",
+    "syntax": "rm -rf <folder>",
+    "example": "rm -rf node_modules",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Dangerous command hai. Path 2 baar verify karo. Root path par kabhi blindly run mat karo.",
+    "related_commands": [
+      "find",
+      "du -sh"
+    ],
+    "tags": [
+      "linux",
+      "delete",
+      "danger"
+    ]
+  },
+  {
+    "id": "linux-cat-file-txt",
+    "command": "cat file.txt",
+    "title": "File content print karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Small file ka content terminal me dekhne ke liye.",
+    "syntax": "cat <file>",
+    "example": "cat .env.example",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Secrets wali file share mat karo.",
+    "related_commands": [
+      "less",
+      "tail"
+    ],
+    "tags": [
+      "linux",
+      "read",
+      "file"
+    ]
+  },
+  {
+    "id": "linux-less-file-txt",
+    "command": "less file.txt",
+    "title": "Large file read karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Large logs/config files scroll karke read karne ke liye.",
+    "syntax": "less <file>",
+    "example": "less /var/log/syslog",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Read-only command hai. Exit ke liye q press karo.",
+    "related_commands": [
+      "cat",
+      "more"
+    ],
+    "tags": [
+      "linux",
+      "read",
+      "large-file"
+    ]
+  },
+  {
+    "id": "linux-head-n-20-file-txt",
+    "command": "head -n 20 file.txt",
+    "title": "File ke first lines dekhna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "File ke starting lines quickly check karne ke liye.",
+    "syntax": "head -n <count> <file>",
+    "example": "head -n 50 app.log",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Read-only command hai.",
+    "related_commands": [
+      "tail",
+      "less"
+    ],
+    "tags": [
+      "linux",
+      "file",
+      "head"
+    ]
+  },
+  {
+    "id": "linux-tail-n-100-file-txt",
+    "command": "tail -n 100 file.txt",
+    "title": "File ke last lines dekhna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Logs ke latest lines check karne ke liye.",
+    "syntax": "tail -n <count> <file>",
+    "example": "tail -n 100 storage/logs/laravel.log",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Read-only command hai.",
+    "related_commands": [
+      "tail -f",
+      "less"
+    ],
+    "tags": [
+      "linux",
+      "logs",
+      "tail"
+    ]
+  },
+  {
+    "id": "linux-tail-f-file-txt",
+    "command": "tail -f file.txt",
+    "title": "Live log follow karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Log file me live new entries dekhne ke liye.",
+    "syntax": "tail -f <file>",
+    "example": "tail -f /var/log/nginx/error.log",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Sensitive logs share karte time secrets hide karo.",
+    "related_commands": [
+      "journalctl -f",
+      "grep"
+    ],
+    "tags": [
+      "linux",
+      "logs",
+      "live"
+    ]
+  },
+  {
+    "id": "linux-grep-r-text",
+    "command": "grep -R \"text\" .",
+    "title": "Text search karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Files ke andar specific text search karne ke liye.",
+    "syntax": "grep [options] <pattern> <path>",
+    "example": "grep -R \"DB_HOST\" .",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Large folder me slow ho sakta hai.",
+    "related_commands": [
+      "rg",
+      "find"
+    ],
+    "tags": [
+      "linux",
+      "search",
+      "grep"
+    ]
+  },
+  {
+    "id": "linux-find-name-log",
+    "command": "find . -name \"*.log\"",
+    "title": "File find karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Name/pattern ke basis par files search karne ke liye.",
+    "syntax": "find <path> -name <pattern>",
+    "example": "find /var/log -name \"*.log\"",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Delete action ke saath use karte time careful raho.",
+    "related_commands": [
+      "grep",
+      "locate"
+    ],
+    "tags": [
+      "linux",
+      "find",
+      "files"
+    ]
+  },
+  {
+    "id": "linux-chmod-755-file",
+    "command": "chmod 755 file",
+    "title": "Permission change karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "File/folder permissions set karne ke liye.",
+    "syntax": "chmod <mode> <file>",
+    "example": "chmod 755 deploy.sh",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Wrong permissions security issue create kar sakti hain.",
+    "related_commands": [
+      "chown",
+      "ls -la"
+    ],
+    "tags": [
+      "linux",
+      "permission",
+      "chmod"
+    ]
+  },
+  {
+    "id": "linux-chown-user-group-file",
+    "command": "chown user:group file",
+    "title": "Owner change karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "File/folder ka owner/group change karne ke liye.",
+    "syntax": "chown <user>:<group> <file>",
+    "example": "sudo chown -R www-data:www-data storage",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Recursive chown production me carefully run karo.",
+    "related_commands": [
+      "chmod",
+      "id"
+    ],
+    "tags": [
+      "linux",
+      "owner",
+      "permission"
+    ]
   },
   {
     "id": "linux-df-h",
     "command": "df -h",
     "title": "Disk space check karna",
     "category": "Linux",
-    "difficulty": "Beginner",
-    "use_case": "Server ke mounted disks ka used/free space dekhne ke liye.",
+    "difficulty": "Advanced",
+    "use_case": "Mounted disks ka used/free space dekhne ke liye.",
     "syntax": "df [options]",
     "example": "df -h",
-    "output_explanation": "-h size ko human readable format me show karta hai.",
-    "warning": "Read-only command hai, safe hai.",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Read-only command hai.",
+    "related_commands": [
+      "du -sh",
+      "lsblk"
+    ],
+    "tags": [
+      "linux",
+      "disk",
+      "storage"
+    ]
+  },
+  {
+    "id": "linux-du-sh",
+    "command": "du -sh *",
+    "title": "Folder size check karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Current directory me files/folders ka size dekhne ke liye.",
+    "syntax": "du -sh <path>",
+    "example": "du -sh /var/www/*",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Large directories me slow ho sakta hai.",
+    "related_commands": [
+      "df -h",
+      "ncdu"
+    ],
+    "tags": [
+      "linux",
+      "disk",
+      "size"
+    ]
+  },
+  {
+    "id": "linux-free-h",
+    "command": "free -h",
+    "title": "Memory usage check karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "RAM usage aur swap usage dekhne ke liye.",
+    "syntax": "free [options]",
+    "example": "free -h",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Read-only command hai.",
+    "related_commands": [
+      "top",
+      "htop"
+    ],
+    "tags": [
+      "linux",
+      "memory",
+      "ram"
+    ]
+  },
+  {
+    "id": "linux-top",
+    "command": "top",
+    "title": "Live processes dekhna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "CPU/memory consuming processes live dekhne ke liye.",
+    "syntax": "top",
+    "example": "top",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Read-only hai. Exit ke liye q press karo.",
+    "related_commands": [
+      "htop",
+      "ps aux"
+    ],
+    "tags": [
+      "linux",
+      "process",
+      "monitoring"
+    ]
+  },
+  {
+    "id": "linux-ps-aux",
+    "command": "ps aux",
+    "title": "Processes list karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Running processes ka detailed list dekhne ke liye.",
+    "syntax": "ps aux",
+    "example": "ps aux | grep nginx",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Read-only command hai.",
+    "related_commands": [
+      "top",
+      "kill"
+    ],
+    "tags": [
+      "linux",
+      "process",
+      "list"
+    ]
+  },
+  {
+    "id": "linux-kill-9-pid",
+    "command": "kill -9 <pid>",
+    "title": "Process force kill karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Stuck process forcefully stop karne ke liye.",
+    "syntax": "kill -9 <pid>",
+    "example": "kill -9 1234",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Wrong PID kill karne se service down ho sakti hai.",
+    "related_commands": [
+      "ps aux",
+      "systemctl restart"
+    ],
+    "tags": [
+      "linux",
+      "process",
+      "kill",
+      "danger"
+    ]
+  },
+  {
+    "id": "linux-systemctl-status-service",
+    "command": "systemctl status service",
+    "title": "Service status check karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Systemd service running/failed hai check karne ke liye.",
+    "syntax": "systemctl status <service>",
+    "example": "sudo systemctl status nginx",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Read-only command hai.",
+    "related_commands": [
+      "journalctl -u",
+      "systemctl restart"
+    ],
+    "tags": [
+      "linux",
+      "service",
+      "systemd"
+    ]
+  },
+  {
+    "id": "linux-systemctl-restart-service",
+    "command": "systemctl restart service",
+    "title": "Service restart karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Service ko restart karne ke liye.",
+    "syntax": "systemctl restart <service>",
+    "example": "sudo systemctl restart nginx",
+    "output_explanation": "Command ke output me requested information/result show hota hai. Flags ke hisaab se output change ho sakta hai.",
+    "warning": "Restart se short downtime aa sakta hai.",
+    "related_commands": [
+      "systemctl reload",
+      "systemctl status"
+    ],
+    "tags": [
+      "linux",
+      "service",
+      "restart"
+    ]
+  }
+]

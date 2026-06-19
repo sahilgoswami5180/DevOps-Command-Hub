@@ -1,14 +1,290 @@
 [
   {
-    "id": "az-account-show",
-    "command": "az account show",
-    "title": "Current Azure subscription check karna",
+    "id": "azure-cli-az-login",
+    "command": "az login",
+    "title": "Azure CLI login karna",
     "category": "Azure CLI",
     "difficulty": "Beginner",
-    "use_case": "CLI kis Azure subscription me active hai verify karne ke liye.",
+    "use_case": "Azure CLI related kaam me `az login` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "az login",
+    "example": "az login",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "azure",
+      "az",
+      "devops"
+    ]
+  },
+  {
+    "id": "azure-cli-az-account-show",
+    "command": "az account show",
+    "title": "Azure CLI details dekhna",
+    "category": "Azure CLI",
+    "difficulty": "Beginner",
+    "use_case": "Azure CLI related kaam me `az account show` command practical DevOps usage ke liye use hota hai.",
     "syntax": "az account show",
     "example": "az account show",
-    "output_explanation": "Active subscription, tenant aur user details show hoti hain.",
-    "warning": "Resource create/delete se pehle correct subscription verify karo.",
-    "related_commands": ["az login", "az account list", "az account set"],
-    "tags": ["azure", "az", "account", "subscription"]
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "azure",
+      "az",
+      "devops"
+    ]
+  },
+  {
+    "id": "azure-cli-az-account-list",
+    "command": "az account list",
+    "title": "Azure CLI list karna",
+    "category": "Azure CLI",
+    "difficulty": "Beginner",
+    "use_case": "Azure CLI related kaam me `az account list` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "az account list",
+    "example": "az account list",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "azure",
+      "az",
+      "devops"
+    ]
+  },
+  {
+    "id": "azure-cli-az-account-set-subscription-sub-id",
+    "command": "az account set --subscription SUB_ID",
+    "title": "Azure CLI set karna",
+    "category": "Azure CLI",
+    "difficulty": "Beginner",
+    "use_case": "Azure CLI related kaam me `az account set --subscription SUB_ID` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "az account set --subscription SUB_ID",
+    "example": "az account set --subscription SUB_ID",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "azure",
+      "az",
+      "devops"
+    ]
+  },
+  {
+    "id": "azure-cli-az-group-list",
+    "command": "az group list",
+    "title": "Azure CLI list karna",
+    "category": "Azure CLI",
+    "difficulty": "Beginner",
+    "use_case": "Azure CLI related kaam me `az group list` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "az group list",
+    "example": "az group list",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "azure",
+      "az",
+      "devops"
+    ]
+  },
+  {
+    "id": "azure-cli-az-group-create-n-rg-l-eastus",
+    "command": "az group create -n rg -l eastus",
+    "title": "Azure CLI create karna",
+    "category": "Azure CLI",
+    "difficulty": "Beginner",
+    "use_case": "Azure CLI related kaam me `az group create -n rg -l eastus` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "az group create -n rg -l eastus",
+    "example": "az group create -n rg -l eastus",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "azure",
+      "az",
+      "devops"
+    ]
+  },
+  {
+    "id": "azure-cli-az-vm-list",
+    "command": "az vm list",
+    "title": "Azure CLI list karna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI related kaam me `az vm list` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "az vm list",
+    "example": "az vm list",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "azure",
+      "az",
+      "devops"
+    ]
+  },
+  {
+    "id": "azure-cli-az-vm-start-g-rg-n-vm",
+    "command": "az vm start -g rg -n vm",
+    "title": "az vm start -g rg -n vm command use karna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI related kaam me `az vm start -g rg -n vm` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "az vm start -g rg -n vm",
+    "example": "az vm start -g rg -n vm",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "azure",
+      "az",
+      "devops"
+    ]
+  },
+  {
+    "id": "azure-cli-az-vm-stop-g-rg-n-vm",
+    "command": "az vm stop -g rg -n vm",
+    "title": "az vm stop -g rg -n vm command use karna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI related kaam me `az vm stop -g rg -n vm` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "az vm stop -g rg -n vm",
+    "example": "az vm stop -g rg -n vm",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup aur target 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "azure",
+      "az",
+      "devops"
+    ]
+  },
+  {
+    "id": "azure-cli-az-webapp-list",
+    "command": "az webapp list",
+    "title": "Azure CLI list karna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI related kaam me `az webapp list` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "az webapp list",
+    "example": "az webapp list",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "azure",
+      "az",
+      "devops"
+    ]
+  },
+  {
+    "id": "azure-cli-az-webapp-log-tail-g-rg-n-app",
+    "command": "az webapp log tail -g rg -n app",
+    "title": "Azure CLI live logs dekhna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI related kaam me `az webapp log tail -g rg -n app` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "az webapp log tail -g rg -n app",
+    "example": "az webapp log tail -g rg -n app",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "azure",
+      "az",
+      "devops"
+    ]
+  },
+  {
+    "id": "azure-cli-az-acr-login-n-registry",
+    "command": "az acr login -n registry",
+    "title": "Azure CLI login karna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI related kaam me `az acr login -n registry` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "az acr login -n registry",
+    "example": "az acr login -n registry",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Production environment me run karne se pehle target, config aur impact verify karo.",
+    "related_commands": [],
+    "tags": [
+      "azure",
+      "az",
+      "devops"
+    ]
+  },
+  {
+    "id": "azure-cli-az-acr-repository-list-n-registry",
+    "command": "az acr repository list -n registry",
+    "title": "Azure CLI list karna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI related kaam me `az acr repository list -n registry` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "az acr repository list -n registry",
+    "example": "az acr repository list -n registry",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "azure",
+      "az",
+      "devops"
+    ]
+  },
+  {
+    "id": "azure-cli-az-aks-get-credentials-g-rg-n-cluster",
+    "command": "az aks get-credentials -g rg -n cluster",
+    "title": "Azure CLI dekhna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI related kaam me `az aks get-credentials -g rg -n cluster` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "az aks get-credentials -g rg -n cluster",
+    "example": "az aks get-credentials -g rg -n cluster",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "azure",
+      "az",
+      "devops"
+    ]
+  },
+  {
+    "id": "azure-cli-az-storage-account-list",
+    "command": "az storage account list",
+    "title": "Azure CLI list karna",
+    "category": "Azure CLI",
+    "difficulty": "Advanced",
+    "use_case": "Azure CLI related kaam me `az storage account list` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "az storage account list",
+    "example": "az storage account list",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "azure",
+      "az",
+      "devops"
+    ]
+  },
+  {
+    "id": "azure-cli-az-keyvault-secret-list-vault-name-vault",
+    "command": "az keyvault secret list --vault-name vault",
+    "title": "Azure CLI list karna",
+    "category": "Azure CLI",
+    "difficulty": "Advanced",
+    "use_case": "Azure CLI related kaam me `az keyvault secret list --vault-name vault` command practical DevOps usage ke liye use hota hai.",
+    "syntax": "az keyvault secret list --vault-name vault",
+    "example": "az keyvault secret list --vault-name vault",
+    "output_explanation": "Command ke output me status, result ya requested details show hoti hain. Exact output tool/version ke hisaab se change ho sakta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": [],
+    "tags": [
+      "azure",
+      "az",
+      "devops"
+    ]
+  }
+]
