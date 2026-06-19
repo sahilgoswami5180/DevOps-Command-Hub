@@ -930,5 +930,797 @@
       "devops",
       "cli"
     ]
+  },
+  {
+    "id": "server-security-sudo-lastb",
+    "command": "sudo lastb",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo lastb` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo lastb",
+    "example": "sudo lastb",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-faillock-user-user",
+    "command": "sudo faillock --user user",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo faillock --user user` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo faillock --user user",
+    "example": "sudo faillock --user user",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-pam-tally2-user-user",
+    "command": "sudo pam_tally2 --user user",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo pam_tally2 --user user` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo pam_tally2 --user user",
+    "example": "sudo pam_tally2 --user user",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-passwd-s-user",
+    "command": "sudo passwd -S user",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo passwd -S user` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo passwd -S user",
+    "example": "sudo passwd -S user",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-usermod-l-user",
+    "command": "sudo usermod -L user",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo usermod -L user` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo usermod -L user",
+    "example": "sudo usermod -L user",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-usermod-u-user",
+    "command": "sudo usermod -U user",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo usermod -U user` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo usermod -U user",
+    "example": "sudo usermod -U user",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-usermod-s-usr-sbin-nologin-user",
+    "command": "sudo usermod -s /usr/sbin/nologin user",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo usermod -s /usr/sbin/nologin user` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo usermod -s /usr/sbin/nologin user",
+    "example": "sudo usermod -s /usr/sbin/nologin user",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-usermod-ag-docker-user",
+    "command": "sudo usermod -aG docker user",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo usermod -aG docker user` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo usermod -aG docker user",
+    "example": "sudo usermod -aG docker user",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-chown-root-root-etc-ssh-sshd-config",
+    "command": "sudo chown root:root /etc/ssh/sshd_config",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo chown root:root /etc/ssh/sshd_config` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo chown root:root /etc/ssh/sshd_config",
+    "example": "sudo chown root:root /etc/ssh/sshd_config",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-chmod-600-etc-ssh-sshd-config",
+    "command": "sudo chmod 600 /etc/ssh/sshd_config",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo chmod 600 /etc/ssh/sshd_config` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo chmod 600 /etc/ssh/sshd_config",
+    "example": "sudo chmod 600 /etc/ssh/sshd_config",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-grep-e-permitrootlogin-passwordauthentication-pubkeyauthentication-etc-ssh-sshd-config",
+    "command": "sudo grep -E \"PermitRootLogin|PasswordAuthentication|PubkeyAuthentication\" /etc/ssh/sshd_config",
+    "title": "Server Security logs/debugging command",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo grep -E \"PermitRootLogin|PasswordAuthentication|PubkeyAuthentication\" /etc/ssh/sshd_config` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo grep -E \"PermitRootLogin|PasswordAuthentication|PubkeyAuthentication\" /etc/ssh/sshd_config",
+    "example": "sudo grep -E \"PermitRootLogin|PasswordAuthentication|PubkeyAuthentication\" /etc/ssh/sshd_config",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-sshd-t-grep-permitrootlogin",
+    "command": "sudo sshd -T | grep permitrootlogin",
+    "title": "Server Security logs/debugging command",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo sshd -T | grep permitrootlogin` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo sshd -T | grep permitrootlogin",
+    "example": "sudo sshd -T | grep permitrootlogin",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-sshd-t-grep-passwordauthentication",
+    "command": "sudo sshd -T | grep passwordauthentication",
+    "title": "Server Security logs/debugging command",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo sshd -T | grep passwordauthentication` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo sshd -T | grep passwordauthentication",
+    "example": "sudo sshd -T | grep passwordauthentication",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-fail2ban-client-banned",
+    "command": "sudo fail2ban-client banned",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo fail2ban-client banned` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo fail2ban-client banned",
+    "example": "sudo fail2ban-client banned",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-fail2ban-client-unban-ip",
+    "command": "sudo fail2ban-client unban IP",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo fail2ban-client unban IP` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo fail2ban-client unban IP",
+    "example": "sudo fail2ban-client unban IP",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-fail2ban-client-reload",
+    "command": "sudo fail2ban-client reload",
+    "title": "Server Security restart/reload/refresh karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo fail2ban-client reload` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo fail2ban-client reload",
+    "example": "sudo fail2ban-client reload",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-ufw-logging-on",
+    "command": "sudo ufw logging on",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo ufw logging on` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo ufw logging on",
+    "example": "sudo ufw logging on",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-ufw-logging-medium",
+    "command": "sudo ufw logging medium",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo ufw logging medium` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo ufw logging medium",
+    "example": "sudo ufw logging medium",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-auditctl-w-etc-passwd-p-wa-k-passwd-changes",
+    "command": "sudo auditctl -w /etc/passwd -p wa -k passwd_changes",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo auditctl -w /etc/passwd -p wa -k passwd_changes` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo auditctl -w /etc/passwd -p wa -k passwd_changes",
+    "example": "sudo auditctl -w /etc/passwd -p wa -k passwd_changes",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-auditctl-w-etc-ssh-sshd-config-p-wa-k-sshd-config",
+    "command": "sudo auditctl -w /etc/ssh/sshd_config -p wa -k sshd_config",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo auditctl -w /etc/ssh/sshd_config -p wa -k sshd_config` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo auditctl -w /etc/ssh/sshd_config -p wa -k sshd_config",
+    "example": "sudo auditctl -w /etc/ssh/sshd_config -p wa -k sshd_config",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-aureport-au",
+    "command": "sudo aureport -au",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo aureport -au` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo aureport -au",
+    "example": "sudo aureport -au",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-ausearch-k-sshd-config",
+    "command": "sudo ausearch -k sshd_config",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo ausearch -k sshd_config` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo ausearch -k sshd_config",
+    "example": "sudo ausearch -k sshd_config",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-find-perm-o-w-type-d-2-dev-null",
+    "command": "sudo find / -perm -o+w -type d 2>/dev/null",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo find / -perm -o+w -type d 2>/dev/null` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo find / -perm -o+w -type d 2>/dev/null",
+    "example": "sudo find / -perm -o+w -type d 2>/dev/null",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-find-type-f-name-pem-ls-2-dev-null",
+    "command": "sudo find / -type f -name \"*.pem\" -ls 2>/dev/null",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo find / -type f -name \"*.pem\" -ls 2>/dev/null` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo find / -type f -name \"*.pem\" -ls 2>/dev/null",
+    "example": "sudo find / -type f -name \"*.pem\" -ls 2>/dev/null",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-find-type-f-name-key-ls-2-dev-null",
+    "command": "sudo find / -type f -name \"*.key\" -ls 2>/dev/null",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo find / -type f -name \"*.key\" -ls 2>/dev/null` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo find / -type f -name \"*.key\" -ls 2>/dev/null",
+    "example": "sudo find / -type f -name \"*.key\" -ls 2>/dev/null",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-grep-r-private-key-home-2-dev-null",
+    "command": "sudo grep -R \"PRIVATE KEY\" /home 2>/dev/null",
+    "title": "Server Security logs/debugging command",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo grep -R \"PRIVATE KEY\" /home 2>/dev/null` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo grep -R \"PRIVATE KEY\" /home 2>/dev/null",
+    "example": "sudo grep -R \"PRIVATE KEY\" /home 2>/dev/null",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-ss-tulpn-grep-listen",
+    "command": "sudo ss -tulpn | grep LISTEN",
+    "title": "Server Security status/details verify karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo ss -tulpn | grep LISTEN` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo ss -tulpn | grep LISTEN",
+    "example": "sudo ss -tulpn | grep LISTEN",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-iptables-save",
+    "command": "sudo iptables-save",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo iptables-save` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo iptables-save",
+    "example": "sudo iptables-save",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-apparmor-status",
+    "command": "sudo apparmor_status",
+    "title": "Server Security status/details verify karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo apparmor_status` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo apparmor_status",
+    "example": "sudo apparmor_status",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-aa-enforce-profile",
+    "command": "sudo aa-enforce profile",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo aa-enforce profile` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo aa-enforce profile",
+    "example": "sudo aa-enforce profile",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-aa-complain-profile",
+    "command": "sudo aa-complain profile",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo aa-complain profile` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo aa-complain profile",
+    "example": "sudo aa-complain profile",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-semanage-port-l",
+    "command": "sudo semanage port -l",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo semanage port -l` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo semanage port -l",
+    "example": "sudo semanage port -l",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-restorecon-rv-var-www",
+    "command": "sudo restorecon -Rv /var/www",
+    "title": "Server Security restore/import command",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo restorecon -Rv /var/www` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo restorecon -Rv /var/www",
+    "example": "sudo restorecon -Rv /var/www",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-getenforce",
+    "command": "sudo getenforce",
+    "title": "Server Security status/details verify karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo getenforce` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo getenforce",
+    "example": "sudo getenforce",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-setenforce-0",
+    "command": "sudo setenforce 0",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo setenforce 0` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo setenforce 0",
+    "example": "sudo setenforce 0",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-setenforce-1",
+    "command": "sudo setenforce 1",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo setenforce 1` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo setenforce 1",
+    "example": "sudo setenforce 1",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
   }
 ]

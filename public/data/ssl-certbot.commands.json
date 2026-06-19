@@ -480,5 +480,508 @@
       "devops",
       "cli"
     ]
+  },
+  {
+    "id": "ssl-certbot-openssl-version",
+    "command": "openssl version",
+    "title": "SSL / Certbot status/details verify karna",
+    "category": "SSL / Certbot",
+    "difficulty": "Beginner",
+    "use_case": "SSL / Certbot me `openssl version` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "openssl version",
+    "example": "openssl version",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "openssl s_client -connect example.com:443",
+      "curl -Iv https://example.com"
+    ],
+    "tags": [
+      "ssl",
+      "openssl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ssl-certbot-openssl-x509-noout-subject-in-cert-pem",
+    "command": "openssl x509 -noout -subject -in cert.pem",
+    "title": "SSL / Certbot command use karna",
+    "category": "SSL / Certbot",
+    "difficulty": "Beginner",
+    "use_case": "SSL / Certbot me `openssl x509 -noout -subject -in cert.pem` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "openssl x509 -noout -subject -in cert.pem",
+    "example": "openssl x509 -noout -subject -in cert.pem",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "openssl s_client -connect example.com:443",
+      "curl -Iv https://example.com"
+    ],
+    "tags": [
+      "ssl",
+      "openssl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ssl-certbot-openssl-x509-noout-issuer-in-cert-pem",
+    "command": "openssl x509 -noout -issuer -in cert.pem",
+    "title": "SSL / Certbot command use karna",
+    "category": "SSL / Certbot",
+    "difficulty": "Beginner",
+    "use_case": "SSL / Certbot me `openssl x509 -noout -issuer -in cert.pem` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "openssl x509 -noout -issuer -in cert.pem",
+    "example": "openssl x509 -noout -issuer -in cert.pem",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "openssl s_client -connect example.com:443",
+      "curl -Iv https://example.com"
+    ],
+    "tags": [
+      "ssl",
+      "openssl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ssl-certbot-openssl-x509-noout-dates-in-cert-pem",
+    "command": "openssl x509 -noout -dates -in cert.pem",
+    "title": "SSL / Certbot command use karna",
+    "category": "SSL / Certbot",
+    "difficulty": "Beginner",
+    "use_case": "SSL / Certbot me `openssl x509 -noout -dates -in cert.pem` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "openssl x509 -noout -dates -in cert.pem",
+    "example": "openssl x509 -noout -dates -in cert.pem",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "openssl s_client -connect example.com:443",
+      "curl -Iv https://example.com"
+    ],
+    "tags": [
+      "ssl",
+      "openssl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ssl-certbot-openssl-x509-noout-fingerprint-sha256-in-cert-pem",
+    "command": "openssl x509 -noout -fingerprint -sha256 -in cert.pem",
+    "title": "SSL / Certbot command use karna",
+    "category": "SSL / Certbot",
+    "difficulty": "Beginner",
+    "use_case": "SSL / Certbot me `openssl x509 -noout -fingerprint -sha256 -in cert.pem` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "openssl x509 -noout -fingerprint -sha256 -in cert.pem",
+    "example": "openssl x509 -noout -fingerprint -sha256 -in cert.pem",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "openssl s_client -connect example.com:443",
+      "curl -Iv https://example.com"
+    ],
+    "tags": [
+      "ssl",
+      "openssl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ssl-certbot-openssl-x509-pubkey-noout-in-cert-pem",
+    "command": "openssl x509 -pubkey -noout -in cert.pem",
+    "title": "SSL / Certbot command use karna",
+    "category": "SSL / Certbot",
+    "difficulty": "Beginner",
+    "use_case": "SSL / Certbot me `openssl x509 -pubkey -noout -in cert.pem` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "openssl x509 -pubkey -noout -in cert.pem",
+    "example": "openssl x509 -pubkey -noout -in cert.pem",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "openssl s_client -connect example.com:443",
+      "curl -Iv https://example.com"
+    ],
+    "tags": [
+      "ssl",
+      "openssl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ssl-certbot-openssl-verify-cafile-chain-pem-cert-pem",
+    "command": "openssl verify -CAfile chain.pem cert.pem",
+    "title": "SSL / Certbot command use karna",
+    "category": "SSL / Certbot",
+    "difficulty": "Beginner",
+    "use_case": "SSL / Certbot me `openssl verify -CAfile chain.pem cert.pem` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "openssl verify -CAfile chain.pem cert.pem",
+    "example": "openssl verify -CAfile chain.pem cert.pem",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "openssl s_client -connect example.com:443",
+      "curl -Iv https://example.com"
+    ],
+    "tags": [
+      "ssl",
+      "openssl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ssl-certbot-openssl-s-client-connect-example-com-443-servername-example-com-tls1-2",
+    "command": "openssl s_client -connect example.com:443 -servername example.com -tls1_2",
+    "title": "SSL / Certbot command use karna",
+    "category": "SSL / Certbot",
+    "difficulty": "Beginner",
+    "use_case": "SSL / Certbot me `openssl s_client -connect example.com:443 -servername example.com -tls1_2` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "openssl s_client -connect example.com:443 -servername example.com -tls1_2",
+    "example": "openssl s_client -connect example.com:443 -servername example.com -tls1_2",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "openssl s_client -connect example.com:443",
+      "curl -Iv https://example.com"
+    ],
+    "tags": [
+      "ssl",
+      "openssl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ssl-certbot-openssl-s-client-connect-example-com-443-servername-example-com-tls1-3",
+    "command": "openssl s_client -connect example.com:443 -servername example.com -tls1_3",
+    "title": "SSL / Certbot command use karna",
+    "category": "SSL / Certbot",
+    "difficulty": "Beginner",
+    "use_case": "SSL / Certbot me `openssl s_client -connect example.com:443 -servername example.com -tls1_3` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "openssl s_client -connect example.com:443 -servername example.com -tls1_3",
+    "example": "openssl s_client -connect example.com:443 -servername example.com -tls1_3",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "openssl s_client -connect example.com:443",
+      "curl -Iv https://example.com"
+    ],
+    "tags": [
+      "ssl",
+      "openssl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ssl-certbot-openssl-s-client-connect-example-com-443-servername-example-com-dev-null-2-dev-null-openssl-x509-noo",
+    "command": "openssl s_client -connect example.com:443 -servername example.com </dev/null 2>/dev/null | openssl x509 -noout -dates",
+    "title": "SSL / Certbot command use karna",
+    "category": "SSL / Certbot",
+    "difficulty": "Beginner",
+    "use_case": "SSL / Certbot me `openssl s_client -connect example.com:443 -servername example.com </dev/null 2>/dev/null | openssl x509 -noout -dates` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "openssl s_client -connect example.com:443 -servername example.com </dev/null 2>/dev/null | openssl x509 -noout -dates",
+    "example": "openssl s_client -connect example.com:443 -servername example.com </dev/null 2>/dev/null | openssl x509 -noout -dates",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "openssl s_client -connect example.com:443",
+      "curl -Iv https://example.com"
+    ],
+    "tags": [
+      "ssl",
+      "openssl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ssl-certbot-openssl-req-text-noout-verify-in-csr-pem",
+    "command": "openssl req -text -noout -verify -in csr.pem",
+    "title": "SSL / Certbot command use karna",
+    "category": "SSL / Certbot",
+    "difficulty": "Beginner",
+    "use_case": "SSL / Certbot me `openssl req -text -noout -verify -in csr.pem` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "openssl req -text -noout -verify -in csr.pem",
+    "example": "openssl req -text -noout -verify -in csr.pem",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "openssl s_client -connect example.com:443",
+      "curl -Iv https://example.com"
+    ],
+    "tags": [
+      "ssl",
+      "openssl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ssl-certbot-openssl-req-newkey-rsa-4096-nodes-keyout-domain-key-out-domain-csr",
+    "command": "openssl req -newkey rsa:4096 -nodes -keyout domain.key -out domain.csr",
+    "title": "SSL / Certbot resource create/generate karna",
+    "category": "SSL / Certbot",
+    "difficulty": "Beginner",
+    "use_case": "SSL / Certbot me `openssl req -newkey rsa:4096 -nodes -keyout domain.key -out domain.csr` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "openssl req -newkey rsa:4096 -nodes -keyout domain.key -out domain.csr",
+    "example": "openssl req -newkey rsa:4096 -nodes -keyout domain.key -out domain.csr",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "openssl s_client -connect example.com:443",
+      "curl -Iv https://example.com"
+    ],
+    "tags": [
+      "ssl",
+      "openssl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ssl-certbot-openssl-rsa-in-domain-key-pubout",
+    "command": "openssl rsa -in domain.key -pubout",
+    "title": "SSL / Certbot command use karna",
+    "category": "SSL / Certbot",
+    "difficulty": "Beginner",
+    "use_case": "SSL / Certbot me `openssl rsa -in domain.key -pubout` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "openssl rsa -in domain.key -pubout",
+    "example": "openssl rsa -in domain.key -pubout",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "openssl s_client -connect example.com:443",
+      "curl -Iv https://example.com"
+    ],
+    "tags": [
+      "ssl",
+      "openssl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ssl-certbot-openssl-pkey-in-domain-key-check",
+    "command": "openssl pkey -in domain.key -check",
+    "title": "SSL / Certbot status/details verify karna",
+    "category": "SSL / Certbot",
+    "difficulty": "Beginner",
+    "use_case": "SSL / Certbot me `openssl pkey -in domain.key -check` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "openssl pkey -in domain.key -check",
+    "example": "openssl pkey -in domain.key -check",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "openssl s_client -connect example.com:443",
+      "curl -Iv https://example.com"
+    ],
+    "tags": [
+      "ssl",
+      "openssl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ssl-certbot-sudo-certbot-plugins",
+    "command": "sudo certbot plugins",
+    "title": "SSL / Certbot command use karna",
+    "category": "SSL / Certbot",
+    "difficulty": "Beginner",
+    "use_case": "SSL / Certbot me `sudo certbot plugins` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo certbot plugins",
+    "example": "sudo certbot plugins",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "ssl",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ssl-certbot-sudo-certbot-register-email-email-example-com",
+    "command": "sudo certbot register --email email@example.com",
+    "title": "SSL / Certbot command use karna",
+    "category": "SSL / Certbot",
+    "difficulty": "Beginner",
+    "use_case": "SSL / Certbot me `sudo certbot register --email email@example.com` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo certbot register --email email@example.com",
+    "example": "sudo certbot register --email email@example.com",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "ssl",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ssl-certbot-sudo-certbot-update-account-email-new-example-com",
+    "command": "sudo certbot update_account --email new@example.com",
+    "title": "SSL / Certbot resource create/generate karna",
+    "category": "SSL / Certbot",
+    "difficulty": "Beginner",
+    "use_case": "SSL / Certbot me `sudo certbot update_account --email new@example.com` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo certbot update_account --email new@example.com",
+    "example": "sudo certbot update_account --email new@example.com",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "ssl",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ssl-certbot-sudo-certbot-renew-pre-hook-systemctl-stop-nginx-post-hook-systemctl-start-nginx",
+    "command": "sudo certbot renew --pre-hook \"systemctl stop nginx\" --post-hook \"systemctl start nginx\"",
+    "title": "SSL / Certbot resource create/generate karna",
+    "category": "SSL / Certbot",
+    "difficulty": "Beginner",
+    "use_case": "SSL / Certbot me `sudo certbot renew --pre-hook \"systemctl stop nginx\" --post-hook \"systemctl start nginx\"` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo certbot renew --pre-hook \"systemctl stop nginx\" --post-hook \"systemctl start nginx\"",
+    "example": "sudo certbot renew --pre-hook \"systemctl stop nginx\" --post-hook \"systemctl start nginx\"",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "ssl",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ssl-certbot-sudo-certbot-certonly-manual-d-example-com",
+    "command": "sudo certbot certonly --manual -d example.com",
+    "title": "SSL / Certbot command use karna",
+    "category": "SSL / Certbot",
+    "difficulty": "Beginner",
+    "use_case": "SSL / Certbot me `sudo certbot certonly --manual -d example.com` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo certbot certonly --manual -d example.com",
+    "example": "sudo certbot certonly --manual -d example.com",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "ssl",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ssl-certbot-sudo-certbot-certonly-manual-preferred-challenges-dns-d-example-com",
+    "command": "sudo certbot certonly --manual --preferred-challenges dns -d \"*.example.com\"",
+    "title": "SSL / Certbot command use karna",
+    "category": "SSL / Certbot",
+    "difficulty": "Beginner",
+    "use_case": "SSL / Certbot me `sudo certbot certonly --manual --preferred-challenges dns -d \"*.example.com\"` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo certbot certonly --manual --preferred-challenges dns -d \"*.example.com\"",
+    "example": "sudo certbot certonly --manual --preferred-challenges dns -d \"*.example.com\"",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "ssl",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ssl-certbot-sudo-certbot-certificates-grep-expiry-date",
+    "command": "sudo certbot certificates | grep \"Expiry Date\"",
+    "title": "SSL / Certbot logs/debugging command",
+    "category": "SSL / Certbot",
+    "difficulty": "Beginner",
+    "use_case": "SSL / Certbot me `sudo certbot certificates | grep \"Expiry Date\"` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo certbot certificates | grep \"Expiry Date\"",
+    "example": "sudo certbot certificates | grep \"Expiry Date\"",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "ssl",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ssl-certbot-sudo-openssl-dhparam-out-etc-ssl-certs-dhparam-pem-4096",
+    "command": "sudo openssl dhparam -out /etc/ssl/certs/dhparam.pem 4096",
+    "title": "SSL / Certbot command use karna",
+    "category": "SSL / Certbot",
+    "difficulty": "Beginner",
+    "use_case": "SSL / Certbot me `sudo openssl dhparam -out /etc/ssl/certs/dhparam.pem 4096` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo openssl dhparam -out /etc/ssl/certs/dhparam.pem 4096",
+    "example": "sudo openssl dhparam -out /etc/ssl/certs/dhparam.pem 4096",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "ssl",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ssl-certbot-curl-https-ssl-config-mozilla-org-ffdhe2048-txt",
+    "command": "curl https://ssl-config.mozilla.org/ffdhe2048.txt",
+    "title": "SSL / Certbot command use karna",
+    "category": "SSL / Certbot",
+    "difficulty": "Beginner",
+    "use_case": "SSL / Certbot me `curl https://ssl-config.mozilla.org/ffdhe2048.txt` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "curl https://ssl-config.mozilla.org/ffdhe2048.txt",
+    "example": "curl https://ssl-config.mozilla.org/ffdhe2048.txt",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ssl",
+      "curl",
+      "devops",
+      "cli"
+    ]
   }
 ]

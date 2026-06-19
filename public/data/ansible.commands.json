@@ -741,5 +741,585 @@
       "devops",
       "cli"
     ]
+  },
+  {
+    "id": "ansible-ansible-all-list-hosts",
+    "command": "ansible all --list-hosts",
+    "title": "Ansible status/details verify karna",
+    "category": "Ansible",
+    "difficulty": "Beginner",
+    "use_case": "Ansible me `ansible all --list-hosts` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ansible all --list-hosts",
+    "example": "ansible all --list-hosts",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "ansible all -m ping",
+      "ansible-playbook --check"
+    ],
+    "tags": [
+      "ansible",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ansible-ansible-web-m-ping-i-inventory-ini",
+    "command": "ansible web -m ping -i inventory.ini",
+    "title": "Ansible command use karna",
+    "category": "Ansible",
+    "difficulty": "Beginner",
+    "use_case": "Ansible me `ansible web -m ping -i inventory.ini` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ansible web -m ping -i inventory.ini",
+    "example": "ansible web -m ping -i inventory.ini",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "ansible all -m ping",
+      "ansible-playbook --check"
+    ],
+    "tags": [
+      "ansible",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ansible-ansible-all-m-setup-a-filter-ansible-distribution",
+    "command": "ansible all -m setup -a \"filter=ansible_distribution*\"",
+    "title": "Ansible deploy/run/install command",
+    "category": "Ansible",
+    "difficulty": "Beginner",
+    "use_case": "Ansible me `ansible all -m setup -a \"filter=ansible_distribution*\"` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ansible all -m setup -a \"filter=ansible_distribution*\"",
+    "example": "ansible all -m setup -a \"filter=ansible_distribution*\"",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "ansible all -m ping",
+      "ansible-playbook --check"
+    ],
+    "tags": [
+      "ansible",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ansible-ansible-all-m-setup-a-filter-ansible-default-ipv4",
+    "command": "ansible all -m setup -a \"filter=ansible_default_ipv4\"",
+    "title": "Ansible deploy/run/install command",
+    "category": "Ansible",
+    "difficulty": "Beginner",
+    "use_case": "Ansible me `ansible all -m setup -a \"filter=ansible_default_ipv4\"` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ansible all -m setup -a \"filter=ansible_default_ipv4\"",
+    "example": "ansible all -m setup -a \"filter=ansible_default_ipv4\"",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "ansible all -m ping",
+      "ansible-playbook --check"
+    ],
+    "tags": [
+      "ansible",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ansible-ansible-all-m-command-a-hostname",
+    "command": "ansible all -m command -a \"hostname\"",
+    "title": "Ansible command use karna",
+    "category": "Ansible",
+    "difficulty": "Beginner",
+    "use_case": "Ansible me `ansible all -m command -a \"hostname\"` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ansible all -m command -a \"hostname\"",
+    "example": "ansible all -m command -a \"hostname\"",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "ansible all -m ping",
+      "ansible-playbook --check"
+    ],
+    "tags": [
+      "ansible",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ansible-ansible-all-m-shell-a-uptime-forks-20",
+    "command": "ansible all -m shell -a \"uptime\" --forks 20",
+    "title": "Ansible deploy/run/install command",
+    "category": "Ansible",
+    "difficulty": "Beginner",
+    "use_case": "Ansible me `ansible all -m shell -a \"uptime\" --forks 20` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ansible all -m shell -a \"uptime\" --forks 20",
+    "example": "ansible all -m shell -a \"uptime\" --forks 20",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "ansible all -m ping",
+      "ansible-playbook --check"
+    ],
+    "tags": [
+      "ansible",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ansible-ansible-all-m-raw-a-uptime",
+    "command": "ansible all -m raw -a \"uptime\"",
+    "title": "Ansible deploy/run/install command",
+    "category": "Ansible",
+    "difficulty": "Beginner",
+    "use_case": "Ansible me `ansible all -m raw -a \"uptime\"` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ansible all -m raw -a \"uptime\"",
+    "example": "ansible all -m raw -a \"uptime\"",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "ansible all -m ping",
+      "ansible-playbook --check"
+    ],
+    "tags": [
+      "ansible",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ansible-ansible-all-m-stat-a-path-etc-passwd",
+    "command": "ansible all -m stat -a \"path=/etc/passwd\"",
+    "title": "Ansible command use karna",
+    "category": "Ansible",
+    "difficulty": "Beginner",
+    "use_case": "Ansible me `ansible all -m stat -a \"path=/etc/passwd\"` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ansible all -m stat -a \"path=/etc/passwd\"",
+    "example": "ansible all -m stat -a \"path=/etc/passwd\"",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "ansible all -m ping",
+      "ansible-playbook --check"
+    ],
+    "tags": [
+      "ansible",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ansible-ansible-all-m-fetch-a-src-var-log-syslog-dest-logs-flat-yes",
+    "command": "ansible all -m fetch -a \"src=/var/log/syslog dest=logs/ flat=yes\"",
+    "title": "Ansible logs/debugging command",
+    "category": "Ansible",
+    "difficulty": "Beginner",
+    "use_case": "Ansible me `ansible all -m fetch -a \"src=/var/log/syslog dest=logs/ flat=yes\"` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ansible all -m fetch -a \"src=/var/log/syslog dest=logs/ flat=yes\"",
+    "example": "ansible all -m fetch -a \"src=/var/log/syslog dest=logs/ flat=yes\"",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "ansible all -m ping",
+      "ansible-playbook --check"
+    ],
+    "tags": [
+      "ansible",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ansible-ansible-all-m-synchronize-a-src-app-dest-var-www-app",
+    "command": "ansible all -m synchronize -a \"src=./app dest=/var/www/app\"",
+    "title": "Ansible command use karna",
+    "category": "Ansible",
+    "difficulty": "Beginner",
+    "use_case": "Ansible me `ansible all -m synchronize -a \"src=./app dest=/var/www/app\"` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ansible all -m synchronize -a \"src=./app dest=/var/www/app\"",
+    "example": "ansible all -m synchronize -a \"src=./app dest=/var/www/app\"",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "ansible all -m ping",
+      "ansible-playbook --check"
+    ],
+    "tags": [
+      "ansible",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ansible-ansible-all-m-lineinfile-a-path-etc-hosts-line-1-2-3-4-app-become",
+    "command": "ansible all -m lineinfile -a \"path=/etc/hosts line='1.2.3.4 app'\" --become",
+    "title": "Ansible command use karna",
+    "category": "Ansible",
+    "difficulty": "Beginner",
+    "use_case": "Ansible me `ansible all -m lineinfile -a \"path=/etc/hosts line='1.2.3.4 app'\" --become` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ansible all -m lineinfile -a \"path=/etc/hosts line='1.2.3.4 app'\" --become",
+    "example": "ansible all -m lineinfile -a \"path=/etc/hosts line='1.2.3.4 app'\" --become",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "ansible all -m ping",
+      "ansible-playbook --check"
+    ],
+    "tags": [
+      "ansible",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ansible-ansible-all-m-template-a-src-config-j2-dest-etc-app-conf-become",
+    "command": "ansible all -m template -a \"src=config.j2 dest=/etc/app.conf\" --become",
+    "title": "Ansible command use karna",
+    "category": "Ansible",
+    "difficulty": "Beginner",
+    "use_case": "Ansible me `ansible all -m template -a \"src=config.j2 dest=/etc/app.conf\" --become` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ansible all -m template -a \"src=config.j2 dest=/etc/app.conf\" --become",
+    "example": "ansible all -m template -a \"src=config.j2 dest=/etc/app.conf\" --become",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "ansible all -m ping",
+      "ansible-playbook --check"
+    ],
+    "tags": [
+      "ansible",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ansible-ansible-all-m-cron-a-name-backup-minute-0-hour-2-job-backup-sh-become",
+    "command": "ansible all -m cron -a \"name=backup minute=0 hour=2 job=/backup.sh\" --become",
+    "title": "Ansible backup/export command",
+    "category": "Ansible",
+    "difficulty": "Intermediate",
+    "use_case": "Ansible me `ansible all -m cron -a \"name=backup minute=0 hour=2 job=/backup.sh\" --become` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ansible all -m cron -a \"name=backup minute=0 hour=2 job=/backup.sh\" --become",
+    "example": "ansible all -m cron -a \"name=backup minute=0 hour=2 job=/backup.sh\" --become",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "ansible all -m ping",
+      "ansible-playbook --check"
+    ],
+    "tags": [
+      "ansible",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ansible-ansible-all-m-package-a-name-curl-state-present-become",
+    "command": "ansible all -m package -a \"name=curl state=present\" --become",
+    "title": "Ansible command use karna",
+    "category": "Ansible",
+    "difficulty": "Intermediate",
+    "use_case": "Ansible me `ansible all -m package -a \"name=curl state=present\" --become` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ansible all -m package -a \"name=curl state=present\" --become",
+    "example": "ansible all -m package -a \"name=curl state=present\" --become",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "ansible all -m ping",
+      "ansible-playbook --check"
+    ],
+    "tags": [
+      "ansible",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ansible-ansible-all-m-systemd-a-name-nginx-state-restarted-enabled-yes-become",
+    "command": "ansible all -m systemd -a \"name=nginx state=restarted enabled=yes\" --become",
+    "title": "Ansible restart/reload/refresh karna",
+    "category": "Ansible",
+    "difficulty": "Intermediate",
+    "use_case": "Ansible me `ansible all -m systemd -a \"name=nginx state=restarted enabled=yes\" --become` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ansible all -m systemd -a \"name=nginx state=restarted enabled=yes\" --become",
+    "example": "ansible all -m systemd -a \"name=nginx state=restarted enabled=yes\" --become",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "ansible all -m ping",
+      "ansible-playbook --check"
+    ],
+    "tags": [
+      "ansible",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ansible-ansible-playbook-playbook-yml-list-tasks",
+    "command": "ansible-playbook playbook.yml --list-tasks",
+    "title": "Ansible status/details verify karna",
+    "category": "Ansible",
+    "difficulty": "Intermediate",
+    "use_case": "Ansible me `ansible-playbook playbook.yml --list-tasks` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ansible-playbook playbook.yml --list-tasks",
+    "example": "ansible-playbook playbook.yml --list-tasks",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "ansible all -m ping",
+      "ansible-playbook --check"
+    ],
+    "tags": [
+      "ansible",
+      "ansible-playbook",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ansible-ansible-playbook-playbook-yml-list-tags",
+    "command": "ansible-playbook playbook.yml --list-tags",
+    "title": "Ansible status/details verify karna",
+    "category": "Ansible",
+    "difficulty": "Intermediate",
+    "use_case": "Ansible me `ansible-playbook playbook.yml --list-tags` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ansible-playbook playbook.yml --list-tags",
+    "example": "ansible-playbook playbook.yml --list-tags",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "ansible all -m ping",
+      "ansible-playbook --check"
+    ],
+    "tags": [
+      "ansible",
+      "ansible-playbook",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ansible-ansible-playbook-playbook-yml-step",
+    "command": "ansible-playbook playbook.yml --step",
+    "title": "Ansible command use karna",
+    "category": "Ansible",
+    "difficulty": "Intermediate",
+    "use_case": "Ansible me `ansible-playbook playbook.yml --step` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ansible-playbook playbook.yml --step",
+    "example": "ansible-playbook playbook.yml --step",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "ansible all -m ping",
+      "ansible-playbook --check"
+    ],
+    "tags": [
+      "ansible",
+      "ansible-playbook",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ansible-ansible-playbook-playbook-yml-c-d",
+    "command": "ansible-playbook playbook.yml -C -D",
+    "title": "Ansible command use karna",
+    "category": "Ansible",
+    "difficulty": "Intermediate",
+    "use_case": "Ansible me `ansible-playbook playbook.yml -C -D` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ansible-playbook playbook.yml -C -D",
+    "example": "ansible-playbook playbook.yml -C -D",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "ansible all -m ping",
+      "ansible-playbook --check"
+    ],
+    "tags": [
+      "ansible",
+      "ansible-playbook",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ansible-ansible-playbook-playbook-yml-forks-20",
+    "command": "ansible-playbook playbook.yml --forks 20",
+    "title": "Ansible command use karna",
+    "category": "Ansible",
+    "difficulty": "Intermediate",
+    "use_case": "Ansible me `ansible-playbook playbook.yml --forks 20` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ansible-playbook playbook.yml --forks 20",
+    "example": "ansible-playbook playbook.yml --forks 20",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "ansible all -m ping",
+      "ansible-playbook --check"
+    ],
+    "tags": [
+      "ansible",
+      "ansible-playbook",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ansible-ansible-playbook-playbook-yml-vault-password-file-vault-pass",
+    "command": "ansible-playbook playbook.yml --vault-password-file .vault-pass",
+    "title": "Ansible command use karna",
+    "category": "Ansible",
+    "difficulty": "Intermediate",
+    "use_case": "Ansible me `ansible-playbook playbook.yml --vault-password-file .vault-pass` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ansible-playbook playbook.yml --vault-password-file .vault-pass",
+    "example": "ansible-playbook playbook.yml --vault-password-file .vault-pass",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "ansible all -m ping",
+      "ansible-playbook --check"
+    ],
+    "tags": [
+      "ansible",
+      "ansible-playbook",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ansible-ansible-vault-create-secrets-yml",
+    "command": "ansible-vault create secrets.yml",
+    "title": "Ansible resource create/generate karna",
+    "category": "Ansible",
+    "difficulty": "Intermediate",
+    "use_case": "Ansible me `ansible-vault create secrets.yml` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ansible-vault create secrets.yml",
+    "example": "ansible-vault create secrets.yml",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [],
+    "tags": [
+      "ansible",
+      "ansible-vault",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ansible-ansible-vault-encrypt-string-password-name-db-password",
+    "command": "ansible-vault encrypt_string \"password\" --name db_password",
+    "title": "Ansible command use karna",
+    "category": "Ansible",
+    "difficulty": "Intermediate",
+    "use_case": "Ansible me `ansible-vault encrypt_string \"password\" --name db_password` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ansible-vault encrypt_string \"password\" --name db_password",
+    "example": "ansible-vault encrypt_string \"password\" --name db_password",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [],
+    "tags": [
+      "ansible",
+      "ansible-vault",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ansible-ansible-galaxy-init-role-name",
+    "command": "ansible-galaxy init role_name",
+    "title": "Ansible resource create/generate karna",
+    "category": "Ansible",
+    "difficulty": "Intermediate",
+    "use_case": "Ansible me `ansible-galaxy init role_name` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ansible-galaxy init role_name",
+    "example": "ansible-galaxy init role_name",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ansible",
+      "ansible-galaxy",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ansible-ansible-galaxy-role-install-geerlingguy-nginx",
+    "command": "ansible-galaxy role install geerlingguy.nginx",
+    "title": "Ansible deploy/run/install command",
+    "category": "Ansible",
+    "difficulty": "Intermediate",
+    "use_case": "Ansible me `ansible-galaxy role install geerlingguy.nginx` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ansible-galaxy role install geerlingguy.nginx",
+    "example": "ansible-galaxy role install geerlingguy.nginx",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ansible",
+      "ansible-galaxy",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ansible-ansible-galaxy-collection-install-community-docker",
+    "command": "ansible-galaxy collection install community.docker",
+    "title": "Ansible deploy/run/install command",
+    "category": "Ansible",
+    "difficulty": "Intermediate",
+    "use_case": "Ansible me `ansible-galaxy collection install community.docker` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ansible-galaxy collection install community.docker",
+    "example": "ansible-galaxy collection install community.docker",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ansible",
+      "ansible-galaxy",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ansible-ansible-lint-playbook-yml",
+    "command": "ansible-lint playbook.yml",
+    "title": "Ansible command use karna",
+    "category": "Ansible",
+    "difficulty": "Intermediate",
+    "use_case": "Ansible me `ansible-lint playbook.yml` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ansible-lint playbook.yml",
+    "example": "ansible-lint playbook.yml",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ansible",
+      "ansible-lint",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ansible-ansible-console-all",
+    "command": "ansible-console all",
+    "title": "Ansible command use karna",
+    "category": "Ansible",
+    "difficulty": "Intermediate",
+    "use_case": "Ansible me `ansible-console all` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ansible-console all",
+    "example": "ansible-console all",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ansible",
+      "ansible-console",
+      "devops",
+      "cli"
+    ]
   }
 ]

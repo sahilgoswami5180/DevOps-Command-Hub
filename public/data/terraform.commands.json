@@ -1000,5 +1000,731 @@
       "devops",
       "cli"
     ]
+  },
+  {
+    "id": "terraform-terraform-chdir-infra-init",
+    "command": "terraform -chdir=infra init",
+    "title": "Terraform resource create/generate karna",
+    "category": "Terraform",
+    "difficulty": "Beginner",
+    "use_case": "Terraform me `terraform -chdir=infra init` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "terraform -chdir=infra init",
+    "example": "terraform -chdir=infra init",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "terraform plan",
+      "terraform apply",
+      "terraform state list"
+    ],
+    "tags": [
+      "terraform",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "terraform-terraform-chdir-infra-plan",
+    "command": "terraform -chdir=infra plan",
+    "title": "Terraform command use karna",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform me `terraform -chdir=infra plan` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "terraform -chdir=infra plan",
+    "example": "terraform -chdir=infra plan",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "terraform plan",
+      "terraform apply",
+      "terraform state list"
+    ],
+    "tags": [
+      "terraform",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "terraform-terraform-chdir-infra-apply",
+    "command": "terraform -chdir=infra apply",
+    "title": "Terraform deploy/run/install command",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform me `terraform -chdir=infra apply` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "terraform -chdir=infra apply",
+    "example": "terraform -chdir=infra apply",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "terraform plan",
+      "terraform apply",
+      "terraform state list"
+    ],
+    "tags": [
+      "terraform",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "terraform-terraform-plan-var-instance-type-t3-micro",
+    "command": "terraform plan -var=\"instance_type=t3.micro\"",
+    "title": "Terraform command use karna",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform me `terraform plan -var=\"instance_type=t3.micro\"` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "terraform plan -var=\"instance_type=t3.micro\"",
+    "example": "terraform plan -var=\"instance_type=t3.micro\"",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "terraform plan",
+      "terraform apply",
+      "terraform state list"
+    ],
+    "tags": [
+      "terraform",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "terraform-terraform-plan-target-resource-name",
+    "command": "terraform plan -target=resource.name",
+    "title": "Terraform status/details verify karna",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform me `terraform plan -target=resource.name` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "terraform plan -target=resource.name",
+    "example": "terraform plan -target=resource.name",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "terraform plan",
+      "terraform apply",
+      "terraform state list"
+    ],
+    "tags": [
+      "terraform",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "terraform-terraform-apply-target-resource-name",
+    "command": "terraform apply -target=resource.name",
+    "title": "Terraform status/details verify karna",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform me `terraform apply -target=resource.name` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "terraform apply -target=resource.name",
+    "example": "terraform apply -target=resource.name",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "terraform plan",
+      "terraform apply",
+      "terraform state list"
+    ],
+    "tags": [
+      "terraform",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "terraform-terraform-destroy-auto-approve",
+    "command": "terraform destroy -auto-approve",
+    "title": "Terraform risky cleanup/delete command",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform me `terraform destroy -auto-approve` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "terraform destroy -auto-approve",
+    "example": "terraform destroy -auto-approve",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [
+      "terraform plan",
+      "terraform apply",
+      "terraform state list"
+    ],
+    "tags": [
+      "terraform",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "terraform-terraform-output-name",
+    "command": "terraform output name",
+    "title": "Terraform command use karna",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform me `terraform output name` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "terraform output name",
+    "example": "terraform output name",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "terraform plan",
+      "terraform apply",
+      "terraform state list"
+    ],
+    "tags": [
+      "terraform",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "terraform-terraform-output-raw-password",
+    "command": "terraform output -raw password",
+    "title": "Terraform command use karna",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform me `terraform output -raw password` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "terraform output -raw password",
+    "example": "terraform output -raw password",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "terraform plan",
+      "terraform apply",
+      "terraform state list"
+    ],
+    "tags": [
+      "terraform",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "terraform-terraform-state-list-grep-aws-instance",
+    "command": "terraform state list | grep aws_instance",
+    "title": "Terraform status/details verify karna",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform me `terraform state list | grep aws_instance` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "terraform state list | grep aws_instance",
+    "example": "terraform state list | grep aws_instance",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "terraform plan",
+      "terraform apply",
+      "terraform state list"
+    ],
+    "tags": [
+      "terraform",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "terraform-terraform-state-show-module-app-aws-instance-web",
+    "command": "terraform state show module.app.aws_instance.web",
+    "title": "Terraform status/details verify karna",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform me `terraform state show module.app.aws_instance.web` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "terraform state show module.app.aws_instance.web",
+    "example": "terraform state show module.app.aws_instance.web",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "terraform plan",
+      "terraform apply",
+      "terraform state list"
+    ],
+    "tags": [
+      "terraform",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "terraform-terraform-state-rm-module-old-resource",
+    "command": "terraform state rm module.old.resource",
+    "title": "Terraform risky cleanup/delete command",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform me `terraform state rm module.old.resource` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "terraform state rm module.old.resource",
+    "example": "terraform state rm module.old.resource",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [
+      "terraform plan",
+      "terraform apply",
+      "terraform state list"
+    ],
+    "tags": [
+      "terraform",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "terraform-terraform-state-mv-module-old-module-new",
+    "command": "terraform state mv module.old module.new",
+    "title": "Terraform resource create/generate karna",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform me `terraform state mv module.old module.new` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "terraform state mv module.old module.new",
+    "example": "terraform state mv module.old module.new",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "terraform plan",
+      "terraform apply",
+      "terraform state list"
+    ],
+    "tags": [
+      "terraform",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "terraform-terraform-import-module-app-aws-s3-bucket-bucket-bucket-name",
+    "command": "terraform import module.app.aws_s3_bucket.bucket bucket-name",
+    "title": "Terraform restore/import command",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform me `terraform import module.app.aws_s3_bucket.bucket bucket-name` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "terraform import module.app.aws_s3_bucket.bucket bucket-name",
+    "example": "terraform import module.app.aws_s3_bucket.bucket bucket-name",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "terraform plan",
+      "terraform apply",
+      "terraform state list"
+    ],
+    "tags": [
+      "terraform",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "terraform-terraform-plan-refresh-false",
+    "command": "terraform plan -refresh=false",
+    "title": "Terraform restart/reload/refresh karna",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform me `terraform plan -refresh=false` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "terraform plan -refresh=false",
+    "example": "terraform plan -refresh=false",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "terraform plan",
+      "terraform apply",
+      "terraform state list"
+    ],
+    "tags": [
+      "terraform",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "terraform-terraform-apply-refresh-false",
+    "command": "terraform apply -refresh=false",
+    "title": "Terraform restart/reload/refresh karna",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform me `terraform apply -refresh=false` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "terraform apply -refresh=false",
+    "example": "terraform apply -refresh=false",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "terraform plan",
+      "terraform apply",
+      "terraform state list"
+    ],
+    "tags": [
+      "terraform",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "terraform-terraform-refresh-var-file-prod-tfvars",
+    "command": "terraform refresh -var-file=prod.tfvars",
+    "title": "Terraform restart/reload/refresh karna",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform me `terraform refresh -var-file=prod.tfvars` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "terraform refresh -var-file=prod.tfvars",
+    "example": "terraform refresh -var-file=prod.tfvars",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "terraform plan",
+      "terraform apply",
+      "terraform state list"
+    ],
+    "tags": [
+      "terraform",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "terraform-terraform-workspace-new-staging",
+    "command": "terraform workspace new staging",
+    "title": "Terraform resource create/generate karna",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform me `terraform workspace new staging` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "terraform workspace new staging",
+    "example": "terraform workspace new staging",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "terraform plan",
+      "terraform apply",
+      "terraform state list"
+    ],
+    "tags": [
+      "terraform",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "terraform-terraform-workspace-select-staging",
+    "command": "terraform workspace select staging",
+    "title": "Terraform command use karna",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform me `terraform workspace select staging` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "terraform workspace select staging",
+    "example": "terraform workspace select staging",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "terraform plan",
+      "terraform apply",
+      "terraform state list"
+    ],
+    "tags": [
+      "terraform",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "terraform-terraform-providers-mirror-providers",
+    "command": "terraform providers mirror ./providers",
+    "title": "Terraform command use karna",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform me `terraform providers mirror ./providers` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "terraform providers mirror ./providers",
+    "example": "terraform providers mirror ./providers",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "terraform plan",
+      "terraform apply",
+      "terraform state list"
+    ],
+    "tags": [
+      "terraform",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "terraform-terraform-providers-lock-platform-linux-amd64",
+    "command": "terraform providers lock -platform=linux_amd64",
+    "title": "Terraform command use karna",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform me `terraform providers lock -platform=linux_amd64` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "terraform providers lock -platform=linux_amd64",
+    "example": "terraform providers lock -platform=linux_amd64",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "terraform plan",
+      "terraform apply",
+      "terraform state list"
+    ],
+    "tags": [
+      "terraform",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "terraform-terraform-login-app-terraform-io",
+    "command": "terraform login app.terraform.io",
+    "title": "Terraform command use karna",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform me `terraform login app.terraform.io` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "terraform login app.terraform.io",
+    "example": "terraform login app.terraform.io",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "terraform plan",
+      "terraform apply",
+      "terraform state list"
+    ],
+    "tags": [
+      "terraform",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "terraform-terraform-test-filter-tests-basic-tftest-hcl",
+    "command": "terraform test -filter=tests/basic.tftest.hcl",
+    "title": "Terraform status/details verify karna",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform me `terraform test -filter=tests/basic.tftest.hcl` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "terraform test -filter=tests/basic.tftest.hcl",
+    "example": "terraform test -filter=tests/basic.tftest.hcl",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "terraform plan",
+      "terraform apply",
+      "terraform state list"
+    ],
+    "tags": [
+      "terraform",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "terraform-terraform-fmt-check-recursive",
+    "command": "terraform fmt -check -recursive",
+    "title": "Terraform status/details verify karna",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform me `terraform fmt -check -recursive` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "terraform fmt -check -recursive",
+    "example": "terraform fmt -check -recursive",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "terraform plan",
+      "terraform apply",
+      "terraform state list"
+    ],
+    "tags": [
+      "terraform",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "terraform-terraform-validate-no-color",
+    "command": "terraform validate -no-color",
+    "title": "Terraform status/details verify karna",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform me `terraform validate -no-color` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "terraform validate -no-color",
+    "example": "terraform validate -no-color",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "terraform plan",
+      "terraform apply",
+      "terraform state list"
+    ],
+    "tags": [
+      "terraform",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "terraform-terraform-plan-detailed-exitcode",
+    "command": "terraform plan -detailed-exitcode",
+    "title": "Terraform logs/debugging command",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform me `terraform plan -detailed-exitcode` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "terraform plan -detailed-exitcode",
+    "example": "terraform plan -detailed-exitcode",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "terraform plan",
+      "terraform apply",
+      "terraform state list"
+    ],
+    "tags": [
+      "terraform",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "terraform-terraform-graph-dot-tpng-graph-png",
+    "command": "terraform graph | dot -Tpng > graph.png",
+    "title": "Terraform command use karna",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform me `terraform graph | dot -Tpng > graph.png` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "terraform graph | dot -Tpng > graph.png",
+    "example": "terraform graph | dot -Tpng > graph.png",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "terraform plan",
+      "terraform apply",
+      "terraform state list"
+    ],
+    "tags": [
+      "terraform",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "terraform-terraform-console-var-file-dev-tfvars",
+    "command": "terraform console -var-file=dev.tfvars",
+    "title": "Terraform command use karna",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform me `terraform console -var-file=dev.tfvars` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "terraform console -var-file=dev.tfvars",
+    "example": "terraform console -var-file=dev.tfvars",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "terraform plan",
+      "terraform apply",
+      "terraform state list"
+    ],
+    "tags": [
+      "terraform",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "terraform-terraform-force-unlock-force-lock-id",
+    "command": "terraform force-unlock -force LOCK_ID",
+    "title": "Terraform command use karna",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform me `terraform force-unlock -force LOCK_ID` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "terraform force-unlock -force LOCK_ID",
+    "example": "terraform force-unlock -force LOCK_ID",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "terraform plan",
+      "terraform apply",
+      "terraform state list"
+    ],
+    "tags": [
+      "terraform",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "terraform-terraform-state-pull-terraform-tfstate-backup",
+    "command": "terraform state pull > terraform.tfstate.backup",
+    "title": "Terraform backup/export command",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform me `terraform state pull > terraform.tfstate.backup` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "terraform state pull > terraform.tfstate.backup",
+    "example": "terraform state pull > terraform.tfstate.backup",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "terraform plan",
+      "terraform apply",
+      "terraform state list"
+    ],
+    "tags": [
+      "terraform",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "terraform-terraform-state-push-terraform-tfstate",
+    "command": "terraform state push terraform.tfstate",
+    "title": "Terraform command use karna",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform me `terraform state push terraform.tfstate` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "terraform state push terraform.tfstate",
+    "example": "terraform state push terraform.tfstate",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "terraform plan",
+      "terraform apply",
+      "terraform state list"
+    ],
+    "tags": [
+      "terraform",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "terraform-terraform-apply-parallelism-5",
+    "command": "terraform apply -parallelism=5",
+    "title": "Terraform deploy/run/install command",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform me `terraform apply -parallelism=5` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "terraform apply -parallelism=5",
+    "example": "terraform apply -parallelism=5",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "terraform plan",
+      "terraform apply",
+      "terraform state list"
+    ],
+    "tags": [
+      "terraform",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "terraform-terraform-plan-parallelism-5",
+    "command": "terraform plan -parallelism=5",
+    "title": "Terraform command use karna",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Terraform me `terraform plan -parallelism=5` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "terraform plan -parallelism=5",
+    "example": "terraform plan -parallelism=5",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "terraform plan",
+      "terraform apply",
+      "terraform state list"
+    ],
+    "tags": [
+      "terraform",
+      "devops",
+      "cli"
+    ]
   }
 ]

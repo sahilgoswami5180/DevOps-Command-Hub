@@ -2030,5 +2030,2433 @@
       "devops",
       "cli"
     ]
+  },
+  {
+    "id": "linux-ls-lh",
+    "command": "ls -lh",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `ls -lh` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ls -lh",
+    "example": "ls -lh",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "ls",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-ls-ltr",
+    "command": "ls -ltr",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `ls -ltr` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ls -ltr",
+    "example": "ls -ltr",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "ls",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-ls-r",
+    "command": "ls -R",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `ls -R` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ls -R",
+    "example": "ls -R",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "ls",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-tree-l-2",
+    "command": "tree -L 2",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `tree -L 2` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "tree -L 2",
+    "example": "tree -L 2",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "tree",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-realpath-file-txt",
+    "command": "realpath file.txt",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `realpath file.txt` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "realpath file.txt",
+    "example": "realpath file.txt",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "realpath",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-readlink-linkname",
+    "command": "readlink linkname",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `readlink linkname` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "readlink linkname",
+    "example": "readlink linkname",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "readlink",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-install-m-755-script-sh-usr-local-bin-script",
+    "command": "install -m 755 script.sh /usr/local/bin/script",
+    "title": "Linux deploy/run/install command",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `install -m 755 script.sh /usr/local/bin/script` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "install -m 755 script.sh /usr/local/bin/script",
+    "example": "install -m 755 script.sh /usr/local/bin/script",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "install",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-mktemp",
+    "command": "mktemp",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `mktemp` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "mktemp",
+    "example": "mktemp",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "mktemp",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-mktemp-d",
+    "command": "mktemp -d",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `mktemp -d` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "mktemp -d",
+    "example": "mktemp -d",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "mktemp",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-split-b-100m-largefile-part",
+    "command": "split -b 100M largefile part_",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `split -b 100M largefile part_` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "split -b 100M largefile part_",
+    "example": "split -b 100M largefile part_",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "split",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-csplit-file-txt-pattern",
+    "command": "csplit file.txt /pattern/",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `csplit file.txt /pattern/` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "csplit file.txt /pattern/",
+    "example": "csplit file.txt /pattern/",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "csplit",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-comm-file1-file2",
+    "command": "comm file1 file2",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `comm file1 file2` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "comm file1 file2",
+    "example": "comm file1 file2",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "comm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-diff-u-old-new",
+    "command": "diff -u old new",
+    "title": "Linux resource create/generate karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `diff -u old new` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "diff -u old new",
+    "example": "diff -u old new",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "diff",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-patch-p1-fix-patch",
+    "command": "patch -p1 < fix.patch",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `patch -p1 < fix.patch` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "patch -p1 < fix.patch",
+    "example": "patch -p1 < fix.patch",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "patch",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-cmp-file1-file2",
+    "command": "cmp file1 file2",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `cmp file1 file2` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "cmp file1 file2",
+    "example": "cmp file1 file2",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "cmp",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sha256sum-file",
+    "command": "sha256sum file",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sha256sum file` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sha256sum file",
+    "example": "sha256sum file",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "sha256sum",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-md5sum-file",
+    "command": "md5sum file",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `md5sum file` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "md5sum file",
+    "example": "md5sum file",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "md5sum",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-basename-pwd",
+    "command": "basename $(pwd)",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `basename $(pwd)` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "basename $(pwd)",
+    "example": "basename $(pwd)",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "basename",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-dirname-var-www-html-index-html",
+    "command": "dirname /var/www/html/index.html",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `dirname /var/www/html/index.html` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "dirname /var/www/html/index.html",
+    "example": "dirname /var/www/html/index.html",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "dirname",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-yes-head",
+    "command": "yes | head",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `yes | head` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "yes | head",
+    "example": "yes | head",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "yes",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-seq-1-10",
+    "command": "seq 1 10",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `seq 1 10` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "seq 1 10",
+    "example": "seq 1 10",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "seq",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-shuf-file-txt",
+    "command": "shuf file.txt",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `shuf file.txt` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "shuf file.txt",
+    "example": "shuf file.txt",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "shuf",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-paste-file1-file2",
+    "command": "paste file1 file2",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `paste file1 file2` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "paste file1 file2",
+    "example": "paste file1 file2",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "paste",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-column-t-file-txt",
+    "command": "column -t file.txt",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `column -t file.txt` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "column -t file.txt",
+    "example": "column -t file.txt",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "column",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-expand-file-txt",
+    "command": "expand file.txt",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `expand file.txt` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "expand file.txt",
+    "example": "expand file.txt",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "expand",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-unexpand-file-txt",
+    "command": "unexpand file.txt",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `unexpand file.txt` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "unexpand file.txt",
+    "example": "unexpand file.txt",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "unexpand",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-iconv-f-utf-8-t-ascii-file-txt",
+    "command": "iconv -f utf-8 -t ascii file.txt",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `iconv -f utf-8 -t ascii file.txt` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "iconv -f utf-8 -t ascii file.txt",
+    "example": "iconv -f utf-8 -t ascii file.txt",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "iconv",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-dos2unix-file-txt",
+    "command": "dos2unix file.txt",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `dos2unix file.txt` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "dos2unix file.txt",
+    "example": "dos2unix file.txt",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "dos2unix",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-unix2dos-file-txt",
+    "command": "unix2dos file.txt",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `unix2dos file.txt` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "unix2dos file.txt",
+    "example": "unix2dos file.txt",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "unix2dos",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-stat-c-a-file",
+    "command": "stat -c %a file",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `stat -c %a file` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "stat -c %a file",
+    "example": "stat -c %a file",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "stat",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-chmod-x-script-sh",
+    "command": "chmod +x script.sh",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `chmod +x script.sh` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "chmod +x script.sh",
+    "example": "chmod +x script.sh",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "chmod",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-chmod-r-u-rwx-g-rx-o-rwx-folder",
+    "command": "chmod -R u+rwX,g+rX,o-rwx folder",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `chmod -R u+rwX,g+rX,o-rwx folder` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "chmod -R u+rwX,g+rX,o-rwx folder",
+    "example": "chmod -R u+rwX,g+rX,o-rwx folder",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "chmod",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-chgrp-www-data-file",
+    "command": "chgrp www-data file",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `chgrp www-data file` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "chgrp www-data file",
+    "example": "chgrp www-data file",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "chgrp",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-umask",
+    "command": "umask",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `umask` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "umask",
+    "example": "umask",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "umask",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-getfacl-file",
+    "command": "getfacl file",
+    "title": "Linux status/details verify karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `getfacl file` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "getfacl file",
+    "example": "getfacl file",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "getfacl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-setfacl-m-u-www-data-rwx-folder",
+    "command": "setfacl -m u:www-data:rwx folder",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `setfacl -m u:www-data:rwx folder` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "setfacl -m u:www-data:rwx folder",
+    "example": "setfacl -m u:www-data:rwx folder",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "setfacl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-lsattr-file",
+    "command": "lsattr file",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `lsattr file` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "lsattr file",
+    "example": "lsattr file",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "lsattr",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-chattr-i-file",
+    "command": "chattr +i file",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `chattr +i file` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "chattr +i file",
+    "example": "chattr +i file",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "chattr",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-chattr-i-file",
+    "command": "chattr -i file",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `chattr -i file` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "chattr -i file",
+    "example": "chattr -i file",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "chattr",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-journalctl-since-10-minutes-ago",
+    "command": "sudo journalctl --since \"10 minutes ago\"",
+    "title": "Linux logs/debugging command",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sudo journalctl --since \"10 minutes ago\"` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo journalctl --since \"10 minutes ago\"",
+    "example": "sudo journalctl --since \"10 minutes ago\"",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-journalctl-k",
+    "command": "sudo journalctl -k",
+    "title": "Linux logs/debugging command",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sudo journalctl -k` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo journalctl -k",
+    "example": "sudo journalctl -k",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-dmesg-w",
+    "command": "sudo dmesg -w",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sudo dmesg -w` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo dmesg -w",
+    "example": "sudo dmesg -w",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-dmesg-level-err-warn",
+    "command": "sudo dmesg --level=err,warn",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sudo dmesg --level=err,warn` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo dmesg --level=err,warn",
+    "example": "sudo dmesg --level=err,warn",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-sysctl-a",
+    "command": "sudo sysctl -a",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sudo sysctl -a` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo sysctl -a",
+    "example": "sudo sysctl -a",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-sysctl-vm-swappiness",
+    "command": "sudo sysctl vm.swappiness",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sudo sysctl vm.swappiness` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo sysctl vm.swappiness",
+    "example": "sudo sysctl vm.swappiness",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-sysctl-w-vm-swappiness-10",
+    "command": "sudo sysctl -w vm.swappiness=10",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sudo sysctl -w vm.swappiness=10` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo sysctl -w vm.swappiness=10",
+    "example": "sudo sysctl -w vm.swappiness=10",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-ulimit-a",
+    "command": "ulimit -a",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `ulimit -a` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ulimit -a",
+    "example": "ulimit -a",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "ulimit",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-ulimit-n",
+    "command": "ulimit -n",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `ulimit -n` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ulimit -n",
+    "example": "ulimit -n",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "ulimit",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-prlimit-pid-1234",
+    "command": "prlimit --pid 1234",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `prlimit --pid 1234` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "prlimit --pid 1234",
+    "example": "prlimit --pid 1234",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "prlimit",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-lsof",
+    "command": "lsof",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `lsof` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "lsof",
+    "example": "lsof",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "lsof",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-lsof-i",
+    "command": "lsof -i",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `lsof -i` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "lsof -i",
+    "example": "lsof -i",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "lsof",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-lsof-itcp-stcp-listen",
+    "command": "lsof -iTCP -sTCP:LISTEN",
+    "title": "Linux status/details verify karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `lsof -iTCP -sTCP:LISTEN` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "lsof -iTCP -sTCP:LISTEN",
+    "example": "lsof -iTCP -sTCP:LISTEN",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "lsof",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-fuser-k-8080-tcp",
+    "command": "fuser -k 8080/tcp",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `fuser -k 8080/tcp` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "fuser -k 8080/tcp",
+    "example": "fuser -k 8080/tcp",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "fuser",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-ss-tunap",
+    "command": "ss -tunap",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `ss -tunap` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ss -tunap",
+    "example": "ss -tunap",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "ss",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-ss-ltnp",
+    "command": "ss -ltnp",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `ss -ltnp` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ss -ltnp",
+    "example": "ss -ltnp",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "ss",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-ip-a",
+    "command": "ip a",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `ip a` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ip a",
+    "example": "ip a",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "ip",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-ip-link",
+    "command": "ip link",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `ip link` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ip link",
+    "example": "ip link",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "ip",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-ip-route-show",
+    "command": "ip route show",
+    "title": "Linux status/details verify karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `ip route show` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ip route show",
+    "example": "ip route show",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "ip",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-ip-neigh",
+    "command": "ip neigh",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `ip neigh` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ip neigh",
+    "example": "ip neigh",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "ip",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-ip-addr-add-192-168-1-10-24-dev-eth0",
+    "command": "ip addr add 192.168.1.10/24 dev eth0",
+    "title": "Linux resource create/generate karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `ip addr add 192.168.1.10/24 dev eth0` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ip addr add 192.168.1.10/24 dev eth0",
+    "example": "ip addr add 192.168.1.10/24 dev eth0",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "ip",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-ip-link-set-eth0-up",
+    "command": "ip link set eth0 up",
+    "title": "Linux deploy/run/install command",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `ip link set eth0 up` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ip link set eth0 up",
+    "example": "ip link set eth0 up",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "ip",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-nmcli-device-status",
+    "command": "nmcli device status",
+    "title": "Linux status/details verify karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `nmcli device status` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "nmcli device status",
+    "example": "nmcli device status",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "nmcli",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-nmcli-connection-show",
+    "command": "nmcli connection show",
+    "title": "Linux status/details verify karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `nmcli connection show` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "nmcli connection show",
+    "example": "nmcli connection show",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "nmcli",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-resolvectl-status",
+    "command": "resolvectl status",
+    "title": "Linux status/details verify karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `resolvectl status` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "resolvectl status",
+    "example": "resolvectl status",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "resolvectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-cat-etc-resolv-conf",
+    "command": "cat /etc/resolv.conf",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `cat /etc/resolv.conf` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "cat /etc/resolv.conf",
+    "example": "cat /etc/resolv.conf",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "cat",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-dig-trace-example-com",
+    "command": "dig +trace example.com",
+    "title": "Linux logs/debugging command",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `dig +trace example.com` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "dig +trace example.com",
+    "example": "dig +trace example.com",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "dig",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-host-example-com",
+    "command": "host example.com",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `host example.com` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "host example.com",
+    "example": "host example.com",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "host",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-whois-example-com",
+    "command": "whois example.com",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `whois example.com` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "whois example.com",
+    "example": "whois example.com",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "whois",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-curl-s-ifconfig-me",
+    "command": "curl -s ifconfig.me",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `curl -s ifconfig.me` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "curl -s ifconfig.me",
+    "example": "curl -s ifconfig.me",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "curl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-wget-https-example-com-file-zip",
+    "command": "wget https://example.com/file.zip",
+    "title": "Linux status/details verify karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `wget https://example.com/file.zip` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "wget https://example.com/file.zip",
+    "example": "wget https://example.com/file.zip",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "wget",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-wget-c-https-example-com-file-zip",
+    "command": "wget -c https://example.com/file.zip",
+    "title": "Linux status/details verify karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `wget -c https://example.com/file.zip` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "wget -c https://example.com/file.zip",
+    "example": "wget -c https://example.com/file.zip",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "wget",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-aria2c-https-example-com-file-zip",
+    "command": "aria2c https://example.com/file.zip",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `aria2c https://example.com/file.zip` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aria2c https://example.com/file.zip",
+    "example": "aria2c https://example.com/file.zip",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "aria2c",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-nc-l-8080",
+    "command": "nc -l 8080",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `nc -l 8080` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "nc -l 8080",
+    "example": "nc -l 8080",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "nc",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-nc-vz-host-443",
+    "command": "nc -vz host 443",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `nc -vz host 443` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "nc -vz host 443",
+    "example": "nc -vz host 443",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "nc",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-socat-tcp-host-80",
+    "command": "socat - TCP:host:80",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `socat - TCP:host:80` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "socat - TCP:host:80",
+    "example": "socat - TCP:host:80",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "socat",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-tcpdump-nn-i-any",
+    "command": "tcpdump -nn -i any",
+    "title": "Linux backup/export command",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `tcpdump -nn -i any` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "tcpdump -nn -i any",
+    "example": "tcpdump -nn -i any",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "tcpdump",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-tcpdump-i-eth0-host-1-2-3-4",
+    "command": "tcpdump -i eth0 host 1.2.3.4",
+    "title": "Linux backup/export command",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `tcpdump -i eth0 host 1.2.3.4` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "tcpdump -i eth0 host 1.2.3.4",
+    "example": "tcpdump -i eth0 host 1.2.3.4",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "tcpdump",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-tcpdump-i-eth0-port-443-w-capture-pcap",
+    "command": "tcpdump -i eth0 port 443 -w capture.pcap",
+    "title": "Linux backup/export command",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `tcpdump -i eth0 port 443 -w capture.pcap` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "tcpdump -i eth0 port 443 -w capture.pcap",
+    "example": "tcpdump -i eth0 port 443 -w capture.pcap",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "tcpdump",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-scp-r-folder-user-host-path",
+    "command": "scp -r folder user@host:/path",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `scp -r folder user@host:/path` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "scp -r folder user@host:/path",
+    "example": "scp -r folder user@host:/path",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "scp",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sftp-user-host",
+    "command": "sftp user@host",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sftp user@host` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sftp user@host",
+    "example": "sftp user@host",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "sftp",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-ssh-i-key-pem-user-host",
+    "command": "ssh -i key.pem user@host",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `ssh -i key.pem user@host` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ssh -i key.pem user@host",
+    "example": "ssh -i key.pem user@host",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "ssh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-ssh-l-8080-localhost-80-user-host",
+    "command": "ssh -L 8080:localhost:80 user@host",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `ssh -L 8080:localhost:80 user@host` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ssh -L 8080:localhost:80 user@host",
+    "example": "ssh -L 8080:localhost:80 user@host",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "ssh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-ssh-n-l-5432-localhost-5432-user-host",
+    "command": "ssh -N -L 5432:localhost:5432 user@host",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `ssh -N -L 5432:localhost:5432 user@host` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ssh -N -L 5432:localhost:5432 user@host",
+    "example": "ssh -N -L 5432:localhost:5432 user@host",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "ssh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-ssh-o-stricthostkeychecking-no-user-host",
+    "command": "ssh -o StrictHostKeyChecking=no user@host",
+    "title": "Linux status/details verify karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `ssh -o StrictHostKeyChecking=no user@host` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ssh -o StrictHostKeyChecking=no user@host",
+    "example": "ssh -o StrictHostKeyChecking=no user@host",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "ssh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-ssh-agent-bash",
+    "command": "ssh-agent bash",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `ssh-agent bash` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ssh-agent bash",
+    "example": "ssh-agent bash",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "ssh-agent",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-ssh-add-ssh-id-ed25519",
+    "command": "ssh-add ~/.ssh/id_ed25519",
+    "title": "Linux resource create/generate karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `ssh-add ~/.ssh/id_ed25519` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ssh-add ~/.ssh/id_ed25519",
+    "example": "ssh-add ~/.ssh/id_ed25519",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "ssh-add",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-ssh-keyscan-github-com-ssh-known-hosts",
+    "command": "ssh-keyscan github.com >> ~/.ssh/known_hosts",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `ssh-keyscan github.com >> ~/.ssh/known_hosts` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "ssh-keyscan github.com >> ~/.ssh/known_hosts",
+    "example": "ssh-keyscan github.com >> ~/.ssh/known_hosts",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "ssh-keyscan",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-lastlog",
+    "command": "lastlog",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `lastlog` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "lastlog",
+    "example": "lastlog",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "lastlog",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-groups-user",
+    "command": "groups user",
+    "title": "Linux deploy/run/install command",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `groups user` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "groups user",
+    "example": "groups user",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "groups",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-getent-passwd-user",
+    "command": "getent passwd user",
+    "title": "Linux status/details verify karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `getent passwd user` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "getent passwd user",
+    "example": "getent passwd user",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "getent",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-getent-group-sudo",
+    "command": "getent group sudo",
+    "title": "Linux status/details verify karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `getent group sudo` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "getent group sudo",
+    "example": "getent group sudo",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "getent",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-userdel-r-user",
+    "command": "sudo userdel -r user",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sudo userdel -r user` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo userdel -r user",
+    "example": "sudo userdel -r user",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-groupadd-devops",
+    "command": "sudo groupadd devops",
+    "title": "Linux resource create/generate karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sudo groupadd devops` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo groupadd devops",
+    "example": "sudo groupadd devops",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-gpasswd-a-user-group",
+    "command": "sudo gpasswd -a user group",
+    "title": "Linux deploy/run/install command",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sudo gpasswd -a user group` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo gpasswd -a user group",
+    "example": "sudo gpasswd -a user group",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-crontab-e-u-www-data",
+    "command": "sudo crontab -e -u www-data",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sudo crontab -e -u www-data` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo crontab -e -u www-data",
+    "example": "sudo crontab -e -u www-data",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-systemctl-list-units-type-service",
+    "command": "systemctl list-units --type=service",
+    "title": "Linux status/details verify karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `systemctl list-units --type=service` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "systemctl list-units --type=service",
+    "example": "systemctl list-units --type=service",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "systemctl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-systemctl-list-timers",
+    "command": "systemctl list-timers",
+    "title": "Linux status/details verify karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `systemctl list-timers` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "systemctl list-timers",
+    "example": "systemctl list-timers",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "systemctl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-systemctl-cat-nginx",
+    "command": "systemctl cat nginx",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `systemctl cat nginx` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "systemctl cat nginx",
+    "example": "systemctl cat nginx",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "systemctl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-systemctl-show-nginx",
+    "command": "systemctl show nginx",
+    "title": "Linux status/details verify karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `systemctl show nginx` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "systemctl show nginx",
+    "example": "systemctl show nginx",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "systemctl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-systemctl-daemon-reload",
+    "command": "systemctl daemon-reload",
+    "title": "Linux restart/reload/refresh karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `systemctl daemon-reload` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "systemctl daemon-reload",
+    "example": "systemctl daemon-reload",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "systemctl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-systemctl-mask-service",
+    "command": "systemctl mask service",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `systemctl mask service` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "systemctl mask service",
+    "example": "systemctl mask service",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "systemctl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-systemctl-unmask-service",
+    "command": "systemctl unmask service",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `systemctl unmask service` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "systemctl unmask service",
+    "example": "systemctl unmask service",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "systemctl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-loginctl-list-sessions",
+    "command": "loginctl list-sessions",
+    "title": "Linux status/details verify karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `loginctl list-sessions` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "loginctl list-sessions",
+    "example": "loginctl list-sessions",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "loginctl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-loginctl-show-session-session-id",
+    "command": "loginctl show-session SESSION_ID",
+    "title": "Linux status/details verify karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `loginctl show-session SESSION_ID` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "loginctl show-session SESSION_ID",
+    "example": "loginctl show-session SESSION_ID",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "loginctl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-timedatectl-set-timezone-asia-kolkata",
+    "command": "timedatectl set-timezone Asia/Kolkata",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `timedatectl set-timezone Asia/Kolkata` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "timedatectl set-timezone Asia/Kolkata",
+    "example": "timedatectl set-timezone Asia/Kolkata",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "timedatectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-localectl-status",
+    "command": "localectl status",
+    "title": "Linux status/details verify karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `localectl status` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "localectl status",
+    "example": "localectl status",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "localectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-hostnamectl-set-hostname-server1",
+    "command": "hostnamectl set-hostname server1",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `hostnamectl set-hostname server1` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "hostnamectl set-hostname server1",
+    "example": "hostnamectl set-hostname server1",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "hostnamectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-logrotate-d-etc-logrotate-conf",
+    "command": "sudo logrotate -d /etc/logrotate.conf",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sudo logrotate -d /etc/logrotate.conf` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo logrotate -d /etc/logrotate.conf",
+    "example": "sudo logrotate -d /etc/logrotate.conf",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-logrotate-f-etc-logrotate-conf",
+    "command": "sudo logrotate -f /etc/logrotate.conf",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sudo logrotate -f /etc/logrotate.conf` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo logrotate -f /etc/logrotate.conf",
+    "example": "sudo logrotate -f /etc/logrotate.conf",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-journalctl-vacuum-size-1g",
+    "command": "journalctl --vacuum-size=1G",
+    "title": "Linux logs/debugging command",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `journalctl --vacuum-size=1G` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "journalctl --vacuum-size=1G",
+    "example": "journalctl --vacuum-size=1G",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "journalctl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-journalctl-vacuum-time-3d",
+    "command": "journalctl --vacuum-time=3d",
+    "title": "Linux logs/debugging command",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `journalctl --vacuum-time=3d` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "journalctl --vacuum-time=3d",
+    "example": "journalctl --vacuum-time=3d",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "journalctl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-apt-list-upgradable",
+    "command": "sudo apt list --upgradable",
+    "title": "Linux status/details verify karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sudo apt list --upgradable` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo apt list --upgradable",
+    "example": "sudo apt list --upgradable",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-apt-mark-hold-package",
+    "command": "sudo apt-mark hold package",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sudo apt-mark hold package` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo apt-mark hold package",
+    "example": "sudo apt-mark hold package",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-apt-mark-unhold-package",
+    "command": "sudo apt-mark unhold package",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sudo apt-mark unhold package` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo apt-mark unhold package",
+    "example": "sudo apt-mark unhold package",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-apt-cache-search-package",
+    "command": "apt-cache search package",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `apt-cache search package` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "apt-cache search package",
+    "example": "apt-cache search package",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "apt-cache",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-apt-file-search-filename",
+    "command": "apt-file search filename",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `apt-file search filename` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "apt-file search filename",
+    "example": "apt-file search filename",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "apt-file",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-dpkg-reconfigure-tzdata",
+    "command": "sudo dpkg-reconfigure tzdata",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sudo dpkg-reconfigure tzdata` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo dpkg-reconfigure tzdata",
+    "example": "sudo dpkg-reconfigure tzdata",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-update-alternatives-config-editor",
+    "command": "sudo update-alternatives --config editor",
+    "title": "Linux deploy/run/install command",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sudo update-alternatives --config editor` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo update-alternatives --config editor",
+    "example": "sudo update-alternatives --config editor",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-add-apt-repository-ppa-repo-name",
+    "command": "sudo add-apt-repository ppa:repo/name",
+    "title": "Linux resource create/generate karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sudo add-apt-repository ppa:repo/name` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo add-apt-repository ppa:repo/name",
+    "example": "sudo add-apt-repository ppa:repo/name",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-snap-list",
+    "command": "sudo snap list",
+    "title": "Linux status/details verify karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sudo snap list` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo snap list",
+    "example": "sudo snap list",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-snap-install-package",
+    "command": "sudo snap install package",
+    "title": "Linux deploy/run/install command",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sudo snap install package` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo snap install package",
+    "example": "sudo snap install package",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-systemctl-isolate-rescue-target",
+    "command": "sudo systemctl isolate rescue.target",
+    "title": "Linux status/details verify karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sudo systemctl isolate rescue.target` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo systemctl isolate rescue.target",
+    "example": "sudo systemctl isolate rescue.target",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-init-6",
+    "command": "sudo init 6",
+    "title": "Linux resource create/generate karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sudo init 6` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo init 6",
+    "example": "sudo init 6",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-init-0",
+    "command": "sudo init 0",
+    "title": "Linux resource create/generate karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sudo init 0` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo init 0",
+    "example": "sudo init 0",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
   }
 ]

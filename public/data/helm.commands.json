@@ -730,5 +730,577 @@
       "devops",
       "cli"
     ]
+  },
+  {
+    "id": "helm-helm-list-n-ns",
+    "command": "helm list -n ns",
+    "title": "Helm status/details verify karna",
+    "category": "Helm",
+    "difficulty": "Beginner",
+    "use_case": "Helm me `helm list -n ns` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "helm list -n ns",
+    "example": "helm list -n ns",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status release",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-list-failed-a",
+    "command": "helm list --failed -A",
+    "title": "Helm status/details verify karna",
+    "category": "Helm",
+    "difficulty": "Beginner",
+    "use_case": "Helm me `helm list --failed -A` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "helm list --failed -A",
+    "example": "helm list --failed -A",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status release",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-list-deployed-a",
+    "command": "helm list --deployed -A",
+    "title": "Helm status/details verify karna",
+    "category": "Helm",
+    "difficulty": "Beginner",
+    "use_case": "Helm me `helm list --deployed -A` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "helm list --deployed -A",
+    "example": "helm list --deployed -A",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status release",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-install-release-chart-namespace-ns-create-namespace",
+    "command": "helm install release chart --namespace ns --create-namespace",
+    "title": "Helm resource create/generate karna",
+    "category": "Helm",
+    "difficulty": "Beginner",
+    "use_case": "Helm me `helm install release chart --namespace ns --create-namespace` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "helm install release chart --namespace ns --create-namespace",
+    "example": "helm install release chart --namespace ns --create-namespace",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status release",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-install-release-chart-dry-run-debug",
+    "command": "helm install release chart --dry-run --debug",
+    "title": "Helm logs/debugging command",
+    "category": "Helm",
+    "difficulty": "Beginner",
+    "use_case": "Helm me `helm install release chart --dry-run --debug` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "helm install release chart --dry-run --debug",
+    "example": "helm install release chart --dry-run --debug",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status release",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-upgrade-release-chart-reuse-values",
+    "command": "helm upgrade release chart --reuse-values",
+    "title": "Helm deploy/run/install command",
+    "category": "Helm",
+    "difficulty": "Beginner",
+    "use_case": "Helm me `helm upgrade release chart --reuse-values` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "helm upgrade release chart --reuse-values",
+    "example": "helm upgrade release chart --reuse-values",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status release",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-upgrade-release-chart-atomic",
+    "command": "helm upgrade release chart --atomic",
+    "title": "Helm deploy/run/install command",
+    "category": "Helm",
+    "difficulty": "Beginner",
+    "use_case": "Helm me `helm upgrade release chart --atomic` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "helm upgrade release chart --atomic",
+    "example": "helm upgrade release chart --atomic",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status release",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-upgrade-release-chart-timeout-10m",
+    "command": "helm upgrade release chart --timeout 10m",
+    "title": "Helm deploy/run/install command",
+    "category": "Helm",
+    "difficulty": "Beginner",
+    "use_case": "Helm me `helm upgrade release chart --timeout 10m` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "helm upgrade release chart --timeout 10m",
+    "example": "helm upgrade release chart --timeout 10m",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status release",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-rollback-release-1-wait",
+    "command": "helm rollback release 1 --wait",
+    "title": "Helm command use karna",
+    "category": "Helm",
+    "difficulty": "Beginner",
+    "use_case": "Helm me `helm rollback release 1 --wait` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "helm rollback release 1 --wait",
+    "example": "helm rollback release 1 --wait",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status release",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-uninstall-release-keep-history",
+    "command": "helm uninstall release --keep-history",
+    "title": "Helm deploy/run/install command",
+    "category": "Helm",
+    "difficulty": "Beginner",
+    "use_case": "Helm me `helm uninstall release --keep-history` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "helm uninstall release --keep-history",
+    "example": "helm uninstall release --keep-history",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status release",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-history-release-max-10",
+    "command": "helm history release --max 10",
+    "title": "Helm command use karna",
+    "category": "Helm",
+    "difficulty": "Beginner",
+    "use_case": "Helm me `helm history release --max 10` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "helm history release --max 10",
+    "example": "helm history release --max 10",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status release",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-get-notes-release-n-ns",
+    "command": "helm get notes release -n ns",
+    "title": "Helm status/details verify karna",
+    "category": "Helm",
+    "difficulty": "Beginner",
+    "use_case": "Helm me `helm get notes release -n ns` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "helm get notes release -n ns",
+    "example": "helm get notes release -n ns",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status release",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-get-values-release-n-ns-all",
+    "command": "helm get values release -n ns --all",
+    "title": "Helm status/details verify karna",
+    "category": "Helm",
+    "difficulty": "Beginner",
+    "use_case": "Helm me `helm get values release -n ns --all` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "helm get values release -n ns --all",
+    "example": "helm get values release -n ns --all",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status release",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-template-release-chart-values-values-yaml",
+    "command": "helm template release chart --values values.yaml",
+    "title": "Helm command use karna",
+    "category": "Helm",
+    "difficulty": "Beginner",
+    "use_case": "Helm me `helm template release chart --values values.yaml` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "helm template release chart --values values.yaml",
+    "example": "helm template release chart --values values.yaml",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status release",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-template-release-chart-debug",
+    "command": "helm template release chart --debug",
+    "title": "Helm logs/debugging command",
+    "category": "Helm",
+    "difficulty": "Intermediate",
+    "use_case": "Helm me `helm template release chart --debug` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "helm template release chart --debug",
+    "example": "helm template release chart --debug",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status release",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-lint-chart-strict",
+    "command": "helm lint ./chart --strict",
+    "title": "Helm command use karna",
+    "category": "Helm",
+    "difficulty": "Intermediate",
+    "use_case": "Helm me `helm lint ./chart --strict` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "helm lint ./chart --strict",
+    "example": "helm lint ./chart --strict",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status release",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-dependency-list-chart",
+    "command": "helm dependency list ./chart",
+    "title": "Helm status/details verify karna",
+    "category": "Helm",
+    "difficulty": "Intermediate",
+    "use_case": "Helm me `helm dependency list ./chart` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "helm dependency list ./chart",
+    "example": "helm dependency list ./chart",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status release",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-package-chart-destination-dist",
+    "command": "helm package ./chart --destination ./dist",
+    "title": "Helm command use karna",
+    "category": "Helm",
+    "difficulty": "Intermediate",
+    "use_case": "Helm me `helm package ./chart --destination ./dist` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "helm package ./chart --destination ./dist",
+    "example": "helm package ./chart --destination ./dist",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status release",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-push-chart-tgz-oci-registry-repo",
+    "command": "helm push chart.tgz oci://registry/repo",
+    "title": "Helm command use karna",
+    "category": "Helm",
+    "difficulty": "Intermediate",
+    "use_case": "Helm me `helm push chart.tgz oci://registry/repo` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "helm push chart.tgz oci://registry/repo",
+    "example": "helm push chart.tgz oci://registry/repo",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status release",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-pull-oci-registry-repo-chart-version-1-0-0",
+    "command": "helm pull oci://registry/repo/chart --version 1.0.0",
+    "title": "Helm status/details verify karna",
+    "category": "Helm",
+    "difficulty": "Intermediate",
+    "use_case": "Helm me `helm pull oci://registry/repo/chart --version 1.0.0` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "helm pull oci://registry/repo/chart --version 1.0.0",
+    "example": "helm pull oci://registry/repo/chart --version 1.0.0",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status release",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-registry-login-registry",
+    "command": "helm registry login registry",
+    "title": "Helm command use karna",
+    "category": "Helm",
+    "difficulty": "Intermediate",
+    "use_case": "Helm me `helm registry login registry` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "helm registry login registry",
+    "example": "helm registry login registry",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status release",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-registry-logout-registry",
+    "command": "helm registry logout registry",
+    "title": "Helm command use karna",
+    "category": "Helm",
+    "difficulty": "Intermediate",
+    "use_case": "Helm me `helm registry logout registry` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "helm registry logout registry",
+    "example": "helm registry logout registry",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status release",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-verify-chart-tgz",
+    "command": "helm verify chart.tgz",
+    "title": "Helm command use karna",
+    "category": "Helm",
+    "difficulty": "Intermediate",
+    "use_case": "Helm me `helm verify chart.tgz` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "helm verify chart.tgz",
+    "example": "helm verify chart.tgz",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status release",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-plugin-install-plugin-url",
+    "command": "helm plugin install plugin-url",
+    "title": "Helm deploy/run/install command",
+    "category": "Helm",
+    "difficulty": "Intermediate",
+    "use_case": "Helm me `helm plugin install plugin-url` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "helm plugin install plugin-url",
+    "example": "helm plugin install plugin-url",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status release",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-repo-index",
+    "command": "helm repo index .",
+    "title": "Helm command use karna",
+    "category": "Helm",
+    "difficulty": "Intermediate",
+    "use_case": "Helm me `helm repo index .` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "helm repo index .",
+    "example": "helm repo index .",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status release",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-search-repo-keyword-versions",
+    "command": "helm search repo keyword --versions",
+    "title": "Helm status/details verify karna",
+    "category": "Helm",
+    "difficulty": "Intermediate",
+    "use_case": "Helm me `helm search repo keyword --versions` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "helm search repo keyword --versions",
+    "example": "helm search repo keyword --versions",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status release",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
   }
 ]

@@ -1544,5 +1544,1293 @@
       "devops",
       "cli"
     ]
+  },
+  {
+    "id": "kubernetes-kubectl-get-pods-o-wide-a",
+    "command": "kubectl get pods -o wide -A",
+    "title": "Kubernetes status/details verify karna",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl get pods -o wide -A` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl get pods -o wide -A",
+    "example": "kubectl get pods -o wide -A",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-get-pods-field-selector-status-phase-failed-a",
+    "command": "kubectl get pods --field-selector=status.phase=Failed -A",
+    "title": "Kubernetes status/details verify karna",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl get pods --field-selector=status.phase=Failed -A` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl get pods --field-selector=status.phase=Failed -A",
+    "example": "kubectl get pods --field-selector=status.phase=Failed -A",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-get-pods-sort-by-metadata-creationtimestamp-a",
+    "command": "kubectl get pods --sort-by=.metadata.creationTimestamp -A",
+    "title": "Kubernetes status/details verify karna",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl get pods --sort-by=.metadata.creationTimestamp -A` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl get pods --sort-by=.metadata.creationTimestamp -A",
+    "example": "kubectl get pods --sort-by=.metadata.creationTimestamp -A",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-get-nodes-o-wide",
+    "command": "kubectl get nodes -o wide",
+    "title": "Kubernetes status/details verify karna",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl get nodes -o wide` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl get nodes -o wide",
+    "example": "kubectl get nodes -o wide",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-get-nodes-show-labels",
+    "command": "kubectl get nodes --show-labels",
+    "title": "Kubernetes status/details verify karna",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl get nodes --show-labels` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl get nodes --show-labels",
+    "example": "kubectl get nodes --show-labels",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-get-deploy-o-yaml-n-ns-name",
+    "command": "kubectl get deploy -o yaml -n ns name",
+    "title": "Kubernetes status/details verify karna",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl get deploy -o yaml -n ns name` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl get deploy -o yaml -n ns name",
+    "example": "kubectl get deploy -o yaml -n ns name",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-get-pod-pod-n-ns-o-yaml",
+    "command": "kubectl get pod pod -n ns -o yaml",
+    "title": "Kubernetes status/details verify karna",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl get pod pod -n ns -o yaml` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl get pod pod -n ns -o yaml",
+    "example": "kubectl get pod pod -n ns -o yaml",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-get-secret-secret-n-ns-o-jsonpath-data",
+    "command": "kubectl get secret secret -n ns -o jsonpath=\"{.data}\"",
+    "title": "Kubernetes status/details verify karna",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl get secret secret -n ns -o jsonpath=\"{.data}\"` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl get secret secret -n ns -o jsonpath=\"{.data}\"",
+    "example": "kubectl get secret secret -n ns -o jsonpath=\"{.data}\"",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-get-endpointslices-a",
+    "command": "kubectl get endpointslices -A",
+    "title": "Kubernetes status/details verify karna",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl get endpointslices -A` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl get endpointslices -A",
+    "example": "kubectl get endpointslices -A",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-get-storageclass",
+    "command": "kubectl get storageclass",
+    "title": "Kubernetes status/details verify karna",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl get storageclass` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl get storageclass",
+    "example": "kubectl get storageclass",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-get-priorityclass",
+    "command": "kubectl get priorityclass",
+    "title": "Kubernetes status/details verify karna",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl get priorityclass` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl get priorityclass",
+    "example": "kubectl get priorityclass",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-get-poddisruptionbudget-a",
+    "command": "kubectl get poddisruptionbudget -A",
+    "title": "Kubernetes status/details verify karna",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl get poddisruptionbudget -A` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl get poddisruptionbudget -A",
+    "example": "kubectl get poddisruptionbudget -A",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-get-networkpolicy-a",
+    "command": "kubectl get networkpolicy -A",
+    "title": "Kubernetes status/details verify karna",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl get networkpolicy -A` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl get networkpolicy -A",
+    "example": "kubectl get networkpolicy -A",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-get-validatingwebhookconfiguration",
+    "command": "kubectl get validatingwebhookconfiguration",
+    "title": "Kubernetes status/details verify karna",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl get validatingwebhookconfiguration` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl get validatingwebhookconfiguration",
+    "example": "kubectl get validatingwebhookconfiguration",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-get-mutatingwebhookconfiguration",
+    "command": "kubectl get mutatingwebhookconfiguration",
+    "title": "Kubernetes status/details verify karna",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl get mutatingwebhookconfiguration` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl get mutatingwebhookconfiguration",
+    "example": "kubectl get mutatingwebhookconfiguration",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-describe-pvc-pvc-n-ns",
+    "command": "kubectl describe pvc pvc -n ns",
+    "title": "Kubernetes status/details verify karna",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl describe pvc pvc -n ns` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl describe pvc pvc -n ns",
+    "example": "kubectl describe pvc pvc -n ns",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-describe-job-job-n-ns",
+    "command": "kubectl describe job job -n ns",
+    "title": "Kubernetes status/details verify karna",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl describe job job -n ns` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl describe job job -n ns",
+    "example": "kubectl describe job job -n ns",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-describe-cronjob-cron-n-ns",
+    "command": "kubectl describe cronjob cron -n ns",
+    "title": "Kubernetes status/details verify karna",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl describe cronjob cron -n ns` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl describe cronjob cron -n ns",
+    "example": "kubectl describe cronjob cron -n ns",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-describe-hpa-hpa-n-ns",
+    "command": "kubectl describe hpa hpa -n ns",
+    "title": "Kubernetes status/details verify karna",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl describe hpa hpa -n ns` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl describe hpa hpa -n ns",
+    "example": "kubectl describe hpa hpa -n ns",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-logs-pod-c-container-n-ns",
+    "command": "kubectl logs pod -c container -n ns",
+    "title": "Kubernetes logs/debugging command",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl logs pod -c container -n ns` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl logs pod -c container -n ns",
+    "example": "kubectl logs pod -c container -n ns",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-logs-deploy-app-all-containers-true-n-ns",
+    "command": "kubectl logs deploy/app --all-containers=true -n ns",
+    "title": "Kubernetes logs/debugging command",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl logs deploy/app --all-containers=true -n ns` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl logs deploy/app --all-containers=true -n ns",
+    "example": "kubectl logs deploy/app --all-containers=true -n ns",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-logs-job-job-name-n-ns",
+    "command": "kubectl logs job/job-name -n ns",
+    "title": "Kubernetes logs/debugging command",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl logs job/job-name -n ns` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl logs job/job-name -n ns",
+    "example": "kubectl logs job/job-name -n ns",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-attach-it-pod-n-ns",
+    "command": "kubectl attach -it pod -n ns",
+    "title": "Kubernetes command use karna",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl attach -it pod -n ns` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl attach -it pod -n ns",
+    "example": "kubectl attach -it pod -n ns",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-debug-pod-pod-it-image-busybox-n-ns",
+    "command": "kubectl debug pod/pod -it --image=busybox -n ns",
+    "title": "Kubernetes logs/debugging command",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl debug pod/pod -it --image=busybox -n ns` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl debug pod/pod -it --image=busybox -n ns",
+    "example": "kubectl debug pod/pod -it --image=busybox -n ns",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-debug-node-node-name-it-image-busybox",
+    "command": "kubectl debug node/node-name -it --image=busybox",
+    "title": "Kubernetes logs/debugging command",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl debug node/node-name -it --image=busybox` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl debug node/node-name -it --image=busybox",
+    "example": "kubectl debug node/node-name -it --image=busybox",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-run-tmp-shell-rm-it-image-busybox-sh",
+    "command": "kubectl run tmp-shell --rm -it --image=busybox -- sh",
+    "title": "Kubernetes deploy/run/install command",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl run tmp-shell --rm -it --image=busybox -- sh` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl run tmp-shell --rm -it --image=busybox -- sh",
+    "example": "kubectl run tmp-shell --rm -it --image=busybox -- sh",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-run-curl-rm-it-image-curlimages-curl-sh",
+    "command": "kubectl run curl --rm -it --image=curlimages/curl -- sh",
+    "title": "Kubernetes deploy/run/install command",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl run curl --rm -it --image=curlimages/curl -- sh` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl run curl --rm -it --image=curlimages/curl -- sh",
+    "example": "kubectl run curl --rm -it --image=curlimages/curl -- sh",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-create-deployment-nginx-image-nginx",
+    "command": "kubectl create deployment nginx --image=nginx",
+    "title": "Kubernetes resource create/generate karna",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl create deployment nginx --image=nginx` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl create deployment nginx --image=nginx",
+    "example": "kubectl create deployment nginx --image=nginx",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-expose-deployment-nginx-port-80-type-clusterip",
+    "command": "kubectl expose deployment nginx --port=80 --type=ClusterIP",
+    "title": "Kubernetes deploy/run/install command",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl expose deployment nginx --port=80 --type=ClusterIP` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl expose deployment nginx --port=80 --type=ClusterIP",
+    "example": "kubectl expose deployment nginx --port=80 --type=ClusterIP",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-create-job-test-image-busybox-echo-hello",
+    "command": "kubectl create job test --image=busybox -- echo hello",
+    "title": "Kubernetes status/details verify karna",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl create job test --image=busybox -- echo hello` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl create job test --image=busybox -- echo hello",
+    "example": "kubectl create job test --image=busybox -- echo hello",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-create-cronjob-hello-image-busybox-schedule-1-echo-hello",
+    "command": "kubectl create cronjob hello --image=busybox --schedule=\"*/1 * * * *\" -- echo hello",
+    "title": "Kubernetes resource create/generate karna",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl create cronjob hello --image=busybox --schedule=\"*/1 * * * *\" -- echo hello` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl create cronjob hello --image=busybox --schedule=\"*/1 * * * *\" -- echo hello",
+    "example": "kubectl create cronjob hello --image=busybox --schedule=\"*/1 * * * *\" -- echo hello",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-patch-deploy-app-p-spec-replicas-3-n-ns",
+    "command": "kubectl patch deploy app -p '{\"spec\":{\"replicas\":3}}' -n ns",
+    "title": "Kubernetes deploy/run/install command",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl patch deploy app -p '{\"spec\":{\"replicas\":3}}' -n ns` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl patch deploy app -p '{\"spec\":{\"replicas\":3}}' -n ns",
+    "example": "kubectl patch deploy app -p '{\"spec\":{\"replicas\":3}}' -n ns",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-annotate-deploy-app-key-value-n-ns",
+    "command": "kubectl annotate deploy app key=value -n ns",
+    "title": "Kubernetes deploy/run/install command",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl annotate deploy app key=value -n ns` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl annotate deploy app key=value -n ns",
+    "example": "kubectl annotate deploy app key=value -n ns",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-label-pod-pod-key-value-n-ns-overwrite",
+    "command": "kubectl label pod pod key=value -n ns --overwrite",
+    "title": "Kubernetes command use karna",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl label pod pod key=value -n ns --overwrite` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl label pod pod key=value -n ns --overwrite",
+    "example": "kubectl label pod pod key=value -n ns --overwrite",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-delete-pod-pod-grace-period-0-force-n-ns",
+    "command": "kubectl delete pod pod --grace-period=0 --force -n ns",
+    "title": "Kubernetes risky cleanup/delete command",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl delete pod pod --grace-period=0 --force -n ns` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl delete pod pod --grace-period=0 --force -n ns",
+    "example": "kubectl delete pod pod --grace-period=0 --force -n ns",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-delete-ev-all-n-ns",
+    "command": "kubectl delete ev --all -n ns",
+    "title": "Kubernetes risky cleanup/delete command",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl delete ev --all -n ns` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl delete ev --all -n ns",
+    "example": "kubectl delete ev --all -n ns",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-wait-for-condition-ready-pod-l-app-myapp-n-ns-timeout-120s",
+    "command": "kubectl wait --for=condition=ready pod -l app=myapp -n ns --timeout=120s",
+    "title": "Kubernetes command use karna",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl wait --for=condition=ready pod -l app=myapp -n ns --timeout=120s` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl wait --for=condition=ready pod -l app=myapp -n ns --timeout=120s",
+    "example": "kubectl wait --for=condition=ready pod -l app=myapp -n ns --timeout=120s",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-wait-for-condition-available-deploy-app-n-ns-timeout-120s",
+    "command": "kubectl wait --for=condition=available deploy/app -n ns --timeout=120s",
+    "title": "Kubernetes deploy/run/install command",
+    "category": "Kubernetes",
+    "difficulty": "Intermediate",
+    "use_case": "Kubernetes me `kubectl wait --for=condition=available deploy/app -n ns --timeout=120s` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl wait --for=condition=available deploy/app -n ns --timeout=120s",
+    "example": "kubectl wait --for=condition=available deploy/app -n ns --timeout=120s",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-config-current-context",
+    "command": "kubectl config current-context",
+    "title": "Kubernetes command use karna",
+    "category": "Kubernetes",
+    "difficulty": "Advanced",
+    "use_case": "Kubernetes me `kubectl config current-context` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl config current-context",
+    "example": "kubectl config current-context",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-config-view",
+    "command": "kubectl config view",
+    "title": "Kubernetes command use karna",
+    "category": "Kubernetes",
+    "difficulty": "Advanced",
+    "use_case": "Kubernetes me `kubectl config view` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl config view",
+    "example": "kubectl config view",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-config-set-context-current-namespace-ns",
+    "command": "kubectl config set-context --current --namespace=ns",
+    "title": "Kubernetes command use karna",
+    "category": "Kubernetes",
+    "difficulty": "Advanced",
+    "use_case": "Kubernetes me `kubectl config set-context --current --namespace=ns` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl config set-context --current --namespace=ns",
+    "example": "kubectl config set-context --current --namespace=ns",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-config-delete-context-context",
+    "command": "kubectl config delete-context context",
+    "title": "Kubernetes risky cleanup/delete command",
+    "category": "Kubernetes",
+    "difficulty": "Advanced",
+    "use_case": "Kubernetes me `kubectl config delete-context context` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl config delete-context context",
+    "example": "kubectl config delete-context context",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-certificate-approve-csr-name",
+    "command": "kubectl certificate approve csr-name",
+    "title": "Kubernetes command use karna",
+    "category": "Kubernetes",
+    "difficulty": "Advanced",
+    "use_case": "Kubernetes me `kubectl certificate approve csr-name` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl certificate approve csr-name",
+    "example": "kubectl certificate approve csr-name",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-top-pod-pod-n-ns-containers",
+    "command": "kubectl top pod pod -n ns --containers",
+    "title": "Kubernetes command use karna",
+    "category": "Kubernetes",
+    "difficulty": "Advanced",
+    "use_case": "Kubernetes me `kubectl top pod pod -n ns --containers` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl top pod pod -n ns --containers",
+    "example": "kubectl top pod pod -n ns --containers",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-drain-node-delete-emptydir-data-ignore-daemonsets",
+    "command": "kubectl drain node --delete-emptydir-data --ignore-daemonsets",
+    "title": "Kubernetes risky cleanup/delete command",
+    "category": "Kubernetes",
+    "difficulty": "Advanced",
+    "use_case": "Kubernetes me `kubectl drain node --delete-emptydir-data --ignore-daemonsets` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl drain node --delete-emptydir-data --ignore-daemonsets",
+    "example": "kubectl drain node --delete-emptydir-data --ignore-daemonsets",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-taint-nodes-node-dedicated-gpu-noschedule",
+    "command": "kubectl taint nodes node dedicated=gpu:NoSchedule",
+    "title": "Kubernetes command use karna",
+    "category": "Kubernetes",
+    "difficulty": "Advanced",
+    "use_case": "Kubernetes me `kubectl taint nodes node dedicated=gpu:NoSchedule` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl taint nodes node dedicated=gpu:NoSchedule",
+    "example": "kubectl taint nodes node dedicated=gpu:NoSchedule",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-taint-nodes-node-dedicated-gpu-noschedule",
+    "command": "kubectl taint nodes node dedicated=gpu:NoSchedule-",
+    "title": "Kubernetes command use karna",
+    "category": "Kubernetes",
+    "difficulty": "Advanced",
+    "use_case": "Kubernetes me `kubectl taint nodes node dedicated=gpu:NoSchedule-` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl taint nodes node dedicated=gpu:NoSchedule-",
+    "example": "kubectl taint nodes node dedicated=gpu:NoSchedule-",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-api-resources-namespaced-true",
+    "command": "kubectl api-resources --namespaced=true",
+    "title": "Kubernetes command use karna",
+    "category": "Kubernetes",
+    "difficulty": "Advanced",
+    "use_case": "Kubernetes me `kubectl api-resources --namespaced=true` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl api-resources --namespaced=true",
+    "example": "kubectl api-resources --namespaced=true",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-api-resources-verbs-list",
+    "command": "kubectl api-resources --verbs=list",
+    "title": "Kubernetes status/details verify karna",
+    "category": "Kubernetes",
+    "difficulty": "Advanced",
+    "use_case": "Kubernetes me `kubectl api-resources --verbs=list` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl api-resources --verbs=list",
+    "example": "kubectl api-resources --verbs=list",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-explain-deployment-spec-strategy",
+    "command": "kubectl explain deployment.spec.strategy",
+    "title": "Kubernetes deploy/run/install command",
+    "category": "Kubernetes",
+    "difficulty": "Advanced",
+    "use_case": "Kubernetes me `kubectl explain deployment.spec.strategy` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl explain deployment.spec.strategy",
+    "example": "kubectl explain deployment.spec.strategy",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-apply-server-side-f-file-yaml",
+    "command": "kubectl apply --server-side -f file.yaml",
+    "title": "Kubernetes deploy/run/install command",
+    "category": "Kubernetes",
+    "difficulty": "Advanced",
+    "use_case": "Kubernetes me `kubectl apply --server-side -f file.yaml` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl apply --server-side -f file.yaml",
+    "example": "kubectl apply --server-side -f file.yaml",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-replace-f-file-yaml",
+    "command": "kubectl replace -f file.yaml",
+    "title": "Kubernetes command use karna",
+    "category": "Kubernetes",
+    "difficulty": "Advanced",
+    "use_case": "Kubernetes me `kubectl replace -f file.yaml` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl replace -f file.yaml",
+    "example": "kubectl replace -f file.yaml",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-create-f-file-yaml-dry-run-client-o-yaml",
+    "command": "kubectl create -f file.yaml --dry-run=client -o yaml",
+    "title": "Kubernetes resource create/generate karna",
+    "category": "Kubernetes",
+    "difficulty": "Advanced",
+    "use_case": "Kubernetes me `kubectl create -f file.yaml --dry-run=client -o yaml` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl create -f file.yaml --dry-run=client -o yaml",
+    "example": "kubectl create -f file.yaml --dry-run=client -o yaml",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-get-raw-healthz",
+    "command": "kubectl get --raw /healthz",
+    "title": "Kubernetes status/details verify karna",
+    "category": "Kubernetes",
+    "difficulty": "Advanced",
+    "use_case": "Kubernetes me `kubectl get --raw /healthz` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl get --raw /healthz",
+    "example": "kubectl get --raw /healthz",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-get-raw-metrics",
+    "command": "kubectl get --raw /metrics",
+    "title": "Kubernetes status/details verify karna",
+    "category": "Kubernetes",
+    "difficulty": "Advanced",
+    "use_case": "Kubernetes me `kubectl get --raw /metrics` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl get --raw /metrics",
+    "example": "kubectl get --raw /metrics",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "kubernetes-kubectl-proxy-port-8001",
+    "command": "kubectl proxy --port=8001",
+    "title": "Kubernetes command use karna",
+    "category": "Kubernetes",
+    "difficulty": "Advanced",
+    "use_case": "Kubernetes me `kubectl proxy --port=8001` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "kubectl proxy --port=8001",
+    "example": "kubectl proxy --port=8001",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe pod",
+      "kubectl logs"
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
   }
 ]

@@ -1450,5 +1450,1139 @@
       "devops",
       "cli"
     ]
+  },
+  {
+    "id": "aws-cli-aws-s3api-list-buckets",
+    "command": "aws s3api list-buckets",
+    "title": "AWS CLI status/details verify karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws s3api list-buckets` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws s3api list-buckets",
+    "example": "aws s3api list-buckets",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-s3api-get-bucket-location-bucket-bucket",
+    "command": "aws s3api get-bucket-location --bucket bucket",
+    "title": "AWS CLI status/details verify karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws s3api get-bucket-location --bucket bucket` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws s3api get-bucket-location --bucket bucket",
+    "example": "aws s3api get-bucket-location --bucket bucket",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-s3api-get-bucket-policy-bucket-bucket",
+    "command": "aws s3api get-bucket-policy --bucket bucket",
+    "title": "AWS CLI status/details verify karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws s3api get-bucket-policy --bucket bucket` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws s3api get-bucket-policy --bucket bucket",
+    "example": "aws s3api get-bucket-policy --bucket bucket",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-s3api-put-bucket-versioning-bucket-bucket-versioning-configuration-status-enabled",
+    "command": "aws s3api put-bucket-versioning --bucket bucket --versioning-configuration Status=Enabled",
+    "title": "AWS CLI status/details verify karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws s3api put-bucket-versioning --bucket bucket --versioning-configuration Status=Enabled` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws s3api put-bucket-versioning --bucket bucket --versioning-configuration Status=Enabled",
+    "example": "aws s3api put-bucket-versioning --bucket bucket --versioning-configuration Status=Enabled",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-s3api-list-object-versions-bucket-bucket",
+    "command": "aws s3api list-object-versions --bucket bucket",
+    "title": "AWS CLI status/details verify karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws s3api list-object-versions --bucket bucket` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws s3api list-object-versions --bucket bucket",
+    "example": "aws s3api list-object-versions --bucket bucket",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-s3-ls-s3-bucket-recursive-human-readable-summarize",
+    "command": "aws s3 ls s3://bucket --recursive --human-readable --summarize",
+    "title": "AWS CLI command use karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws s3 ls s3://bucket --recursive --human-readable --summarize` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws s3 ls s3://bucket --recursive --human-readable --summarize",
+    "example": "aws s3 ls s3://bucket --recursive --human-readable --summarize",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-ec2-describe-instance-status",
+    "command": "aws ec2 describe-instance-status",
+    "title": "AWS CLI status/details verify karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws ec2 describe-instance-status` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws ec2 describe-instance-status",
+    "example": "aws ec2 describe-instance-status",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-ec2-reboot-instances-instance-ids-i-xxx",
+    "command": "aws ec2 reboot-instances --instance-ids i-xxx",
+    "title": "AWS CLI command use karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws ec2 reboot-instances --instance-ids i-xxx` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws ec2 reboot-instances --instance-ids i-xxx",
+    "example": "aws ec2 reboot-instances --instance-ids i-xxx",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-ec2-terminate-instances-instance-ids-i-xxx",
+    "command": "aws ec2 terminate-instances --instance-ids i-xxx",
+    "title": "AWS CLI command use karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws ec2 terminate-instances --instance-ids i-xxx` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws ec2 terminate-instances --instance-ids i-xxx",
+    "example": "aws ec2 terminate-instances --instance-ids i-xxx",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-ec2-create-tags-resources-i-xxx-tags-key-name-value-server",
+    "command": "aws ec2 create-tags --resources i-xxx --tags Key=Name,Value=server",
+    "title": "AWS CLI resource create/generate karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws ec2 create-tags --resources i-xxx --tags Key=Name,Value=server` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws ec2 create-tags --resources i-xxx --tags Key=Name,Value=server",
+    "example": "aws ec2 create-tags --resources i-xxx --tags Key=Name,Value=server",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-ec2-describe-network-interfaces",
+    "command": "aws ec2 describe-network-interfaces",
+    "title": "AWS CLI status/details verify karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws ec2 describe-network-interfaces` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws ec2 describe-network-interfaces",
+    "example": "aws ec2 describe-network-interfaces",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-ec2-describe-nat-gateways",
+    "command": "aws ec2 describe-nat-gateways",
+    "title": "AWS CLI status/details verify karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws ec2 describe-nat-gateways` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws ec2 describe-nat-gateways",
+    "example": "aws ec2 describe-nat-gateways",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-ec2-describe-internet-gateways",
+    "command": "aws ec2 describe-internet-gateways",
+    "title": "AWS CLI status/details verify karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws ec2 describe-internet-gateways` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws ec2 describe-internet-gateways",
+    "example": "aws ec2 describe-internet-gateways",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-ec2-describe-security-group-rules",
+    "command": "aws ec2 describe-security-group-rules",
+    "title": "AWS CLI status/details verify karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws ec2 describe-security-group-rules` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws ec2 describe-security-group-rules",
+    "example": "aws ec2 describe-security-group-rules",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-ec2-authorize-security-group-ingress-group-id-sg-protocol-tcp-port-443-cidr-0-0-0-0-0",
+    "command": "aws ec2 authorize-security-group-ingress --group-id sg --protocol tcp --port 443 --cidr 0.0.0.0/0",
+    "title": "AWS CLI deploy/run/install command",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws ec2 authorize-security-group-ingress --group-id sg --protocol tcp --port 443 --cidr 0.0.0.0/0` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws ec2 authorize-security-group-ingress --group-id sg --protocol tcp --port 443 --cidr 0.0.0.0/0",
+    "example": "aws ec2 authorize-security-group-ingress --group-id sg --protocol tcp --port 443 --cidr 0.0.0.0/0",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-ec2-revoke-security-group-ingress-group-id-sg-protocol-tcp-port-443-cidr-0-0-0-0-0",
+    "command": "aws ec2 revoke-security-group-ingress --group-id sg --protocol tcp --port 443 --cidr 0.0.0.0/0",
+    "title": "AWS CLI deploy/run/install command",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws ec2 revoke-security-group-ingress --group-id sg --protocol tcp --port 443 --cidr 0.0.0.0/0` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws ec2 revoke-security-group-ingress --group-id sg --protocol tcp --port 443 --cidr 0.0.0.0/0",
+    "example": "aws ec2 revoke-security-group-ingress --group-id sg --protocol tcp --port 443 --cidr 0.0.0.0/0",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-elbv2-describe-listeners-load-balancer-arn-arn",
+    "command": "aws elbv2 describe-listeners --load-balancer-arn arn",
+    "title": "AWS CLI status/details verify karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws elbv2 describe-listeners --load-balancer-arn arn` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws elbv2 describe-listeners --load-balancer-arn arn",
+    "example": "aws elbv2 describe-listeners --load-balancer-arn arn",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-elbv2-describe-rules-listener-arn-arn",
+    "command": "aws elbv2 describe-rules --listener-arn arn",
+    "title": "AWS CLI status/details verify karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws elbv2 describe-rules --listener-arn arn` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws elbv2 describe-rules --listener-arn arn",
+    "example": "aws elbv2 describe-rules --listener-arn arn",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-elbv2-modify-target-group-target-group-arn-arn-health-check-path-health",
+    "command": "aws elbv2 modify-target-group --target-group-arn arn --health-check-path /health",
+    "title": "AWS CLI status/details verify karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws elbv2 modify-target-group --target-group-arn arn --health-check-path /health` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws elbv2 modify-target-group --target-group-arn arn --health-check-path /health",
+    "example": "aws elbv2 modify-target-group --target-group-arn arn --health-check-path /health",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-autoscaling-set-desired-capacity-auto-scaling-group-name-asg-desired-capacity-2",
+    "command": "aws autoscaling set-desired-capacity --auto-scaling-group-name asg --desired-capacity 2",
+    "title": "AWS CLI deploy/run/install command",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws autoscaling set-desired-capacity --auto-scaling-group-name asg --desired-capacity 2` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws autoscaling set-desired-capacity --auto-scaling-group-name asg --desired-capacity 2",
+    "example": "aws autoscaling set-desired-capacity --auto-scaling-group-name asg --desired-capacity 2",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-ecs-describe-task-definition-task-definition-task",
+    "command": "aws ecs describe-task-definition --task-definition task",
+    "title": "AWS CLI status/details verify karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws ecs describe-task-definition --task-definition task` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws ecs describe-task-definition --task-definition task",
+    "example": "aws ecs describe-task-definition --task-definition task",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-ecs-register-task-definition-cli-input-json-file-task-json",
+    "command": "aws ecs register-task-definition --cli-input-json file://task.json",
+    "title": "AWS CLI resource create/generate karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws ecs register-task-definition --cli-input-json file://task.json` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws ecs register-task-definition --cli-input-json file://task.json",
+    "example": "aws ecs register-task-definition --cli-input-json file://task.json",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-ecs-run-task-cluster-cluster-task-definition-task",
+    "command": "aws ecs run-task --cluster cluster --task-definition task",
+    "title": "AWS CLI resource create/generate karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws ecs run-task --cluster cluster --task-definition task` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws ecs run-task --cluster cluster --task-definition task",
+    "example": "aws ecs run-task --cluster cluster --task-definition task",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-ecs-execute-command-cluster-cluster-task-task-container-app-interactive-command-sh",
+    "command": "aws ecs execute-command --cluster cluster --task task --container app --interactive --command sh",
+    "title": "AWS CLI command use karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws ecs execute-command --cluster cluster --task task --container app --interactive --command sh` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws ecs execute-command --cluster cluster --task task --container app --interactive --command sh",
+    "example": "aws ecs execute-command --cluster cluster --task task --container app --interactive --command sh",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-ecr-create-repository-repository-name-repo",
+    "command": "aws ecr create-repository --repository-name repo",
+    "title": "AWS CLI resource create/generate karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws ecr create-repository --repository-name repo` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws ecr create-repository --repository-name repo",
+    "example": "aws ecr create-repository --repository-name repo",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-ecr-delete-image-repository-name-repo-image-ids-imagetag-old",
+    "command": "aws ecr delete-image --repository-name repo --image-ids imageTag=old",
+    "title": "AWS CLI risky cleanup/delete command",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws ecr delete-image --repository-name repo --image-ids imageTag=old` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws ecr delete-image --repository-name repo --image-ids imageTag=old",
+    "example": "aws ecr delete-image --repository-name repo --image-ids imageTag=old",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-logs-describe-log-streams-log-group-name-group",
+    "command": "aws logs describe-log-streams --log-group-name group",
+    "title": "AWS CLI status/details verify karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws logs describe-log-streams --log-group-name group` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws logs describe-log-streams --log-group-name group",
+    "example": "aws logs describe-log-streams --log-group-name group",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-logs-get-log-events-log-group-name-group-log-stream-name-stream",
+    "command": "aws logs get-log-events --log-group-name group --log-stream-name stream",
+    "title": "AWS CLI status/details verify karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws logs get-log-events --log-group-name group --log-stream-name stream` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws logs get-log-events --log-group-name group --log-stream-name stream",
+    "example": "aws logs get-log-events --log-group-name group --log-stream-name stream",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-cloudwatch-put-metric-alarm-alarm-name-name",
+    "command": "aws cloudwatch put-metric-alarm --alarm-name name",
+    "title": "AWS CLI command use karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws cloudwatch put-metric-alarm --alarm-name name` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws cloudwatch put-metric-alarm --alarm-name name",
+    "example": "aws cloudwatch put-metric-alarm --alarm-name name",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-rds-start-db-instance-db-instance-identifier-db",
+    "command": "aws rds start-db-instance --db-instance-identifier db",
+    "title": "AWS CLI deploy/run/install command",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws rds start-db-instance --db-instance-identifier db` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws rds start-db-instance --db-instance-identifier db",
+    "example": "aws rds start-db-instance --db-instance-identifier db",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-rds-stop-db-instance-db-instance-identifier-db",
+    "command": "aws rds stop-db-instance --db-instance-identifier db",
+    "title": "AWS CLI command use karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws rds stop-db-instance --db-instance-identifier db` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws rds stop-db-instance --db-instance-identifier db",
+    "example": "aws rds stop-db-instance --db-instance-identifier db",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-rds-reboot-db-instance-db-instance-identifier-db",
+    "command": "aws rds reboot-db-instance --db-instance-identifier db",
+    "title": "AWS CLI command use karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws rds reboot-db-instance --db-instance-identifier db` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws rds reboot-db-instance --db-instance-identifier db",
+    "example": "aws rds reboot-db-instance --db-instance-identifier db",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-rds-describe-db-log-files-db-instance-identifier-db",
+    "command": "aws rds describe-db-log-files --db-instance-identifier db",
+    "title": "AWS CLI status/details verify karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws rds describe-db-log-files --db-instance-identifier db` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws rds describe-db-log-files --db-instance-identifier db",
+    "example": "aws rds describe-db-log-files --db-instance-identifier db",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-rds-download-db-log-file-portion-db-instance-identifier-db-log-file-name-error-postgresql-log",
+    "command": "aws rds download-db-log-file-portion --db-instance-identifier db --log-file-name error/postgresql.log",
+    "title": "AWS CLI command use karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws rds download-db-log-file-portion --db-instance-identifier db --log-file-name error/postgresql.log` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws rds download-db-log-file-portion --db-instance-identifier db --log-file-name error/postgresql.log",
+    "example": "aws rds download-db-log-file-portion --db-instance-identifier db --log-file-name error/postgresql.log",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-lambda-get-function-function-name-fn",
+    "command": "aws lambda get-function --function-name fn",
+    "title": "AWS CLI status/details verify karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws lambda get-function --function-name fn` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws lambda get-function --function-name fn",
+    "example": "aws lambda get-function --function-name fn",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-lambda-update-function-code-function-name-fn-zip-file-fileb-function-zip",
+    "command": "aws lambda update-function-code --function-name fn --zip-file fileb://function.zip",
+    "title": "AWS CLI deploy/run/install command",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws lambda update-function-code --function-name fn --zip-file fileb://function.zip` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws lambda update-function-code --function-name fn --zip-file fileb://function.zip",
+    "example": "aws lambda update-function-code --function-name fn --zip-file fileb://function.zip",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-lambda-update-function-configuration-function-name-fn-environment-variables-key-value",
+    "command": "aws lambda update-function-configuration --function-name fn --environment Variables={KEY=value}",
+    "title": "AWS CLI deploy/run/install command",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws lambda update-function-configuration --function-name fn --environment Variables={KEY=value}` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws lambda update-function-configuration --function-name fn --environment Variables={KEY=value}",
+    "example": "aws lambda update-function-configuration --function-name fn --environment Variables={KEY=value}",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-iam-list-attached-user-policies-user-name-user",
+    "command": "aws iam list-attached-user-policies --user-name user",
+    "title": "AWS CLI status/details verify karna",
+    "category": "AWS CLI",
+    "difficulty": "Intermediate",
+    "use_case": "AWS CLI me `aws iam list-attached-user-policies --user-name user` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws iam list-attached-user-policies --user-name user",
+    "example": "aws iam list-attached-user-policies --user-name user",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-iam-list-access-keys-user-name-user",
+    "command": "aws iam list-access-keys --user-name user",
+    "title": "AWS CLI status/details verify karna",
+    "category": "AWS CLI",
+    "difficulty": "Advanced",
+    "use_case": "AWS CLI me `aws iam list-access-keys --user-name user` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws iam list-access-keys --user-name user",
+    "example": "aws iam list-access-keys --user-name user",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-iam-create-access-key-user-name-user",
+    "command": "aws iam create-access-key --user-name user",
+    "title": "AWS CLI resource create/generate karna",
+    "category": "AWS CLI",
+    "difficulty": "Advanced",
+    "use_case": "AWS CLI me `aws iam create-access-key --user-name user` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws iam create-access-key --user-name user",
+    "example": "aws iam create-access-key --user-name user",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-iam-delete-access-key-user-name-user-access-key-id-key",
+    "command": "aws iam delete-access-key --user-name user --access-key-id key",
+    "title": "AWS CLI risky cleanup/delete command",
+    "category": "AWS CLI",
+    "difficulty": "Advanced",
+    "use_case": "AWS CLI me `aws iam delete-access-key --user-name user --access-key-id key` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws iam delete-access-key --user-name user --access-key-id key",
+    "example": "aws iam delete-access-key --user-name user --access-key-id key",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-secretsmanager-create-secret-name-name-secret-string-value",
+    "command": "aws secretsmanager create-secret --name name --secret-string value",
+    "title": "AWS CLI resource create/generate karna",
+    "category": "AWS CLI",
+    "difficulty": "Advanced",
+    "use_case": "AWS CLI me `aws secretsmanager create-secret --name name --secret-string value` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws secretsmanager create-secret --name name --secret-string value",
+    "example": "aws secretsmanager create-secret --name name --secret-string value",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-secretsmanager-put-secret-value-secret-id-name-secret-string-value",
+    "command": "aws secretsmanager put-secret-value --secret-id name --secret-string value",
+    "title": "AWS CLI command use karna",
+    "category": "AWS CLI",
+    "difficulty": "Advanced",
+    "use_case": "AWS CLI me `aws secretsmanager put-secret-value --secret-id name --secret-string value` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws secretsmanager put-secret-value --secret-id name --secret-string value",
+    "example": "aws secretsmanager put-secret-value --secret-id name --secret-string value",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-ssm-put-parameter-name-name-value-value-type-securestring-overwrite",
+    "command": "aws ssm put-parameter --name name --value value --type SecureString --overwrite",
+    "title": "AWS CLI command use karna",
+    "category": "AWS CLI",
+    "difficulty": "Advanced",
+    "use_case": "AWS CLI me `aws ssm put-parameter --name name --value value --type SecureString --overwrite` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws ssm put-parameter --name name --value value --type SecureString --overwrite",
+    "example": "aws ssm put-parameter --name name --value value --type SecureString --overwrite",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-cloudformation-validate-template-template-body-file-template-yml",
+    "command": "aws cloudformation validate-template --template-body file://template.yml",
+    "title": "AWS CLI status/details verify karna",
+    "category": "AWS CLI",
+    "difficulty": "Advanced",
+    "use_case": "AWS CLI me `aws cloudformation validate-template --template-body file://template.yml` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws cloudformation validate-template --template-body file://template.yml",
+    "example": "aws cloudformation validate-template --template-body file://template.yml",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-cloudformation-deploy-template-file-template-yml-stack-name-stack",
+    "command": "aws cloudformation deploy --template-file template.yml --stack-name stack",
+    "title": "AWS CLI deploy/run/install command",
+    "category": "AWS CLI",
+    "difficulty": "Advanced",
+    "use_case": "AWS CLI me `aws cloudformation deploy --template-file template.yml --stack-name stack` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws cloudformation deploy --template-file template.yml --stack-name stack",
+    "example": "aws cloudformation deploy --template-file template.yml --stack-name stack",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-cloudformation-delete-stack-stack-name-stack",
+    "command": "aws cloudformation delete-stack --stack-name stack",
+    "title": "AWS CLI risky cleanup/delete command",
+    "category": "AWS CLI",
+    "difficulty": "Advanced",
+    "use_case": "AWS CLI me `aws cloudformation delete-stack --stack-name stack` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws cloudformation delete-stack --stack-name stack",
+    "example": "aws cloudformation delete-stack --stack-name stack",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-route53-change-resource-record-sets-hosted-zone-id-z-change-batch-file-change-json",
+    "command": "aws route53 change-resource-record-sets --hosted-zone-id Z --change-batch file://change.json",
+    "title": "AWS CLI command use karna",
+    "category": "AWS CLI",
+    "difficulty": "Advanced",
+    "use_case": "AWS CLI me `aws route53 change-resource-record-sets --hosted-zone-id Z --change-batch file://change.json` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws route53 change-resource-record-sets --hosted-zone-id Z --change-batch file://change.json",
+    "example": "aws route53 change-resource-record-sets --hosted-zone-id Z --change-batch file://change.json",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-acm-describe-certificate-certificate-arn-arn",
+    "command": "aws acm describe-certificate --certificate-arn arn",
+    "title": "AWS CLI status/details verify karna",
+    "category": "AWS CLI",
+    "difficulty": "Advanced",
+    "use_case": "AWS CLI me `aws acm describe-certificate --certificate-arn arn` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws acm describe-certificate --certificate-arn arn",
+    "example": "aws acm describe-certificate --certificate-arn arn",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-eks-describe-cluster-name-cluster",
+    "command": "aws eks describe-cluster --name cluster",
+    "title": "AWS CLI status/details verify karna",
+    "category": "AWS CLI",
+    "difficulty": "Advanced",
+    "use_case": "AWS CLI me `aws eks describe-cluster --name cluster` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws eks describe-cluster --name cluster",
+    "example": "aws eks describe-cluster --name cluster",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-eks-list-nodegroups-cluster-name-cluster",
+    "command": "aws eks list-nodegroups --cluster-name cluster",
+    "title": "AWS CLI status/details verify karna",
+    "category": "AWS CLI",
+    "difficulty": "Advanced",
+    "use_case": "AWS CLI me `aws eks list-nodegroups --cluster-name cluster` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws eks list-nodegroups --cluster-name cluster",
+    "example": "aws eks list-nodegroups --cluster-name cluster",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-eks-describe-nodegroup-cluster-name-cluster-nodegroup-name-ng",
+    "command": "aws eks describe-nodegroup --cluster-name cluster --nodegroup-name ng",
+    "title": "AWS CLI status/details verify karna",
+    "category": "AWS CLI",
+    "difficulty": "Advanced",
+    "use_case": "AWS CLI me `aws eks describe-nodegroup --cluster-name cluster --nodegroup-name ng` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws eks describe-nodegroup --cluster-name cluster --nodegroup-name ng",
+    "example": "aws eks describe-nodegroup --cluster-name cluster --nodegroup-name ng",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-eks-update-kubeconfig-name-cluster",
+    "command": "aws eks update-kubeconfig --name cluster",
+    "title": "AWS CLI deploy/run/install command",
+    "category": "AWS CLI",
+    "difficulty": "Advanced",
+    "use_case": "AWS CLI me `aws eks update-kubeconfig --name cluster` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws eks update-kubeconfig --name cluster",
+    "example": "aws eks update-kubeconfig --name cluster",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "aws-cli-aws-eks-get-token-cluster-name-cluster",
+    "command": "aws eks get-token --cluster-name cluster",
+    "title": "AWS CLI status/details verify karna",
+    "category": "AWS CLI",
+    "difficulty": "Advanced",
+    "use_case": "AWS CLI me `aws eks get-token --cluster-name cluster` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "aws eks get-token --cluster-name cluster",
+    "example": "aws eks get-token --cluster-name cluster",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "aws configure list",
+      "aws sts get-caller-identity"
+    ],
+    "tags": [
+      "aws",
+      "devops",
+      "cli"
+    ]
   }
 ]

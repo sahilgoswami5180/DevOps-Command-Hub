@@ -990,5 +990,819 @@
       "devops",
       "cli"
     ]
+  },
+  {
+    "id": "azure-cli-az-cloud-list",
+    "command": "az cloud list",
+    "title": "Azure CLI status/details verify karna",
+    "category": "Azure CLI",
+    "difficulty": "Beginner",
+    "use_case": "Azure CLI me `az cloud list` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az cloud list",
+    "example": "az cloud list",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-configure-defaults-group-rg-location-eastus",
+    "command": "az configure --defaults group=rg location=eastus",
+    "title": "Azure CLI deploy/run/install command",
+    "category": "Azure CLI",
+    "difficulty": "Beginner",
+    "use_case": "Azure CLI me `az configure --defaults group=rg location=eastus` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az configure --defaults group=rg location=eastus",
+    "example": "az configure --defaults group=rg location=eastus",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-account-get-access-token",
+    "command": "az account get-access-token",
+    "title": "Azure CLI status/details verify karna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI me `az account get-access-token` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az account get-access-token",
+    "example": "az account get-access-token",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-group-exists-n-rg",
+    "command": "az group exists -n rg",
+    "title": "Azure CLI deploy/run/install command",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI me `az group exists -n rg` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az group exists -n rg",
+    "example": "az group exists -n rg",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-vm-deallocate-g-rg-n-vm",
+    "command": "az vm deallocate -g rg -n vm",
+    "title": "Azure CLI command use karna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI me `az vm deallocate -g rg -n vm` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az vm deallocate -g rg -n vm",
+    "example": "az vm deallocate -g rg -n vm",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-vm-restart-g-rg-n-vm",
+    "command": "az vm restart -g rg -n vm",
+    "title": "Azure CLI restart/reload/refresh karna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI me `az vm restart -g rg -n vm` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az vm restart -g rg -n vm",
+    "example": "az vm restart -g rg -n vm",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-vm-delete-g-rg-n-vm",
+    "command": "az vm delete -g rg -n vm",
+    "title": "Azure CLI risky cleanup/delete command",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI me `az vm delete -g rg -n vm` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az vm delete -g rg -n vm",
+    "example": "az vm delete -g rg -n vm",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-vm-create-g-rg-n-vm-image-ubuntu2204-admin-username-azureuser",
+    "command": "az vm create -g rg -n vm --image Ubuntu2204 --admin-username azureuser",
+    "title": "Azure CLI resource create/generate karna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI me `az vm create -g rg -n vm --image Ubuntu2204 --admin-username azureuser` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az vm create -g rg -n vm --image Ubuntu2204 --admin-username azureuser",
+    "example": "az vm create -g rg -n vm --image Ubuntu2204 --admin-username azureuser",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-vm-extension-list-g-rg-vm-name-vm",
+    "command": "az vm extension list -g rg --vm-name vm",
+    "title": "Azure CLI status/details verify karna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI me `az vm extension list -g rg --vm-name vm` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az vm extension list -g rg --vm-name vm",
+    "example": "az vm extension list -g rg --vm-name vm",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-network-public-ip-show-g-rg-n-ip",
+    "command": "az network public-ip show -g rg -n ip",
+    "title": "Azure CLI status/details verify karna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI me `az network public-ip show -g rg -n ip` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az network public-ip show -g rg -n ip",
+    "example": "az network public-ip show -g rg -n ip",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-network-nsg-rule-list-g-rg-nsg-name-nsg",
+    "command": "az network nsg rule list -g rg --nsg-name nsg",
+    "title": "Azure CLI status/details verify karna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI me `az network nsg rule list -g rg --nsg-name nsg` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az network nsg rule list -g rg --nsg-name nsg",
+    "example": "az network nsg rule list -g rg --nsg-name nsg",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-network-nsg-rule-create-g-rg-nsg-name-nsg-n-allow-http-priority-100-destination-port-ranges-80-ac",
+    "command": "az network nsg rule create -g rg --nsg-name nsg -n allow-http --priority 100 --destination-port-ranges 80 --access Allow --protocol Tcp",
+    "title": "Azure CLI resource create/generate karna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI me `az network nsg rule create -g rg --nsg-name nsg -n allow-http --priority 100 --destination-port-ranges 80 --access Allow --protocol Tcp` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az network nsg rule create -g rg --nsg-name nsg -n allow-http --priority 100 --destination-port-ranges 80 --access Allow --protocol Tcp",
+    "example": "az network nsg rule create -g rg --nsg-name nsg -n allow-http --priority 100 --destination-port-ranges 80 --access Allow --protocol Tcp",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-network-nsg-rule-delete-g-rg-nsg-name-nsg-n-rule",
+    "command": "az network nsg rule delete -g rg --nsg-name nsg -n rule",
+    "title": "Azure CLI risky cleanup/delete command",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI me `az network nsg rule delete -g rg --nsg-name nsg -n rule` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az network nsg rule delete -g rg --nsg-name nsg -n rule",
+    "example": "az network nsg rule delete -g rg --nsg-name nsg -n rule",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-network-lb-list",
+    "command": "az network lb list",
+    "title": "Azure CLI status/details verify karna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI me `az network lb list` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az network lb list",
+    "example": "az network lb list",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-network-application-gateway-list",
+    "command": "az network application-gateway list",
+    "title": "Azure CLI status/details verify karna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI me `az network application-gateway list` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az network application-gateway list",
+    "example": "az network application-gateway list",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-webapp-deployment-list-publishing-profiles-g-rg-n-app",
+    "command": "az webapp deployment list-publishing-profiles -g rg -n app",
+    "title": "Azure CLI status/details verify karna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI me `az webapp deployment list-publishing-profiles -g rg -n app` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az webapp deployment list-publishing-profiles -g rg -n app",
+    "example": "az webapp deployment list-publishing-profiles -g rg -n app",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-webapp-deployment-source-config-zip-g-rg-n-app-src-app-zip",
+    "command": "az webapp deployment source config-zip -g rg -n app --src app.zip",
+    "title": "Azure CLI deploy/run/install command",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI me `az webapp deployment source config-zip -g rg -n app --src app.zip` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az webapp deployment source config-zip -g rg -n app --src app.zip",
+    "example": "az webapp deployment source config-zip -g rg -n app --src app.zip",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-webapp-ssh-g-rg-n-app",
+    "command": "az webapp ssh -g rg -n app",
+    "title": "Azure CLI command use karna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI me `az webapp ssh -g rg -n app` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az webapp ssh -g rg -n app",
+    "example": "az webapp ssh -g rg -n app",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-webapp-log-config-g-rg-n-app-application-logging-filesystem",
+    "command": "az webapp log config -g rg -n app --application-logging filesystem",
+    "title": "Azure CLI command use karna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI me `az webapp log config -g rg -n app --application-logging filesystem` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az webapp log config -g rg -n app --application-logging filesystem",
+    "example": "az webapp log config -g rg -n app --application-logging filesystem",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-acr-build-r-registry-t-app-tag",
+    "command": "az acr build -r registry -t app:tag .",
+    "title": "Azure CLI command use karna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI me `az acr build -r registry -t app:tag .` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az acr build -r registry -t app:tag .",
+    "example": "az acr build -r registry -t app:tag .",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-acr-repository-delete-n-registry-repository-repo",
+    "command": "az acr repository delete -n registry --repository repo",
+    "title": "Azure CLI risky cleanup/delete command",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI me `az acr repository delete -n registry --repository repo` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az acr repository delete -n registry --repository repo",
+    "example": "az acr repository delete -n registry --repository repo",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-aks-get-upgrades-g-rg-n-cluster",
+    "command": "az aks get-upgrades -g rg -n cluster",
+    "title": "Azure CLI status/details verify karna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI me `az aks get-upgrades -g rg -n cluster` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az aks get-upgrades -g rg -n cluster",
+    "example": "az aks get-upgrades -g rg -n cluster",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-aks-upgrade-g-rg-n-cluster-kubernetes-version-version",
+    "command": "az aks upgrade -g rg -n cluster --kubernetes-version version",
+    "title": "Azure CLI status/details verify karna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI me `az aks upgrade -g rg -n cluster --kubernetes-version version` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az aks upgrade -g rg -n cluster --kubernetes-version version",
+    "example": "az aks upgrade -g rg -n cluster --kubernetes-version version",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-aks-scale-g-rg-n-cluster-node-count-3",
+    "command": "az aks scale -g rg -n cluster --node-count 3",
+    "title": "Azure CLI command use karna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI me `az aks scale -g rg -n cluster --node-count 3` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az aks scale -g rg -n cluster --node-count 3",
+    "example": "az aks scale -g rg -n cluster --node-count 3",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-aks-nodepool-list-g-rg-cluster-name-cluster",
+    "command": "az aks nodepool list -g rg --cluster-name cluster",
+    "title": "Azure CLI status/details verify karna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI me `az aks nodepool list -g rg --cluster-name cluster` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az aks nodepool list -g rg --cluster-name cluster",
+    "example": "az aks nodepool list -g rg --cluster-name cluster",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-monitor-log-analytics-workspace-list",
+    "command": "az monitor log-analytics workspace list",
+    "title": "Azure CLI status/details verify karna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI me `az monitor log-analytics workspace list` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az monitor log-analytics workspace list",
+    "example": "az monitor log-analytics workspace list",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-monitor-metrics-list-resource-resourceid-metric-percentage-cpu",
+    "command": "az monitor metrics list --resource resourceId --metric \"Percentage CPU\"",
+    "title": "Azure CLI status/details verify karna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI me `az monitor metrics list --resource resourceId --metric \"Percentage CPU\"` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az monitor metrics list --resource resourceId --metric \"Percentage CPU\"",
+    "example": "az monitor metrics list --resource resourceId --metric \"Percentage CPU\"",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-keyvault-secret-set-vault-name-vault-name-secret-value-value",
+    "command": "az keyvault secret set --vault-name vault --name secret --value value",
+    "title": "Azure CLI command use karna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI me `az keyvault secret set --vault-name vault --name secret --value value` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az keyvault secret set --vault-name vault --name secret --value value",
+    "example": "az keyvault secret set --vault-name vault --name secret --value value",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-keyvault-secret-delete-vault-name-vault-name-secret",
+    "command": "az keyvault secret delete --vault-name vault --name secret",
+    "title": "Azure CLI risky cleanup/delete command",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI me `az keyvault secret delete --vault-name vault --name secret` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az keyvault secret delete --vault-name vault --name secret",
+    "example": "az keyvault secret delete --vault-name vault --name secret",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-storage-account-keys-list-g-rg-n-account",
+    "command": "az storage account keys list -g rg -n account",
+    "title": "Azure CLI status/details verify karna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI me `az storage account keys list -g rg -n account` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az storage account keys list -g rg -n account",
+    "example": "az storage account keys list -g rg -n account",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-storage-container-create-account-name-account-n-container",
+    "command": "az storage container create --account-name account -n container",
+    "title": "Azure CLI resource create/generate karna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI me `az storage container create --account-name account -n container` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az storage container create --account-name account -n container",
+    "example": "az storage container create --account-name account -n container",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-storage-blob-upload-account-name-account-c-container-f-file-n-file",
+    "command": "az storage blob upload --account-name account -c container -f file -n file",
+    "title": "Azure CLI deploy/run/install command",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI me `az storage blob upload --account-name account -c container -f file -n file` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az storage blob upload --account-name account -c container -f file -n file",
+    "example": "az storage blob upload --account-name account -c container -f file -n file",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-storage-blob-download-account-name-account-c-container-n-file-f-file",
+    "command": "az storage blob download --account-name account -c container -n file -f file",
+    "title": "Azure CLI command use karna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI me `az storage blob download --account-name account -c container -n file -f file` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az storage blob download --account-name account -c container -n file -f file",
+    "example": "az storage blob download --account-name account -c container -n file -f file",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-role-definition-list-name-reader",
+    "command": "az role definition list --name Reader",
+    "title": "Azure CLI status/details verify karna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI me `az role definition list --name Reader` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az role definition list --name Reader",
+    "example": "az role definition list --name Reader",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-role-assignment-create-assignee-user-role-reader-scope-scope",
+    "command": "az role assignment create --assignee user --role Reader --scope scope",
+    "title": "Azure CLI resource create/generate karna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI me `az role assignment create --assignee user --role Reader --scope scope` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az role assignment create --assignee user --role Reader --scope scope",
+    "example": "az role assignment create --assignee user --role Reader --scope scope",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-postgres-flexible-server-show-g-rg-n-server",
+    "command": "az postgres flexible-server show -g rg -n server",
+    "title": "Azure CLI status/details verify karna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI me `az postgres flexible-server show -g rg -n server` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az postgres flexible-server show -g rg -n server",
+    "example": "az postgres flexible-server show -g rg -n server",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "azure-cli-az-mysql-flexible-server-show-g-rg-n-server",
+    "command": "az mysql flexible-server show -g rg -n server",
+    "title": "Azure CLI status/details verify karna",
+    "category": "Azure CLI",
+    "difficulty": "Intermediate",
+    "use_case": "Azure CLI me `az mysql flexible-server show -g rg -n server` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "az mysql flexible-server show -g rg -n server",
+    "example": "az mysql flexible-server show -g rg -n server",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "az account show",
+      "az account list"
+    ],
+    "tags": [
+      "azure",
+      "az",
+      "devops",
+      "cli"
+    ]
   }
 ]

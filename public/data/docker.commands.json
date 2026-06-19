@@ -1549,5 +1549,1545 @@
       "devops",
       "cli"
     ]
+  },
+  {
+    "id": "docker-docker-run-rm-image-command",
+    "command": "docker run --rm image command",
+    "title": "Docker deploy/run/install command",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker run --rm image command` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker run --rm image command",
+    "example": "docker run --rm image command",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-run-rm-it-ubuntu-bash",
+    "command": "docker run --rm -it ubuntu bash",
+    "title": "Docker deploy/run/install command",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker run --rm -it ubuntu bash` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker run --rm -it ubuntu bash",
+    "example": "docker run --rm -it ubuntu bash",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-run-e-key-value-image",
+    "command": "docker run -e KEY=value image",
+    "title": "Docker deploy/run/install command",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker run -e KEY=value image` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker run -e KEY=value image",
+    "example": "docker run -e KEY=value image",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-run-env-file-env-image",
+    "command": "docker run --env-file .env image",
+    "title": "Docker deploy/run/install command",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker run --env-file .env image` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker run --env-file .env image",
+    "example": "docker run --env-file .env image",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-run-v-pwd-app-image",
+    "command": "docker run -v $(pwd):/app image",
+    "title": "Docker deploy/run/install command",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker run -v $(pwd):/app image` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker run -v $(pwd):/app image",
+    "example": "docker run -v $(pwd):/app image",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-run-network-host-image",
+    "command": "docker run --network host image",
+    "title": "Docker deploy/run/install command",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker run --network host image` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker run --network host image",
+    "example": "docker run --network host image",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-run-memory-512m-image",
+    "command": "docker run --memory=512m image",
+    "title": "Docker deploy/run/install command",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker run --memory=512m image` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker run --memory=512m image",
+    "example": "docker run --memory=512m image",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-run-cpus-1-5-image",
+    "command": "docker run --cpus=1.5 image",
+    "title": "Docker deploy/run/install command",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker run --cpus=1.5 image` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker run --cpus=1.5 image",
+    "example": "docker run --cpus=1.5 image",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-run-restart-unless-stopped-image",
+    "command": "docker run --restart unless-stopped image",
+    "title": "Docker restart/reload/refresh karna",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker run --restart unless-stopped image` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker run --restart unless-stopped image",
+    "example": "docker run --restart unless-stopped image",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-run-health-cmd-curl-f-http-localhost-exit-1-image",
+    "command": "docker run --health-cmd=\"curl -f http://localhost || exit 1\" image",
+    "title": "Docker deploy/run/install command",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker run --health-cmd=\"curl -f http://localhost || exit 1\" image` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker run --health-cmd=\"curl -f http://localhost || exit 1\" image",
+    "example": "docker run --health-cmd=\"curl -f http://localhost || exit 1\" image",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-inspect-format-state-status-container",
+    "command": "docker inspect --format=\"{{.State.Status}}\" container",
+    "title": "Docker status/details verify karna",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker inspect --format=\"{{.State.Status}}\" container` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker inspect --format=\"{{.State.Status}}\" container",
+    "example": "docker inspect --format=\"{{.State.Status}}\" container",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-inspect-format-range-networksettings-networks-ipaddress-end-container",
+    "command": "docker inspect --format=\"{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}\" container",
+    "title": "Docker resource create/generate karna",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker inspect --format=\"{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}\" container` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker inspect --format=\"{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}\" container",
+    "example": "docker inspect --format=\"{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}\" container",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-logs-tail-100-container",
+    "command": "docker logs --tail=100 container",
+    "title": "Docker logs/debugging command",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker logs --tail=100 container` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker logs --tail=100 container",
+    "example": "docker logs --tail=100 container",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-logs-since-1h-container",
+    "command": "docker logs --since=1h container",
+    "title": "Docker logs/debugging command",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker logs --since=1h container` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker logs --since=1h container",
+    "example": "docker logs --since=1h container",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-logs-timestamps-container",
+    "command": "docker logs --timestamps container",
+    "title": "Docker logs/debugging command",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker logs --timestamps container` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker logs --timestamps container",
+    "example": "docker logs --timestamps container",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-exec-u-root-it-container-sh",
+    "command": "docker exec -u root -it container sh",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker exec -u root -it container sh` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker exec -u root -it container sh",
+    "example": "docker exec -u root -it container sh",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-exec-container-env",
+    "command": "docker exec container env",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker exec container env` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker exec container env",
+    "example": "docker exec container env",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-exec-container-ps-aux",
+    "command": "docker exec container ps aux",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker exec container ps aux` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker exec container ps aux",
+    "example": "docker exec container ps aux",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-exec-container-cat-etc-os-release",
+    "command": "docker exec container cat /etc/os-release",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker exec container cat /etc/os-release` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker exec container cat /etc/os-release",
+    "example": "docker exec container cat /etc/os-release",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-diff-container",
+    "command": "docker diff container",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker diff container` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker diff container",
+    "example": "docker diff container",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-container-ls-format-table-names-status-ports",
+    "command": "docker container ls --format \"table {{.Names}}\t{{.Status}}\t{{.Ports}}\"",
+    "title": "Docker status/details verify karna",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker container ls --format \"table {{.Names}}\t{{.Status}}\t{{.Ports}}\"` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker container ls --format \"table {{.Names}}\t{{.Status}}\t{{.Ports}}\"",
+    "example": "docker container ls --format \"table {{.Names}}\t{{.Status}}\t{{.Ports}}\"",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-image-ls-digests",
+    "command": "docker image ls --digests",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker image ls --digests` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker image ls --digests",
+    "example": "docker image ls --digests",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-image-inspect-image",
+    "command": "docker image inspect image",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker image inspect image` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker image inspect image",
+    "example": "docker image inspect image",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-image-history-image",
+    "command": "docker image history image",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker image history image` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker image history image",
+    "example": "docker image history image",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-build-no-cache-t-app",
+    "command": "docker build --no-cache -t app .",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker build --no-cache -t app .` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker build --no-cache -t app .",
+    "example": "docker build --no-cache -t app .",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-build-pull-t-app",
+    "command": "docker build --pull -t app .",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker build --pull -t app .` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker build --pull -t app .",
+    "example": "docker build --pull -t app .",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-build-build-arg-key-value-t-app",
+    "command": "docker build --build-arg KEY=value -t app .",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker build --build-arg KEY=value -t app .` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker build --build-arg KEY=value -t app .",
+    "example": "docker build --build-arg KEY=value -t app .",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-buildx-create-use",
+    "command": "docker buildx create --use",
+    "title": "Docker resource create/generate karna",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker buildx create --use` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker buildx create --use",
+    "example": "docker buildx create --use",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-buildx-inspect-bootstrap",
+    "command": "docker buildx inspect --bootstrap",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker buildx inspect --bootstrap` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker buildx inspect --bootstrap",
+    "example": "docker buildx inspect --bootstrap",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-buildx-build-platform-linux-amd64-linux-arm64-t-repo-app-tag-push",
+    "command": "docker buildx build --platform linux/amd64,linux/arm64 -t repo/app:tag --push .",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker buildx build --platform linux/amd64,linux/arm64 -t repo/app:tag --push .` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker buildx build --platform linux/amd64,linux/arm64 -t repo/app:tag --push .",
+    "example": "docker buildx build --platform linux/amd64,linux/arm64 -t repo/app:tag --push .",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-compose-up-build-d",
+    "command": "docker compose up --build -d",
+    "title": "Docker deploy/run/install command",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker compose up --build -d` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker compose up --build -d",
+    "example": "docker compose up --build -d",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-compose-watch",
+    "command": "docker compose watch",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker compose watch` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker compose watch",
+    "example": "docker compose watch",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-compose-top",
+    "command": "docker compose top",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker compose top` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker compose top",
+    "example": "docker compose top",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-compose-events",
+    "command": "docker compose events",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker compose events` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker compose events",
+    "example": "docker compose events",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-compose-cp-app-path-file-file",
+    "command": "docker compose cp app:/path/file ./file",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker compose cp app:/path/file ./file` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker compose cp app:/path/file ./file",
+    "example": "docker compose cp app:/path/file ./file",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-compose-port-service-80",
+    "command": "docker compose port service 80",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker compose port service 80` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker compose port service 80",
+    "example": "docker compose port service 80",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-compose-pull-service",
+    "command": "docker compose pull service",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker compose pull service` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker compose pull service",
+    "example": "docker compose pull service",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-compose-build-no-cache-service",
+    "command": "docker compose build --no-cache service",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Intermediate",
+    "use_case": "Docker me `docker compose build --no-cache service` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker compose build --no-cache service",
+    "example": "docker compose build --no-cache service",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-compose-config-services",
+    "command": "docker compose config --services",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Advanced",
+    "use_case": "Docker me `docker compose config --services` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker compose config --services",
+    "example": "docker compose config --services",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-compose-config-volumes",
+    "command": "docker compose config --volumes",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Advanced",
+    "use_case": "Docker me `docker compose config --volumes` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker compose config --volumes",
+    "example": "docker compose config --volumes",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-compose-ls",
+    "command": "docker compose ls",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Advanced",
+    "use_case": "Docker me `docker compose ls` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker compose ls",
+    "example": "docker compose ls",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-compose-pause",
+    "command": "docker compose pause",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Advanced",
+    "use_case": "Docker me `docker compose pause` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker compose pause",
+    "example": "docker compose pause",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-compose-unpause",
+    "command": "docker compose unpause",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Advanced",
+    "use_case": "Docker me `docker compose unpause` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker compose unpause",
+    "example": "docker compose unpause",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-compose-kill-service",
+    "command": "docker compose kill service",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Advanced",
+    "use_case": "Docker me `docker compose kill service` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker compose kill service",
+    "example": "docker compose kill service",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-compose-rm-f-service",
+    "command": "docker compose rm -f service",
+    "title": "Docker risky cleanup/delete command",
+    "category": "Docker",
+    "difficulty": "Advanced",
+    "use_case": "Docker me `docker compose rm -f service` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker compose rm -f service",
+    "example": "docker compose rm -f service",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-network-inspect-bridge",
+    "command": "docker network inspect bridge",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Advanced",
+    "use_case": "Docker me `docker network inspect bridge` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker network inspect bridge",
+    "example": "docker network inspect bridge",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-network-create-driver-bridge-appnet",
+    "command": "docker network create --driver bridge appnet",
+    "title": "Docker resource create/generate karna",
+    "category": "Docker",
+    "difficulty": "Advanced",
+    "use_case": "Docker me `docker network create --driver bridge appnet` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker network create --driver bridge appnet",
+    "example": "docker network create --driver bridge appnet",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-network-create-subnet-172-20-0-0-16-appnet",
+    "command": "docker network create --subnet 172.20.0.0/16 appnet",
+    "title": "Docker resource create/generate karna",
+    "category": "Docker",
+    "difficulty": "Advanced",
+    "use_case": "Docker me `docker network create --subnet 172.20.0.0/16 appnet` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker network create --subnet 172.20.0.0/16 appnet",
+    "example": "docker network create --subnet 172.20.0.0/16 appnet",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-volume-create-driver-local-volume",
+    "command": "docker volume create --driver local volume",
+    "title": "Docker resource create/generate karna",
+    "category": "Docker",
+    "difficulty": "Advanced",
+    "use_case": "Docker me `docker volume create --driver local volume` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker volume create --driver local volume",
+    "example": "docker volume create --driver local volume",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-volume-ls-q",
+    "command": "docker volume ls -q",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Advanced",
+    "use_case": "Docker me `docker volume ls -q` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker volume ls -q",
+    "example": "docker volume ls -q",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-run-rm-v-volume-data-alpine-ls-data",
+    "command": "docker run --rm -v volume:/data alpine ls /data",
+    "title": "Docker deploy/run/install command",
+    "category": "Docker",
+    "difficulty": "Advanced",
+    "use_case": "Docker me `docker run --rm -v volume:/data alpine ls /data` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker run --rm -v volume:/data alpine ls /data",
+    "example": "docker run --rm -v volume:/data alpine ls /data",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-plugin-ls",
+    "command": "docker plugin ls",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Advanced",
+    "use_case": "Docker me `docker plugin ls` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker plugin ls",
+    "example": "docker plugin ls",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-secret-ls",
+    "command": "docker secret ls",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Advanced",
+    "use_case": "Docker me `docker secret ls` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker secret ls",
+    "example": "docker secret ls",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-service-ls",
+    "command": "docker service ls",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Advanced",
+    "use_case": "Docker me `docker service ls` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker service ls",
+    "example": "docker service ls",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-stack-ls",
+    "command": "docker stack ls",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Advanced",
+    "use_case": "Docker me `docker stack ls` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker stack ls",
+    "example": "docker stack ls",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-stack-deploy-c-docker-compose-yml-app",
+    "command": "docker stack deploy -c docker-compose.yml app",
+    "title": "Docker deploy/run/install command",
+    "category": "Docker",
+    "difficulty": "Advanced",
+    "use_case": "Docker me `docker stack deploy -c docker-compose.yml app` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker stack deploy -c docker-compose.yml app",
+    "example": "docker stack deploy -c docker-compose.yml app",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-stack-rm-app",
+    "command": "docker stack rm app",
+    "title": "Docker risky cleanup/delete command",
+    "category": "Docker",
+    "difficulty": "Advanced",
+    "use_case": "Docker me `docker stack rm app` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker stack rm app",
+    "example": "docker stack rm app",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-swarm-init",
+    "command": "docker swarm init",
+    "title": "Docker resource create/generate karna",
+    "category": "Docker",
+    "difficulty": "Advanced",
+    "use_case": "Docker me `docker swarm init` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker swarm init",
+    "example": "docker swarm init",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-swarm-join-token-worker",
+    "command": "docker swarm join-token worker",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Advanced",
+    "use_case": "Docker me `docker swarm join-token worker` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker swarm join-token worker",
+    "example": "docker swarm join-token worker",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-node-ls",
+    "command": "docker node ls",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Advanced",
+    "use_case": "Docker me `docker node ls` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker node ls",
+    "example": "docker node ls",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-service-ps-service",
+    "command": "docker service ps service",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Advanced",
+    "use_case": "Docker me `docker service ps service` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker service ps service",
+    "example": "docker service ps service",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-service-logs-service",
+    "command": "docker service logs service",
+    "title": "Docker logs/debugging command",
+    "category": "Docker",
+    "difficulty": "Advanced",
+    "use_case": "Docker me `docker service logs service` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker service logs service",
+    "example": "docker service logs service",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-service-scale-web-3",
+    "command": "docker service scale web=3",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Advanced",
+    "use_case": "Docker me `docker service scale web=3` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker service scale web=3",
+    "example": "docker service scale web=3",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-service-update-image-image-tag-service",
+    "command": "docker service update --image image:tag service",
+    "title": "Docker deploy/run/install command",
+    "category": "Docker",
+    "difficulty": "Advanced",
+    "use_case": "Docker me `docker service update --image image:tag service` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker service update --image image:tag service",
+    "example": "docker service update --image image:tag service",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-checkpoint-ls-container",
+    "command": "docker checkpoint ls container",
+    "title": "Docker status/details verify karna",
+    "category": "Docker",
+    "difficulty": "Advanced",
+    "use_case": "Docker me `docker checkpoint ls container` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker checkpoint ls container",
+    "example": "docker checkpoint ls container",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-context-create-remote-docker-host-ssh-user-host",
+    "command": "docker context create remote --docker host=ssh://user@host",
+    "title": "Docker resource create/generate karna",
+    "category": "Docker",
+    "difficulty": "Advanced",
+    "use_case": "Docker me `docker context create remote --docker host=ssh://user@host` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker context create remote --docker host=ssh://user@host",
+    "example": "docker context create remote --docker host=ssh://user@host",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-context-rm-remote",
+    "command": "docker context rm remote",
+    "title": "Docker risky cleanup/delete command",
+    "category": "Docker",
+    "difficulty": "Advanced",
+    "use_case": "Docker me `docker context rm remote` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker context rm remote",
+    "example": "docker context rm remote",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-manifest-inspect-image",
+    "command": "docker manifest inspect image",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Advanced",
+    "use_case": "Docker me `docker manifest inspect image` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker manifest inspect image",
+    "example": "docker manifest inspect image",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-trust-inspect-image",
+    "command": "docker trust inspect image",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Advanced",
+    "use_case": "Docker me `docker trust inspect image` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker trust inspect image",
+    "example": "docker trust inspect image",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "docker-docker-scan-image",
+    "command": "docker scan image",
+    "title": "Docker command use karna",
+    "category": "Docker",
+    "difficulty": "Advanced",
+    "use_case": "Docker me `docker scan image` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "docker scan image",
+    "example": "docker scan image",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "docker",
+      "devops",
+      "cli"
+    ]
   }
 ]

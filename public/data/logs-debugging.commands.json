@@ -919,5 +919,689 @@
       "devops",
       "cli"
     ]
+  },
+  {
+    "id": "logs-debugging-journalctl-f",
+    "command": "journalctl -f",
+    "title": "Logs / Debugging logs/debugging command",
+    "category": "Logs / Debugging",
+    "difficulty": "Beginner",
+    "use_case": "Logs / Debugging me `journalctl -f` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "journalctl -f",
+    "example": "journalctl -f",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "journalctl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-journalctl-n-200",
+    "command": "journalctl -n 200",
+    "title": "Logs / Debugging logs/debugging command",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `journalctl -n 200` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "journalctl -n 200",
+    "example": "journalctl -n 200",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "journalctl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-journalctl-u-docker-f",
+    "command": "journalctl -u docker -f",
+    "title": "Logs / Debugging logs/debugging command",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `journalctl -u docker -f` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "journalctl -u docker -f",
+    "example": "journalctl -u docker -f",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "journalctl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-journalctl-u-containerd-f",
+    "command": "journalctl -u containerd -f",
+    "title": "Logs / Debugging logs/debugging command",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `journalctl -u containerd -f` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "journalctl -u containerd -f",
+    "example": "journalctl -u containerd -f",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "journalctl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-journalctl-since-2026-06-19-10-00-until-2026-06-19-11-00",
+    "command": "journalctl --since \"2026-06-19 10:00\" --until \"2026-06-19 11:00\"",
+    "title": "Logs / Debugging logs/debugging command",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `journalctl --since \"2026-06-19 10:00\" --until \"2026-06-19 11:00\"` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "journalctl --since \"2026-06-19 10:00\" --until \"2026-06-19 11:00\"",
+    "example": "journalctl --since \"2026-06-19 10:00\" --until \"2026-06-19 11:00\"",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "journalctl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-journalctl-o-json-pretty-n-10",
+    "command": "journalctl -o json-pretty -n 10",
+    "title": "Logs / Debugging logs/debugging command",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `journalctl -o json-pretty -n 10` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "journalctl -o json-pretty -n 10",
+    "example": "journalctl -o json-pretty -n 10",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "journalctl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-journalctl-pid-1234",
+    "command": "journalctl _PID=1234",
+    "title": "Logs / Debugging logs/debugging command",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `journalctl _PID=1234` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "journalctl _PID=1234",
+    "example": "journalctl _PID=1234",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "journalctl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-journalctl-systemd-unit-nginx-service",
+    "command": "journalctl _SYSTEMD_UNIT=nginx.service",
+    "title": "Logs / Debugging logs/debugging command",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `journalctl _SYSTEMD_UNIT=nginx.service` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "journalctl _SYSTEMD_UNIT=nginx.service",
+    "example": "journalctl _SYSTEMD_UNIT=nginx.service",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "journalctl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-tail-f-app-log",
+    "command": "tail -F app.log",
+    "title": "Logs / Debugging logs/debugging command",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `tail -F app.log` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "tail -F app.log",
+    "example": "tail -F app.log",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "tail",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-multitail-var-log-syslog-var-log-auth-log",
+    "command": "multitail /var/log/syslog /var/log/auth.log",
+    "title": "Logs / Debugging logs/debugging command",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `multitail /var/log/syslog /var/log/auth.log` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "multitail /var/log/syslog /var/log/auth.log",
+    "example": "multitail /var/log/syslog /var/log/auth.log",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "multitail",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-grep-ril-error-var-log",
+    "command": "grep -Ril \"error\" /var/log",
+    "title": "Logs / Debugging logs/debugging command",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `grep -Ril \"error\" /var/log` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "grep -Ril \"error\" /var/log",
+    "example": "grep -Ril \"error\" /var/log",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "grep",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-grep-e-error-warn-critical-app-log",
+    "command": "grep -E \"ERROR|WARN|CRITICAL\" app.log",
+    "title": "Logs / Debugging logs/debugging command",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `grep -E \"ERROR|WARN|CRITICAL\" app.log` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "grep -E \"ERROR|WARN|CRITICAL\" app.log",
+    "example": "grep -E \"ERROR|WARN|CRITICAL\" app.log",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "grep",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-egrep-i-timeout-refused-reset-broken-pipe-app-log",
+    "command": "egrep -i \"timeout|refused|reset|broken pipe\" app.log",
+    "title": "Logs / Debugging risky cleanup/delete command",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `egrep -i \"timeout|refused|reset|broken pipe\" app.log` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "egrep -i \"timeout|refused|reset|broken pipe\" app.log",
+    "example": "egrep -i \"timeout|refused|reset|broken pipe\" app.log",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "egrep",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-zgrep-i-error-app-log-gz",
+    "command": "zgrep -i error app.log.gz",
+    "title": "Logs / Debugging logs/debugging command",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `zgrep -i error app.log.gz` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "zgrep -i error app.log.gz",
+    "example": "zgrep -i error app.log.gz",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "zgrep",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-zcat-app-log-gz-grep-error",
+    "command": "zcat app.log.gz | grep ERROR",
+    "title": "Logs / Debugging logs/debugging command",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `zcat app.log.gz | grep ERROR` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "zcat app.log.gz | grep ERROR",
+    "example": "zcat app.log.gz | grep ERROR",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "zcat",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-awk-9-500-print-access-log",
+    "command": "awk '$9 >= 500 {print}' access.log",
+    "title": "Logs / Debugging command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `awk '$9 >= 500 {print}' access.log` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "awk '$9 >= 500 {print}' access.log",
+    "example": "awk '$9 >= 500 {print}' access.log",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "awk",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-awk-print-7-access-log-sort-uniq-c-sort-nr-head",
+    "command": "awk '{print $7}' access.log | sort | uniq -c | sort -nr | head",
+    "title": "Logs / Debugging command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `awk '{print $7}' access.log | sort | uniq -c | sort -nr | head` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "awk '{print $7}' access.log | sort | uniq -c | sort -nr | head",
+    "example": "awk '{print $7}' access.log | sort | uniq -c | sort -nr | head",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "awk",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-awk-sum-10-end-print-sum-access-log",
+    "command": "awk '{sum+=$10} END {print sum}' access.log",
+    "title": "Logs / Debugging command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `awk '{sum+=$10} END {print sum}' access.log` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "awk '{sum+=$10} END {print sum}' access.log",
+    "example": "awk '{sum+=$10} END {print sum}' access.log",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "awk",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-cut-d-f1-access-log-sort-uniq-c-sort-nr-head",
+    "command": "cut -d\" \" -f1 access.log | sort | uniq -c | sort -nr | head",
+    "title": "Logs / Debugging command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `cut -d\" \" -f1 access.log | sort | uniq -c | sort -nr | head` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "cut -d\" \" -f1 access.log | sort | uniq -c | sort -nr | head",
+    "example": "cut -d\" \" -f1 access.log | sort | uniq -c | sort -nr | head",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "cut",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-sed-n-start-end-p-file-log",
+    "command": "sed -n '/START/,/END/p' file.log",
+    "title": "Logs / Debugging deploy/run/install command",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `sed -n '/START/,/END/p' file.log` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sed -n '/START/,/END/p' file.log",
+    "example": "sed -n '/START/,/END/p' file.log",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "sed",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-jq-r-level-logs-json",
+    "command": "jq -r .level logs.json",
+    "title": "Logs / Debugging logs/debugging command",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `jq -r .level logs.json` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "jq -r .level logs.json",
+    "example": "jq -r .level logs.json",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "jq",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-jq-r-select-level-error-logs-json",
+    "command": "jq -r \"select(.level==\"error\")\" logs.json",
+    "title": "Logs / Debugging logs/debugging command",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `jq -r \"select(.level==\"error\")\" logs.json` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "jq -r \"select(.level==\"error\")\" logs.json",
+    "example": "jq -r \"select(.level==\"error\")\" logs.json",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "jq",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-gron-file-json",
+    "command": "gron file.json",
+    "title": "Logs / Debugging command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `gron file.json` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "gron file.json",
+    "example": "gron file.json",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "gron",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-python3-m-http-server-8080",
+    "command": "python3 -m http.server 8080",
+    "title": "Logs / Debugging command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `python3 -m http.server 8080` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "python3 -m http.server 8080",
+    "example": "python3 -m http.server 8080",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "python3",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-curl-v-connect-timeout-5-http-host",
+    "command": "curl -v --connect-timeout 5 http://host",
+    "title": "Logs / Debugging command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `curl -v --connect-timeout 5 http://host` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "curl -v --connect-timeout 5 http://host",
+    "example": "curl -v --connect-timeout 5 http://host",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "curl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-curl-max-time-10-http-host",
+    "command": "curl --max-time 10 http://host",
+    "title": "Logs / Debugging command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `curl --max-time 10 http://host` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "curl --max-time 10 http://host",
+    "example": "curl --max-time 10 http://host",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "curl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-curl-h-host-example-com-http-127-0-0-1",
+    "command": "curl -H \"Host: example.com\" http://127.0.0.1",
+    "title": "Logs / Debugging command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `curl -H \"Host: example.com\" http://127.0.0.1` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "curl -H \"Host: example.com\" http://127.0.0.1",
+    "example": "curl -H \"Host: example.com\" http://127.0.0.1",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "curl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-curl-x-post-h-content-type-application-json-d-http-localhost-api",
+    "command": "curl -X POST -H \"Content-Type: application/json\" -d '{}' http://localhost/api",
+    "title": "Logs / Debugging command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `curl -X POST -H \"Content-Type: application/json\" -d '{}' http://localhost/api` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "curl -X POST -H \"Content-Type: application/json\" -d '{}' http://localhost/api",
+    "example": "curl -X POST -H \"Content-Type: application/json\" -d '{}' http://localhost/api",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "curl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-http-get-http-localhost",
+    "command": "http GET http://localhost",
+    "title": "Logs / Debugging status/details verify karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `http GET http://localhost` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "http GET http://localhost",
+    "example": "http GET http://localhost",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "http",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-tcpdump-a-s-0-port-80",
+    "command": "tcpdump -A -s 0 port 80",
+    "title": "Logs / Debugging backup/export command",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `tcpdump -A -s 0 port 80` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "tcpdump -A -s 0 port 80",
+    "example": "tcpdump -A -s 0 port 80",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "tcpdump",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-strace-f-o-trace-log-command",
+    "command": "strace -f -o trace.log command",
+    "title": "Logs / Debugging logs/debugging command",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `strace -f -o trace.log command` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "strace -f -o trace.log command",
+    "example": "strace -f -o trace.log command",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "strace",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-strace-e-trace-file-command",
+    "command": "strace -e trace=file command",
+    "title": "Logs / Debugging logs/debugging command",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `strace -e trace=file command` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "strace -e trace=file command",
+    "example": "strace -e trace=file command",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "strace",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-strace-e-trace-network-command",
+    "command": "strace -e trace=network command",
+    "title": "Logs / Debugging logs/debugging command",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `strace -e trace=network command` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "strace -e trace=network command",
+    "example": "strace -e trace=network command",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "strace",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-gdb-p-pid",
+    "command": "gdb -p pid",
+    "title": "Logs / Debugging command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `gdb -p pid` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "gdb -p pid",
+    "example": "gdb -p pid",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "gdb",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-coredumpctl-list",
+    "command": "coredumpctl list",
+    "title": "Logs / Debugging status/details verify karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `coredumpctl list` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "coredumpctl list",
+    "example": "coredumpctl list",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "coredumpctl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-coredumpctl-info-pid",
+    "command": "coredumpctl info pid",
+    "title": "Logs / Debugging status/details verify karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `coredumpctl info pid` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "coredumpctl info pid",
+    "example": "coredumpctl info pid",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "coredumpctl",
+      "devops",
+      "cli"
+    ]
   }
 ]

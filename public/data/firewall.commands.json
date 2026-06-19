@@ -667,5 +667,621 @@
       "devops",
       "cli"
     ]
+  },
+  {
+    "id": "firewall-sudo-ufw-allow-from-10-0-0-0-8",
+    "command": "sudo ufw allow from 10.0.0.0/8",
+    "title": "Firewall command use karna",
+    "category": "Firewall",
+    "difficulty": "Beginner",
+    "use_case": "Firewall me `sudo ufw allow from 10.0.0.0/8` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo ufw allow from 10.0.0.0/8",
+    "example": "sudo ufw allow from 10.0.0.0/8",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "firewall-sudo-ufw-allow-from-192-168-1-0-24-to-any-port-5432",
+    "command": "sudo ufw allow from 192.168.1.0/24 to any port 5432",
+    "title": "Firewall command use karna",
+    "category": "Firewall",
+    "difficulty": "Beginner",
+    "use_case": "Firewall me `sudo ufw allow from 192.168.1.0/24 to any port 5432` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo ufw allow from 192.168.1.0/24 to any port 5432",
+    "example": "sudo ufw allow from 192.168.1.0/24 to any port 5432",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "firewall-sudo-ufw-deny-out-25-tcp",
+    "command": "sudo ufw deny out 25/tcp",
+    "title": "Firewall command use karna",
+    "category": "Firewall",
+    "difficulty": "Beginner",
+    "use_case": "Firewall me `sudo ufw deny out 25/tcp` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo ufw deny out 25/tcp",
+    "example": "sudo ufw deny out 25/tcp",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "firewall-sudo-ufw-route-allow-in-on-eth0-out-on-eth1",
+    "command": "sudo ufw route allow in on eth0 out on eth1",
+    "title": "Firewall command use karna",
+    "category": "Firewall",
+    "difficulty": "Beginner",
+    "use_case": "Firewall me `sudo ufw route allow in on eth0 out on eth1` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo ufw route allow in on eth0 out on eth1",
+    "example": "sudo ufw route allow in on eth0 out on eth1",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "firewall-sudo-ufw-insert-1-allow-from-1-2-3-4-to-any-port-22",
+    "command": "sudo ufw insert 1 allow from 1.2.3.4 to any port 22",
+    "title": "Firewall command use karna",
+    "category": "Firewall",
+    "difficulty": "Beginner",
+    "use_case": "Firewall me `sudo ufw insert 1 allow from 1.2.3.4 to any port 22` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo ufw insert 1 allow from 1.2.3.4 to any port 22",
+    "example": "sudo ufw insert 1 allow from 1.2.3.4 to any port 22",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "firewall-sudo-ufw-reset",
+    "command": "sudo ufw reset",
+    "title": "Firewall risky cleanup/delete command",
+    "category": "Firewall",
+    "difficulty": "Beginner",
+    "use_case": "Firewall me `sudo ufw reset` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo ufw reset",
+    "example": "sudo ufw reset",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "firewall-sudo-ufw-show-raw",
+    "command": "sudo ufw show raw",
+    "title": "Firewall status/details verify karna",
+    "category": "Firewall",
+    "difficulty": "Beginner",
+    "use_case": "Firewall me `sudo ufw show raw` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo ufw show raw",
+    "example": "sudo ufw show raw",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "firewall-sudo-ufw-show-added",
+    "command": "sudo ufw show added",
+    "title": "Firewall status/details verify karna",
+    "category": "Firewall",
+    "difficulty": "Beginner",
+    "use_case": "Firewall me `sudo ufw show added` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo ufw show added",
+    "example": "sudo ufw show added",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "firewall-sudo-iptables-p-input-drop",
+    "command": "sudo iptables -P INPUT DROP",
+    "title": "Firewall risky cleanup/delete command",
+    "category": "Firewall",
+    "difficulty": "Beginner",
+    "use_case": "Firewall me `sudo iptables -P INPUT DROP` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo iptables -P INPUT DROP",
+    "example": "sudo iptables -P INPUT DROP",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "firewall-sudo-iptables-p-forward-drop",
+    "command": "sudo iptables -P FORWARD DROP",
+    "title": "Firewall risky cleanup/delete command",
+    "category": "Firewall",
+    "difficulty": "Beginner",
+    "use_case": "Firewall me `sudo iptables -P FORWARD DROP` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo iptables -P FORWARD DROP",
+    "example": "sudo iptables -P FORWARD DROP",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "firewall-sudo-iptables-p-output-accept",
+    "command": "sudo iptables -P OUTPUT ACCEPT",
+    "title": "Firewall command use karna",
+    "category": "Firewall",
+    "difficulty": "Beginner",
+    "use_case": "Firewall me `sudo iptables -P OUTPUT ACCEPT` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo iptables -P OUTPUT ACCEPT",
+    "example": "sudo iptables -P OUTPUT ACCEPT",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "firewall-sudo-iptables-a-input-m-conntrack-ctstate-established-related-j-accept",
+    "command": "sudo iptables -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT",
+    "title": "Firewall command use karna",
+    "category": "Firewall",
+    "difficulty": "Beginner",
+    "use_case": "Firewall me `sudo iptables -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo iptables -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT",
+    "example": "sudo iptables -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "firewall-sudo-iptables-a-input-i-lo-j-accept",
+    "command": "sudo iptables -A INPUT -i lo -j ACCEPT",
+    "title": "Firewall command use karna",
+    "category": "Firewall",
+    "difficulty": "Beginner",
+    "use_case": "Firewall me `sudo iptables -A INPUT -i lo -j ACCEPT` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo iptables -A INPUT -i lo -j ACCEPT",
+    "example": "sudo iptables -A INPUT -i lo -j ACCEPT",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "firewall-sudo-iptables-a-input-p-icmp-j-accept",
+    "command": "sudo iptables -A INPUT -p icmp -j ACCEPT",
+    "title": "Firewall command use karna",
+    "category": "Firewall",
+    "difficulty": "Beginner",
+    "use_case": "Firewall me `sudo iptables -A INPUT -p icmp -j ACCEPT` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo iptables -A INPUT -p icmp -j ACCEPT",
+    "example": "sudo iptables -A INPUT -p icmp -j ACCEPT",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "firewall-sudo-iptables-a-input-p-tcp-dport-443-m-conntrack-ctstate-new-j-accept",
+    "command": "sudo iptables -A INPUT -p tcp --dport 443 -m conntrack --ctstate NEW -j ACCEPT",
+    "title": "Firewall resource create/generate karna",
+    "category": "Firewall",
+    "difficulty": "Intermediate",
+    "use_case": "Firewall me `sudo iptables -A INPUT -p tcp --dport 443 -m conntrack --ctstate NEW -j ACCEPT` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo iptables -A INPUT -p tcp --dport 443 -m conntrack --ctstate NEW -j ACCEPT",
+    "example": "sudo iptables -A INPUT -p tcp --dport 443 -m conntrack --ctstate NEW -j ACCEPT",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "firewall-sudo-iptables-i-input-1-s-1-2-3-4-j-accept",
+    "command": "sudo iptables -I INPUT 1 -s 1.2.3.4 -j ACCEPT",
+    "title": "Firewall command use karna",
+    "category": "Firewall",
+    "difficulty": "Intermediate",
+    "use_case": "Firewall me `sudo iptables -I INPUT 1 -s 1.2.3.4 -j ACCEPT` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo iptables -I INPUT 1 -s 1.2.3.4 -j ACCEPT",
+    "example": "sudo iptables -I INPUT 1 -s 1.2.3.4 -j ACCEPT",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "firewall-sudo-iptables-f",
+    "command": "sudo iptables -F",
+    "title": "Firewall command use karna",
+    "category": "Firewall",
+    "difficulty": "Intermediate",
+    "use_case": "Firewall me `sudo iptables -F` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo iptables -F",
+    "example": "sudo iptables -F",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "firewall-sudo-iptables-x",
+    "command": "sudo iptables -X",
+    "title": "Firewall command use karna",
+    "category": "Firewall",
+    "difficulty": "Intermediate",
+    "use_case": "Firewall me `sudo iptables -X` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo iptables -X",
+    "example": "sudo iptables -X",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "firewall-sudo-ip6tables-l-n-v",
+    "command": "sudo ip6tables -L -n -v",
+    "title": "Firewall command use karna",
+    "category": "Firewall",
+    "difficulty": "Intermediate",
+    "use_case": "Firewall me `sudo ip6tables -L -n -v` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo ip6tables -L -n -v",
+    "example": "sudo ip6tables -L -n -v",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "firewall-sudo-nft-add-table-inet-filter",
+    "command": "sudo nft add table inet filter",
+    "title": "Firewall resource create/generate karna",
+    "category": "Firewall",
+    "difficulty": "Intermediate",
+    "use_case": "Firewall me `sudo nft add table inet filter` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo nft add table inet filter",
+    "example": "sudo nft add table inet filter",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "firewall-sudo-nft-add-chain-inet-filter-input-type-filter-hook-input-priority-0",
+    "command": "sudo nft add chain inet filter input { type filter hook input priority 0 \\; }",
+    "title": "Firewall resource create/generate karna",
+    "category": "Firewall",
+    "difficulty": "Intermediate",
+    "use_case": "Firewall me `sudo nft add chain inet filter input { type filter hook input priority 0 \\; }` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo nft add chain inet filter input { type filter hook input priority 0 \\; }",
+    "example": "sudo nft add chain inet filter input { type filter hook input priority 0 \\; }",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "firewall-sudo-nft-add-rule-inet-filter-input-tcp-dport-22-accept",
+    "command": "sudo nft add rule inet filter input tcp dport 22 accept",
+    "title": "Firewall resource create/generate karna",
+    "category": "Firewall",
+    "difficulty": "Intermediate",
+    "use_case": "Firewall me `sudo nft add rule inet filter input tcp dport 22 accept` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo nft add rule inet filter input tcp dport 22 accept",
+    "example": "sudo nft add rule inet filter input tcp dport 22 accept",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "firewall-sudo-nft-flush-ruleset",
+    "command": "sudo nft flush ruleset",
+    "title": "Firewall risky cleanup/delete command",
+    "category": "Firewall",
+    "difficulty": "Intermediate",
+    "use_case": "Firewall me `sudo nft flush ruleset` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo nft flush ruleset",
+    "example": "sudo nft flush ruleset",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "firewall-sudo-firewall-cmd-state",
+    "command": "sudo firewall-cmd --state",
+    "title": "Firewall command use karna",
+    "category": "Firewall",
+    "difficulty": "Intermediate",
+    "use_case": "Firewall me `sudo firewall-cmd --state` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo firewall-cmd --state",
+    "example": "sudo firewall-cmd --state",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "firewall-sudo-firewall-cmd-get-default-zone",
+    "command": "sudo firewall-cmd --get-default-zone",
+    "title": "Firewall status/details verify karna",
+    "category": "Firewall",
+    "difficulty": "Intermediate",
+    "use_case": "Firewall me `sudo firewall-cmd --get-default-zone` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo firewall-cmd --get-default-zone",
+    "example": "sudo firewall-cmd --get-default-zone",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "firewall-sudo-firewall-cmd-set-default-zone-public",
+    "command": "sudo firewall-cmd --set-default-zone=public",
+    "title": "Firewall command use karna",
+    "category": "Firewall",
+    "difficulty": "Intermediate",
+    "use_case": "Firewall me `sudo firewall-cmd --set-default-zone=public` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo firewall-cmd --set-default-zone=public",
+    "example": "sudo firewall-cmd --set-default-zone=public",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "firewall-sudo-firewall-cmd-add-rich-rule-rule-family-ipv4-source-address-1-2-3-4-accept-permanent",
+    "command": "sudo firewall-cmd --add-rich-rule='rule family=\"ipv4\" source address=\"1.2.3.4\" accept' --permanent",
+    "title": "Firewall resource create/generate karna",
+    "category": "Firewall",
+    "difficulty": "Intermediate",
+    "use_case": "Firewall me `sudo firewall-cmd --add-rich-rule='rule family=\"ipv4\" source address=\"1.2.3.4\" accept' --permanent` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo firewall-cmd --add-rich-rule='rule family=\"ipv4\" source address=\"1.2.3.4\" accept' --permanent",
+    "example": "sudo firewall-cmd --add-rich-rule='rule family=\"ipv4\" source address=\"1.2.3.4\" accept' --permanent",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "firewall-sudo-firewall-cmd-remove-service-http-permanent",
+    "command": "sudo firewall-cmd --remove-service=http --permanent",
+    "title": "Firewall command use karna",
+    "category": "Firewall",
+    "difficulty": "Intermediate",
+    "use_case": "Firewall me `sudo firewall-cmd --remove-service=http --permanent` command real-world DevOps, server administration, troubleshooting, deployment, security ya cloud operations ke liye useful hai.",
+    "syntax": "sudo firewall-cmd --remove-service=http --permanent",
+    "example": "sudo firewall-cmd --remove-service=http --permanent",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, paths, IDs, resource names, metrics, logs ya error messages carefully verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "systemctl status service",
+      "journalctl -u service -f"
+    ],
+    "tags": [
+      "firewall",
+      "cmd",
+      "devops",
+      "cli"
+    ]
   }
 ]
