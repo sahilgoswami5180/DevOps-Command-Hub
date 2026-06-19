@@ -286,5 +286,705 @@
       "ssh",
       "devops"
     ]
+  },
+  {
+    "id": "ci-cd-npm-ci-prefer-offline",
+    "command": "npm ci --prefer-offline",
+    "title": "CI/CD command use karna",
+    "category": "CI/CD",
+    "difficulty": "Beginner",
+    "use_case": "CI/CD me `npm ci --prefer-offline` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "npm ci --prefer-offline",
+    "example": "npm ci --prefer-offline",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "npm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ci-cd-npm-audit",
+    "command": "npm audit",
+    "title": "CI/CD command use karna",
+    "category": "CI/CD",
+    "difficulty": "Beginner",
+    "use_case": "CI/CD me `npm audit` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "npm audit",
+    "example": "npm audit",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "npm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ci-cd-npm-audit-fix",
+    "command": "npm audit fix",
+    "title": "CI/CD command use karna",
+    "category": "CI/CD",
+    "difficulty": "Beginner",
+    "use_case": "CI/CD me `npm audit fix` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "npm audit fix",
+    "example": "npm audit fix",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "npm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ci-cd-npm-outdated",
+    "command": "npm outdated",
+    "title": "CI/CD command use karna",
+    "category": "CI/CD",
+    "difficulty": "Beginner",
+    "use_case": "CI/CD me `npm outdated` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "npm outdated",
+    "example": "npm outdated",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "npm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ci-cd-npm-version-patch",
+    "command": "npm version patch",
+    "title": "CI/CD details/status dekhna",
+    "category": "CI/CD",
+    "difficulty": "Beginner",
+    "use_case": "CI/CD me `npm version patch` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "npm version patch",
+    "example": "npm version patch",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "npm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ci-cd-pnpm-install",
+    "command": "pnpm install",
+    "title": "CI/CD command use karna",
+    "category": "CI/CD",
+    "difficulty": "Beginner",
+    "use_case": "CI/CD me `pnpm install` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "pnpm install",
+    "example": "pnpm install",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "pnpm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ci-cd-pnpm-build",
+    "command": "pnpm build",
+    "title": "CI/CD command use karna",
+    "category": "CI/CD",
+    "difficulty": "Beginner",
+    "use_case": "CI/CD me `pnpm build` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "pnpm build",
+    "example": "pnpm build",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "pnpm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ci-cd-yarn-install-frozen-lockfile",
+    "command": "yarn install --frozen-lockfile",
+    "title": "CI/CD command use karna",
+    "category": "CI/CD",
+    "difficulty": "Beginner",
+    "use_case": "CI/CD me `yarn install --frozen-lockfile` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "yarn install --frozen-lockfile",
+    "example": "yarn install --frozen-lockfile",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "yarn",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ci-cd-yarn-build",
+    "command": "yarn build",
+    "title": "CI/CD command use karna",
+    "category": "CI/CD",
+    "difficulty": "Beginner",
+    "use_case": "CI/CD me `yarn build` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "yarn build",
+    "example": "yarn build",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "yarn",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ci-cd-composer-validate",
+    "command": "composer validate",
+    "title": "CI/CD command use karna",
+    "category": "CI/CD",
+    "difficulty": "Beginner",
+    "use_case": "CI/CD me `composer validate` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "composer validate",
+    "example": "composer validate",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "composer",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ci-cd-composer-dump-autoload-o",
+    "command": "composer dump-autoload -o",
+    "title": "CI/CD backup/export lena",
+    "category": "CI/CD",
+    "difficulty": "Beginner",
+    "use_case": "CI/CD me `composer dump-autoload -o` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "composer dump-autoload -o",
+    "example": "composer dump-autoload -o",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "composer",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ci-cd-php-artisan-test",
+    "command": "php artisan test",
+    "title": "CI/CD command use karna",
+    "category": "CI/CD",
+    "difficulty": "Beginner",
+    "use_case": "CI/CD me `php artisan test` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "php artisan test",
+    "example": "php artisan test",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "php",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ci-cd-php-artisan-migrate-status",
+    "command": "php artisan migrate:status",
+    "title": "CI/CD details/status dekhna",
+    "category": "CI/CD",
+    "difficulty": "Beginner",
+    "use_case": "CI/CD me `php artisan migrate:status` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "php artisan migrate:status",
+    "example": "php artisan migrate:status",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "php",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ci-cd-php-artisan-optimize",
+    "command": "php artisan optimize",
+    "title": "CI/CD command use karna",
+    "category": "CI/CD",
+    "difficulty": "Beginner",
+    "use_case": "CI/CD me `php artisan optimize` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "php artisan optimize",
+    "example": "php artisan optimize",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "php",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ci-cd-php-artisan-optimize-clear",
+    "command": "php artisan optimize:clear",
+    "title": "CI/CD command use karna",
+    "category": "CI/CD",
+    "difficulty": "Beginner",
+    "use_case": "CI/CD me `php artisan optimize:clear` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "php artisan optimize:clear",
+    "example": "php artisan optimize:clear",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "php",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ci-cd-php-artisan-down",
+    "command": "php artisan down",
+    "title": "CI/CD command use karna",
+    "category": "CI/CD",
+    "difficulty": "Beginner",
+    "use_case": "CI/CD me `php artisan down` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "php artisan down",
+    "example": "php artisan down",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "php",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ci-cd-php-artisan-up",
+    "command": "php artisan up",
+    "title": "CI/CD apply/deploy/run karna",
+    "category": "CI/CD",
+    "difficulty": "Beginner",
+    "use_case": "CI/CD me `php artisan up` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "php artisan up",
+    "example": "php artisan up",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "php",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ci-cd-php-artisan-horizon-terminate",
+    "command": "php artisan horizon:terminate",
+    "title": "CI/CD command use karna",
+    "category": "CI/CD",
+    "difficulty": "Beginner",
+    "use_case": "CI/CD me `php artisan horizon:terminate` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "php artisan horizon:terminate",
+    "example": "php artisan horizon:terminate",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "php",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ci-cd-php-artisan-schedule-run",
+    "command": "php artisan schedule:run",
+    "title": "CI/CD apply/deploy/run karna",
+    "category": "CI/CD",
+    "difficulty": "Beginner",
+    "use_case": "CI/CD me `php artisan schedule:run` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "php artisan schedule:run",
+    "example": "php artisan schedule:run",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "php",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ci-cd-python-m-pytest",
+    "command": "python -m pytest",
+    "title": "CI/CD command use karna",
+    "category": "CI/CD",
+    "difficulty": "Intermediate",
+    "use_case": "CI/CD me `python -m pytest` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "python -m pytest",
+    "example": "python -m pytest",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "python",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ci-cd-pip-install-r-requirements-txt",
+    "command": "pip install -r requirements.txt",
+    "title": "CI/CD command use karna",
+    "category": "CI/CD",
+    "difficulty": "Intermediate",
+    "use_case": "CI/CD me `pip install -r requirements.txt` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "pip install -r requirements.txt",
+    "example": "pip install -r requirements.txt",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "pip",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ci-cd-pip-freeze-requirements-txt",
+    "command": "pip freeze > requirements.txt",
+    "title": "CI/CD command use karna",
+    "category": "CI/CD",
+    "difficulty": "Intermediate",
+    "use_case": "CI/CD me `pip freeze > requirements.txt` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "pip freeze > requirements.txt",
+    "example": "pip freeze > requirements.txt",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "pip",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ci-cd-mvn-test",
+    "command": "mvn test",
+    "title": "CI/CD command use karna",
+    "category": "CI/CD",
+    "difficulty": "Intermediate",
+    "use_case": "CI/CD me `mvn test` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "mvn test",
+    "example": "mvn test",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "mvn",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ci-cd-mvn-package",
+    "command": "mvn package",
+    "title": "CI/CD command use karna",
+    "category": "CI/CD",
+    "difficulty": "Intermediate",
+    "use_case": "CI/CD me `mvn package` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "mvn package",
+    "example": "mvn package",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "mvn",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ci-cd-gradle-build",
+    "command": "gradle build",
+    "title": "CI/CD command use karna",
+    "category": "CI/CD",
+    "difficulty": "Intermediate",
+    "use_case": "CI/CD me `gradle build` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gradle build",
+    "example": "gradle build",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "gradle",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ci-cd-go-test",
+    "command": "go test ./...",
+    "title": "CI/CD command use karna",
+    "category": "CI/CD",
+    "difficulty": "Intermediate",
+    "use_case": "CI/CD me `go test ./...` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "go test ./...",
+    "example": "go test ./...",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "go",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ci-cd-go-build",
+    "command": "go build ./...",
+    "title": "CI/CD command use karna",
+    "category": "CI/CD",
+    "difficulty": "Intermediate",
+    "use_case": "CI/CD me `go build ./...` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "go build ./...",
+    "example": "go build ./...",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "go",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ci-cd-docker-compose-f-docker-compose-prod-yml-up-d",
+    "command": "docker compose -f docker-compose.prod.yml up -d",
+    "title": "CI/CD apply/deploy/run karna",
+    "category": "CI/CD",
+    "difficulty": "Intermediate",
+    "use_case": "CI/CD me `docker compose -f docker-compose.prod.yml up -d` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "docker compose -f docker-compose.prod.yml up -d",
+    "example": "docker compose -f docker-compose.prod.yml up -d",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "ci",
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ci-cd-docker-compose-f-docker-compose-prod-yml-pull",
+    "command": "docker compose -f docker-compose.prod.yml pull",
+    "title": "CI/CD command use karna",
+    "category": "CI/CD",
+    "difficulty": "Intermediate",
+    "use_case": "CI/CD me `docker compose -f docker-compose.prod.yml pull` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "docker compose -f docker-compose.prod.yml pull",
+    "example": "docker compose -f docker-compose.prod.yml pull",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "ci",
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ci-cd-rsync-az-delete-dist-user-server-var-www-app",
+    "command": "rsync -az --delete dist/ user@server:/var/www/app",
+    "title": "CI/CD delete/destroy action chalana",
+    "category": "CI/CD",
+    "difficulty": "Intermediate",
+    "use_case": "CI/CD me `rsync -az --delete dist/ user@server:/var/www/app` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "rsync -az --delete dist/ user@server:/var/www/app",
+    "example": "rsync -az --delete dist/ user@server:/var/www/app",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "rsync",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ci-cd-ssh-user-server-sudo-systemctl-reload-nginx",
+    "command": "ssh user@server \"sudo systemctl reload nginx\"",
+    "title": "CI/CD restart/reload karna",
+    "category": "CI/CD",
+    "difficulty": "Intermediate",
+    "use_case": "CI/CD me `ssh user@server \"sudo systemctl reload nginx\"` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "ssh user@server \"sudo systemctl reload nginx\"",
+    "example": "ssh user@server \"sudo systemctl reload nginx\"",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "ssh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ci-cd-ssh-user-server-php-artisan-migrate-force",
+    "command": "ssh user@server \"php artisan migrate --force\"",
+    "title": "CI/CD command use karna",
+    "category": "CI/CD",
+    "difficulty": "Intermediate",
+    "use_case": "CI/CD me `ssh user@server \"php artisan migrate --force\"` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "ssh user@server \"php artisan migrate --force\"",
+    "example": "ssh user@server \"php artisan migrate --force\"",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "ssh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ci-cd-git-describe-tags",
+    "command": "git describe --tags",
+    "title": "CI/CD details/status dekhna",
+    "category": "CI/CD",
+    "difficulty": "Intermediate",
+    "use_case": "CI/CD me `git describe --tags` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "git describe --tags",
+    "example": "git describe --tags",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git log --oneline"
+    ],
+    "tags": [
+      "ci",
+      "git",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ci-cd-git-rev-parse-short-head",
+    "command": "git rev-parse --short HEAD",
+    "title": "CI/CD command use karna",
+    "category": "CI/CD",
+    "difficulty": "Intermediate",
+    "use_case": "CI/CD me `git rev-parse --short HEAD` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "git rev-parse --short HEAD",
+    "example": "git rev-parse --short HEAD",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git log --oneline"
+    ],
+    "tags": [
+      "ci",
+      "git",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ci-cd-tar-czf-release-tar-gz-dist",
+    "command": "tar -czf release.tar.gz dist",
+    "title": "CI/CD command use karna",
+    "category": "CI/CD",
+    "difficulty": "Intermediate",
+    "use_case": "CI/CD me `tar -czf release.tar.gz dist` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "tar -czf release.tar.gz dist",
+    "example": "tar -czf release.tar.gz dist",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "tar",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "ci-cd-sha256sum-release-tar-gz",
+    "command": "sha256sum release.tar.gz",
+    "title": "CI/CD command use karna",
+    "category": "CI/CD",
+    "difficulty": "Intermediate",
+    "use_case": "CI/CD me `sha256sum release.tar.gz` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sha256sum release.tar.gz",
+    "example": "sha256sum release.tar.gz",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "ci",
+      "sha256sum",
+      "devops",
+      "cli"
+    ]
   }
 ]

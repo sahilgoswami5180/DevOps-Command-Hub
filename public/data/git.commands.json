@@ -380,5 +380,997 @@
       "pr",
       "status"
     ]
+  },
+  {
+    "id": "git-github-git-init",
+    "command": "git init",
+    "title": "Git / GitHub resource create karna",
+    "category": "Git / GitHub",
+    "difficulty": "Beginner",
+    "use_case": "Git / GitHub me `git init` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "git init",
+    "example": "git init",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git log --oneline"
+    ],
+    "tags": [
+      "git",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-git-clone-repo-url",
+    "command": "git clone <repo-url>",
+    "title": "Git / GitHub command use karna",
+    "category": "Git / GitHub",
+    "difficulty": "Beginner",
+    "use_case": "Git / GitHub me `git clone <repo-url>` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "git clone <repo-url>",
+    "example": "git clone <repo-url>",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git log --oneline"
+    ],
+    "tags": [
+      "git",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-git-clone-depth-1-repo-url",
+    "command": "git clone --depth 1 <repo-url>",
+    "title": "Git / GitHub command use karna",
+    "category": "Git / GitHub",
+    "difficulty": "Beginner",
+    "use_case": "Git / GitHub me `git clone --depth 1 <repo-url>` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "git clone --depth 1 <repo-url>",
+    "example": "git clone --depth 1 <repo-url>",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git log --oneline"
+    ],
+    "tags": [
+      "git",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-git-config-global-user-name-name",
+    "command": "git config --global user.name \"Name\"",
+    "title": "Git / GitHub command use karna",
+    "category": "Git / GitHub",
+    "difficulty": "Beginner",
+    "use_case": "Git / GitHub me `git config --global user.name \"Name\"` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "git config --global user.name \"Name\"",
+    "example": "git config --global user.name \"Name\"",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git log --oneline"
+    ],
+    "tags": [
+      "git",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-git-config-global-user-email-email-example-com",
+    "command": "git config --global user.email \"email@example.com\"",
+    "title": "Git / GitHub command use karna",
+    "category": "Git / GitHub",
+    "difficulty": "Beginner",
+    "use_case": "Git / GitHub me `git config --global user.email \"email@example.com\"` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "git config --global user.email \"email@example.com\"",
+    "example": "git config --global user.email \"email@example.com\"",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git log --oneline"
+    ],
+    "tags": [
+      "git",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-git-config-list",
+    "command": "git config --list",
+    "title": "Git / GitHub details/status dekhna",
+    "category": "Git / GitHub",
+    "difficulty": "Beginner",
+    "use_case": "Git / GitHub me `git config --list` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "git config --list",
+    "example": "git config --list",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git log --oneline"
+    ],
+    "tags": [
+      "git",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-git-restore-file",
+    "command": "git restore file",
+    "title": "Git / GitHub restore/import karna",
+    "category": "Git / GitHub",
+    "difficulty": "Beginner",
+    "use_case": "Git / GitHub me `git restore file` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "git restore file",
+    "example": "git restore file",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git log --oneline"
+    ],
+    "tags": [
+      "git",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-git-restore-staged-file",
+    "command": "git restore --staged file",
+    "title": "Git / GitHub restore/import karna",
+    "category": "Git / GitHub",
+    "difficulty": "Beginner",
+    "use_case": "Git / GitHub me `git restore --staged file` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "git restore --staged file",
+    "example": "git restore --staged file",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git log --oneline"
+    ],
+    "tags": [
+      "git",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-git-reset-head-file",
+    "command": "git reset HEAD file",
+    "title": "Git / GitHub command use karna",
+    "category": "Git / GitHub",
+    "difficulty": "Beginner",
+    "use_case": "Git / GitHub me `git reset HEAD file` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "git reset HEAD file",
+    "example": "git reset HEAD file",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git log --oneline"
+    ],
+    "tags": [
+      "git",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-git-reset-hard-head",
+    "command": "git reset --hard HEAD",
+    "title": "Git / GitHub command use karna",
+    "category": "Git / GitHub",
+    "difficulty": "Beginner",
+    "use_case": "Git / GitHub me `git reset --hard HEAD` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "git reset --hard HEAD",
+    "example": "git reset --hard HEAD",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git log --oneline"
+    ],
+    "tags": [
+      "git",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-git-revert-commit",
+    "command": "git revert <commit>",
+    "title": "Git / GitHub command use karna",
+    "category": "Git / GitHub",
+    "difficulty": "Beginner",
+    "use_case": "Git / GitHub me `git revert <commit>` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "git revert <commit>",
+    "example": "git revert <commit>",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git log --oneline"
+    ],
+    "tags": [
+      "git",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-git-cherry-pick-commit",
+    "command": "git cherry-pick <commit>",
+    "title": "Git / GitHub command use karna",
+    "category": "Git / GitHub",
+    "difficulty": "Beginner",
+    "use_case": "Git / GitHub me `git cherry-pick <commit>` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "git cherry-pick <commit>",
+    "example": "git cherry-pick <commit>",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git log --oneline"
+    ],
+    "tags": [
+      "git",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-git-merge-branch",
+    "command": "git merge branch",
+    "title": "Git / GitHub command use karna",
+    "category": "Git / GitHub",
+    "difficulty": "Beginner",
+    "use_case": "Git / GitHub me `git merge branch` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "git merge branch",
+    "example": "git merge branch",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git log --oneline"
+    ],
+    "tags": [
+      "git",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-git-merge-abort",
+    "command": "git merge --abort",
+    "title": "Git / GitHub command use karna",
+    "category": "Git / GitHub",
+    "difficulty": "Beginner",
+    "use_case": "Git / GitHub me `git merge --abort` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "git merge --abort",
+    "example": "git merge --abort",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git log --oneline"
+    ],
+    "tags": [
+      "git",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-git-rebase-main",
+    "command": "git rebase main",
+    "title": "Git / GitHub command use karna",
+    "category": "Git / GitHub",
+    "difficulty": "Beginner",
+    "use_case": "Git / GitHub me `git rebase main` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "git rebase main",
+    "example": "git rebase main",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git log --oneline"
+    ],
+    "tags": [
+      "git",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-git-rebase-abort",
+    "command": "git rebase --abort",
+    "title": "Git / GitHub command use karna",
+    "category": "Git / GitHub",
+    "difficulty": "Beginner",
+    "use_case": "Git / GitHub me `git rebase --abort` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "git rebase --abort",
+    "example": "git rebase --abort",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git log --oneline"
+    ],
+    "tags": [
+      "git",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-git-rebase-continue",
+    "command": "git rebase --continue",
+    "title": "Git / GitHub command use karna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Git / GitHub me `git rebase --continue` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "git rebase --continue",
+    "example": "git rebase --continue",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git log --oneline"
+    ],
+    "tags": [
+      "git",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-git-fetch-prune",
+    "command": "git fetch --prune",
+    "title": "Git / GitHub apply/deploy/run karna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Git / GitHub me `git fetch --prune` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "git fetch --prune",
+    "example": "git fetch --prune",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git log --oneline"
+    ],
+    "tags": [
+      "git",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-git-pull-rebase-origin-main",
+    "command": "git pull --rebase origin main",
+    "title": "Git / GitHub command use karna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Git / GitHub me `git pull --rebase origin main` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "git pull --rebase origin main",
+    "example": "git pull --rebase origin main",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git log --oneline"
+    ],
+    "tags": [
+      "git",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-git-push-u-origin-branch",
+    "command": "git push -u origin branch",
+    "title": "Git / GitHub command use karna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Git / GitHub me `git push -u origin branch` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "git push -u origin branch",
+    "example": "git push -u origin branch",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git log --oneline"
+    ],
+    "tags": [
+      "git",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-git-push-force-with-lease",
+    "command": "git push --force-with-lease",
+    "title": "Git / GitHub command use karna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Git / GitHub me `git push --force-with-lease` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "git push --force-with-lease",
+    "example": "git push --force-with-lease",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git log --oneline"
+    ],
+    "tags": [
+      "git",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-git-tag",
+    "command": "git tag",
+    "title": "Git / GitHub command use karna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Git / GitHub me `git tag` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "git tag",
+    "example": "git tag",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git log --oneline"
+    ],
+    "tags": [
+      "git",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-git-tag-v1-0-0",
+    "command": "git tag v1.0.0",
+    "title": "Git / GitHub command use karna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Git / GitHub me `git tag v1.0.0` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "git tag v1.0.0",
+    "example": "git tag v1.0.0",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git log --oneline"
+    ],
+    "tags": [
+      "git",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-git-tag-d-v1-0-0",
+    "command": "git tag -d v1.0.0",
+    "title": "Git / GitHub command use karna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Git / GitHub me `git tag -d v1.0.0` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "git tag -d v1.0.0",
+    "example": "git tag -d v1.0.0",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git log --oneline"
+    ],
+    "tags": [
+      "git",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-git-push-origin-delete-branch",
+    "command": "git push origin --delete branch",
+    "title": "Git / GitHub delete/destroy action chalana",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Git / GitHub me `git push origin --delete branch` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "git push origin --delete branch",
+    "example": "git push origin --delete branch",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git log --oneline"
+    ],
+    "tags": [
+      "git",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-git-clean-fd",
+    "command": "git clean -fd",
+    "title": "Git / GitHub command use karna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Git / GitHub me `git clean -fd` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "git clean -fd",
+    "example": "git clean -fd",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git log --oneline"
+    ],
+    "tags": [
+      "git",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-git-clean-fdn",
+    "command": "git clean -fdn",
+    "title": "Git / GitHub command use karna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Git / GitHub me `git clean -fdn` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "git clean -fdn",
+    "example": "git clean -fdn",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git log --oneline"
+    ],
+    "tags": [
+      "git",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-git-blame-file",
+    "command": "git blame file",
+    "title": "Git / GitHub command use karna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Git / GitHub me `git blame file` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "git blame file",
+    "example": "git blame file",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git log --oneline"
+    ],
+    "tags": [
+      "git",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-git-show-commit",
+    "command": "git show <commit>",
+    "title": "Git / GitHub details/status dekhna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Git / GitHub me `git show <commit>` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "git show <commit>",
+    "example": "git show <commit>",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git log --oneline"
+    ],
+    "tags": [
+      "git",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-git-reflog",
+    "command": "git reflog",
+    "title": "Git / GitHub command use karna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Git / GitHub me `git reflog` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "git reflog",
+    "example": "git reflog",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git log --oneline"
+    ],
+    "tags": [
+      "git",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-git-bisect-start",
+    "command": "git bisect start",
+    "title": "Git / GitHub apply/deploy/run karna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Git / GitHub me `git bisect start` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "git bisect start",
+    "example": "git bisect start",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git log --oneline"
+    ],
+    "tags": [
+      "git",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-git-shortlog-sn",
+    "command": "git shortlog -sn",
+    "title": "Git / GitHub command use karna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Git / GitHub me `git shortlog -sn` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "git shortlog -sn",
+    "example": "git shortlog -sn",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git log --oneline"
+    ],
+    "tags": [
+      "git",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-git-archive-format-zip-head-o-source-zip",
+    "command": "git archive --format=zip HEAD -o source.zip",
+    "title": "Git / GitHub command use karna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Git / GitHub me `git archive --format=zip HEAD -o source.zip` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "git archive --format=zip HEAD -o source.zip",
+    "example": "git archive --format=zip HEAD -o source.zip",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git log --oneline"
+    ],
+    "tags": [
+      "git",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-gh-repo-clone-owner-repo",
+    "command": "gh repo clone owner/repo",
+    "title": "Git / GitHub command use karna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Git / GitHub me `gh repo clone owner/repo` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gh repo clone owner/repo",
+    "example": "gh repo clone owner/repo",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "git",
+      "gh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-gh-repo-view",
+    "command": "gh repo view",
+    "title": "Git / GitHub command use karna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Git / GitHub me `gh repo view` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gh repo view",
+    "example": "gh repo view",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "git",
+      "gh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-gh-issue-list",
+    "command": "gh issue list",
+    "title": "Git / GitHub details/status dekhna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Git / GitHub me `gh issue list` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gh issue list",
+    "example": "gh issue list",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "git",
+      "gh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-gh-issue-view-1",
+    "command": "gh issue view 1",
+    "title": "Git / GitHub command use karna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Git / GitHub me `gh issue view 1` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gh issue view 1",
+    "example": "gh issue view 1",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "git",
+      "gh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-gh-pr-list",
+    "command": "gh pr list",
+    "title": "Git / GitHub details/status dekhna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Git / GitHub me `gh pr list` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gh pr list",
+    "example": "gh pr list",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "git",
+      "gh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-gh-pr-view-1",
+    "command": "gh pr view 1",
+    "title": "Git / GitHub command use karna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Git / GitHub me `gh pr view 1` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gh pr view 1",
+    "example": "gh pr view 1",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "git",
+      "gh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-gh-pr-checkout-1",
+    "command": "gh pr checkout 1",
+    "title": "Git / GitHub command use karna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Git / GitHub me `gh pr checkout 1` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gh pr checkout 1",
+    "example": "gh pr checkout 1",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "git",
+      "gh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-gh-pr-merge-1-squash",
+    "command": "gh pr merge 1 --squash",
+    "title": "Git / GitHub command use karna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Git / GitHub me `gh pr merge 1 --squash` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gh pr merge 1 --squash",
+    "example": "gh pr merge 1 --squash",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "git",
+      "gh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-gh-release-list",
+    "command": "gh release list",
+    "title": "Git / GitHub details/status dekhna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Git / GitHub me `gh release list` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gh release list",
+    "example": "gh release list",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "git",
+      "gh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-gh-release-upload-v1-0-0-file-zip",
+    "command": "gh release upload v1.0.0 file.zip",
+    "title": "Git / GitHub apply/deploy/run karna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Git / GitHub me `gh release upload v1.0.0 file.zip` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gh release upload v1.0.0 file.zip",
+    "example": "gh release upload v1.0.0 file.zip",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "git",
+      "gh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-gh-secret-set-secret-name",
+    "command": "gh secret set SECRET_NAME",
+    "title": "Git / GitHub command use karna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Git / GitHub me `gh secret set SECRET_NAME` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gh secret set SECRET_NAME",
+    "example": "gh secret set SECRET_NAME",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [],
+    "tags": [
+      "git",
+      "gh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-gh-secret-list",
+    "command": "gh secret list",
+    "title": "Git / GitHub details/status dekhna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Git / GitHub me `gh secret list` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gh secret list",
+    "example": "gh secret list",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [],
+    "tags": [
+      "git",
+      "gh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-gh-workflow-enable-workflow-yml",
+    "command": "gh workflow enable workflow.yml",
+    "title": "Git / GitHub command use karna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Git / GitHub me `gh workflow enable workflow.yml` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gh workflow enable workflow.yml",
+    "example": "gh workflow enable workflow.yml",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "git",
+      "gh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "git-github-gh-workflow-disable-workflow-yml",
+    "command": "gh workflow disable workflow.yml",
+    "title": "Git / GitHub command use karna",
+    "category": "Git / GitHub",
+    "difficulty": "Intermediate",
+    "use_case": "Git / GitHub me `gh workflow disable workflow.yml` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gh workflow disable workflow.yml",
+    "example": "gh workflow disable workflow.yml",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "git",
+      "gh",
+      "devops",
+      "cli"
+    ]
   }
 ]

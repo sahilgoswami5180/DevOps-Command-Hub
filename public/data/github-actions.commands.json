@@ -250,5 +250,404 @@
       "gh",
       "devops"
     ]
+  },
+  {
+    "id": "github-actions-gh-run-list-limit-20",
+    "command": "gh run list --limit 20",
+    "title": "GitHub Actions details/status dekhna",
+    "category": "GitHub Actions",
+    "difficulty": "Beginner",
+    "use_case": "GitHub Actions me `gh run list --limit 20` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gh run list --limit 20",
+    "example": "gh run list --limit 20",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "github-actions-gh-run-view-log",
+    "command": "gh run view --log",
+    "title": "GitHub Actions apply/deploy/run karna",
+    "category": "GitHub Actions",
+    "difficulty": "Beginner",
+    "use_case": "GitHub Actions me `gh run view --log` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gh run view --log",
+    "example": "gh run view --log",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "github-actions-gh-run-view-log-failed",
+    "command": "gh run view --log-failed",
+    "title": "GitHub Actions apply/deploy/run karna",
+    "category": "GitHub Actions",
+    "difficulty": "Beginner",
+    "use_case": "GitHub Actions me `gh run view --log-failed` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gh run view --log-failed",
+    "example": "gh run view --log-failed",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "github-actions-gh-run-download-run-id",
+    "command": "gh run download <run-id>",
+    "title": "GitHub Actions apply/deploy/run karna",
+    "category": "GitHub Actions",
+    "difficulty": "Beginner",
+    "use_case": "GitHub Actions me `gh run download <run-id>` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gh run download <run-id>",
+    "example": "gh run download <run-id>",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "github-actions-gh-run-cancel-run-id",
+    "command": "gh run cancel <run-id>",
+    "title": "GitHub Actions apply/deploy/run karna",
+    "category": "GitHub Actions",
+    "difficulty": "Beginner",
+    "use_case": "GitHub Actions me `gh run cancel <run-id>` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gh run cancel <run-id>",
+    "example": "gh run cancel <run-id>",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "github-actions-gh-workflow-view-workflow-yml",
+    "command": "gh workflow view workflow.yml",
+    "title": "GitHub Actions command use karna",
+    "category": "GitHub Actions",
+    "difficulty": "Beginner",
+    "use_case": "GitHub Actions me `gh workflow view workflow.yml` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gh workflow view workflow.yml",
+    "example": "gh workflow view workflow.yml",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "github-actions-gh-workflow-run-workflow-yml-f-key-value",
+    "command": "gh workflow run workflow.yml -f key=value",
+    "title": "GitHub Actions apply/deploy/run karna",
+    "category": "GitHub Actions",
+    "difficulty": "Beginner",
+    "use_case": "GitHub Actions me `gh workflow run workflow.yml -f key=value` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gh workflow run workflow.yml -f key=value",
+    "example": "gh workflow run workflow.yml -f key=value",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "github-actions-gh-cache-list",
+    "command": "gh cache list",
+    "title": "GitHub Actions details/status dekhna",
+    "category": "GitHub Actions",
+    "difficulty": "Beginner",
+    "use_case": "GitHub Actions me `gh cache list` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gh cache list",
+    "example": "gh cache list",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "github-actions-gh-cache-delete-cache-id",
+    "command": "gh cache delete <cache-id>",
+    "title": "GitHub Actions delete/destroy action chalana",
+    "category": "GitHub Actions",
+    "difficulty": "Beginner",
+    "use_case": "GitHub Actions me `gh cache delete <cache-id>` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gh cache delete <cache-id>",
+    "example": "gh cache delete <cache-id>",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "github-actions-gh-api-repos-owner-repo-actions-secrets",
+    "command": "gh api repos/:owner/:repo/actions/secrets",
+    "title": "GitHub Actions command use karna",
+    "category": "GitHub Actions",
+    "difficulty": "Beginner",
+    "use_case": "GitHub Actions me `gh api repos/:owner/:repo/actions/secrets` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gh api repos/:owner/:repo/actions/secrets",
+    "example": "gh api repos/:owner/:repo/actions/secrets",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "github-actions-gh-api-repos-owner-repo-actions-variables",
+    "command": "gh api repos/:owner/:repo/actions/variables",
+    "title": "GitHub Actions command use karna",
+    "category": "GitHub Actions",
+    "difficulty": "Beginner",
+    "use_case": "GitHub Actions me `gh api repos/:owner/:repo/actions/variables` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gh api repos/:owner/:repo/actions/variables",
+    "example": "gh api repos/:owner/:repo/actions/variables",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "github-actions-gh-secret-set-secret-body-value",
+    "command": "gh secret set SECRET --body value",
+    "title": "GitHub Actions command use karna",
+    "category": "GitHub Actions",
+    "difficulty": "Beginner",
+    "use_case": "GitHub Actions me `gh secret set SECRET --body value` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gh secret set SECRET --body value",
+    "example": "gh secret set SECRET --body value",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "github-actions-gh-secret-delete-secret",
+    "command": "gh secret delete SECRET",
+    "title": "GitHub Actions delete/destroy action chalana",
+    "category": "GitHub Actions",
+    "difficulty": "Beginner",
+    "use_case": "GitHub Actions me `gh secret delete SECRET` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gh secret delete SECRET",
+    "example": "gh secret delete SECRET",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "github-actions-gh-variable-set-env-body-production",
+    "command": "gh variable set ENV --body production",
+    "title": "GitHub Actions command use karna",
+    "category": "GitHub Actions",
+    "difficulty": "Beginner",
+    "use_case": "GitHub Actions me `gh variable set ENV --body production` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gh variable set ENV --body production",
+    "example": "gh variable set ENV --body production",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "github-actions-gh-variable-delete-env",
+    "command": "gh variable delete ENV",
+    "title": "GitHub Actions delete/destroy action chalana",
+    "category": "GitHub Actions",
+    "difficulty": "Beginner",
+    "use_case": "GitHub Actions me `gh variable delete ENV` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gh variable delete ENV",
+    "example": "gh variable delete ENV",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "github-actions-gh-release-view-v1-0-0",
+    "command": "gh release view v1.0.0",
+    "title": "GitHub Actions command use karna",
+    "category": "GitHub Actions",
+    "difficulty": "Beginner",
+    "use_case": "GitHub Actions me `gh release view v1.0.0` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gh release view v1.0.0",
+    "example": "gh release view v1.0.0",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "github-actions-gh-release-download-v1-0-0",
+    "command": "gh release download v1.0.0",
+    "title": "GitHub Actions command use karna",
+    "category": "GitHub Actions",
+    "difficulty": "Beginner",
+    "use_case": "GitHub Actions me `gh release download v1.0.0` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gh release download v1.0.0",
+    "example": "gh release download v1.0.0",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "github-actions-gh-release-delete-v1-0-0",
+    "command": "gh release delete v1.0.0",
+    "title": "GitHub Actions delete/destroy action chalana",
+    "category": "GitHub Actions",
+    "difficulty": "Beginner",
+    "use_case": "GitHub Actions me `gh release delete v1.0.0` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gh release delete v1.0.0",
+    "example": "gh release delete v1.0.0",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "github-actions-gh-api-repos-owner-repo-actions-runners",
+    "command": "gh api repos/:owner/:repo/actions/runners",
+    "title": "GitHub Actions apply/deploy/run karna",
+    "category": "GitHub Actions",
+    "difficulty": "Beginner",
+    "use_case": "GitHub Actions me `gh api repos/:owner/:repo/actions/runners` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gh api repos/:owner/:repo/actions/runners",
+    "example": "gh api repos/:owner/:repo/actions/runners",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "github-actions-gh-api-repos-owner-repo-actions-workflows",
+    "command": "gh api repos/:owner/:repo/actions/workflows",
+    "title": "GitHub Actions command use karna",
+    "category": "GitHub Actions",
+    "difficulty": "Beginner",
+    "use_case": "GitHub Actions me `gh api repos/:owner/:repo/actions/workflows` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gh api repos/:owner/:repo/actions/workflows",
+    "example": "gh api repos/:owner/:repo/actions/workflows",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "github-actions-gh-api-repos-owner-repo-actions-runs-paginate",
+    "command": "gh api repos/:owner/:repo/actions/runs --paginate",
+    "title": "GitHub Actions apply/deploy/run karna",
+    "category": "GitHub Actions",
+    "difficulty": "Beginner",
+    "use_case": "GitHub Actions me `gh api repos/:owner/:repo/actions/runs --paginate` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gh api repos/:owner/:repo/actions/runs --paginate",
+    "example": "gh api repos/:owner/:repo/actions/runs --paginate",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh",
+      "devops",
+      "cli"
+    ]
   }
 ]

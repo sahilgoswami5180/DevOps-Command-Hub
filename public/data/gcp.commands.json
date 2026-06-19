@@ -286,5 +286,731 @@
       "gcloud",
       "devops"
     ]
+  },
+  {
+    "id": "gcp-cli-gcloud-config-set-compute-region-asia-south1",
+    "command": "gcloud config set compute/region asia-south1",
+    "title": "GCP CLI command use karna",
+    "category": "GCP CLI",
+    "difficulty": "Beginner",
+    "use_case": "GCP CLI me `gcloud config set compute/region asia-south1` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gcloud config set compute/region asia-south1",
+    "example": "gcloud config set compute/region asia-south1",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "gcloud config list",
+      "gcloud auth list"
+    ],
+    "tags": [
+      "gcp",
+      "gcloud",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "gcp-cli-gcloud-config-set-compute-zone-asia-south1-a",
+    "command": "gcloud config set compute/zone asia-south1-a",
+    "title": "GCP CLI command use karna",
+    "category": "GCP CLI",
+    "difficulty": "Beginner",
+    "use_case": "GCP CLI me `gcloud config set compute/zone asia-south1-a` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gcloud config set compute/zone asia-south1-a",
+    "example": "gcloud config set compute/zone asia-south1-a",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "gcloud config list",
+      "gcloud auth list"
+    ],
+    "tags": [
+      "gcp",
+      "gcloud",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "gcp-cli-gcloud-services-list",
+    "command": "gcloud services list",
+    "title": "GCP CLI details/status dekhna",
+    "category": "GCP CLI",
+    "difficulty": "Beginner",
+    "use_case": "GCP CLI me `gcloud services list` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gcloud services list",
+    "example": "gcloud services list",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "gcloud config list",
+      "gcloud auth list"
+    ],
+    "tags": [
+      "gcp",
+      "gcloud",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "gcp-cli-gcloud-services-enable-run-googleapis-com",
+    "command": "gcloud services enable run.googleapis.com",
+    "title": "GCP CLI apply/deploy/run karna",
+    "category": "GCP CLI",
+    "difficulty": "Beginner",
+    "use_case": "GCP CLI me `gcloud services enable run.googleapis.com` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gcloud services enable run.googleapis.com",
+    "example": "gcloud services enable run.googleapis.com",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "gcloud config list",
+      "gcloud auth list"
+    ],
+    "tags": [
+      "gcp",
+      "gcloud",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "gcp-cli-gcloud-compute-instances-describe-instance-zone-zone",
+    "command": "gcloud compute instances describe instance --zone zone",
+    "title": "GCP CLI details/status dekhna",
+    "category": "GCP CLI",
+    "difficulty": "Beginner",
+    "use_case": "GCP CLI me `gcloud compute instances describe instance --zone zone` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gcloud compute instances describe instance --zone zone",
+    "example": "gcloud compute instances describe instance --zone zone",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "gcloud config list",
+      "gcloud auth list"
+    ],
+    "tags": [
+      "gcp",
+      "gcloud",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "gcp-cli-gcloud-compute-instances-start-instance-zone-zone",
+    "command": "gcloud compute instances start instance --zone zone",
+    "title": "GCP CLI apply/deploy/run karna",
+    "category": "GCP CLI",
+    "difficulty": "Beginner",
+    "use_case": "GCP CLI me `gcloud compute instances start instance --zone zone` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gcloud compute instances start instance --zone zone",
+    "example": "gcloud compute instances start instance --zone zone",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "gcloud config list",
+      "gcloud auth list"
+    ],
+    "tags": [
+      "gcp",
+      "gcloud",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "gcp-cli-gcloud-compute-instances-stop-instance-zone-zone",
+    "command": "gcloud compute instances stop instance --zone zone",
+    "title": "GCP CLI command use karna",
+    "category": "GCP CLI",
+    "difficulty": "Beginner",
+    "use_case": "GCP CLI me `gcloud compute instances stop instance --zone zone` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gcloud compute instances stop instance --zone zone",
+    "example": "gcloud compute instances stop instance --zone zone",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [
+      "gcloud config list",
+      "gcloud auth list"
+    ],
+    "tags": [
+      "gcp",
+      "gcloud",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "gcp-cli-gcloud-compute-disks-list",
+    "command": "gcloud compute disks list",
+    "title": "GCP CLI details/status dekhna",
+    "category": "GCP CLI",
+    "difficulty": "Beginner",
+    "use_case": "GCP CLI me `gcloud compute disks list` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gcloud compute disks list",
+    "example": "gcloud compute disks list",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "gcloud config list",
+      "gcloud auth list"
+    ],
+    "tags": [
+      "gcp",
+      "gcloud",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "gcp-cli-gcloud-compute-snapshots-list",
+    "command": "gcloud compute snapshots list",
+    "title": "GCP CLI details/status dekhna",
+    "category": "GCP CLI",
+    "difficulty": "Beginner",
+    "use_case": "GCP CLI me `gcloud compute snapshots list` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gcloud compute snapshots list",
+    "example": "gcloud compute snapshots list",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "gcloud config list",
+      "gcloud auth list"
+    ],
+    "tags": [
+      "gcp",
+      "gcloud",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "gcp-cli-gcloud-compute-firewall-rules-list",
+    "command": "gcloud compute firewall-rules list",
+    "title": "GCP CLI details/status dekhna",
+    "category": "GCP CLI",
+    "difficulty": "Beginner",
+    "use_case": "GCP CLI me `gcloud compute firewall-rules list` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gcloud compute firewall-rules list",
+    "example": "gcloud compute firewall-rules list",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "gcloud config list",
+      "gcloud auth list"
+    ],
+    "tags": [
+      "gcp",
+      "gcloud",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "gcp-cli-gcloud-compute-firewall-rules-create-allow-http-allow-tcp-80",
+    "command": "gcloud compute firewall-rules create allow-http --allow tcp:80",
+    "title": "GCP CLI resource create karna",
+    "category": "GCP CLI",
+    "difficulty": "Beginner",
+    "use_case": "GCP CLI me `gcloud compute firewall-rules create allow-http --allow tcp:80` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gcloud compute firewall-rules create allow-http --allow tcp:80",
+    "example": "gcloud compute firewall-rules create allow-http --allow tcp:80",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "gcloud config list",
+      "gcloud auth list"
+    ],
+    "tags": [
+      "gcp",
+      "gcloud",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "gcp-cli-gcloud-container-clusters-list",
+    "command": "gcloud container clusters list",
+    "title": "GCP CLI details/status dekhna",
+    "category": "GCP CLI",
+    "difficulty": "Beginner",
+    "use_case": "GCP CLI me `gcloud container clusters list` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gcloud container clusters list",
+    "example": "gcloud container clusters list",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "gcloud config list",
+      "gcloud auth list"
+    ],
+    "tags": [
+      "gcp",
+      "gcloud",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "gcp-cli-gcloud-container-clusters-get-credentials-cluster-zone-zone",
+    "command": "gcloud container clusters get-credentials cluster --zone zone",
+    "title": "GCP CLI details/status dekhna",
+    "category": "GCP CLI",
+    "difficulty": "Beginner",
+    "use_case": "GCP CLI me `gcloud container clusters get-credentials cluster --zone zone` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gcloud container clusters get-credentials cluster --zone zone",
+    "example": "gcloud container clusters get-credentials cluster --zone zone",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "gcloud config list",
+      "gcloud auth list"
+    ],
+    "tags": [
+      "gcp",
+      "gcloud",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "gcp-cli-gcloud-artifacts-docker-images-list-repo",
+    "command": "gcloud artifacts docker images list repo",
+    "title": "GCP CLI details/status dekhna",
+    "category": "GCP CLI",
+    "difficulty": "Beginner",
+    "use_case": "GCP CLI me `gcloud artifacts docker images list repo` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gcloud artifacts docker images list repo",
+    "example": "gcloud artifacts docker images list repo",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "gcloud config list",
+      "gcloud auth list"
+    ],
+    "tags": [
+      "gcp",
+      "gcloud",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "gcp-cli-gcloud-run-services-describe-service-region-region",
+    "command": "gcloud run services describe service --region region",
+    "title": "GCP CLI details/status dekhna",
+    "category": "GCP CLI",
+    "difficulty": "Beginner",
+    "use_case": "GCP CLI me `gcloud run services describe service --region region` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gcloud run services describe service --region region",
+    "example": "gcloud run services describe service --region region",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "gcloud config list",
+      "gcloud auth list"
+    ],
+    "tags": [
+      "gcp",
+      "gcloud",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "gcp-cli-gcloud-run-services-logs-read-service-region-region",
+    "command": "gcloud run services logs read service --region region",
+    "title": "GCP CLI logs/debugging dekhna",
+    "category": "GCP CLI",
+    "difficulty": "Beginner",
+    "use_case": "GCP CLI me `gcloud run services logs read service --region region` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gcloud run services logs read service --region region",
+    "example": "gcloud run services logs read service --region region",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "gcloud config list",
+      "gcloud auth list"
+    ],
+    "tags": [
+      "gcp",
+      "gcloud",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "gcp-cli-gcloud-run-services-update-service-set-env-vars-key-value-region-region",
+    "command": "gcloud run services update service --set-env-vars KEY=value --region region",
+    "title": "GCP CLI apply/deploy/run karna",
+    "category": "GCP CLI",
+    "difficulty": "Beginner",
+    "use_case": "GCP CLI me `gcloud run services update service --set-env-vars KEY=value --region region` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gcloud run services update service --set-env-vars KEY=value --region region",
+    "example": "gcloud run services update service --set-env-vars KEY=value --region region",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "gcloud config list",
+      "gcloud auth list"
+    ],
+    "tags": [
+      "gcp",
+      "gcloud",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "gcp-cli-gcloud-run-jobs-describe-job-region-region",
+    "command": "gcloud run jobs describe job --region region",
+    "title": "GCP CLI details/status dekhna",
+    "category": "GCP CLI",
+    "difficulty": "Beginner",
+    "use_case": "GCP CLI me `gcloud run jobs describe job --region region` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gcloud run jobs describe job --region region",
+    "example": "gcloud run jobs describe job --region region",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "gcloud config list",
+      "gcloud auth list"
+    ],
+    "tags": [
+      "gcp",
+      "gcloud",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "gcp-cli-gcloud-run-jobs-update-job-image-image-region-region",
+    "command": "gcloud run jobs update job --image image --region region",
+    "title": "GCP CLI apply/deploy/run karna",
+    "category": "GCP CLI",
+    "difficulty": "Beginner",
+    "use_case": "GCP CLI me `gcloud run jobs update job --image image --region region` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gcloud run jobs update job --image image --region region",
+    "example": "gcloud run jobs update job --image image --region region",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "gcloud config list",
+      "gcloud auth list"
+    ],
+    "tags": [
+      "gcp",
+      "gcloud",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "gcp-cli-gcloud-builds-list",
+    "command": "gcloud builds list",
+    "title": "GCP CLI details/status dekhna",
+    "category": "GCP CLI",
+    "difficulty": "Intermediate",
+    "use_case": "GCP CLI me `gcloud builds list` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gcloud builds list",
+    "example": "gcloud builds list",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "gcloud config list",
+      "gcloud auth list"
+    ],
+    "tags": [
+      "gcp",
+      "gcloud",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "gcp-cli-gcloud-builds-log-build-id",
+    "command": "gcloud builds log BUILD_ID",
+    "title": "GCP CLI command use karna",
+    "category": "GCP CLI",
+    "difficulty": "Intermediate",
+    "use_case": "GCP CLI me `gcloud builds log BUILD_ID` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gcloud builds log BUILD_ID",
+    "example": "gcloud builds log BUILD_ID",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "gcloud config list",
+      "gcloud auth list"
+    ],
+    "tags": [
+      "gcp",
+      "gcloud",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "gcp-cli-gcloud-sql-instances-list",
+    "command": "gcloud sql instances list",
+    "title": "GCP CLI details/status dekhna",
+    "category": "GCP CLI",
+    "difficulty": "Intermediate",
+    "use_case": "GCP CLI me `gcloud sql instances list` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gcloud sql instances list",
+    "example": "gcloud sql instances list",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "gcloud config list",
+      "gcloud auth list"
+    ],
+    "tags": [
+      "gcp",
+      "gcloud",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "gcp-cli-gcloud-sql-databases-list-instance-instance",
+    "command": "gcloud sql databases list --instance instance",
+    "title": "GCP CLI details/status dekhna",
+    "category": "GCP CLI",
+    "difficulty": "Intermediate",
+    "use_case": "GCP CLI me `gcloud sql databases list --instance instance` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gcloud sql databases list --instance instance",
+    "example": "gcloud sql databases list --instance instance",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "gcloud config list",
+      "gcloud auth list"
+    ],
+    "tags": [
+      "gcp",
+      "gcloud",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "gcp-cli-gcloud-sql-users-list-instance-instance",
+    "command": "gcloud sql users list --instance instance",
+    "title": "GCP CLI details/status dekhna",
+    "category": "GCP CLI",
+    "difficulty": "Intermediate",
+    "use_case": "GCP CLI me `gcloud sql users list --instance instance` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gcloud sql users list --instance instance",
+    "example": "gcloud sql users list --instance instance",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "gcloud config list",
+      "gcloud auth list"
+    ],
+    "tags": [
+      "gcp",
+      "gcloud",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "gcp-cli-gcloud-storage-buckets-list",
+    "command": "gcloud storage buckets list",
+    "title": "GCP CLI details/status dekhna",
+    "category": "GCP CLI",
+    "difficulty": "Intermediate",
+    "use_case": "GCP CLI me `gcloud storage buckets list` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gcloud storage buckets list",
+    "example": "gcloud storage buckets list",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "gcloud config list",
+      "gcloud auth list"
+    ],
+    "tags": [
+      "gcp",
+      "gcloud",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "gcp-cli-gcloud-storage-cp-file-gs-bucket-path",
+    "command": "gcloud storage cp file gs://bucket/path",
+    "title": "GCP CLI command use karna",
+    "category": "GCP CLI",
+    "difficulty": "Intermediate",
+    "use_case": "GCP CLI me `gcloud storage cp file gs://bucket/path` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gcloud storage cp file gs://bucket/path",
+    "example": "gcloud storage cp file gs://bucket/path",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "gcloud config list",
+      "gcloud auth list"
+    ],
+    "tags": [
+      "gcp",
+      "gcloud",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "gcp-cli-gcloud-storage-rsync-dist-gs-bucket",
+    "command": "gcloud storage rsync ./dist gs://bucket",
+    "title": "GCP CLI command use karna",
+    "category": "GCP CLI",
+    "difficulty": "Intermediate",
+    "use_case": "GCP CLI me `gcloud storage rsync ./dist gs://bucket` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gcloud storage rsync ./dist gs://bucket",
+    "example": "gcloud storage rsync ./dist gs://bucket",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "gcloud config list",
+      "gcloud auth list"
+    ],
+    "tags": [
+      "gcp",
+      "gcloud",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "gcp-cli-gcloud-iam-service-accounts-list",
+    "command": "gcloud iam service-accounts list",
+    "title": "GCP CLI details/status dekhna",
+    "category": "GCP CLI",
+    "difficulty": "Intermediate",
+    "use_case": "GCP CLI me `gcloud iam service-accounts list` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gcloud iam service-accounts list",
+    "example": "gcloud iam service-accounts list",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "gcloud config list",
+      "gcloud auth list"
+    ],
+    "tags": [
+      "gcp",
+      "gcloud",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "gcp-cli-gcloud-iam-service-accounts-keys-create-key-json-iam-account-sa",
+    "command": "gcloud iam service-accounts keys create key.json --iam-account sa",
+    "title": "GCP CLI resource create karna",
+    "category": "GCP CLI",
+    "difficulty": "Intermediate",
+    "use_case": "GCP CLI me `gcloud iam service-accounts keys create key.json --iam-account sa` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gcloud iam service-accounts keys create key.json --iam-account sa",
+    "example": "gcloud iam service-accounts keys create key.json --iam-account sa",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "gcloud config list",
+      "gcloud auth list"
+    ],
+    "tags": [
+      "gcp",
+      "gcloud",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "gcp-cli-gcloud-secrets-create-name-replication-policy-automatic",
+    "command": "gcloud secrets create name --replication-policy automatic",
+    "title": "GCP CLI resource create karna",
+    "category": "GCP CLI",
+    "difficulty": "Intermediate",
+    "use_case": "GCP CLI me `gcloud secrets create name --replication-policy automatic` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gcloud secrets create name --replication-policy automatic",
+    "example": "gcloud secrets create name --replication-policy automatic",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "gcloud config list",
+      "gcloud auth list"
+    ],
+    "tags": [
+      "gcp",
+      "gcloud",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "gcp-cli-gcloud-secrets-versions-add-name-data-file-file",
+    "command": "gcloud secrets versions add name --data-file file",
+    "title": "GCP CLI details/status dekhna",
+    "category": "GCP CLI",
+    "difficulty": "Intermediate",
+    "use_case": "GCP CLI me `gcloud secrets versions add name --data-file file` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gcloud secrets versions add name --data-file file",
+    "example": "gcloud secrets versions add name --data-file file",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "gcloud config list",
+      "gcloud auth list"
+    ],
+    "tags": [
+      "gcp",
+      "gcloud",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "gcp-cli-gcloud-logging-read-severity-error-limit-50",
+    "command": "gcloud logging read \"severity>=ERROR\" --limit 50",
+    "title": "GCP CLI command use karna",
+    "category": "GCP CLI",
+    "difficulty": "Intermediate",
+    "use_case": "GCP CLI me `gcloud logging read \"severity>=ERROR\" --limit 50` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gcloud logging read \"severity>=ERROR\" --limit 50",
+    "example": "gcloud logging read \"severity>=ERROR\" --limit 50",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "gcloud config list",
+      "gcloud auth list"
+    ],
+    "tags": [
+      "gcp",
+      "gcloud",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "gcp-cli-gcloud-monitoring-policies-list",
+    "command": "gcloud monitoring policies list",
+    "title": "GCP CLI details/status dekhna",
+    "category": "GCP CLI",
+    "difficulty": "Intermediate",
+    "use_case": "GCP CLI me `gcloud monitoring policies list` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gcloud monitoring policies list",
+    "example": "gcloud monitoring policies list",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "gcloud config list",
+      "gcloud auth list"
+    ],
+    "tags": [
+      "gcp",
+      "gcloud",
+      "devops",
+      "cli"
+    ]
   }
 ]

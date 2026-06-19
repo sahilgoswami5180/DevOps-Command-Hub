@@ -178,5 +178,347 @@
       "cmd",
       "devops"
     ]
+  },
+  {
+    "id": "jenkins-sudo-systemctl-stop-jenkins",
+    "command": "sudo systemctl stop jenkins",
+    "title": "Jenkins command use karna",
+    "category": "Jenkins",
+    "difficulty": "Beginner",
+    "use_case": "Jenkins me `sudo systemctl stop jenkins` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo systemctl stop jenkins",
+    "example": "sudo systemctl stop jenkins",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "jenkins",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "jenkins-sudo-systemctl-start-jenkins",
+    "command": "sudo systemctl start jenkins",
+    "title": "Jenkins apply/deploy/run karna",
+    "category": "Jenkins",
+    "difficulty": "Beginner",
+    "use_case": "Jenkins me `sudo systemctl start jenkins` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo systemctl start jenkins",
+    "example": "sudo systemctl start jenkins",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "jenkins",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "jenkins-sudo-tail-f-var-log-jenkins-jenkins-log",
+    "command": "sudo tail -f /var/log/jenkins/jenkins.log",
+    "title": "Jenkins logs/debugging dekhna",
+    "category": "Jenkins",
+    "difficulty": "Beginner",
+    "use_case": "Jenkins me `sudo tail -f /var/log/jenkins/jenkins.log` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo tail -f /var/log/jenkins/jenkins.log",
+    "example": "sudo tail -f /var/log/jenkins/jenkins.log",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "jenkins",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "jenkins-sudo-ls-lah-var-lib-jenkins-jobs",
+    "command": "sudo ls -lah /var/lib/jenkins/jobs",
+    "title": "Jenkins command use karna",
+    "category": "Jenkins",
+    "difficulty": "Beginner",
+    "use_case": "Jenkins me `sudo ls -lah /var/lib/jenkins/jobs` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo ls -lah /var/lib/jenkins/jobs",
+    "example": "sudo ls -lah /var/lib/jenkins/jobs",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "jenkins",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "jenkins-sudo-ls-lah-var-lib-jenkins-workspace",
+    "command": "sudo ls -lah /var/lib/jenkins/workspace",
+    "title": "Jenkins command use karna",
+    "category": "Jenkins",
+    "difficulty": "Beginner",
+    "use_case": "Jenkins me `sudo ls -lah /var/lib/jenkins/workspace` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo ls -lah /var/lib/jenkins/workspace",
+    "example": "sudo ls -lah /var/lib/jenkins/workspace",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "jenkins",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "jenkins-sudo-du-sh-var-lib-jenkins",
+    "command": "sudo du -sh /var/lib/jenkins",
+    "title": "Jenkins command use karna",
+    "category": "Jenkins",
+    "difficulty": "Beginner",
+    "use_case": "Jenkins me `sudo du -sh /var/lib/jenkins` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo du -sh /var/lib/jenkins",
+    "example": "sudo du -sh /var/lib/jenkins",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "jenkins",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "jenkins-sudo-find-var-lib-jenkins-workspace-maxdepth-2-type-d",
+    "command": "sudo find /var/lib/jenkins/workspace -maxdepth 2 -type d",
+    "title": "Jenkins command use karna",
+    "category": "Jenkins",
+    "difficulty": "Beginner",
+    "use_case": "Jenkins me `sudo find /var/lib/jenkins/workspace -maxdepth 2 -type d` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo find /var/lib/jenkins/workspace -maxdepth 2 -type d",
+    "example": "sudo find /var/lib/jenkins/workspace -maxdepth 2 -type d",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "jenkins",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "jenkins-java-jar-jenkins-cli-jar-s-http-localhost-8080-help",
+    "command": "java -jar jenkins-cli.jar -s http://localhost:8080/ help",
+    "title": "Jenkins command use karna",
+    "category": "Jenkins",
+    "difficulty": "Beginner",
+    "use_case": "Jenkins me `java -jar jenkins-cli.jar -s http://localhost:8080/ help` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "java -jar jenkins-cli.jar -s http://localhost:8080/ help",
+    "example": "java -jar jenkins-cli.jar -s http://localhost:8080/ help",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "jenkins",
+      "java",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "jenkins-java-jar-jenkins-cli-jar-s-http-localhost-8080-get-job-job-name",
+    "command": "java -jar jenkins-cli.jar -s http://localhost:8080/ get-job job-name",
+    "title": "Jenkins details/status dekhna",
+    "category": "Jenkins",
+    "difficulty": "Beginner",
+    "use_case": "Jenkins me `java -jar jenkins-cli.jar -s http://localhost:8080/ get-job job-name` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "java -jar jenkins-cli.jar -s http://localhost:8080/ get-job job-name",
+    "example": "java -jar jenkins-cli.jar -s http://localhost:8080/ get-job job-name",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "jenkins",
+      "java",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "jenkins-java-jar-jenkins-cli-jar-s-http-localhost-8080-create-job-job-name-config-xml",
+    "command": "java -jar jenkins-cli.jar -s http://localhost:8080/ create-job job-name < config.xml",
+    "title": "Jenkins resource create karna",
+    "category": "Jenkins",
+    "difficulty": "Beginner",
+    "use_case": "Jenkins me `java -jar jenkins-cli.jar -s http://localhost:8080/ create-job job-name < config.xml` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "java -jar jenkins-cli.jar -s http://localhost:8080/ create-job job-name < config.xml",
+    "example": "java -jar jenkins-cli.jar -s http://localhost:8080/ create-job job-name < config.xml",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "jenkins",
+      "java",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "jenkins-java-jar-jenkins-cli-jar-s-http-localhost-8080-delete-job-job-name",
+    "command": "java -jar jenkins-cli.jar -s http://localhost:8080/ delete-job job-name",
+    "title": "Jenkins delete/destroy action chalana",
+    "category": "Jenkins",
+    "difficulty": "Beginner",
+    "use_case": "Jenkins me `java -jar jenkins-cli.jar -s http://localhost:8080/ delete-job job-name` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "java -jar jenkins-cli.jar -s http://localhost:8080/ delete-job job-name",
+    "example": "java -jar jenkins-cli.jar -s http://localhost:8080/ delete-job job-name",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "jenkins",
+      "java",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "jenkins-java-jar-jenkins-cli-jar-s-http-localhost-8080-enable-job-job-name",
+    "command": "java -jar jenkins-cli.jar -s http://localhost:8080/ enable-job job-name",
+    "title": "Jenkins command use karna",
+    "category": "Jenkins",
+    "difficulty": "Beginner",
+    "use_case": "Jenkins me `java -jar jenkins-cli.jar -s http://localhost:8080/ enable-job job-name` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "java -jar jenkins-cli.jar -s http://localhost:8080/ enable-job job-name",
+    "example": "java -jar jenkins-cli.jar -s http://localhost:8080/ enable-job job-name",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "jenkins",
+      "java",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "jenkins-java-jar-jenkins-cli-jar-s-http-localhost-8080-disable-job-job-name",
+    "command": "java -jar jenkins-cli.jar -s http://localhost:8080/ disable-job job-name",
+    "title": "Jenkins command use karna",
+    "category": "Jenkins",
+    "difficulty": "Beginner",
+    "use_case": "Jenkins me `java -jar jenkins-cli.jar -s http://localhost:8080/ disable-job job-name` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "java -jar jenkins-cli.jar -s http://localhost:8080/ disable-job job-name",
+    "example": "java -jar jenkins-cli.jar -s http://localhost:8080/ disable-job job-name",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "jenkins",
+      "java",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "jenkins-java-jar-jenkins-cli-jar-s-http-localhost-8080-safe-restart",
+    "command": "java -jar jenkins-cli.jar -s http://localhost:8080/ safe-restart",
+    "title": "Jenkins restart/reload karna",
+    "category": "Jenkins",
+    "difficulty": "Beginner",
+    "use_case": "Jenkins me `java -jar jenkins-cli.jar -s http://localhost:8080/ safe-restart` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "java -jar jenkins-cli.jar -s http://localhost:8080/ safe-restart",
+    "example": "java -jar jenkins-cli.jar -s http://localhost:8080/ safe-restart",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [],
+    "tags": [
+      "jenkins",
+      "java",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "jenkins-java-jar-jenkins-cli-jar-s-http-localhost-8080-quiet-down",
+    "command": "java -jar jenkins-cli.jar -s http://localhost:8080/ quiet-down",
+    "title": "Jenkins command use karna",
+    "category": "Jenkins",
+    "difficulty": "Beginner",
+    "use_case": "Jenkins me `java -jar jenkins-cli.jar -s http://localhost:8080/ quiet-down` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "java -jar jenkins-cli.jar -s http://localhost:8080/ quiet-down",
+    "example": "java -jar jenkins-cli.jar -s http://localhost:8080/ quiet-down",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "jenkins",
+      "java",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "jenkins-java-jar-jenkins-cli-jar-s-http-localhost-8080-cancel-quiet-down",
+    "command": "java -jar jenkins-cli.jar -s http://localhost:8080/ cancel-quiet-down",
+    "title": "Jenkins command use karna",
+    "category": "Jenkins",
+    "difficulty": "Beginner",
+    "use_case": "Jenkins me `java -jar jenkins-cli.jar -s http://localhost:8080/ cancel-quiet-down` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "java -jar jenkins-cli.jar -s http://localhost:8080/ cancel-quiet-down",
+    "example": "java -jar jenkins-cli.jar -s http://localhost:8080/ cancel-quiet-down",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "jenkins",
+      "java",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "jenkins-sudo-chown-r-jenkins-jenkins-var-lib-jenkins-workspace",
+    "command": "sudo chown -R jenkins:jenkins /var/lib/jenkins/workspace",
+    "title": "Jenkins command use karna",
+    "category": "Jenkins",
+    "difficulty": "Beginner",
+    "use_case": "Jenkins me `sudo chown -R jenkins:jenkins /var/lib/jenkins/workspace` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo chown -R jenkins:jenkins /var/lib/jenkins/workspace",
+    "example": "sudo chown -R jenkins:jenkins /var/lib/jenkins/workspace",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "jenkins",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "jenkins-sudo-find-var-lib-jenkins-name-log-type-f",
+    "command": "sudo find /var/lib/jenkins -name \"*.log\" -type f",
+    "title": "Jenkins command use karna",
+    "category": "Jenkins",
+    "difficulty": "Beginner",
+    "use_case": "Jenkins me `sudo find /var/lib/jenkins -name \"*.log\" -type f` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo find /var/lib/jenkins -name \"*.log\" -type f",
+    "example": "sudo find /var/lib/jenkins -name \"*.log\" -type f",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "jenkins",
+      "cmd",
+      "devops",
+      "cli"
+    ]
   }
 ]

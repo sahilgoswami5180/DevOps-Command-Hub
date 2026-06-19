@@ -286,5 +286,594 @@
       "vacuumdb",
       "devops"
     ]
+  },
+  {
+    "id": "postgresql-mysql-backup-pg-dump-db-backup-sql",
+    "command": "pg_dump db > backup.sql",
+    "title": "PostgreSQL / MySQL Backup backup/export lena",
+    "category": "PostgreSQL / MySQL Backup",
+    "difficulty": "Beginner",
+    "use_case": "PostgreSQL / MySQL Backup me `pg_dump db > backup.sql` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "pg_dump db > backup.sql",
+    "example": "pg_dump db > backup.sql",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "postgresql",
+      "pg_dump",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "postgresql-mysql-backup-pg-dump-fc-f-backup-dump-db",
+    "command": "pg_dump -Fc -f backup.dump db",
+    "title": "PostgreSQL / MySQL Backup backup/export lena",
+    "category": "PostgreSQL / MySQL Backup",
+    "difficulty": "Beginner",
+    "use_case": "PostgreSQL / MySQL Backup me `pg_dump -Fc -f backup.dump db` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "pg_dump -Fc -f backup.dump db",
+    "example": "pg_dump -Fc -f backup.dump db",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "postgresql",
+      "pg_dump",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "postgresql-mysql-backup-pg-dump-fd-j-4-f-backup-dir-db",
+    "command": "pg_dump -Fd -j 4 -f backup_dir db",
+    "title": "PostgreSQL / MySQL Backup backup/export lena",
+    "category": "PostgreSQL / MySQL Backup",
+    "difficulty": "Beginner",
+    "use_case": "PostgreSQL / MySQL Backup me `pg_dump -Fd -j 4 -f backup_dir db` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "pg_dump -Fd -j 4 -f backup_dir db",
+    "example": "pg_dump -Fd -j 4 -f backup_dir db",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "postgresql",
+      "pg_dump",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "postgresql-mysql-backup-pg-restore-l-backup-dump",
+    "command": "pg_restore -l backup.dump",
+    "title": "PostgreSQL / MySQL Backup backup/export lena",
+    "category": "PostgreSQL / MySQL Backup",
+    "difficulty": "Beginner",
+    "use_case": "PostgreSQL / MySQL Backup me `pg_restore -l backup.dump` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "pg_restore -l backup.dump",
+    "example": "pg_restore -l backup.dump",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "postgresql",
+      "pg_restore",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "postgresql-mysql-backup-pg-restore-c-d-db-backup-dump",
+    "command": "pg_restore -c -d db backup.dump",
+    "title": "PostgreSQL / MySQL Backup backup/export lena",
+    "category": "PostgreSQL / MySQL Backup",
+    "difficulty": "Beginner",
+    "use_case": "PostgreSQL / MySQL Backup me `pg_restore -c -d db backup.dump` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "pg_restore -c -d db backup.dump",
+    "example": "pg_restore -c -d db backup.dump",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "postgresql",
+      "pg_restore",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "postgresql-mysql-backup-pg-restore-j-4-d-db-backup-dir",
+    "command": "pg_restore -j 4 -d db backup_dir",
+    "title": "PostgreSQL / MySQL Backup backup/export lena",
+    "category": "PostgreSQL / MySQL Backup",
+    "difficulty": "Beginner",
+    "use_case": "PostgreSQL / MySQL Backup me `pg_restore -j 4 -d db backup_dir` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "pg_restore -j 4 -d db backup_dir",
+    "example": "pg_restore -j 4 -d db backup_dir",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "postgresql",
+      "pg_restore",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "postgresql-mysql-backup-pg-dumpall-all-sql",
+    "command": "pg_dumpall > all.sql",
+    "title": "PostgreSQL / MySQL Backup backup/export lena",
+    "category": "PostgreSQL / MySQL Backup",
+    "difficulty": "Beginner",
+    "use_case": "PostgreSQL / MySQL Backup me `pg_dumpall > all.sql` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "pg_dumpall > all.sql",
+    "example": "pg_dumpall > all.sql",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "postgresql",
+      "pg_dumpall",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "postgresql-mysql-backup-pg-dumpall-roles-only-roles-sql",
+    "command": "pg_dumpall --roles-only > roles.sql",
+    "title": "PostgreSQL / MySQL Backup backup/export lena",
+    "category": "PostgreSQL / MySQL Backup",
+    "difficulty": "Beginner",
+    "use_case": "PostgreSQL / MySQL Backup me `pg_dumpall --roles-only > roles.sql` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "pg_dumpall --roles-only > roles.sql",
+    "example": "pg_dumpall --roles-only > roles.sql",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "postgresql",
+      "pg_dumpall",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "postgresql-mysql-backup-psql-c-select-pg-database-size-db",
+    "command": "psql -c \"SELECT pg_database_size('db');\"",
+    "title": "PostgreSQL / MySQL Backup command use karna",
+    "category": "PostgreSQL / MySQL Backup",
+    "difficulty": "Beginner",
+    "use_case": "PostgreSQL / MySQL Backup me `psql -c \"SELECT pg_database_size('db');\"` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "psql -c \"SELECT pg_database_size('db');\"",
+    "example": "psql -c \"SELECT pg_database_size('db');\"",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "postgresql",
+      "psql",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "postgresql-mysql-backup-psql-c-select-from-pg-stat-activity",
+    "command": "psql -c \"SELECT * FROM pg_stat_activity;\"",
+    "title": "PostgreSQL / MySQL Backup command use karna",
+    "category": "PostgreSQL / MySQL Backup",
+    "difficulty": "Beginner",
+    "use_case": "PostgreSQL / MySQL Backup me `psql -c \"SELECT * FROM pg_stat_activity;\"` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "psql -c \"SELECT * FROM pg_stat_activity;\"",
+    "example": "psql -c \"SELECT * FROM pg_stat_activity;\"",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "postgresql",
+      "psql",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "postgresql-mysql-backup-psql-c-select-datname-from-pg-database",
+    "command": "psql -c \"SELECT datname FROM pg_database;\"",
+    "title": "PostgreSQL / MySQL Backup command use karna",
+    "category": "PostgreSQL / MySQL Backup",
+    "difficulty": "Beginner",
+    "use_case": "PostgreSQL / MySQL Backup me `psql -c \"SELECT datname FROM pg_database;\"` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "psql -c \"SELECT datname FROM pg_database;\"",
+    "example": "psql -c \"SELECT datname FROM pg_database;\"",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "postgresql",
+      "psql",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "postgresql-mysql-backup-psql-c-create-database-db",
+    "command": "psql -c \"CREATE DATABASE db;\"",
+    "title": "PostgreSQL / MySQL Backup resource create karna",
+    "category": "PostgreSQL / MySQL Backup",
+    "difficulty": "Beginner",
+    "use_case": "PostgreSQL / MySQL Backup me `psql -c \"CREATE DATABASE db;\"` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "psql -c \"CREATE DATABASE db;\"",
+    "example": "psql -c \"CREATE DATABASE db;\"",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "postgresql",
+      "psql",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "postgresql-mysql-backup-psql-c-drop-database-db",
+    "command": "psql -c \"DROP DATABASE db;\"",
+    "title": "PostgreSQL / MySQL Backup delete/destroy action chalana",
+    "category": "PostgreSQL / MySQL Backup",
+    "difficulty": "Beginner",
+    "use_case": "PostgreSQL / MySQL Backup me `psql -c \"DROP DATABASE db;\"` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "psql -c \"DROP DATABASE db;\"",
+    "example": "psql -c \"DROP DATABASE db;\"",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "postgresql",
+      "psql",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "postgresql-mysql-backup-psql-c-du",
+    "command": "psql -c \"\\du\"",
+    "title": "PostgreSQL / MySQL Backup command use karna",
+    "category": "PostgreSQL / MySQL Backup",
+    "difficulty": "Beginner",
+    "use_case": "PostgreSQL / MySQL Backup me `psql -c \"\\du\"` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "psql -c \"\\du\"",
+    "example": "psql -c \"\\du\"",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "postgresql",
+      "psql",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "postgresql-mysql-backup-psql-c-conninfo",
+    "command": "psql -c \"\\conninfo\"",
+    "title": "PostgreSQL / MySQL Backup details/status dekhna",
+    "category": "PostgreSQL / MySQL Backup",
+    "difficulty": "Beginner",
+    "use_case": "PostgreSQL / MySQL Backup me `psql -c \"\\conninfo\"` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "psql -c \"\\conninfo\"",
+    "example": "psql -c \"\\conninfo\"",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "postgresql",
+      "psql",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "postgresql-mysql-backup-reindexdb-db",
+    "command": "reindexdb db",
+    "title": "PostgreSQL / MySQL Backup command use karna",
+    "category": "PostgreSQL / MySQL Backup",
+    "difficulty": "Beginner",
+    "use_case": "PostgreSQL / MySQL Backup me `reindexdb db` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "reindexdb db",
+    "example": "reindexdb db",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "postgresql",
+      "reindexdb",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "postgresql-mysql-backup-vacuumdb-full-db",
+    "command": "vacuumdb --full db",
+    "title": "PostgreSQL / MySQL Backup command use karna",
+    "category": "PostgreSQL / MySQL Backup",
+    "difficulty": "Beginner",
+    "use_case": "PostgreSQL / MySQL Backup me `vacuumdb --full db` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "vacuumdb --full db",
+    "example": "vacuumdb --full db",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "postgresql",
+      "vacuumdb",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "postgresql-mysql-backup-mysqlshow-u-user-p",
+    "command": "mysqlshow -u user -p",
+    "title": "PostgreSQL / MySQL Backup details/status dekhna",
+    "category": "PostgreSQL / MySQL Backup",
+    "difficulty": "Beginner",
+    "use_case": "PostgreSQL / MySQL Backup me `mysqlshow -u user -p` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "mysqlshow -u user -p",
+    "example": "mysqlshow -u user -p",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "postgresql",
+      "mysqlshow",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "postgresql-mysql-backup-mysql-e-show-databases",
+    "command": "mysql -e \"SHOW DATABASES;\"",
+    "title": "PostgreSQL / MySQL Backup details/status dekhna",
+    "category": "PostgreSQL / MySQL Backup",
+    "difficulty": "Beginner",
+    "use_case": "PostgreSQL / MySQL Backup me `mysql -e \"SHOW DATABASES;\"` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "mysql -e \"SHOW DATABASES;\"",
+    "example": "mysql -e \"SHOW DATABASES;\"",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "postgresql",
+      "mysql",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "postgresql-mysql-backup-mysql-e-show-processlist",
+    "command": "mysql -e \"SHOW PROCESSLIST;\"",
+    "title": "PostgreSQL / MySQL Backup details/status dekhna",
+    "category": "PostgreSQL / MySQL Backup",
+    "difficulty": "Intermediate",
+    "use_case": "PostgreSQL / MySQL Backup me `mysql -e \"SHOW PROCESSLIST;\"` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "mysql -e \"SHOW PROCESSLIST;\"",
+    "example": "mysql -e \"SHOW PROCESSLIST;\"",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "postgresql",
+      "mysql",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "postgresql-mysql-backup-mysql-e-show-variables-like-version",
+    "command": "mysql -e \"SHOW VARIABLES LIKE 'version';\"",
+    "title": "PostgreSQL / MySQL Backup details/status dekhna",
+    "category": "PostgreSQL / MySQL Backup",
+    "difficulty": "Intermediate",
+    "use_case": "PostgreSQL / MySQL Backup me `mysql -e \"SHOW VARIABLES LIKE 'version';\"` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "mysql -e \"SHOW VARIABLES LIKE 'version';\"",
+    "example": "mysql -e \"SHOW VARIABLES LIKE 'version';\"",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "postgresql",
+      "mysql",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "postgresql-mysql-backup-mysqldump-single-transaction-u-user-p-db-backup-sql",
+    "command": "mysqldump --single-transaction -u user -p db > backup.sql",
+    "title": "PostgreSQL / MySQL Backup backup/export lena",
+    "category": "PostgreSQL / MySQL Backup",
+    "difficulty": "Intermediate",
+    "use_case": "PostgreSQL / MySQL Backup me `mysqldump --single-transaction -u user -p db > backup.sql` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "mysqldump --single-transaction -u user -p db > backup.sql",
+    "example": "mysqldump --single-transaction -u user -p db > backup.sql",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "postgresql",
+      "mysqldump",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "postgresql-mysql-backup-mysqldump-all-databases-u-root-p-all-sql",
+    "command": "mysqldump --all-databases -u root -p > all.sql",
+    "title": "PostgreSQL / MySQL Backup backup/export lena",
+    "category": "PostgreSQL / MySQL Backup",
+    "difficulty": "Intermediate",
+    "use_case": "PostgreSQL / MySQL Backup me `mysqldump --all-databases -u root -p > all.sql` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "mysqldump --all-databases -u root -p > all.sql",
+    "example": "mysqldump --all-databases -u root -p > all.sql",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "postgresql",
+      "mysqldump",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "postgresql-mysql-backup-mysqldump-routines-triggers-u-user-p-db-backup-sql",
+    "command": "mysqldump --routines --triggers -u user -p db > backup.sql",
+    "title": "PostgreSQL / MySQL Backup backup/export lena",
+    "category": "PostgreSQL / MySQL Backup",
+    "difficulty": "Intermediate",
+    "use_case": "PostgreSQL / MySQL Backup me `mysqldump --routines --triggers -u user -p db > backup.sql` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "mysqldump --routines --triggers -u user -p db > backup.sql",
+    "example": "mysqldump --routines --triggers -u user -p db > backup.sql",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "postgresql",
+      "mysqldump",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "postgresql-mysql-backup-mysqlcheck-u-user-p-all-databases",
+    "command": "mysqlcheck -u user -p --all-databases",
+    "title": "PostgreSQL / MySQL Backup command use karna",
+    "category": "PostgreSQL / MySQL Backup",
+    "difficulty": "Intermediate",
+    "use_case": "PostgreSQL / MySQL Backup me `mysqlcheck -u user -p --all-databases` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "mysqlcheck -u user -p --all-databases",
+    "example": "mysqlcheck -u user -p --all-databases",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "postgresql",
+      "mysqlcheck",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "postgresql-mysql-backup-mysqladmin-u-root-p-processlist",
+    "command": "mysqladmin -u root -p processlist",
+    "title": "PostgreSQL / MySQL Backup details/status dekhna",
+    "category": "PostgreSQL / MySQL Backup",
+    "difficulty": "Intermediate",
+    "use_case": "PostgreSQL / MySQL Backup me `mysqladmin -u root -p processlist` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "mysqladmin -u root -p processlist",
+    "example": "mysqladmin -u root -p processlist",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "postgresql",
+      "mysqladmin",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "postgresql-mysql-backup-mysqladmin-u-root-p-variables",
+    "command": "mysqladmin -u root -p variables",
+    "title": "PostgreSQL / MySQL Backup command use karna",
+    "category": "PostgreSQL / MySQL Backup",
+    "difficulty": "Intermediate",
+    "use_case": "PostgreSQL / MySQL Backup me `mysqladmin -u root -p variables` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "mysqladmin -u root -p variables",
+    "example": "mysqladmin -u root -p variables",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "postgresql",
+      "mysqladmin",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "postgresql-mysql-backup-mariadb-dump-u-user-p-db-backup-sql",
+    "command": "mariadb-dump -u user -p db > backup.sql",
+    "title": "PostgreSQL / MySQL Backup backup/export lena",
+    "category": "PostgreSQL / MySQL Backup",
+    "difficulty": "Intermediate",
+    "use_case": "PostgreSQL / MySQL Backup me `mariadb-dump -u user -p db > backup.sql` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "mariadb-dump -u user -p db > backup.sql",
+    "example": "mariadb-dump -u user -p db > backup.sql",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "postgresql",
+      "mariadb-dump",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "postgresql-mysql-backup-gzip-backup-sql",
+    "command": "gzip backup.sql",
+    "title": "PostgreSQL / MySQL Backup backup/export lena",
+    "category": "PostgreSQL / MySQL Backup",
+    "difficulty": "Intermediate",
+    "use_case": "PostgreSQL / MySQL Backup me `gzip backup.sql` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gzip backup.sql",
+    "example": "gzip backup.sql",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "postgresql",
+      "gzip",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "postgresql-mysql-backup-gunzip-backup-sql-gz",
+    "command": "gunzip backup.sql.gz",
+    "title": "PostgreSQL / MySQL Backup backup/export lena",
+    "category": "PostgreSQL / MySQL Backup",
+    "difficulty": "Intermediate",
+    "use_case": "PostgreSQL / MySQL Backup me `gunzip backup.sql.gz` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gunzip backup.sql.gz",
+    "example": "gunzip backup.sql.gz",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "postgresql",
+      "gunzip",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "postgresql-mysql-backup-zcat-backup-sql-gz-mysql-u-user-p-db",
+    "command": "zcat backup.sql.gz | mysql -u user -p db",
+    "title": "PostgreSQL / MySQL Backup backup/export lena",
+    "category": "PostgreSQL / MySQL Backup",
+    "difficulty": "Intermediate",
+    "use_case": "PostgreSQL / MySQL Backup me `zcat backup.sql.gz | mysql -u user -p db` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "zcat backup.sql.gz | mysql -u user -p db",
+    "example": "zcat backup.sql.gz | mysql -u user -p db",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "postgresql",
+      "zcat",
+      "devops",
+      "cli"
+    ]
   }
 ]

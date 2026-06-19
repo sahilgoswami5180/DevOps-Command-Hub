@@ -322,5 +322,613 @@
       "watch",
       "devops"
     ]
+  },
+  {
+    "id": "system-monitoring-mpstat-1-5",
+    "command": "mpstat 1 5",
+    "title": "System Monitoring command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Beginner",
+    "use_case": "System Monitoring me `mpstat 1 5` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "mpstat 1 5",
+    "example": "mpstat 1 5",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "mpstat",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "system-monitoring-pidstat-1-5",
+    "command": "pidstat 1 5",
+    "title": "System Monitoring command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Beginner",
+    "use_case": "System Monitoring me `pidstat 1 5` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "pidstat 1 5",
+    "example": "pidstat 1 5",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "pidstat",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "system-monitoring-iotop",
+    "command": "iotop",
+    "title": "System Monitoring command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Beginner",
+    "use_case": "System Monitoring me `iotop` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "iotop",
+    "example": "iotop",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "iotop",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "system-monitoring-iftop",
+    "command": "iftop",
+    "title": "System Monitoring command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Beginner",
+    "use_case": "System Monitoring me `iftop` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "iftop",
+    "example": "iftop",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "iftop",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "system-monitoring-nload",
+    "command": "nload",
+    "title": "System Monitoring command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Beginner",
+    "use_case": "System Monitoring me `nload` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "nload",
+    "example": "nload",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "nload",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "system-monitoring-ncdu",
+    "command": "ncdu /",
+    "title": "System Monitoring command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Beginner",
+    "use_case": "System Monitoring me `ncdu /` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "ncdu /",
+    "example": "ncdu /",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "ncdu",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "system-monitoring-dstat",
+    "command": "dstat",
+    "title": "System Monitoring command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Beginner",
+    "use_case": "System Monitoring me `dstat` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "dstat",
+    "example": "dstat",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "dstat",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "system-monitoring-glances",
+    "command": "glances",
+    "title": "System Monitoring command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Beginner",
+    "use_case": "System Monitoring me `glances` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "glances",
+    "example": "glances",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "glances",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "system-monitoring-uptime-p",
+    "command": "uptime -p",
+    "title": "System Monitoring apply/deploy/run karna",
+    "category": "System Monitoring",
+    "difficulty": "Beginner",
+    "use_case": "System Monitoring me `uptime -p` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "uptime -p",
+    "example": "uptime -p",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "uptime",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "system-monitoring-cat-proc-loadavg",
+    "command": "cat /proc/loadavg",
+    "title": "System Monitoring command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Beginner",
+    "use_case": "System Monitoring me `cat /proc/loadavg` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "cat /proc/loadavg",
+    "example": "cat /proc/loadavg",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "cat",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "system-monitoring-cat-proc-meminfo",
+    "command": "cat /proc/meminfo",
+    "title": "System Monitoring details/status dekhna",
+    "category": "System Monitoring",
+    "difficulty": "Beginner",
+    "use_case": "System Monitoring me `cat /proc/meminfo` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "cat /proc/meminfo",
+    "example": "cat /proc/meminfo",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "cat",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "system-monitoring-cat-proc-cpuinfo",
+    "command": "cat /proc/cpuinfo",
+    "title": "System Monitoring details/status dekhna",
+    "category": "System Monitoring",
+    "difficulty": "Beginner",
+    "use_case": "System Monitoring me `cat /proc/cpuinfo` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "cat /proc/cpuinfo",
+    "example": "cat /proc/cpuinfo",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "cat",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "system-monitoring-lscpu",
+    "command": "lscpu",
+    "title": "System Monitoring command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Beginner",
+    "use_case": "System Monitoring me `lscpu` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "lscpu",
+    "example": "lscpu",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "lscpu",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "system-monitoring-lsmem",
+    "command": "lsmem",
+    "title": "System Monitoring command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Beginner",
+    "use_case": "System Monitoring me `lsmem` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "lsmem",
+    "example": "lsmem",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "lsmem",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "system-monitoring-lsusb",
+    "command": "lsusb",
+    "title": "System Monitoring command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Beginner",
+    "use_case": "System Monitoring me `lsusb` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "lsusb",
+    "example": "lsusb",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "lsusb",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "system-monitoring-lspci",
+    "command": "lspci",
+    "title": "System Monitoring command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Beginner",
+    "use_case": "System Monitoring me `lspci` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "lspci",
+    "example": "lspci",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "lspci",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "system-monitoring-sensors",
+    "command": "sensors",
+    "title": "System Monitoring command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Beginner",
+    "use_case": "System Monitoring me `sensors` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sensors",
+    "example": "sensors",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "sensors",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "system-monitoring-journalctl-disk-usage",
+    "command": "journalctl --disk-usage",
+    "title": "System Monitoring logs/debugging dekhna",
+    "category": "System Monitoring",
+    "difficulty": "Intermediate",
+    "use_case": "System Monitoring me `journalctl --disk-usage` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "journalctl --disk-usage",
+    "example": "journalctl --disk-usage",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "journalctl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "system-monitoring-systemd-analyze",
+    "command": "systemd-analyze",
+    "title": "System Monitoring command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Intermediate",
+    "use_case": "System Monitoring me `systemd-analyze` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "systemd-analyze",
+    "example": "systemd-analyze",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "systemd-analyze",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "system-monitoring-systemd-analyze-blame",
+    "command": "systemd-analyze blame",
+    "title": "System Monitoring command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Intermediate",
+    "use_case": "System Monitoring me `systemd-analyze blame` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "systemd-analyze blame",
+    "example": "systemd-analyze blame",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "systemd-analyze",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "system-monitoring-systemd-analyze-critical-chain",
+    "command": "systemd-analyze critical-chain",
+    "title": "System Monitoring command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Intermediate",
+    "use_case": "System Monitoring me `systemd-analyze critical-chain` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "systemd-analyze critical-chain",
+    "example": "systemd-analyze critical-chain",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "systemd-analyze",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "system-monitoring-ls-lh-var-log",
+    "command": "ls -lh /var/log",
+    "title": "System Monitoring command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Intermediate",
+    "use_case": "System Monitoring me `ls -lh /var/log` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "ls -lh /var/log",
+    "example": "ls -lh /var/log",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "ls",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "system-monitoring-find-var-log-type-f-size-100m",
+    "command": "find /var/log -type f -size +100M",
+    "title": "System Monitoring command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Intermediate",
+    "use_case": "System Monitoring me `find /var/log -type f -size +100M` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "find /var/log -type f -size +100M",
+    "example": "find /var/log -type f -size +100M",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "find",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "system-monitoring-ss-s",
+    "command": "ss -s",
+    "title": "System Monitoring command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Intermediate",
+    "use_case": "System Monitoring me `ss -s` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "ss -s",
+    "example": "ss -s",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "ss",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "system-monitoring-ip-addr",
+    "command": "ip addr",
+    "title": "System Monitoring resource create karna",
+    "category": "System Monitoring",
+    "difficulty": "Intermediate",
+    "use_case": "System Monitoring me `ip addr` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "ip addr",
+    "example": "ip addr",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "ip",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "system-monitoring-ip-route",
+    "command": "ip route",
+    "title": "System Monitoring command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Intermediate",
+    "use_case": "System Monitoring me `ip route` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "ip route",
+    "example": "ip route",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "ip",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "system-monitoring-ethtool-eth0",
+    "command": "ethtool eth0",
+    "title": "System Monitoring command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Intermediate",
+    "use_case": "System Monitoring me `ethtool eth0` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "ethtool eth0",
+    "example": "ethtool eth0",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "ethtool",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "system-monitoring-dig-short-domain-com",
+    "command": "dig +short domain.com",
+    "title": "System Monitoring command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Intermediate",
+    "use_case": "System Monitoring me `dig +short domain.com` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "dig +short domain.com",
+    "example": "dig +short domain.com",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "dig",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "system-monitoring-mtr-domain-com",
+    "command": "mtr domain.com",
+    "title": "System Monitoring command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Intermediate",
+    "use_case": "System Monitoring me `mtr domain.com` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "mtr domain.com",
+    "example": "mtr domain.com",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "mtr",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "system-monitoring-tcpdump-i-eth0-port-80",
+    "command": "tcpdump -i eth0 port 80",
+    "title": "System Monitoring backup/export lena",
+    "category": "System Monitoring",
+    "difficulty": "Intermediate",
+    "use_case": "System Monitoring me `tcpdump -i eth0 port 80` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "tcpdump -i eth0 port 80",
+    "example": "tcpdump -i eth0 port 80",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "tcpdump",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "system-monitoring-strace-p-pid",
+    "command": "strace -p <pid>",
+    "title": "System Monitoring command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Intermediate",
+    "use_case": "System Monitoring me `strace -p <pid>` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "strace -p <pid>",
+    "example": "strace -p <pid>",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "strace",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "system-monitoring-ltrace-p-pid",
+    "command": "ltrace -p <pid>",
+    "title": "System Monitoring command use karna",
+    "category": "System Monitoring",
+    "difficulty": "Intermediate",
+    "use_case": "System Monitoring me `ltrace -p <pid>` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "ltrace -p <pid>",
+    "example": "ltrace -p <pid>",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "system",
+      "ltrace",
+      "devops",
+      "cli"
+    ]
   }
 ]
