@@ -322,5 +322,613 @@
       "cmd",
       "devops"
     ]
+  },
+  {
+    "id": "server-security-sudo-adduser-deploy",
+    "command": "sudo adduser deploy",
+    "title": "Server Security resource create karna",
+    "category": "Server Security",
+    "difficulty": "Beginner",
+    "use_case": "Server Security me `sudo adduser deploy` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo adduser deploy",
+    "example": "sudo adduser deploy",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-usermod-ag-sudo-deploy",
+    "command": "sudo usermod -aG sudo deploy",
+    "title": "Server Security apply/deploy/run karna",
+    "category": "Server Security",
+    "difficulty": "Beginner",
+    "use_case": "Server Security me `sudo usermod -aG sudo deploy` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo usermod -aG sudo deploy",
+    "example": "sudo usermod -aG sudo deploy",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-passwd-l-root",
+    "command": "sudo passwd -l root",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Beginner",
+    "use_case": "Server Security me `sudo passwd -l root` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo passwd -l root",
+    "example": "sudo passwd -l root",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-passwd-u-user",
+    "command": "sudo passwd -u user",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Beginner",
+    "use_case": "Server Security me `sudo passwd -u user` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo passwd -u user",
+    "example": "sudo passwd -u user",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-chage-l-user",
+    "command": "sudo chage -l user",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Beginner",
+    "use_case": "Server Security me `sudo chage -l user` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo chage -l user",
+    "example": "sudo chage -l user",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-chage-m-90-user",
+    "command": "sudo chage -M 90 user",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Beginner",
+    "use_case": "Server Security me `sudo chage -M 90 user` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo chage -M 90 user",
+    "example": "sudo chage -M 90 user",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-visudo",
+    "command": "sudo visudo",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Beginner",
+    "use_case": "Server Security me `sudo visudo` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo visudo",
+    "example": "sudo visudo",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-grep-sudo-var-log-auth-log",
+    "command": "sudo grep sudo /var/log/auth.log",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Beginner",
+    "use_case": "Server Security me `sudo grep sudo /var/log/auth.log` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo grep sudo /var/log/auth.log",
+    "example": "sudo grep sudo /var/log/auth.log",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-journalctl-u-ssh-n-100",
+    "command": "sudo journalctl -u ssh -n 100",
+    "title": "Server Security logs/debugging dekhna",
+    "category": "Server Security",
+    "difficulty": "Beginner",
+    "use_case": "Server Security me `sudo journalctl -u ssh -n 100` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo journalctl -u ssh -n 100",
+    "example": "sudo journalctl -u ssh -n 100",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-grep-failed-password-var-log-auth-log",
+    "command": "sudo grep \"Failed password\" /var/log/auth.log",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Beginner",
+    "use_case": "Server Security me `sudo grep \"Failed password\" /var/log/auth.log` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo grep \"Failed password\" /var/log/auth.log",
+    "example": "sudo grep \"Failed password\" /var/log/auth.log",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-grep-accepted-var-log-auth-log",
+    "command": "sudo grep \"Accepted\" /var/log/auth.log",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Beginner",
+    "use_case": "Server Security me `sudo grep \"Accepted\" /var/log/auth.log` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo grep \"Accepted\" /var/log/auth.log",
+    "example": "sudo grep \"Accepted\" /var/log/auth.log",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-ufw-allow-openssh",
+    "command": "sudo ufw allow OpenSSH",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Beginner",
+    "use_case": "Server Security me `sudo ufw allow OpenSSH` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo ufw allow OpenSSH",
+    "example": "sudo ufw allow OpenSSH",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-ufw-limit-openssh",
+    "command": "sudo ufw limit OpenSSH",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Beginner",
+    "use_case": "Server Security me `sudo ufw limit OpenSSH` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo ufw limit OpenSSH",
+    "example": "sudo ufw limit OpenSSH",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-apt-install-fail2ban",
+    "command": "sudo apt install fail2ban",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Beginner",
+    "use_case": "Server Security me `sudo apt install fail2ban` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo apt install fail2ban",
+    "example": "sudo apt install fail2ban",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-systemctl-status-fail2ban",
+    "command": "sudo systemctl status fail2ban",
+    "title": "Server Security details/status dekhna",
+    "category": "Server Security",
+    "difficulty": "Beginner",
+    "use_case": "Server Security me `sudo systemctl status fail2ban` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo systemctl status fail2ban",
+    "example": "sudo systemctl status fail2ban",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-fail2ban-client-set-sshd-unbanip-ip",
+    "command": "sudo fail2ban-client set sshd unbanip IP",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Beginner",
+    "use_case": "Server Security me `sudo fail2ban-client set sshd unbanip IP` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo fail2ban-client set sshd unbanip IP",
+    "example": "sudo fail2ban-client set sshd unbanip IP",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-lynis-audit-system",
+    "command": "sudo lynis audit system",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Beginner",
+    "use_case": "Server Security me `sudo lynis audit system` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo lynis audit system",
+    "example": "sudo lynis audit system",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-rkhunter-check",
+    "command": "sudo rkhunter --check",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo rkhunter --check` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo rkhunter --check",
+    "example": "sudo rkhunter --check",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-chkrootkit",
+    "command": "sudo chkrootkit",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo chkrootkit` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo chkrootkit",
+    "example": "sudo chkrootkit",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-find-type-f-perm-002-ls-2-dev-null",
+    "command": "sudo find / -type f -perm -002 -ls 2>/dev/null",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo find / -type f -perm -002 -ls 2>/dev/null` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo find / -type f -perm -002 -ls 2>/dev/null",
+    "example": "sudo find / -type f -perm -002 -ls 2>/dev/null",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-find-nouser-o-nogroup",
+    "command": "sudo find / -nouser -o -nogroup",
+    "title": "Server Security apply/deploy/run karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo find / -nouser -o -nogroup` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo find / -nouser -o -nogroup",
+    "example": "sudo find / -nouser -o -nogroup",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-getfacl-file",
+    "command": "sudo getfacl file",
+    "title": "Server Security details/status dekhna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo getfacl file` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo getfacl file",
+    "example": "sudo getfacl file",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-setfacl-m-u-user-r-file",
+    "command": "sudo setfacl -m u:user:r file",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo setfacl -m u:user:r file` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo setfacl -m u:user:r file",
+    "example": "sudo setfacl -m u:user:r file",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-auditctl-l",
+    "command": "sudo auditctl -l",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo auditctl -l` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo auditctl -l",
+    "example": "sudo auditctl -l",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-ausearch-m-user-login",
+    "command": "sudo ausearch -m USER_LOGIN",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo ausearch -m USER_LOGIN` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo ausearch -m USER_LOGIN",
+    "example": "sudo ausearch -m USER_LOGIN",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-aa-status",
+    "command": "sudo aa-status",
+    "title": "Server Security details/status dekhna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo aa-status` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo aa-status",
+    "example": "sudo aa-status",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-sestatus",
+    "command": "sudo sestatus",
+    "title": "Server Security details/status dekhna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo sestatus` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo sestatus",
+    "example": "sudo sestatus",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-iptables-l-input-n-v",
+    "command": "sudo iptables -L INPUT -n -v",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo iptables -L INPUT -n -v` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo iptables -L INPUT -n -v",
+    "example": "sudo iptables -L INPUT -n -v",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-nft-list-ruleset",
+    "command": "sudo nft list ruleset",
+    "title": "Server Security details/status dekhna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo nft list ruleset` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo nft list ruleset",
+    "example": "sudo nft list ruleset",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-ss-lntup",
+    "command": "sudo ss -lntup",
+    "title": "Server Security apply/deploy/run karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo ss -lntup` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo ss -lntup",
+    "example": "sudo ss -lntup",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-lsof-i-p-n",
+    "command": "sudo lsof -i -P -n",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo lsof -i -P -n` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo lsof -i -P -n",
+    "example": "sudo lsof -i -P -n",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "server-security-sudo-fuser-v-80-tcp",
+    "command": "sudo fuser -v 80/tcp",
+    "title": "Server Security command use karna",
+    "category": "Server Security",
+    "difficulty": "Intermediate",
+    "use_case": "Server Security me `sudo fuser -v 80/tcp` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo fuser -v 80/tcp",
+    "example": "sudo fuser -v 80/tcp",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "server",
+      "cmd",
+      "devops",
+      "cli"
+    ]
   }
 ]

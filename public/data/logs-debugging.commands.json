@@ -322,5 +322,602 @@
       "nslookup",
       "devops"
     ]
+  },
+  {
+    "id": "logs-debugging-journalctl-u-nginx-since-1-hour-ago",
+    "command": "journalctl -u nginx --since \"1 hour ago\"",
+    "title": "Logs / Debugging logs/debugging dekhna",
+    "category": "Logs / Debugging",
+    "difficulty": "Beginner",
+    "use_case": "Logs / Debugging me `journalctl -u nginx --since \"1 hour ago\"` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "journalctl -u nginx --since \"1 hour ago\"",
+    "example": "journalctl -u nginx --since \"1 hour ago\"",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "journalctl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-journalctl-u-nginx-since-today",
+    "command": "journalctl -u nginx --since today",
+    "title": "Logs / Debugging logs/debugging dekhna",
+    "category": "Logs / Debugging",
+    "difficulty": "Beginner",
+    "use_case": "Logs / Debugging me `journalctl -u nginx --since today` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "journalctl -u nginx --since today",
+    "example": "journalctl -u nginx --since today",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "journalctl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-journalctl-p-warning-n-100",
+    "command": "journalctl -p warning -n 100",
+    "title": "Logs / Debugging logs/debugging dekhna",
+    "category": "Logs / Debugging",
+    "difficulty": "Beginner",
+    "use_case": "Logs / Debugging me `journalctl -p warning -n 100` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "journalctl -p warning -n 100",
+    "example": "journalctl -p warning -n 100",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "journalctl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-journalctl-disk-usage",
+    "command": "journalctl --disk-usage",
+    "title": "Logs / Debugging logs/debugging dekhna",
+    "category": "Logs / Debugging",
+    "difficulty": "Beginner",
+    "use_case": "Logs / Debugging me `journalctl --disk-usage` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "journalctl --disk-usage",
+    "example": "journalctl --disk-usage",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "journalctl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-journalctl-vacuum-time-7d",
+    "command": "journalctl --vacuum-time=7d",
+    "title": "Logs / Debugging logs/debugging dekhna",
+    "category": "Logs / Debugging",
+    "difficulty": "Beginner",
+    "use_case": "Logs / Debugging me `journalctl --vacuum-time=7d` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "journalctl --vacuum-time=7d",
+    "example": "journalctl --vacuum-time=7d",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "journalctl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-tail-f-var-log-kern-log",
+    "command": "tail -f /var/log/kern.log",
+    "title": "Logs / Debugging logs/debugging dekhna",
+    "category": "Logs / Debugging",
+    "difficulty": "Beginner",
+    "use_case": "Logs / Debugging me `tail -f /var/log/kern.log` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "tail -f /var/log/kern.log",
+    "example": "tail -f /var/log/kern.log",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "tail",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-tail-f-var-log-mysql-error-log",
+    "command": "tail -f /var/log/mysql/error.log",
+    "title": "Logs / Debugging logs/debugging dekhna",
+    "category": "Logs / Debugging",
+    "difficulty": "Beginner",
+    "use_case": "Logs / Debugging me `tail -f /var/log/mysql/error.log` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "tail -f /var/log/mysql/error.log",
+    "example": "tail -f /var/log/mysql/error.log",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "tail",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-tail-f-var-log-postgresql-postgresql-log",
+    "command": "tail -f /var/log/postgresql/postgresql.log",
+    "title": "Logs / Debugging logs/debugging dekhna",
+    "category": "Logs / Debugging",
+    "difficulty": "Beginner",
+    "use_case": "Logs / Debugging me `tail -f /var/log/postgresql/postgresql.log` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "tail -f /var/log/postgresql/postgresql.log",
+    "example": "tail -f /var/log/postgresql/postgresql.log",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "tail",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-grep-i-out-of-memory-var-log-syslog",
+    "command": "grep -i \"out of memory\" /var/log/syslog",
+    "title": "Logs / Debugging command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Beginner",
+    "use_case": "Logs / Debugging me `grep -i \"out of memory\" /var/log/syslog` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "grep -i \"out of memory\" /var/log/syslog",
+    "example": "grep -i \"out of memory\" /var/log/syslog",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "grep",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-grep-i-permission-denied-app-log",
+    "command": "grep -i \"permission denied\" app.log",
+    "title": "Logs / Debugging command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Beginner",
+    "use_case": "Logs / Debugging me `grep -i \"permission denied\" app.log` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "grep -i \"permission denied\" app.log",
+    "example": "grep -i \"permission denied\" app.log",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "grep",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-grep-i-connection-refused-app-log",
+    "command": "grep -i \"connection refused\" app.log",
+    "title": "Logs / Debugging command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Beginner",
+    "use_case": "Logs / Debugging me `grep -i \"connection refused\" app.log` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "grep -i \"connection refused\" app.log",
+    "example": "grep -i \"connection refused\" app.log",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "grep",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-grep-i-timeout-app-log",
+    "command": "grep -i \"timeout\" app.log",
+    "title": "Logs / Debugging command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Beginner",
+    "use_case": "Logs / Debugging me `grep -i \"timeout\" app.log` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "grep -i \"timeout\" app.log",
+    "example": "grep -i \"timeout\" app.log",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "grep",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-grep-n-error-app-log",
+    "command": "grep -n \"ERROR\" app.log",
+    "title": "Logs / Debugging command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Beginner",
+    "use_case": "Logs / Debugging me `grep -n \"ERROR\" app.log` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "grep -n \"ERROR\" app.log",
+    "example": "grep -n \"ERROR\" app.log",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "grep",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-grep-c-5-exception-app-log",
+    "command": "grep -C 5 \"Exception\" app.log",
+    "title": "Logs / Debugging command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Beginner",
+    "use_case": "Logs / Debugging me `grep -C 5 \"Exception\" app.log` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "grep -C 5 \"Exception\" app.log",
+    "example": "grep -C 5 \"Exception\" app.log",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "grep",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-awk-print-9-access-log-sort-uniq-c",
+    "command": "awk '{print $9}' access.log | sort | uniq -c",
+    "title": "Logs / Debugging command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Beginner",
+    "use_case": "Logs / Debugging me `awk '{print $9}' access.log | sort | uniq -c` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "awk '{print $9}' access.log | sort | uniq -c",
+    "example": "awk '{print $9}' access.log | sort | uniq -c",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "awk",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-awk-print-1-access-log-sort-uniq-c-sort-nr-head",
+    "command": "awk '{print $1}' access.log | sort | uniq -c | sort -nr | head",
+    "title": "Logs / Debugging command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Beginner",
+    "use_case": "Logs / Debugging me `awk '{print $1}' access.log | sort | uniq -c | sort -nr | head` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "awk '{print $1}' access.log | sort | uniq -c | sort -nr | head",
+    "example": "awk '{print $1}' access.log | sort | uniq -c | sort -nr | head",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "awk",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-jq-file-json",
+    "command": "jq . file.json",
+    "title": "Logs / Debugging command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Beginner",
+    "use_case": "Logs / Debugging me `jq . file.json` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "jq . file.json",
+    "example": "jq . file.json",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "jq",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-jq-message-logs-json",
+    "command": "jq .message logs.json",
+    "title": "Logs / Debugging logs/debugging dekhna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `jq .message logs.json` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "jq .message logs.json",
+    "example": "jq .message logs.json",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "jq",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-python-m-json-tool-file-json",
+    "command": "python -m json.tool file.json",
+    "title": "Logs / Debugging command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `python -m json.tool file.json` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "python -m json.tool file.json",
+    "example": "python -m json.tool file.json",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "python",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-curl-s-http-localhost-health-jq",
+    "command": "curl -s http://localhost/health | jq",
+    "title": "Logs / Debugging command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `curl -s http://localhost/health | jq` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "curl -s http://localhost/health | jq",
+    "example": "curl -s http://localhost/health | jq",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "curl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-curl-w-curl-format-txt-o-dev-null-s-https-example-com",
+    "command": "curl -w \"@curl-format.txt\" -o /dev/null -s https://example.com",
+    "title": "Logs / Debugging command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `curl -w \"@curl-format.txt\" -o /dev/null -s https://example.com` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "curl -w \"@curl-format.txt\" -o /dev/null -s https://example.com",
+    "example": "curl -w \"@curl-format.txt\" -o /dev/null -s https://example.com",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "curl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-nc-vz-host-443",
+    "command": "nc -vz host 443",
+    "title": "Logs / Debugging command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `nc -vz host 443` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "nc -vz host 443",
+    "example": "nc -vz host 443",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "nc",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-telnet-host-25",
+    "command": "telnet host 25",
+    "title": "Logs / Debugging command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `telnet host 25` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "telnet host 25",
+    "example": "telnet host 25",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "telnet",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-dig-txt-example-com",
+    "command": "dig TXT example.com",
+    "title": "Logs / Debugging command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `dig TXT example.com` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "dig TXT example.com",
+    "example": "dig TXT example.com",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "dig",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-dig-mx-example-com",
+    "command": "dig MX example.com",
+    "title": "Logs / Debugging command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `dig MX example.com` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "dig MX example.com",
+    "example": "dig MX example.com",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "dig",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-dig-ns-example-com",
+    "command": "dig NS example.com",
+    "title": "Logs / Debugging command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `dig NS example.com` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "dig NS example.com",
+    "example": "dig NS example.com",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "dig",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-dig-a-example-com",
+    "command": "dig A example.com",
+    "title": "Logs / Debugging command use karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `dig A example.com` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "dig A example.com",
+    "example": "dig A example.com",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "dig",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-nslookup-type-mx-example-com",
+    "command": "nslookup -type=mx example.com",
+    "title": "Logs / Debugging apply/deploy/run karna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `nslookup -type=mx example.com` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "nslookup -type=mx example.com",
+    "example": "nslookup -type=mx example.com",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "nslookup",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-openssl-s-client-showcerts-connect-example-com-443",
+    "command": "openssl s_client -showcerts -connect example.com:443",
+    "title": "Logs / Debugging details/status dekhna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `openssl s_client -showcerts -connect example.com:443` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "openssl s_client -showcerts -connect example.com:443",
+    "example": "openssl s_client -showcerts -connect example.com:443",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "logs",
+      "openssl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-docker-compose-logs-tail-100-f",
+    "command": "docker compose logs --tail=100 -f",
+    "title": "Logs / Debugging logs/debugging dekhna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `docker compose logs --tail=100 -f` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "docker compose logs --tail=100 -f",
+    "example": "docker compose logs --tail=100 -f",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "logs",
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "logs-debugging-kubectl-describe-events-n-ns",
+    "command": "kubectl describe events -n ns",
+    "title": "Logs / Debugging details/status dekhna",
+    "category": "Logs / Debugging",
+    "difficulty": "Intermediate",
+    "use_case": "Logs / Debugging me `kubectl describe events -n ns` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "kubectl describe events -n ns",
+    "example": "kubectl describe events -n ns",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe",
+      "kubectl logs"
+    ],
+    "tags": [
+      "logs",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
   }
 ]

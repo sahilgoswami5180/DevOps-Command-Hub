@@ -250,5 +250,385 @@
       "cmd",
       "devops"
     ]
+  },
+  {
+    "id": "apache-sudo-systemctl-stop-apache2",
+    "command": "sudo systemctl stop apache2",
+    "title": "Apache command use karna",
+    "category": "Apache",
+    "difficulty": "Beginner",
+    "use_case": "Apache me `sudo systemctl stop apache2` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo systemctl stop apache2",
+    "example": "sudo systemctl stop apache2",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "apache",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "apache-sudo-systemctl-start-apache2",
+    "command": "sudo systemctl start apache2",
+    "title": "Apache apply/deploy/run karna",
+    "category": "Apache",
+    "difficulty": "Beginner",
+    "use_case": "Apache me `sudo systemctl start apache2` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo systemctl start apache2",
+    "example": "sudo systemctl start apache2",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "apache",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "apache-sudo-systemctl-disable-apache2",
+    "command": "sudo systemctl disable apache2",
+    "title": "Apache command use karna",
+    "category": "Apache",
+    "difficulty": "Beginner",
+    "use_case": "Apache me `sudo systemctl disable apache2` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo systemctl disable apache2",
+    "example": "sudo systemctl disable apache2",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "apache",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "apache-apache2-v",
+    "command": "apache2 -v",
+    "title": "Apache command use karna",
+    "category": "Apache",
+    "difficulty": "Beginner",
+    "use_case": "Apache me `apache2 -v` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "apache2 -v",
+    "example": "apache2 -v",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "apache",
+      "apache2",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "apache-apache2ctl-m",
+    "command": "apache2ctl -M",
+    "title": "Apache command use karna",
+    "category": "Apache",
+    "difficulty": "Beginner",
+    "use_case": "Apache me `apache2ctl -M` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "apache2ctl -M",
+    "example": "apache2ctl -M",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "apache",
+      "apache2ctl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "apache-apache2ctl-t",
+    "command": "apache2ctl -t",
+    "title": "Apache command use karna",
+    "category": "Apache",
+    "difficulty": "Beginner",
+    "use_case": "Apache me `apache2ctl -t` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "apache2ctl -t",
+    "example": "apache2ctl -t",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "apache",
+      "apache2ctl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "apache-apache2ctl-s",
+    "command": "apache2ctl -S",
+    "title": "Apache command use karna",
+    "category": "Apache",
+    "difficulty": "Beginner",
+    "use_case": "Apache me `apache2ctl -S` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "apache2ctl -S",
+    "example": "apache2ctl -S",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "apache",
+      "apache2ctl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "apache-sudo-a2enmod-headers",
+    "command": "sudo a2enmod headers",
+    "title": "Apache command use karna",
+    "category": "Apache",
+    "difficulty": "Beginner",
+    "use_case": "Apache me `sudo a2enmod headers` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo a2enmod headers",
+    "example": "sudo a2enmod headers",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "apache",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "apache-sudo-a2enmod-proxy",
+    "command": "sudo a2enmod proxy",
+    "title": "Apache command use karna",
+    "category": "Apache",
+    "difficulty": "Beginner",
+    "use_case": "Apache me `sudo a2enmod proxy` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo a2enmod proxy",
+    "example": "sudo a2enmod proxy",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "apache",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "apache-sudo-a2enmod-proxy-http",
+    "command": "sudo a2enmod proxy_http",
+    "title": "Apache command use karna",
+    "category": "Apache",
+    "difficulty": "Beginner",
+    "use_case": "Apache me `sudo a2enmod proxy_http` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo a2enmod proxy_http",
+    "example": "sudo a2enmod proxy_http",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "apache",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "apache-sudo-a2dismod-module-name",
+    "command": "sudo a2dismod module_name",
+    "title": "Apache command use karna",
+    "category": "Apache",
+    "difficulty": "Beginner",
+    "use_case": "Apache me `sudo a2dismod module_name` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo a2dismod module_name",
+    "example": "sudo a2dismod module_name",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "apache",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "apache-sudo-nano-etc-apache2-sites-available-example-conf",
+    "command": "sudo nano /etc/apache2/sites-available/example.conf",
+    "title": "Apache command use karna",
+    "category": "Apache",
+    "difficulty": "Beginner",
+    "use_case": "Apache me `sudo nano /etc/apache2/sites-available/example.conf` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo nano /etc/apache2/sites-available/example.conf",
+    "example": "sudo nano /etc/apache2/sites-available/example.conf",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "apache",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "apache-sudo-tail-n-100-var-log-apache2-access-log",
+    "command": "sudo tail -n 100 /var/log/apache2/access.log",
+    "title": "Apache logs/debugging dekhna",
+    "category": "Apache",
+    "difficulty": "Beginner",
+    "use_case": "Apache me `sudo tail -n 100 /var/log/apache2/access.log` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo tail -n 100 /var/log/apache2/access.log",
+    "example": "sudo tail -n 100 /var/log/apache2/access.log",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "apache",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "apache-sudo-tail-n-100-var-log-apache2-error-log",
+    "command": "sudo tail -n 100 /var/log/apache2/error.log",
+    "title": "Apache logs/debugging dekhna",
+    "category": "Apache",
+    "difficulty": "Beginner",
+    "use_case": "Apache me `sudo tail -n 100 /var/log/apache2/error.log` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo tail -n 100 /var/log/apache2/error.log",
+    "example": "sudo tail -n 100 /var/log/apache2/error.log",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "apache",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "apache-sudo-grep-r-servername-etc-apache2",
+    "command": "sudo grep -R \"ServerName\" /etc/apache2",
+    "title": "Apache command use karna",
+    "category": "Apache",
+    "difficulty": "Beginner",
+    "use_case": "Apache me `sudo grep -R \"ServerName\" /etc/apache2` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo grep -R \"ServerName\" /etc/apache2",
+    "example": "sudo grep -R \"ServerName\" /etc/apache2",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "apache",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "apache-curl-h-host-example-com-http-127-0-0-1",
+    "command": "curl -H \"Host: example.com\" http://127.0.0.1",
+    "title": "Apache command use karna",
+    "category": "Apache",
+    "difficulty": "Beginner",
+    "use_case": "Apache me `curl -H \"Host: example.com\" http://127.0.0.1` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "curl -H \"Host: example.com\" http://127.0.0.1",
+    "example": "curl -H \"Host: example.com\" http://127.0.0.1",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "apache",
+      "curl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "apache-sudo-apt-install-apache2",
+    "command": "sudo apt install apache2",
+    "title": "Apache command use karna",
+    "category": "Apache",
+    "difficulty": "Beginner",
+    "use_case": "Apache me `sudo apt install apache2` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo apt install apache2",
+    "example": "sudo apt install apache2",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "apache",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "apache-sudo-apt-remove-apache2",
+    "command": "sudo apt remove apache2",
+    "title": "Apache command use karna",
+    "category": "Apache",
+    "difficulty": "Beginner",
+    "use_case": "Apache me `sudo apt remove apache2` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo apt remove apache2",
+    "example": "sudo apt remove apache2",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "apache",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "apache-sudo-ss-tulpn-grep-apache",
+    "command": "sudo ss -tulpn | grep apache",
+    "title": "Apache command use karna",
+    "category": "Apache",
+    "difficulty": "Beginner",
+    "use_case": "Apache me `sudo ss -tulpn | grep apache` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo ss -tulpn | grep apache",
+    "example": "sudo ss -tulpn | grep apache",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "apache",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "apache-ps-aux-grep-apache2",
+    "command": "ps aux | grep apache2",
+    "title": "Apache command use karna",
+    "category": "Apache",
+    "difficulty": "Beginner",
+    "use_case": "Apache me `ps aux | grep apache2` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "ps aux | grep apache2",
+    "example": "ps aux | grep apache2",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "apache",
+      "ps",
+      "devops",
+      "cli"
+    ]
   }
 ]

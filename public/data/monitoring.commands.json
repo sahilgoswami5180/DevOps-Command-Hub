@@ -250,5 +250,424 @@
       "kubectl",
       "devops"
     ]
+  },
+  {
+    "id": "prometheus-grafana-promtool-tsdb-analyze-data",
+    "command": "promtool tsdb analyze data/",
+    "title": "Prometheus / Grafana command use karna",
+    "category": "Prometheus / Grafana",
+    "difficulty": "Beginner",
+    "use_case": "Prometheus / Grafana me `promtool tsdb analyze data/` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "promtool tsdb analyze data/",
+    "example": "promtool tsdb analyze data/",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "prometheus",
+      "promtool",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "prometheus-grafana-promtool-query-instant-http-localhost-9090-up",
+    "command": "promtool query instant http://localhost:9090 up",
+    "title": "Prometheus / Grafana apply/deploy/run karna",
+    "category": "Prometheus / Grafana",
+    "difficulty": "Beginner",
+    "use_case": "Prometheus / Grafana me `promtool query instant http://localhost:9090 up` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "promtool query instant http://localhost:9090 up",
+    "example": "promtool query instant http://localhost:9090 up",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "prometheus",
+      "promtool",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "prometheus-grafana-promtool-query-range-http-localhost-9090-up-start-2026-01-01t00-00-00z-end-2026-01-01t01-0",
+    "command": "promtool query range http://localhost:9090 up --start=2026-01-01T00:00:00Z --end=2026-01-01T01:00:00Z --step=1m",
+    "title": "Prometheus / Grafana apply/deploy/run karna",
+    "category": "Prometheus / Grafana",
+    "difficulty": "Beginner",
+    "use_case": "Prometheus / Grafana me `promtool query range http://localhost:9090 up --start=2026-01-01T00:00:00Z --end=2026-01-01T01:00:00Z --step=1m` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "promtool query range http://localhost:9090 up --start=2026-01-01T00:00:00Z --end=2026-01-01T01:00:00Z --step=1m",
+    "example": "promtool query range http://localhost:9090 up --start=2026-01-01T00:00:00Z --end=2026-01-01T01:00:00Z --step=1m",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "prometheus",
+      "promtool",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "prometheus-grafana-curl-http-localhost-9090-api-v1-status-config",
+    "command": "curl http://localhost:9090/api/v1/status/config",
+    "title": "Prometheus / Grafana details/status dekhna",
+    "category": "Prometheus / Grafana",
+    "difficulty": "Beginner",
+    "use_case": "Prometheus / Grafana me `curl http://localhost:9090/api/v1/status/config` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "curl http://localhost:9090/api/v1/status/config",
+    "example": "curl http://localhost:9090/api/v1/status/config",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "prometheus",
+      "curl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "prometheus-grafana-curl-http-localhost-9090-api-v1-status-runtimeinfo",
+    "command": "curl http://localhost:9090/api/v1/status/runtimeinfo",
+    "title": "Prometheus / Grafana details/status dekhna",
+    "category": "Prometheus / Grafana",
+    "difficulty": "Beginner",
+    "use_case": "Prometheus / Grafana me `curl http://localhost:9090/api/v1/status/runtimeinfo` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "curl http://localhost:9090/api/v1/status/runtimeinfo",
+    "example": "curl http://localhost:9090/api/v1/status/runtimeinfo",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "prometheus",
+      "curl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "prometheus-grafana-curl-http-localhost-9090-api-v1-alerts",
+    "command": "curl http://localhost:9090/api/v1/alerts",
+    "title": "Prometheus / Grafana command use karna",
+    "category": "Prometheus / Grafana",
+    "difficulty": "Beginner",
+    "use_case": "Prometheus / Grafana me `curl http://localhost:9090/api/v1/alerts` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "curl http://localhost:9090/api/v1/alerts",
+    "example": "curl http://localhost:9090/api/v1/alerts",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "prometheus",
+      "curl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "prometheus-grafana-curl-http-localhost-9090-api-v1-rules",
+    "command": "curl http://localhost:9090/api/v1/rules",
+    "title": "Prometheus / Grafana command use karna",
+    "category": "Prometheus / Grafana",
+    "difficulty": "Beginner",
+    "use_case": "Prometheus / Grafana me `curl http://localhost:9090/api/v1/rules` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "curl http://localhost:9090/api/v1/rules",
+    "example": "curl http://localhost:9090/api/v1/rules",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "prometheus",
+      "curl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "prometheus-grafana-curl-http-localhost-9090-api-v1-label-name-values",
+    "command": "curl http://localhost:9090/api/v1/label/__name__/values",
+    "title": "Prometheus / Grafana command use karna",
+    "category": "Prometheus / Grafana",
+    "difficulty": "Beginner",
+    "use_case": "Prometheus / Grafana me `curl http://localhost:9090/api/v1/label/__name__/values` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "curl http://localhost:9090/api/v1/label/__name__/values",
+    "example": "curl http://localhost:9090/api/v1/label/__name__/values",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "prometheus",
+      "curl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "prometheus-grafana-curl-http-localhost-3000-api-search",
+    "command": "curl http://localhost:3000/api/search",
+    "title": "Prometheus / Grafana command use karna",
+    "category": "Prometheus / Grafana",
+    "difficulty": "Beginner",
+    "use_case": "Prometheus / Grafana me `curl http://localhost:3000/api/search` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "curl http://localhost:3000/api/search",
+    "example": "curl http://localhost:3000/api/search",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "prometheus",
+      "curl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "prometheus-grafana-curl-http-admin-pass-localhost-3000-api-datasources",
+    "command": "curl http://admin:pass@localhost:3000/api/datasources",
+    "title": "Prometheus / Grafana command use karna",
+    "category": "Prometheus / Grafana",
+    "difficulty": "Beginner",
+    "use_case": "Prometheus / Grafana me `curl http://admin:pass@localhost:3000/api/datasources` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "curl http://admin:pass@localhost:3000/api/datasources",
+    "example": "curl http://admin:pass@localhost:3000/api/datasources",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "prometheus",
+      "curl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "prometheus-grafana-curl-http-admin-pass-localhost-3000-api-dashboards-home",
+    "command": "curl http://admin:pass@localhost:3000/api/dashboards/home",
+    "title": "Prometheus / Grafana command use karna",
+    "category": "Prometheus / Grafana",
+    "difficulty": "Beginner",
+    "use_case": "Prometheus / Grafana me `curl http://admin:pass@localhost:3000/api/dashboards/home` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "curl http://admin:pass@localhost:3000/api/dashboards/home",
+    "example": "curl http://admin:pass@localhost:3000/api/dashboards/home",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "prometheus",
+      "curl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "prometheus-grafana-grafana-cli-plugins-ls",
+    "command": "grafana-cli plugins ls",
+    "title": "Prometheus / Grafana command use karna",
+    "category": "Prometheus / Grafana",
+    "difficulty": "Beginner",
+    "use_case": "Prometheus / Grafana me `grafana-cli plugins ls` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "grafana-cli plugins ls",
+    "example": "grafana-cli plugins ls",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "prometheus",
+      "grafana-cli",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "prometheus-grafana-grafana-cli-plugins-install-plugin-name",
+    "command": "grafana-cli plugins install plugin-name",
+    "title": "Prometheus / Grafana command use karna",
+    "category": "Prometheus / Grafana",
+    "difficulty": "Beginner",
+    "use_case": "Prometheus / Grafana me `grafana-cli plugins install plugin-name` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "grafana-cli plugins install plugin-name",
+    "example": "grafana-cli plugins install plugin-name",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "prometheus",
+      "grafana-cli",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "prometheus-grafana-grafana-cli-admin-reset-admin-password-newpass",
+    "command": "grafana-cli admin reset-admin-password newpass",
+    "title": "Prometheus / Grafana resource create karna",
+    "category": "Prometheus / Grafana",
+    "difficulty": "Beginner",
+    "use_case": "Prometheus / Grafana me `grafana-cli admin reset-admin-password newpass` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "grafana-cli admin reset-admin-password newpass",
+    "example": "grafana-cli admin reset-admin-password newpass",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "prometheus",
+      "grafana-cli",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "prometheus-grafana-sudo-systemctl-restart-prometheus",
+    "command": "sudo systemctl restart prometheus",
+    "title": "Prometheus / Grafana restart/reload karna",
+    "category": "Prometheus / Grafana",
+    "difficulty": "Beginner",
+    "use_case": "Prometheus / Grafana me `sudo systemctl restart prometheus` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo systemctl restart prometheus",
+    "example": "sudo systemctl restart prometheus",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [],
+    "tags": [
+      "prometheus",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "prometheus-grafana-sudo-systemctl-restart-grafana-server",
+    "command": "sudo systemctl restart grafana-server",
+    "title": "Prometheus / Grafana restart/reload karna",
+    "category": "Prometheus / Grafana",
+    "difficulty": "Beginner",
+    "use_case": "Prometheus / Grafana me `sudo systemctl restart grafana-server` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo systemctl restart grafana-server",
+    "example": "sudo systemctl restart grafana-server",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [],
+    "tags": [
+      "prometheus",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "prometheus-grafana-docker-exec-it-prometheus-promtool-check-config-etc-prometheus-prometheus-yml",
+    "command": "docker exec -it prometheus promtool check config /etc/prometheus/prometheus.yml",
+    "title": "Prometheus / Grafana command use karna",
+    "category": "Prometheus / Grafana",
+    "difficulty": "Beginner",
+    "use_case": "Prometheus / Grafana me `docker exec -it prometheus promtool check config /etc/prometheus/prometheus.yml` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "docker exec -it prometheus promtool check config /etc/prometheus/prometheus.yml",
+    "example": "docker exec -it prometheus promtool check config /etc/prometheus/prometheus.yml",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "docker ps",
+      "docker logs",
+      "docker inspect"
+    ],
+    "tags": [
+      "prometheus",
+      "docker",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "prometheus-grafana-kubectl-logs-n-monitoring-deploy-prometheus-server",
+    "command": "kubectl logs -n monitoring deploy/prometheus-server",
+    "title": "Prometheus / Grafana logs/debugging dekhna",
+    "category": "Prometheus / Grafana",
+    "difficulty": "Beginner",
+    "use_case": "Prometheus / Grafana me `kubectl logs -n monitoring deploy/prometheus-server` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "kubectl logs -n monitoring deploy/prometheus-server",
+    "example": "kubectl logs -n monitoring deploy/prometheus-server",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe",
+      "kubectl logs"
+    ],
+    "tags": [
+      "prometheus",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "prometheus-grafana-kubectl-logs-n-monitoring-deploy-grafana",
+    "command": "kubectl logs -n monitoring deploy/grafana",
+    "title": "Prometheus / Grafana logs/debugging dekhna",
+    "category": "Prometheus / Grafana",
+    "difficulty": "Beginner",
+    "use_case": "Prometheus / Grafana me `kubectl logs -n monitoring deploy/grafana` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "kubectl logs -n monitoring deploy/grafana",
+    "example": "kubectl logs -n monitoring deploy/grafana",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe",
+      "kubectl logs"
+    ],
+    "tags": [
+      "prometheus",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "prometheus-grafana-kubectl-get-servicemonitor-a",
+    "command": "kubectl get servicemonitor -A",
+    "title": "Prometheus / Grafana details/status dekhna",
+    "category": "Prometheus / Grafana",
+    "difficulty": "Beginner",
+    "use_case": "Prometheus / Grafana me `kubectl get servicemonitor -A` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "kubectl get servicemonitor -A",
+    "example": "kubectl get servicemonitor -A",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe",
+      "kubectl logs"
+    ],
+    "tags": [
+      "prometheus",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "prometheus-grafana-kubectl-get-prometheusrule-a",
+    "command": "kubectl get prometheusrule -A",
+    "title": "Prometheus / Grafana details/status dekhna",
+    "category": "Prometheus / Grafana",
+    "difficulty": "Beginner",
+    "use_case": "Prometheus / Grafana me `kubectl get prometheusrule -A` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "kubectl get prometheusrule -A",
+    "example": "kubectl get prometheusrule -A",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "kubectl get pods -A",
+      "kubectl describe",
+      "kubectl logs"
+    ],
+    "tags": [
+      "prometheus",
+      "kubectl",
+      "devops",
+      "cli"
+    ]
   }
 ]

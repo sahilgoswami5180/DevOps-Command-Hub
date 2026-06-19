@@ -268,5 +268,467 @@
       "helm",
       "devops"
     ]
+  },
+  {
+    "id": "helm-helm-create-mychart",
+    "command": "helm create mychart",
+    "title": "Helm resource create karna",
+    "category": "Helm",
+    "difficulty": "Beginner",
+    "use_case": "Helm me `helm create mychart` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "helm create mychart",
+    "example": "helm create mychart",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-dependency-update",
+    "command": "helm dependency update",
+    "title": "Helm apply/deploy/run karna",
+    "category": "Helm",
+    "difficulty": "Beginner",
+    "use_case": "Helm me `helm dependency update` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "helm dependency update",
+    "example": "helm dependency update",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-dependency-build",
+    "command": "helm dependency build",
+    "title": "Helm command use karna",
+    "category": "Helm",
+    "difficulty": "Beginner",
+    "use_case": "Helm me `helm dependency build` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "helm dependency build",
+    "example": "helm dependency build",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-package-mychart",
+    "command": "helm package mychart",
+    "title": "Helm command use karna",
+    "category": "Helm",
+    "difficulty": "Beginner",
+    "use_case": "Helm me `helm package mychart` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "helm package mychart",
+    "example": "helm package mychart",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-repo-remove-bitnami",
+    "command": "helm repo remove bitnami",
+    "title": "Helm command use karna",
+    "category": "Helm",
+    "difficulty": "Beginner",
+    "use_case": "Helm me `helm repo remove bitnami` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "helm repo remove bitnami",
+    "example": "helm repo remove bitnami",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-search-hub-nginx",
+    "command": "helm search hub nginx",
+    "title": "Helm command use karna",
+    "category": "Helm",
+    "difficulty": "Beginner",
+    "use_case": "Helm me `helm search hub nginx` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "helm search hub nginx",
+    "example": "helm search hub nginx",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-install-release-chart-values-values-yaml",
+    "command": "helm install release chart --values values.yaml",
+    "title": "Helm command use karna",
+    "category": "Helm",
+    "difficulty": "Beginner",
+    "use_case": "Helm me `helm install release chart --values values.yaml` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "helm install release chart --values values.yaml",
+    "example": "helm install release chart --values values.yaml",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-upgrade-release-chart-values-values-yaml",
+    "command": "helm upgrade release chart --values values.yaml",
+    "title": "Helm apply/deploy/run karna",
+    "category": "Helm",
+    "difficulty": "Beginner",
+    "use_case": "Helm me `helm upgrade release chart --values values.yaml` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "helm upgrade release chart --values values.yaml",
+    "example": "helm upgrade release chart --values values.yaml",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-upgrade-release-chart-set-image-tag-v1",
+    "command": "helm upgrade release chart --set image.tag=v1",
+    "title": "Helm apply/deploy/run karna",
+    "category": "Helm",
+    "difficulty": "Beginner",
+    "use_case": "Helm me `helm upgrade release chart --set image.tag=v1` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "helm upgrade release chart --set image.tag=v1",
+    "example": "helm upgrade release chart --set image.tag=v1",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-rollback-release-2",
+    "command": "helm rollback release 2",
+    "title": "Helm command use karna",
+    "category": "Helm",
+    "difficulty": "Beginner",
+    "use_case": "Helm me `helm rollback release 2` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "helm rollback release 2",
+    "example": "helm rollback release 2",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Production me run karne se pehle maintenance impact aur rollback plan verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-history-release-n-ns",
+    "command": "helm history release -n ns",
+    "title": "Helm command use karna",
+    "category": "Helm",
+    "difficulty": "Beginner",
+    "use_case": "Helm me `helm history release -n ns` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "helm history release -n ns",
+    "example": "helm history release -n ns",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-get-manifest-release-n-ns",
+    "command": "helm get manifest release -n ns",
+    "title": "Helm details/status dekhna",
+    "category": "Helm",
+    "difficulty": "Beginner",
+    "use_case": "Helm me `helm get manifest release -n ns` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "helm get manifest release -n ns",
+    "example": "helm get manifest release -n ns",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-get-all-release-n-ns",
+    "command": "helm get all release -n ns",
+    "title": "Helm details/status dekhna",
+    "category": "Helm",
+    "difficulty": "Beginner",
+    "use_case": "Helm me `helm get all release -n ns` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "helm get all release -n ns",
+    "example": "helm get all release -n ns",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-get-hooks-release-n-ns",
+    "command": "helm get hooks release -n ns",
+    "title": "Helm details/status dekhna",
+    "category": "Helm",
+    "difficulty": "Beginner",
+    "use_case": "Helm me `helm get hooks release -n ns` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "helm get hooks release -n ns",
+    "example": "helm get hooks release -n ns",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-show-values-chart",
+    "command": "helm show values chart",
+    "title": "Helm details/status dekhna",
+    "category": "Helm",
+    "difficulty": "Beginner",
+    "use_case": "Helm me `helm show values chart` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "helm show values chart",
+    "example": "helm show values chart",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-show-chart-chart",
+    "command": "helm show chart chart",
+    "title": "Helm details/status dekhna",
+    "category": "Helm",
+    "difficulty": "Beginner",
+    "use_case": "Helm me `helm show chart chart` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "helm show chart chart",
+    "example": "helm show chart chart",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-show-readme-chart",
+    "command": "helm show readme chart",
+    "title": "Helm details/status dekhna",
+    "category": "Helm",
+    "difficulty": "Beginner",
+    "use_case": "Helm me `helm show readme chart` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "helm show readme chart",
+    "example": "helm show readme chart",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-plugin-list",
+    "command": "helm plugin list",
+    "title": "Helm details/status dekhna",
+    "category": "Helm",
+    "difficulty": "Beginner",
+    "use_case": "Helm me `helm plugin list` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "helm plugin list",
+    "example": "helm plugin list",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-env",
+    "command": "helm env",
+    "title": "Helm command use karna",
+    "category": "Helm",
+    "difficulty": "Beginner",
+    "use_case": "Helm me `helm env` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "helm env",
+    "example": "helm env",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-pull-chart-untar",
+    "command": "helm pull chart --untar",
+    "title": "Helm command use karna",
+    "category": "Helm",
+    "difficulty": "Beginner",
+    "use_case": "Helm me `helm pull chart --untar` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "helm pull chart --untar",
+    "example": "helm pull chart --untar",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "helm-helm-test-release-n-ns",
+    "command": "helm test release -n ns",
+    "title": "Helm command use karna",
+    "category": "Helm",
+    "difficulty": "Intermediate",
+    "use_case": "Helm me `helm test release -n ns` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "helm test release -n ns",
+    "example": "helm test release -n ns",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [
+      "helm list -A",
+      "helm status",
+      "helm upgrade"
+    ],
+    "tags": [
+      "helm",
+      "devops",
+      "cli"
+    ]
   }
 ]

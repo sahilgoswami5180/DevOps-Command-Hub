@@ -548,5 +548,1487 @@
       "service",
       "restart"
     ]
+  },
+  {
+    "id": "linux-whoami",
+    "command": "whoami",
+    "title": "Linux details/status dekhna",
+    "category": "Linux",
+    "difficulty": "Beginner",
+    "use_case": "Linux me `whoami` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "whoami",
+    "example": "whoami",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "whoami",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-id",
+    "command": "id",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Beginner",
+    "use_case": "Linux me `id` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "id",
+    "example": "id",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "id",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-hostname",
+    "command": "hostname",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Beginner",
+    "use_case": "Linux me `hostname` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "hostname",
+    "example": "hostname",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "hostname",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-hostnamectl",
+    "command": "hostnamectl",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Beginner",
+    "use_case": "Linux me `hostnamectl` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "hostnamectl",
+    "example": "hostnamectl",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "hostnamectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-uname-a",
+    "command": "uname -a",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Beginner",
+    "use_case": "Linux me `uname -a` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "uname -a",
+    "example": "uname -a",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "uname",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-cat-etc-os-release",
+    "command": "cat /etc/os-release",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Beginner",
+    "use_case": "Linux me `cat /etc/os-release` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "cat /etc/os-release",
+    "example": "cat /etc/os-release",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "cat",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-date",
+    "command": "date",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Beginner",
+    "use_case": "Linux me `date` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "date",
+    "example": "date",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "date",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-timedatectl",
+    "command": "timedatectl",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Beginner",
+    "use_case": "Linux me `timedatectl` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "timedatectl",
+    "example": "timedatectl",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "timedatectl",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-cal",
+    "command": "cal",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Beginner",
+    "use_case": "Linux me `cal` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "cal",
+    "example": "cal",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "cal",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-history",
+    "command": "history",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `history` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "history",
+    "example": "history",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "history",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-clear",
+    "command": "clear",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `clear` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "clear",
+    "example": "clear",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "clear",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-alias",
+    "command": "alias",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `alias` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "alias",
+    "example": "alias",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "alias",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-unalias-name",
+    "command": "unalias name",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `unalias name` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "unalias name",
+    "example": "unalias name",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "unalias",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-env",
+    "command": "env",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `env` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "env",
+    "example": "env",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "env",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-printenv",
+    "command": "printenv",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `printenv` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "printenv",
+    "example": "printenv",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "printenv",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-echo-path",
+    "command": "echo $PATH",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `echo $PATH` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "echo $PATH",
+    "example": "echo $PATH",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "echo",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-which-nginx",
+    "command": "which nginx",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `which nginx` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "which nginx",
+    "example": "which nginx",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "which",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-whereis-nginx",
+    "command": "whereis nginx",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `whereis nginx` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "whereis nginx",
+    "example": "whereis nginx",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "whereis",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-type-cd",
+    "command": "type cd",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `type cd` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "type cd",
+    "example": "type cd",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "type",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-file-filename",
+    "command": "file filename",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `file filename` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "file filename",
+    "example": "file filename",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "file",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-stat-filename",
+    "command": "stat filename",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `stat filename` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "stat filename",
+    "example": "stat filename",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "stat",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-wc-l-file-txt",
+    "command": "wc -l file.txt",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `wc -l file.txt` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "wc -l file.txt",
+    "example": "wc -l file.txt",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "wc",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sort-file-txt",
+    "command": "sort file.txt",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `sort file.txt` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sort file.txt",
+    "example": "sort file.txt",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "sort",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-uniq-file-txt",
+    "command": "uniq file.txt",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `uniq file.txt` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "uniq file.txt",
+    "example": "uniq file.txt",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "uniq",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-cut-d-f1-etc-passwd",
+    "command": "cut -d: -f1 /etc/passwd",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `cut -d: -f1 /etc/passwd` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "cut -d: -f1 /etc/passwd",
+    "example": "cut -d: -f1 /etc/passwd",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "cut",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-awk-print-1-file-txt",
+    "command": "awk '{print $1}' file.txt",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `awk '{print $1}' file.txt` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "awk '{print $1}' file.txt",
+    "example": "awk '{print $1}' file.txt",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "awk",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sed-n-1-20p-file-txt",
+    "command": "sed -n \"1,20p\" file.txt",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `sed -n \"1,20p\" file.txt` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sed -n \"1,20p\" file.txt",
+    "example": "sed -n \"1,20p\" file.txt",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "sed",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-tar-czf-backup-tar-gz-folder",
+    "command": "tar -czf backup.tar.gz folder",
+    "title": "Linux backup/export lena",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `tar -czf backup.tar.gz folder` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "tar -czf backup.tar.gz folder",
+    "example": "tar -czf backup.tar.gz folder",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "tar",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-tar-xzf-backup-tar-gz",
+    "command": "tar -xzf backup.tar.gz",
+    "title": "Linux backup/export lena",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `tar -xzf backup.tar.gz` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "tar -xzf backup.tar.gz",
+    "example": "tar -xzf backup.tar.gz",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "tar",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-zip-r-backup-zip-folder",
+    "command": "zip -r backup.zip folder",
+    "title": "Linux backup/export lena",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `zip -r backup.zip folder` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "zip -r backup.zip folder",
+    "example": "zip -r backup.zip folder",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "zip",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-unzip-backup-zip",
+    "command": "unzip backup.zip",
+    "title": "Linux backup/export lena",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `unzip backup.zip` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "unzip backup.zip",
+    "example": "unzip backup.zip",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "unzip",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-gzip-file-log",
+    "command": "gzip file.log",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `gzip file.log` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gzip file.log",
+    "example": "gzip file.log",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "gzip",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-gunzip-file-log-gz",
+    "command": "gunzip file.log.gz",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `gunzip file.log.gz` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "gunzip file.log.gz",
+    "example": "gunzip file.log.gz",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "gunzip",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-rsync-av-source-destination",
+    "command": "rsync -av source/ destination/",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `rsync -av source/ destination/` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "rsync -av source/ destination/",
+    "example": "rsync -av source/ destination/",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "rsync",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-rsync-avz-folder-user-host-path",
+    "command": "rsync -avz folder/ user@host:/path/",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `rsync -avz folder/ user@host:/path/` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "rsync -avz folder/ user@host:/path/",
+    "example": "rsync -avz folder/ user@host:/path/",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "rsync",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-scp-file-user-host-path",
+    "command": "scp file user@host:/path/",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `scp file user@host:/path/` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "scp file user@host:/path/",
+    "example": "scp file user@host:/path/",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "scp",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-ssh-user-server",
+    "command": "ssh user@server",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `ssh user@server` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "ssh user@server",
+    "example": "ssh user@server",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "ssh",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-ssh-keygen-t-ed25519",
+    "command": "ssh-keygen -t ed25519",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `ssh-keygen -t ed25519` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "ssh-keygen -t ed25519",
+    "example": "ssh-keygen -t ed25519",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Output me secrets/credentials ho sakte hain. Screenshot ya logs share karte time mask karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "ssh-keygen",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-ssh-copy-id-user-server",
+    "command": "ssh-copy-id user@server",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `ssh-copy-id user@server` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "ssh-copy-id user@server",
+    "example": "ssh-copy-id user@server",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "ssh-copy-id",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-crontab-l",
+    "command": "crontab -l",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `crontab -l` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "crontab -l",
+    "example": "crontab -l",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "crontab",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-crontab-e",
+    "command": "crontab -e",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `crontab -e` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "crontab -e",
+    "example": "crontab -e",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "crontab",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-crontab-l",
+    "command": "sudo crontab -l",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `sudo crontab -l` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo crontab -l",
+    "example": "sudo crontab -l",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-at-now-5-minutes",
+    "command": "at now + 5 minutes",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `at now + 5 minutes` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "at now + 5 minutes",
+    "example": "at now + 5 minutes",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "at",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sleep-10",
+    "command": "sleep 10",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `sleep 10` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sleep 10",
+    "example": "sleep 10",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "sleep",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-watch-n-2-df-h",
+    "command": "watch -n 2 df -h",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `watch -n 2 df -h` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "watch -n 2 df -h",
+    "example": "watch -n 2 df -h",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "watch",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-nohup-command",
+    "command": "nohup command &",
+    "title": "Linux apply/deploy/run karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `nohup command &` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "nohup command &",
+    "example": "nohup command &",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "nohup",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-jobs",
+    "command": "jobs",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `jobs` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "jobs",
+    "example": "jobs",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "jobs",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-fg",
+    "command": "fg",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `fg` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "fg",
+    "example": "fg",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "fg",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-bg",
+    "command": "bg",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `bg` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "bg",
+    "example": "bg",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "bg",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-killall-nginx",
+    "command": "killall nginx",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `killall nginx` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "killall nginx",
+    "example": "killall nginx",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "killall",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-pkill-f-worker",
+    "command": "pkill -f worker",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `pkill -f worker` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "pkill -f worker",
+    "example": "pkill -f worker",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Dangerous command ho sakta hai. Production par run karne se pehle backup, target aur impact 2 baar verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "pkill",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-nice-n-10-command",
+    "command": "nice -n 10 command",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `nice -n 10 command` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "nice -n 10 command",
+    "example": "nice -n 10 command",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "nice",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-renice-5-p-1234",
+    "command": "renice 5 -p 1234",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `renice 5 -p 1234` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "renice 5 -p 1234",
+    "example": "renice 5 -p 1234",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "renice",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-mount",
+    "command": "mount",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Intermediate",
+    "use_case": "Linux me `mount` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "mount",
+    "example": "mount",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "mount",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-umount-mnt-data",
+    "command": "umount /mnt/data",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `umount /mnt/data` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "umount /mnt/data",
+    "example": "umount /mnt/data",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "umount",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-lsblk",
+    "command": "lsblk",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `lsblk` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "lsblk",
+    "example": "lsblk",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "lsblk",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-blkid",
+    "command": "blkid",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `blkid` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "blkid",
+    "example": "blkid",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "blkid",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-fdisk-l",
+    "command": "fdisk -l",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `fdisk -l` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "fdisk -l",
+    "example": "fdisk -l",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "fdisk",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-findmnt",
+    "command": "findmnt",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `findmnt` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "findmnt",
+    "example": "findmnt",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "findmnt",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-ln-s-source-link",
+    "command": "ln -s source link",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `ln -s source link` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "ln -s source link",
+    "example": "ln -s source link",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "ln",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-readlink-f-link",
+    "command": "readlink -f link",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `readlink -f link` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "readlink -f link",
+    "example": "readlink -f link",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "readlink",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-basename-path-file-txt",
+    "command": "basename /path/file.txt",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `basename /path/file.txt` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "basename /path/file.txt",
+    "example": "basename /path/file.txt",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "basename",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-dirname-path-file-txt",
+    "command": "dirname /path/file.txt",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `dirname /path/file.txt` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "dirname /path/file.txt",
+    "example": "dirname /path/file.txt",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "dirname",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-xargs",
+    "command": "xargs",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `xargs` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "xargs",
+    "example": "xargs",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "xargs",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-tee-file-txt",
+    "command": "tee file.txt",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `tee file.txt` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "tee file.txt",
+    "example": "tee file.txt",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "tee",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-apt-update",
+    "command": "sudo apt update",
+    "title": "Linux apply/deploy/run karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sudo apt update` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo apt update",
+    "example": "sudo apt update",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-apt-install-package",
+    "command": "sudo apt install package",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sudo apt install package` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo apt install package",
+    "example": "sudo apt install package",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-apt-remove-package",
+    "command": "sudo apt remove package",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sudo apt remove package` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo apt remove package",
+    "example": "sudo apt remove package",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-apt-autoremove",
+    "command": "sudo apt autoremove",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sudo apt autoremove` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo apt autoremove",
+    "example": "sudo apt autoremove",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-apt-cache-policy-package",
+    "command": "sudo apt-cache policy package",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sudo apt-cache policy package` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo apt-cache policy package",
+    "example": "sudo apt-cache policy package",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-dpkg-l",
+    "command": "dpkg -l",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `dpkg -l` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "dpkg -l",
+    "example": "dpkg -l",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "dpkg",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-dpkg-i-package-deb",
+    "command": "dpkg -i package.deb",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `dpkg -i package.deb` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "dpkg -i package.deb",
+    "example": "dpkg -i package.deb",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "dpkg",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-yum-update",
+    "command": "sudo yum update",
+    "title": "Linux apply/deploy/run karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sudo yum update` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo yum update",
+    "example": "sudo yum update",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-yum-install-package",
+    "command": "sudo yum install package",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sudo yum install package` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo yum install package",
+    "example": "sudo yum install package",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-dnf-install-package",
+    "command": "sudo dnf install package",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sudo dnf install package` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo dnf install package",
+    "example": "sudo dnf install package",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-service-nginx-status",
+    "command": "sudo service nginx status",
+    "title": "Linux details/status dekhna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sudo service nginx status` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo service nginx status",
+    "example": "sudo service nginx status",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-reboot",
+    "command": "sudo reboot",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sudo reboot` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo reboot",
+    "example": "sudo reboot",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
+  },
+  {
+    "id": "linux-sudo-shutdown-h-now",
+    "command": "sudo shutdown -h now",
+    "title": "Linux command use karna",
+    "category": "Linux",
+    "difficulty": "Advanced",
+    "use_case": "Linux me `sudo shutdown -h now` command real-world DevOps, troubleshooting, deployment ya operations work ke liye use hota hai.",
+    "syntax": "sudo shutdown -h now",
+    "example": "sudo shutdown -h now",
+    "output_explanation": "Output command/tool/version ke hisaab se change ho sakta hai. Status, IDs, names, logs, resources ya result details verify karo.",
+    "warning": "Read-only ya low-risk command hai, phir bhi environment aur target verify karo.",
+    "related_commands": [],
+    "tags": [
+      "linux",
+      "cmd",
+      "devops",
+      "cli"
+    ]
   }
 ]
