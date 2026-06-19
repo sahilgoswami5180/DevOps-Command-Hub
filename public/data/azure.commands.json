@@ -1,0 +1,14 @@
+[
+  {
+    "id": "az-account-show",
+    "command": "az account show",
+    "title": "Current Azure subscription check karna",
+    "category": "Azure CLI",
+    "difficulty": "Beginner",
+    "use_case": "CLI kis Azure subscription me active hai verify karne ke liye.",
+    "syntax": "az account show",
+    "example": "az account show",
+    "output_explanation": "Active subscription, tenant aur user details show hoti hain.",
+    "warning": "Resource create/delete se pehle correct subscription verify karo.",
+    "related_commands": ["az login", "az account list", "az account set"],
+    "tags": ["azure", "az", "account", "subscription"]

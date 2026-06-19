@@ -1,0 +1,14 @@
+[
+  {
+    "id": "github-actions-gh-run-list",
+    "command": "gh run list",
+    "title": "GitHub Actions runs list karna",
+    "category": "GitHub Actions",
+    "difficulty": "Intermediate",
+    "use_case": "CLI se recent workflow runs check karne ke liye.",
+    "syntax": "gh run list [flags]",
+    "example": "gh run list --limit 10",
+    "output_explanation": "Recent workflow run status, branch aur time show hota hai.",
+    "warning": "GitHub CLI login required hai.",
+    "related_commands": ["gh run view", "gh run watch", "gh auth login"],
+    "tags": ["github", "actions", "workflow", "ci"]

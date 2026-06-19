@@ -1,0 +1,14 @@
+[
+  {
+    "id": "top-command",
+    "command": "top",
+    "title": "Live process monitoring karna",
+    "category": "System Monitoring",
+    "difficulty": "Beginner",
+    "use_case": "CPU, memory aur running processes live dekhne ke liye.",
+    "syntax": "top",
+    "example": "top",
+    "output_explanation": "CPU usage, memory usage, load average aur processes show hote hain.",
+    "warning": "Read-only monitoring command hai.",
+    "related_commands": ["htop", "free -h", "uptime"],
+    "tags": ["monitoring", "cpu", "memory", "process"]

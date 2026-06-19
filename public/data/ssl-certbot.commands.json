@@ -1,0 +1,14 @@
+[
+  {
+    "id": "certbot-renew-dry-run",
+    "command": "sudo certbot renew --dry-run",
+    "title": "SSL renewal test karna",
+    "category": "SSL / Certbot",
+    "difficulty": "Beginner",
+    "use_case": "Certificate auto-renewal working hai ya nahi safely test karne ke liye.",
+    "syntax": "sudo certbot renew --dry-run",
+    "example": "sudo certbot renew --dry-run",
+    "output_explanation": "Dry run successful aaye to renewal process mostly okay hai.",
+    "warning": "Rate limits avoid karne ke liye unnecessary real renew repeatedly mat karo.",
+    "related_commands": ["sudo certbot certificates", "sudo systemctl status certbot.timer"],
+    "tags": ["ssl", "certbot", "renew", "https"]

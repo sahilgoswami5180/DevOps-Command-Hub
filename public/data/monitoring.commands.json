@@ -1,0 +1,14 @@
+[
+  {
+    "id": "prometheus-targets",
+    "command": "curl http://localhost:9090/api/v1/targets",
+    "title": "Prometheus targets check karna",
+    "category": "Prometheus / Grafana",
+    "difficulty": "Intermediate",
+    "use_case": "Prometheus scrape targets up/down status API se check karne ke liye.",
+    "syntax": "curl <prometheus-url>/api/v1/targets",
+    "example": "curl http://localhost:9090/api/v1/targets",
+    "output_explanation": "Targets health aur scrape status JSON me show hota hai.",
+    "warning": "Prometheus URL aur network access correct hona chahiye.",
+    "related_commands": ["systemctl status prometheus", "journalctl -u prometheus"],
+    "tags": ["prometheus", "grafana", "monitoring", "targets"]

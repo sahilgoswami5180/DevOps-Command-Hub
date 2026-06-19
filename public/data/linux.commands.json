@@ -1,0 +1,26 @@
+[
+  {
+    "id": "linux-ls-la",
+    "command": "ls -la",
+    "title": "Files aur folders list karna",
+    "category": "Linux",
+    "difficulty": "Beginner",
+    "use_case": "Current directory ke files, hidden files aur permissions dekhne ke liye.",
+    "syntax": "ls [options] [path]",
+    "example": "ls -la /var/www",
+    "output_explanation": "Permissions, owner, group, size, date aur filename show hota hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": ["pwd", "cd", "tree"],
+    "tags": ["linux", "files", "list", "permissions"]
+  },
+  {
+    "id": "linux-df-h",
+    "command": "df -h",
+    "title": "Disk space check karna",
+    "category": "Linux",
+    "difficulty": "Beginner",
+    "use_case": "Server ke mounted disks ka used/free space dekhne ke liye.",
+    "syntax": "df [options]",
+    "example": "df -h",
+    "output_explanation": "-h size ko human readable format me show karta hai.",
+    "warning": "Read-only command hai, safe hai.",

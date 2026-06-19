@@ -1,0 +1,14 @@
+[
+  {
+    "id": "ssh-disable-root-note",
+    "command": "sudo nano /etc/ssh/sshd_config",
+    "title": "SSH config edit karna",
+    "category": "Server Security",
+    "difficulty": "Advanced",
+    "use_case": "Root login disable, password auth disable ya SSH hardening ke liye config edit karne me.",
+    "syntax": "sudo nano /etc/ssh/sshd_config",
+    "example": "PermitRootLogin no",
+    "output_explanation": "Config edit ke baad SSH service reload/restart karni hoti hai.",
+    "warning": "Galat SSH config se server lockout ho sakta hai. Active session close mat karo jab tak new login test na ho.",
+    "related_commands": ["sudo sshd -t", "sudo systemctl reload ssh"],
+    "tags": ["security", "ssh", "hardening", "server"]

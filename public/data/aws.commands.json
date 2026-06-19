@@ -1,0 +1,14 @@
+[
+  {
+    "id": "aws-sts-caller-identity",
+    "command": "aws sts get-caller-identity",
+    "title": "Current AWS identity check karna",
+    "category": "AWS CLI",
+    "difficulty": "Beginner",
+    "use_case": "CLI kis AWS account/user/role se authenticated hai check karne ke liye.",
+    "syntax": "aws sts get-caller-identity",
+    "example": "aws sts get-caller-identity",
+    "output_explanation": "Account ID, ARN aur UserId show hota hai.",
+    "warning": "Deployment se pehle correct AWS account verify karo.",
+    "related_commands": ["aws configure list", "aws s3 ls", "aws ec2 describe-instances"],
+    "tags": ["aws", "sts", "identity", "account"]

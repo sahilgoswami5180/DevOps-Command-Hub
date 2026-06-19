@@ -1,0 +1,14 @@
+[
+  {
+    "id": "cicd-run-build",
+    "command": "npm run build",
+    "title": "Frontend production build banana",
+    "category": "CI/CD",
+    "difficulty": "Beginner",
+    "use_case": "Deployment se pehle frontend app ka optimized build generate karne ke liye.",
+    "syntax": "npm run build",
+    "example": "npm run build",
+    "output_explanation": "Build successful ho to dist/build folder generate hota hai.",
+    "warning": "Build fail ho to deployment continue mat karo.",
+    "related_commands": ["npm install", "npm run test", "npm run lint"],
+    "tags": ["cicd", "build", "deploy", "frontend"]

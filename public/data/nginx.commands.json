@@ -1,0 +1,14 @@
+[
+  {
+    "id": "nginx-test-config",
+    "command": "sudo nginx -t",
+    "title": "Nginx config test karna",
+    "category": "Nginx",
+    "difficulty": "Beginner",
+    "use_case": "Reload/restart se pehle Nginx config syntax valid hai ya nahi check karne ke liye.",
+    "syntax": "sudo nginx -t",
+    "example": "sudo nginx -t",
+    "output_explanation": "Syntax ok aur test successful message aayega agar config valid hai.",
+    "warning": "Reload se pehle ye command zarur run karo.",
+    "related_commands": ["sudo systemctl reload nginx", "sudo systemctl status nginx"],
+    "tags": ["nginx", "config", "test", "webserver"]

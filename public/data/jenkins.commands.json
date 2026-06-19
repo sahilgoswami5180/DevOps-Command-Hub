@@ -1,0 +1,14 @@
+[
+  {
+    "id": "jenkins-status",
+    "command": "sudo systemctl status jenkins",
+    "title": "Jenkins service status check karna",
+    "category": "Jenkins",
+    "difficulty": "Beginner",
+    "use_case": "Jenkins server running hai ya nahi check karne ke liye.",
+    "syntax": "sudo systemctl status jenkins",
+    "example": "sudo systemctl status jenkins",
+    "output_explanation": "Active/running status Jenkins service healthy hone ka signal hai.",
+    "warning": "Agar failed status hai to logs check karo.",
+    "related_commands": ["sudo journalctl -u jenkins", "sudo systemctl restart jenkins"],
+    "tags": ["jenkins", "service", "status", "cicd"]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "kubectl-get-pods",
+    "command": "kubectl get pods -A",
+    "title": "All namespaces ke pods dekhna",
+    "category": "Kubernetes",
+    "difficulty": "Beginner",
+    "use_case": "Cluster me running/pending/error pods quickly check karne ke liye.",
+    "syntax": "kubectl get pods [options]",
+    "example": "kubectl get pods -A",
+    "output_explanation": "-A all namespaces ke pods show karta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": ["kubectl describe pod", "kubectl logs", "kubectl get svc"],
+    "tags": ["kubernetes", "kubectl", "pods", "cluster"]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "journalctl-service",
+    "command": "sudo journalctl -u <service-name> -f",
+    "title": "Service logs live dekhna",
+    "category": "Logs / Debugging",
+    "difficulty": "Beginner",
+    "use_case": "Systemd service ke live logs debug karne ke liye.",
+    "syntax": "sudo journalctl -u <service-name> [options]",
+    "example": "sudo journalctl -u nginx -f",
+    "output_explanation": "-u service select karta hai aur -f live follow mode enable karta hai.",
+    "warning": "Logs me secrets/tokens ho sakte hain, share karte time careful raho.",
+    "related_commands": ["systemctl status", "tail -f", "grep"],
+    "tags": ["logs", "debug", "journalctl", "service"]

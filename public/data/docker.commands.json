@@ -1,0 +1,26 @@
+[
+  {
+    "id": "docker-ps",
+    "command": "docker ps",
+    "title": "Running containers dekhna",
+    "category": "Docker",
+    "difficulty": "Beginner",
+    "use_case": "Currently running Docker containers dekhne ke liye use hota hai.",
+    "syntax": "docker ps [options]",
+    "example": "docker ps -a",
+    "output_explanation": "-a use karne se stopped containers bhi show hote hain.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": ["docker logs", "docker inspect", "docker stop"],
+    "tags": ["docker", "container", "list", "debug"]
+  },
+  {
+    "id": "docker-logs",
+    "command": "docker logs -f <container_name>",
+    "title": "Container logs live dekhna",
+    "category": "Docker",
+    "difficulty": "Beginner",
+    "use_case": "Application container ke live logs debug karne ke liye.",
+    "syntax": "docker logs [options] <container>",
+    "example": "docker logs -f app-container",
+    "output_explanation": "-f live follow mode enable karta hai.",
+    "warning": "High traffic app me logs bahut fast aa sakte hain.",

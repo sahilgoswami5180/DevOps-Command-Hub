@@ -1,0 +1,14 @@
+[
+  {
+    "id": "gcloud-config-list",
+    "command": "gcloud config list",
+    "title": "Current GCP config check karna",
+    "category": "GCP CLI",
+    "difficulty": "Beginner",
+    "use_case": "Active project, account aur region/zone config dekhne ke liye.",
+    "syntax": "gcloud config list",
+    "example": "gcloud config list",
+    "output_explanation": "Current active gcloud configuration values show hoti hain.",
+    "warning": "Deploy se pehle correct project ID verify karo.",
+    "related_commands": ["gcloud auth list", "gcloud projects list"],
+    "tags": ["gcp", "gcloud", "config", "project"]

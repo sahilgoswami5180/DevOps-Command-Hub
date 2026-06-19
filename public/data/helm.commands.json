@@ -1,0 +1,14 @@
+[
+  {
+    "id": "helm-list",
+    "command": "helm list -A",
+    "title": "All Helm releases dekhna",
+    "category": "Helm",
+    "difficulty": "Beginner",
+    "use_case": "Cluster me installed Helm releases all namespaces me dekhne ke liye.",
+    "syntax": "helm list [options]",
+    "example": "helm list -A",
+    "output_explanation": "-A all namespaces ke releases show karta hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": ["helm status", "helm upgrade", "helm uninstall"],
+    "tags": ["helm", "kubernetes", "release", "chart"]

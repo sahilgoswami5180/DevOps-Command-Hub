@@ -1,0 +1,14 @@
+[
+  {
+    "id": "terraform-plan",
+    "command": "terraform plan",
+    "title": "Infrastructure changes preview karna",
+    "category": "Terraform",
+    "difficulty": "Intermediate",
+    "use_case": "Apply se pehle kya create/update/delete hoga ye check karne ke liye.",
+    "syntax": "terraform plan [options]",
+    "example": "terraform plan -out=tfplan",
+    "output_explanation": "Terraform proposed infrastructure changes show karta hai.",
+    "warning": "Destroy actions carefully review karo.",
+    "related_commands": ["terraform init", "terraform apply", "terraform destroy"],
+    "tags": ["terraform", "iac", "plan", "infra"]

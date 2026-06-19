@@ -1,0 +1,26 @@
+[
+  {
+    "id": "git-status",
+    "command": "git status",
+    "title": "Current git changes check karna",
+    "category": "Git / GitHub",
+    "difficulty": "Beginner",
+    "use_case": "Branch, staged files, unstaged files aur untracked files dekhne ke liye.",
+    "syntax": "git status",
+    "example": "git status",
+    "output_explanation": "Current branch aur working tree state show hoti hai.",
+    "warning": "Read-only command hai, safe hai.",
+    "related_commands": ["git diff", "git add", "git branch"],
+    "tags": ["git", "status", "branch", "changes"]
+  },
+  {
+    "id": "git-checkout-b",
+    "command": "git checkout -b <branch-name>",
+    "title": "New branch create karke switch karna",
+    "category": "Git / GitHub",
+    "difficulty": "Beginner",
+    "use_case": "Feature/fix ke liye new branch banane ke liye.",
+    "syntax": "git checkout -b <branch-name>",
+    "example": "git checkout -b sahil",
+    "output_explanation": "New branch create hoti hai aur aap us branch par switch ho jate ho.",
+    "warning": "Branch create karne se pehle correct base branch confirm karo.",

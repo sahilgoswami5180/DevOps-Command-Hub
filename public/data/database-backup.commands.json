@@ -1,0 +1,14 @@
+[
+  {
+    "id": "pg-dump-custom",
+    "command": "pg_dump -Fc database_name > backup.dump",
+    "title": "PostgreSQL custom backup lena",
+    "category": "PostgreSQL / MySQL Backup",
+    "difficulty": "Intermediate",
+    "use_case": "PostgreSQL database ka compressed custom-format backup lene ke liye.",
+    "syntax": "pg_dump -Fc <database> > <file.dump>",
+    "example": "pg_dump -Fc qms_demo > qms_demo_backup.dump",
+    "output_explanation": "Custom format backup pg_restore se restore hota hai.",
+    "warning": "Backup ke baad file size aur restore test verify karo.",
+    "related_commands": ["pg_restore", "pg_dumpall", "mysql_dump"],
+    "tags": ["postgres", "backup", "database", "restore"]

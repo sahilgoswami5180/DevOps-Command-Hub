@@ -1,0 +1,14 @@
+[
+  {
+    "id": "ansible-ping",
+    "command": "ansible all -m ping",
+    "title": "Servers connectivity check karna",
+    "category": "Ansible",
+    "difficulty": "Beginner",
+    "use_case": "Inventory ke servers Ansible se reachable hain ya nahi check karne ke liye.",
+    "syntax": "ansible <group> -m ping",
+    "example": "ansible all -m ping",
+    "output_explanation": "pong response aaye to server reachable hai.",
+    "warning": "SSH keys aur inventory correct hone chahiye.",
+    "related_commands": ["ansible-playbook", "ansible-inventory --list"],
+    "tags": ["ansible", "ping", "inventory", "automation"]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "ufw-status",
+    "command": "sudo ufw status numbered",
+    "title": "Firewall rules numbered list dekhna",
+    "category": "Firewall",
+    "difficulty": "Beginner",
+    "use_case": "UFW firewall rules ko number ke saath dekhne ke liye.",
+    "syntax": "sudo ufw status numbered",
+    "example": "sudo ufw status numbered",
+    "output_explanation": "Allowed/denied ports aur rule numbers show hote hain.",
+    "warning": "SSH port allow hai ya nahi zarur verify karo.",
+    "related_commands": ["sudo ufw allow", "sudo ufw delete", "sudo ufw enable"],
+    "tags": ["firewall", "ufw", "security", "ports"]

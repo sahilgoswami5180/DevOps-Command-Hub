@@ -1,0 +1,14 @@
+[
+  {
+    "id": "apache-configtest",
+    "command": "sudo apachectl configtest",
+    "title": "Apache config test karna",
+    "category": "Apache",
+    "difficulty": "Beginner",
+    "use_case": "Apache restart/reload se pehle configuration syntax check karne ke liye.",
+    "syntax": "sudo apachectl configtest",
+    "example": "sudo apachectl configtest",
+    "output_explanation": "Syntax OK aaye to config valid hai.",
+    "warning": "Invalid config ke saath reload karne se website down ho sakti hai.",
+    "related_commands": ["sudo systemctl reload apache2", "sudo systemctl status apache2"],
+    "tags": ["apache", "config", "test", "webserver"]
