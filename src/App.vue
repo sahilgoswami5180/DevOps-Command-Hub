@@ -21,7 +21,7 @@ onMounted(async () => {
     applyTheme()
     await loadData()
 })
-
+//test
 async function loadData() {
     try {
         loading.value = true
@@ -210,7 +210,9 @@ const activeCategoryCount = computed(() => {
                     </button>
                 </div>
 
-                <nav class="command-scroll max-h-[calc(100vh-11rem)] space-y-1 overflow-y-auto pb-8">
+                <nav
+                    class="command-scroll max-h-[calc(100vh-11rem)] space-y-1 overflow-y-auto pb-8"
+                >
                     <button
                         v-for="category in categories"
                         :key="category.id"
