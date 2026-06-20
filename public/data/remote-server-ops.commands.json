@@ -1,0 +1,2364 @@
+[
+  {
+    "id": "remote-scp-file-txt-user-server-path",
+    "command": "scp file.txt user@server:/path/",
+    "title": "Local file server par upload karna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "Local machine se ek file remote Linux server par copy karne ke liye.",
+    "syntax": "scp <local-file> <user>@<host>:<remote-path>/",
+    "example": "scp index.html root@217.216.79.214:/var/www/html/",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ssh user@server",
+      "rsync -avz"
+    ],
+    "tags": [
+      "scp",
+      "upload",
+      "file-transfer"
+    ]
+  },
+  {
+    "id": "remote-scp-r-folder-user-server-path",
+    "command": "scp -r folder user@server:/path/",
+    "title": "Folder recursively upload karna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "Complete folder ko local se server par upload karne ke liye.",
+    "syntax": "scp -r <local-folder> <user>@<host>:<remote-path>/",
+    "example": "scp -r dist root@217.216.79.214:/var/www/site/",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "rsync -avz",
+      "tar -czf"
+    ],
+    "tags": [
+      "scp",
+      "folder",
+      "recursive"
+    ]
+  },
+  {
+    "id": "remote-scp-r-d-backup-wordpres-zip-root-217-216-79-214-var-www-artisanal-byte",
+    "command": "scp -r \"D:\\backup\\wordpres.zip\" root@217.216.79.214:/var/www/artisanal_byte/",
+    "title": "Windows path se zip server par upload karna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Windows local path se zip/file ko Linux server ke project folder me copy karne ke liye.",
+    "syntax": "scp -r \"D:\\path\\file.zip\" <user>@<host>:/remote/path/",
+    "example": "scp -r \"D:\\176_44867874-xenaxcloud-com_2026_05_16-00_13_51\\var\\www\\artisanal_byte\\wordpres.zip\" root@217.216.79.214:/var/www/artisanal_byte/",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ssh root@217.216.79.214",
+      "unzip wordpres.zip"
+    ],
+    "tags": [
+      "scp",
+      "windows",
+      "zip",
+      "upload"
+    ]
+  },
+  {
+    "id": "remote-scp-user-server-path-file-zip",
+    "command": "scp user@server:/path/file.zip .",
+    "title": "Server se local me file download karna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "Remote server se current local folder me file download karne ke liye.",
+    "syntax": "scp <user>@<host>:<remote-file> <local-destination>",
+    "example": "scp root@217.216.79.214:/var/www/artisanal_byte/wordpres.zip .",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp -r",
+      "rsync -avz"
+    ],
+    "tags": [
+      "scp",
+      "download"
+    ]
+  },
+  {
+    "id": "remote-scp-r-user-server-var-www-site-site-backup",
+    "command": "scp -r user@server:/var/www/site ./site-backup",
+    "title": "Server folder local par download karna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Remote project folder ka local backup lene ke liye.",
+    "syntax": "scp -r <user>@<host>:<remote-folder> <local-folder>",
+    "example": "scp -r root@217.216.79.214:/var/www/artisanal_byte ./artisanal_byte_backup",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "tar -czf",
+      "rsync -avz"
+    ],
+    "tags": [
+      "scp",
+      "download",
+      "backup"
+    ]
+  },
+  {
+    "id": "remote-scp-p-22210-file-zip-user-server-path",
+    "command": "scp -P 22210 file.zip user@server:/path/",
+    "title": "Custom SSH port ke saath upload",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Jab SSH default port 22 nahi ho, tab custom port se scp transfer karne ke liye.",
+    "syntax": "scp -P <port> <file> <user>@<host>:<path>/",
+    "example": "scp -P 22210 wordpres.zip sahil@160.191.14.84:/home/sahil/",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ssh -p 22210",
+      "rsync -e"
+    ],
+    "tags": [
+      "scp",
+      "custom-port",
+      "ssh"
+    ]
+  },
+  {
+    "id": "remote-scp-i-ssh-id-ed25519-file-zip-user-server-path",
+    "command": "scp -i ~/.ssh/id_ed25519 file.zip user@server:/path/",
+    "title": "SSH key ke saath SCP",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Specific private key use karke secure file transfer karne ke liye.",
+    "syntax": "scp -i <private-key> <file> <user>@<host>:<path>/",
+    "example": "scp -i ~/.ssh/id_ed25519 backup.sql.gz ubuntu@1.2.3.4:/tmp/",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ssh -i",
+      "chmod 600 ~/.ssh/id_ed25519"
+    ],
+    "tags": [
+      "scp",
+      "ssh-key"
+    ]
+  },
+  {
+    "id": "remote-scp-c-file-zip-user-server-path",
+    "command": "scp -C file.zip user@server:/path/",
+    "title": "Compression ke saath SCP",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Slow network par transfer compress karke bhejne ke liye.",
+    "syntax": "scp -C <file> <user>@<host>:<path>/",
+    "example": "scp -C large-backup.sql root@217.216.79.214:/backup/",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "rsync -z",
+      "tar -czf"
+    ],
+    "tags": [
+      "scp",
+      "compression"
+    ]
+  },
+  {
+    "id": "remote-scp-l-8000-file-zip-user-server-path",
+    "command": "scp -l 8000 file.zip user@server:/path/",
+    "title": "Bandwidth limit ke saath SCP",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Advanced",
+    "use_case": "Transfer speed limit karne ke liye taaki server/network overload na ho.",
+    "syntax": "scp -l <Kbit/s> <file> <user>@<host>:<path>/",
+    "example": "scp -l 8000 backup.zip root@217.216.79.214:/backup/",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "rsync --bwlimit",
+      "iftop"
+    ],
+    "tags": [
+      "scp",
+      "bandwidth"
+    ]
+  },
+  {
+    "id": "remote-scp-file1-file2-user-server-path",
+    "command": "scp file1 file2 user@server:/path/",
+    "title": "Multiple files upload karna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "Ek command se multiple local files server par upload karne ke liye.",
+    "syntax": "scp <file1> <file2> <user>@<host>:<path>/",
+    "example": "scp .env composer.json root@217.216.79.214:/var/www/app/",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "tar -czf",
+      "rsync -avz"
+    ],
+    "tags": [
+      "scp",
+      "multiple-files"
+    ]
+  },
+  {
+    "id": "remote-scp-user1-server1-path-file-zip-user2-server2-path",
+    "command": "scp user1@server1:/path/file.zip user2@server2:/path/",
+    "title": "Server to server SCP",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Advanced",
+    "use_case": "Ek remote server se doosre remote server par file copy karne ke liye.",
+    "syntax": "scp <user1>@<host1>:<file> <user2>@<host2>:<path>/",
+    "example": "scp root@10.0.0.1:/backup/site.zip root@10.0.0.2:/backup/",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "rsync",
+      "ssh"
+    ],
+    "tags": [
+      "scp",
+      "server-to-server"
+    ]
+  },
+  {
+    "id": "remote-ssh-user-server",
+    "command": "ssh user@server",
+    "title": "Server me SSH login karna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "Remote Linux server par terminal access lene ke liye.",
+    "syntax": "ssh user@server",
+    "example": "ssh root@217.216.79.214",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp",
+      "ssh-keygen"
+    ],
+    "tags": [
+      "ssh",
+      "login"
+    ]
+  },
+  {
+    "id": "remote-ssh-p-22210-user-server",
+    "command": "ssh -p 22210 user@server",
+    "title": "Custom SSH port se login",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "Jab server ka SSH port default 22 se alag ho.",
+    "syntax": "ssh -p 22210 user@server",
+    "example": "ssh -p 22210 sahil@160.191.14.84",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp",
+      "ssh-keygen"
+    ],
+    "tags": [
+      "ssh",
+      "custom-port"
+    ]
+  },
+  {
+    "id": "remote-ssh-i-ssh-id-ed25519-user-server",
+    "command": "ssh -i ~/.ssh/id_ed25519 user@server",
+    "title": "Private key se login",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Password ke bajay SSH key se secure login karne ke liye.",
+    "syntax": "ssh -i ~/.ssh/id_ed25519 user@server",
+    "example": "ssh -i ~/.ssh/id_ed25519 ubuntu@1.2.3.4",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp",
+      "ssh-keygen"
+    ],
+    "tags": [
+      "ssh",
+      "ssh-key"
+    ]
+  },
+  {
+    "id": "remote-ssh-v-user-server",
+    "command": "ssh -v user@server",
+    "title": "SSH debug mode",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "SSH login fail ho raha ho to debug logs dekhne ke liye.",
+    "syntax": "ssh -v user@server",
+    "example": "ssh -v root@217.216.79.214",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp",
+      "ssh-keygen"
+    ],
+    "tags": [
+      "ssh",
+      "debug"
+    ]
+  },
+  {
+    "id": "remote-ssh-vvv-user-server",
+    "command": "ssh -vvv user@server",
+    "title": "SSH detailed debug",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Advanced",
+    "use_case": "Public key/password/authentication issue deep debug karne ke liye.",
+    "syntax": "ssh -vvv user@server",
+    "example": "ssh -vvv root@217.216.79.214",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp",
+      "ssh-keygen"
+    ],
+    "tags": [
+      "ssh",
+      "debug"
+    ]
+  },
+  {
+    "id": "remote-ssh-o-stricthostkeychecking-no-user-server",
+    "command": "ssh -o StrictHostKeyChecking=no user@server",
+    "title": "Host key prompt bypass karna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Advanced",
+    "use_case": "Automation/CI me first-time SSH prompt avoid karne ke liye.",
+    "syntax": "ssh -o StrictHostKeyChecking=no user@server",
+    "example": "ssh -o StrictHostKeyChecking=no root@217.216.79.214",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp",
+      "ssh-keygen"
+    ],
+    "tags": [
+      "ssh",
+      "automation"
+    ]
+  },
+  {
+    "id": "remote-ssh-l-8080-localhost-80-user-server",
+    "command": "ssh -L 8080:localhost:80 user@server",
+    "title": "Local port forwarding",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Advanced",
+    "use_case": "Remote service ko local machine par access karne ke liye.",
+    "syntax": "ssh -L 8080:localhost:80 user@server",
+    "example": "ssh -L 8080:localhost:80 root@217.216.79.214",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp",
+      "ssh-keygen"
+    ],
+    "tags": [
+      "ssh",
+      "tunnel"
+    ]
+  },
+  {
+    "id": "remote-ssh-n-l-5433-localhost-5432-user-server",
+    "command": "ssh -N -L 5433:localhost:5432 user@server",
+    "title": "Database tunnel banana",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Advanced",
+    "use_case": "Remote PostgreSQL/MySQL ko local port se securely access karne ke liye.",
+    "syntax": "ssh -N -L 5433:localhost:5432 user@server",
+    "example": "ssh -N -L 5433:localhost:5432 root@217.216.79.214",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp",
+      "ssh-keygen"
+    ],
+    "tags": [
+      "ssh",
+      "database",
+      "tunnel"
+    ]
+  },
+  {
+    "id": "remote-ssh-r-9000-localhost-3000-user-server",
+    "command": "ssh -R 9000:localhost:3000 user@server",
+    "title": "Reverse SSH tunnel",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Advanced",
+    "use_case": "Local service ko remote server se expose karne ke liye.",
+    "syntax": "ssh -R 9000:localhost:3000 user@server",
+    "example": "ssh -R 9000:localhost:3000 root@217.216.79.214",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp",
+      "ssh-keygen"
+    ],
+    "tags": [
+      "ssh",
+      "reverse-tunnel"
+    ]
+  },
+  {
+    "id": "remote-ssh-a-user-server",
+    "command": "ssh -A user@server",
+    "title": "SSH agent forwarding",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Advanced",
+    "use_case": "Server se doosre private Git/SSH host access karne ke liye local agent forward karta hai.",
+    "syntax": "ssh -A user@server",
+    "example": "ssh -A ubuntu@1.2.3.4",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp",
+      "ssh-keygen"
+    ],
+    "tags": [
+      "ssh",
+      "agent-forwarding"
+    ]
+  },
+  {
+    "id": "remote-su-username",
+    "command": "su - username",
+    "title": "User switch karna login shell ke saath",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "Server par current user se doosre user me switch karne ke liye.",
+    "syntax": "su - username",
+    "example": "su - sahil",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Target user ka password chahiye hota hai; root se switch karte waqt careful raho.",
+    "related_commands": [
+      "su - username",
+      "sudo -i",
+      "whoami"
+    ],
+    "tags": [
+      "su",
+      "user-switch"
+    ]
+  },
+  {
+    "id": "remote-su-username-1",
+    "command": "su username",
+    "title": "User switch karna without login shell",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "Environment reload kiye bina doosre user me switch karne ke liye.",
+    "syntax": "su username",
+    "example": "su www-data",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Login shell ke liye mostly `su - username` better hota hai.",
+    "related_commands": [
+      "su - username",
+      "sudo -i",
+      "whoami"
+    ],
+    "tags": [
+      "su",
+      "user-switch"
+    ]
+  },
+  {
+    "id": "remote-sudo-su",
+    "command": "sudo su -",
+    "title": "Root shell open karna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Sudo access wale user se root login shell lene ke liye.",
+    "syntax": "sudo su -",
+    "example": "sudo su -",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Root shell me galat command server ko damage kar sakti hai.",
+    "related_commands": [
+      "su - username",
+      "sudo -i",
+      "whoami"
+    ],
+    "tags": [
+      "sudo",
+      "root"
+    ]
+  },
+  {
+    "id": "remote-sudo-i",
+    "command": "sudo -i",
+    "title": "Root interactive login shell",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Root environment ke saath shell open karne ke liye.",
+    "syntax": "sudo -i",
+    "example": "sudo -i",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Root shell exit karna na bhulo.",
+    "related_commands": [
+      "su - username",
+      "sudo -i",
+      "whoami"
+    ],
+    "tags": [
+      "sudo",
+      "root"
+    ]
+  },
+  {
+    "id": "remote-sudo-u-www-data-php-artisan-migrate",
+    "command": "sudo -u www-data php artisan migrate",
+    "title": "Specific user ke naam se command run karna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Web server user ke context me command run karne ke liye.",
+    "syntax": "sudo -u www-data php artisan migrate",
+    "example": "sudo -u www-data php artisan storage:link",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Correct project path me run karo.",
+    "related_commands": [
+      "su - username",
+      "sudo -i",
+      "whoami"
+    ],
+    "tags": [
+      "sudo",
+      "www-data"
+    ]
+  },
+  {
+    "id": "remote-sudo-u-postgres-psql",
+    "command": "sudo -u postgres psql",
+    "title": "Postgres user me psql open karna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "PostgreSQL administrative shell access ke liye.",
+    "syntax": "sudo -u postgres psql",
+    "example": "sudo -u postgres psql",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Database commands carefully run karo.",
+    "related_commands": [
+      "su - username",
+      "sudo -i",
+      "whoami"
+    ],
+    "tags": [
+      "sudo",
+      "postgres"
+    ]
+  },
+  {
+    "id": "remote-whoami",
+    "command": "whoami",
+    "title": "Current user check karna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "Abhi terminal me kaunsa user active hai ye check karne ke liye.",
+    "syntax": "whoami",
+    "example": "whoami",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Root/user confusion avoid karne ke liye deployment se pehle check karo.",
+    "related_commands": [
+      "su - username",
+      "sudo -i",
+      "whoami"
+    ],
+    "tags": [
+      "user",
+      "whoami"
+    ]
+  },
+  {
+    "id": "remote-id-username",
+    "command": "id username",
+    "title": "User UID/GID/groups check karna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "User kis groups me hai aur uska UID/GID kya hai dekhne ke liye.",
+    "syntax": "id username",
+    "example": "id sahil",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Permission issue debug me helpful.",
+    "related_commands": [
+      "su - username",
+      "sudo -i",
+      "whoami"
+    ],
+    "tags": [
+      "user",
+      "groups"
+    ]
+  },
+  {
+    "id": "remote-groups-username",
+    "command": "groups username",
+    "title": "User groups dekhna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "User kis Linux groups ka member hai ye check karne ke liye.",
+    "syntax": "groups username",
+    "example": "groups sahil",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Group membership change ke baad relogin required ho sakta hai.",
+    "related_commands": [
+      "su - username",
+      "sudo -i",
+      "whoami"
+    ],
+    "tags": [
+      "user",
+      "groups"
+    ]
+  },
+  {
+    "id": "remote-exit",
+    "command": "exit",
+    "title": "Current shell/user se bahar nikalna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "su/sudo/ssh shell se safely exit karne ke liye.",
+    "syntax": "exit",
+    "example": "exit",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Nested shell me multiple exit lag sakte hain.",
+    "related_commands": [
+      "su - username",
+      "sudo -i",
+      "whoami"
+    ],
+    "tags": [
+      "shell",
+      "exit"
+    ]
+  },
+  {
+    "id": "remote-rsync-avz-source-user-server-path",
+    "command": "rsync -avz source/ user@server:/path/",
+    "title": "Folder sync upload",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Changed files only server par upload karne ke liye, SCP se better.",
+    "syntax": "rsync -avz source/ user@server:/path/",
+    "example": "rsync -avz dist/ root@217.216.79.214:/var/www/site/",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp -r",
+      "ssh"
+    ],
+    "tags": [
+      "rsync",
+      "upload",
+      "sync"
+    ]
+  },
+  {
+    "id": "remote-rsync-avz-user-server-path-backup",
+    "command": "rsync -avz user@server:/path/ ./backup/",
+    "title": "Folder sync download",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Remote folder ko local backup folder me sync karne ke liye.",
+    "syntax": "rsync -avz user@server:/path/ ./backup/",
+    "example": "rsync -avz root@217.216.79.214:/var/www/artisanal_byte/ ./backup/",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp -r",
+      "ssh"
+    ],
+    "tags": [
+      "rsync",
+      "download",
+      "backup"
+    ]
+  },
+  {
+    "id": "remote-rsync-avz-progress-source-user-server-path",
+    "command": "rsync -avz --progress source/ user@server:/path/",
+    "title": "Progress ke saath rsync",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Large transfer me progress details dekhne ke liye.",
+    "syntax": "rsync -avz --progress source/ user@server:/path/",
+    "example": "rsync -avz --progress backup/ root@217.216.79.214:/backup/",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp -r",
+      "ssh"
+    ],
+    "tags": [
+      "rsync",
+      "progress"
+    ]
+  },
+  {
+    "id": "remote-rsync-avz-delete-source-user-server-path",
+    "command": "rsync -avz --delete source/ user@server:/path/",
+    "title": "Mirror sync with delete",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Advanced",
+    "use_case": "Destination ko source jaisa exact banana; extra files delete hoti hain.",
+    "syntax": "rsync -avz --delete source/ user@server:/path/",
+    "example": "rsync -avz --delete dist/ root@217.216.79.214:/var/www/site/",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp -r",
+      "ssh"
+    ],
+    "tags": [
+      "rsync",
+      "delete",
+      "mirror"
+    ]
+  },
+  {
+    "id": "remote-rsync-avz-e-ssh-p-22210-source-user-server-path",
+    "command": "rsync -avz -e \"ssh -p 22210\" source/ user@server:/path/",
+    "title": "Custom SSH port ke saath rsync",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Non-default SSH port par rsync transfer karne ke liye.",
+    "syntax": "rsync -avz -e \"ssh -p 22210\" source/ user@server:/path/",
+    "example": "rsync -avz -e \"ssh -p 22210\" dist/ sahil@160.191.14.84:/var/www/app/",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp -r",
+      "ssh"
+    ],
+    "tags": [
+      "rsync",
+      "custom-port"
+    ]
+  },
+  {
+    "id": "remote-rsync-avz-exclude-node-modules-source-user-server-path",
+    "command": "rsync -avz --exclude node_modules source/ user@server:/path/",
+    "title": "Exclude ke saath rsync",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "node_modules/vendor jaise heavy folders skip karne ke liye.",
+    "syntax": "rsync -avz --exclude node_modules source/ user@server:/path/",
+    "example": "rsync -avz --exclude node_modules --exclude .git app/ root@1.2.3.4:/var/www/app/",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp -r",
+      "ssh"
+    ],
+    "tags": [
+      "rsync",
+      "exclude"
+    ]
+  },
+  {
+    "id": "remote-rsync-avz-bwlimit-5000-source-user-server-path",
+    "command": "rsync -avz --bwlimit=5000 source/ user@server:/path/",
+    "title": "Bandwidth limit rsync",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Advanced",
+    "use_case": "Transfer speed control karne ke liye.",
+    "syntax": "rsync -avz --bwlimit=5000 source/ user@server:/path/",
+    "example": "rsync -avz --bwlimit=5000 backup.zip root@1.2.3.4:/backup/",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp -r",
+      "ssh"
+    ],
+    "tags": [
+      "rsync",
+      "bandwidth"
+    ]
+  },
+  {
+    "id": "remote-rsync-n-avz-source-user-server-path",
+    "command": "rsync -n -avz source/ user@server:/path/",
+    "title": "Dry-run rsync",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Actual copy/delete se pehle kya change hoga ye check karne ke liye.",
+    "syntax": "rsync -n -avz source/ user@server:/path/",
+    "example": "rsync -n -avz --delete dist/ root@1.2.3.4:/var/www/site/",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp -r",
+      "ssh"
+    ],
+    "tags": [
+      "rsync",
+      "dry-run"
+    ]
+  },
+  {
+    "id": "remote-pwd",
+    "command": "pwd",
+    "title": "Current directory dekhna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "Server par abhi kaunsa folder active hai.",
+    "syntax": "pwd",
+    "example": "pwd",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ls -lah",
+      "pwd"
+    ],
+    "tags": [
+      "linux",
+      "file-ops",
+      "server"
+    ]
+  },
+  {
+    "id": "remote-ls-lah",
+    "command": "ls -lah",
+    "title": "Files list with size/permissions",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "Folder ke files, size, owner aur permissions dekhne ke liye.",
+    "syntax": "ls -lah",
+    "example": "ls -lah /var/www/artisanal_byte",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ls -lah",
+      "pwd"
+    ],
+    "tags": [
+      "linux",
+      "file-ops",
+      "server"
+    ]
+  },
+  {
+    "id": "remote-cd-var-www-artisanal-byte",
+    "command": "cd /var/www/artisanal_byte",
+    "title": "Project folder me jaana",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "Server ke project directory me navigate karne ke liye.",
+    "syntax": "cd /var/www/artisanal_byte",
+    "example": "cd /var/www/artisanal_byte",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ls -lah",
+      "pwd"
+    ],
+    "tags": [
+      "linux",
+      "file-ops",
+      "server"
+    ]
+  },
+  {
+    "id": "remote-mkdir-p-var-www-artisanal-byte",
+    "command": "mkdir -p /var/www/artisanal_byte",
+    "title": "Folder create karna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "Nested directory safely create karne ke liye.",
+    "syntax": "mkdir -p /var/www/artisanal_byte",
+    "example": "mkdir -p /var/www/artisanal_byte",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ls -lah",
+      "pwd"
+    ],
+    "tags": [
+      "linux",
+      "file-ops",
+      "server"
+    ]
+  },
+  {
+    "id": "remote-cp-file-zip-file-zip-bak",
+    "command": "cp file.zip file.zip.bak",
+    "title": "File copy/backup banana",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "Change se pehle file ka quick backup banane ke liye.",
+    "syntax": "cp file.zip file.zip.bak",
+    "example": "cp .env .env.bak",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ls -lah",
+      "pwd"
+    ],
+    "tags": [
+      "linux",
+      "file-ops",
+      "server"
+    ]
+  },
+  {
+    "id": "remote-cp-r-site-site-bak",
+    "command": "cp -r site site.bak",
+    "title": "Folder backup copy",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "Folder ka local copy backup banane ke liye.",
+    "syntax": "cp -r site site.bak",
+    "example": "cp -r public public.bak",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ls -lah",
+      "pwd"
+    ],
+    "tags": [
+      "linux",
+      "file-ops",
+      "server"
+    ]
+  },
+  {
+    "id": "remote-mv-old-new",
+    "command": "mv old new",
+    "title": "File/folder rename ya move",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "File ko move/rename karne ke liye.",
+    "syntax": "mv old new",
+    "example": "mv wordpres.zip wordpress.zip",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ls -lah",
+      "pwd"
+    ],
+    "tags": [
+      "linux",
+      "file-ops",
+      "server"
+    ]
+  },
+  {
+    "id": "remote-rm-file-zip",
+    "command": "rm file.zip",
+    "title": "File delete karna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "Unwanted file remove karne ke liye.",
+    "syntax": "rm file.zip",
+    "example": "rm old-backup.zip",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ls -lah",
+      "pwd"
+    ],
+    "tags": [
+      "linux",
+      "file-ops",
+      "server"
+    ]
+  },
+  {
+    "id": "remote-rm-rf-folder",
+    "command": "rm -rf folder",
+    "title": "Folder force delete karna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "Folder aur andar ka data forcefully delete karne ke liye.",
+    "syntax": "rm -rf folder",
+    "example": "rm -rf old_build",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ls -lah",
+      "pwd"
+    ],
+    "tags": [
+      "linux",
+      "file-ops",
+      "server"
+    ]
+  },
+  {
+    "id": "remote-du-sh",
+    "command": "du -sh *",
+    "title": "Folder/file size check",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "Current folder me sabka size summary dekhne ke liye.",
+    "syntax": "du -sh *",
+    "example": "du -sh /var/www/*",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ls -lah",
+      "pwd"
+    ],
+    "tags": [
+      "linux",
+      "file-ops",
+      "server"
+    ]
+  },
+  {
+    "id": "remote-df-h",
+    "command": "df -h",
+    "title": "Disk space check",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "Server disk free/used space check karne ke liye.",
+    "syntax": "df -h",
+    "example": "df -h",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ls -lah",
+      "pwd"
+    ],
+    "tags": [
+      "linux",
+      "file-ops",
+      "server"
+    ]
+  },
+  {
+    "id": "remote-find-var-www-name-zip",
+    "command": "find /var/www -name \"*.zip\"",
+    "title": "Files search karna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "Specific extension/name wale files locate karne ke liye.",
+    "syntax": "find /var/www -name \"*.zip\"",
+    "example": "find /var/www -type f -name \"*.zip\"",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ls -lah",
+      "pwd"
+    ],
+    "tags": [
+      "linux",
+      "file-ops",
+      "server"
+    ]
+  },
+  {
+    "id": "remote-find-var-www-type-f-size-100m",
+    "command": "find /var/www -type f -size +100M",
+    "title": "Large files find karna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "100MB se bade files identify karne ke liye.",
+    "syntax": "find /var/www -type f -size +100M",
+    "example": "find /var/www -type f -size +100M",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ls -lah",
+      "pwd"
+    ],
+    "tags": [
+      "linux",
+      "file-ops",
+      "server"
+    ]
+  },
+  {
+    "id": "remote-touch-file-txt",
+    "command": "touch file.txt",
+    "title": "Empty file create/update timestamp",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "Empty file create ya timestamp update karne ke liye.",
+    "syntax": "touch file.txt",
+    "example": "touch deploy.log",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ls -lah",
+      "pwd"
+    ],
+    "tags": [
+      "linux",
+      "file-ops",
+      "server"
+    ]
+  },
+  {
+    "id": "remote-cat-file-txt",
+    "command": "cat file.txt",
+    "title": "File content dekhna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "Small file ka content terminal me dekhne ke liye.",
+    "syntax": "cat file.txt",
+    "example": "cat .env",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ls -lah",
+      "pwd"
+    ],
+    "tags": [
+      "linux",
+      "file-ops",
+      "server"
+    ]
+  },
+  {
+    "id": "remote-tail-f-file-log",
+    "command": "tail -f file.log",
+    "title": "Live log follow karna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "Log file realtime monitor karne ke liye.",
+    "syntax": "tail -f file.log",
+    "example": "tail -f storage/logs/laravel.log",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ls -lah",
+      "pwd"
+    ],
+    "tags": [
+      "linux",
+      "file-ops",
+      "server"
+    ]
+  },
+  {
+    "id": "remote-less-file-log",
+    "command": "less file.log",
+    "title": "Large file scroll karke dekhna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "Large log/config file safely read karne ke liye.",
+    "syntax": "less file.log",
+    "example": "less /var/log/nginx/error.log",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ls -lah",
+      "pwd"
+    ],
+    "tags": [
+      "linux",
+      "file-ops",
+      "server"
+    ]
+  },
+  {
+    "id": "remote-nano-file-txt",
+    "command": "nano file.txt",
+    "title": "Terminal editor se file edit",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "Simple terminal editor me file edit karne ke liye.",
+    "syntax": "nano file.txt",
+    "example": "nano .env",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ls -lah",
+      "pwd"
+    ],
+    "tags": [
+      "linux",
+      "file-ops",
+      "server"
+    ]
+  },
+  {
+    "id": "remote-unzip-wordpres-zip",
+    "command": "unzip wordpres.zip",
+    "title": "Zip extract karna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Uploaded zip file ko current folder me extract karne ke liye.",
+    "syntax": "unzip wordpres.zip",
+    "example": "unzip wordpres.zip",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp",
+      "tar",
+      "zip"
+    ],
+    "tags": [
+      "archive",
+      "zip",
+      "backup"
+    ]
+  },
+  {
+    "id": "remote-unzip-wordpres-zip-d-var-www-artisanal-byte",
+    "command": "unzip wordpres.zip -d /var/www/artisanal_byte",
+    "title": "Zip specific folder me extract",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Zip content ko selected destination me extract karne ke liye.",
+    "syntax": "unzip wordpres.zip -d /var/www/artisanal_byte",
+    "example": "unzip wordpres.zip -d /var/www/artisanal_byte",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp",
+      "tar",
+      "zip"
+    ],
+    "tags": [
+      "archive",
+      "zip",
+      "backup"
+    ]
+  },
+  {
+    "id": "remote-unzip-o-wordpres-zip",
+    "command": "unzip -o wordpres.zip",
+    "title": "Zip overwrite ke saath extract",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Existing files overwrite karke zip extract karne ke liye.",
+    "syntax": "unzip -o wordpres.zip",
+    "example": "unzip -o wordpres.zip",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp",
+      "tar",
+      "zip"
+    ],
+    "tags": [
+      "archive",
+      "zip",
+      "backup"
+    ]
+  },
+  {
+    "id": "remote-zip-r-site-zip-site",
+    "command": "zip -r site.zip site/",
+    "title": "Folder zip banana",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Folder ko compressed zip backup me convert karne ke liye.",
+    "syntax": "zip -r site.zip site/",
+    "example": "zip -r artisanal_byte.zip /var/www/artisanal_byte",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp",
+      "tar",
+      "zip"
+    ],
+    "tags": [
+      "archive",
+      "zip",
+      "backup"
+    ]
+  },
+  {
+    "id": "remote-tar-czf-backup-tar-gz-folder",
+    "command": "tar -czf backup.tar.gz folder/",
+    "title": "tar.gz backup banana",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Linux server par folder ka compressed backup banane ke liye.",
+    "syntax": "tar -czf backup.tar.gz folder/",
+    "example": "tar -czf artisanal_byte-$(date +%F).tar.gz /var/www/artisanal_byte",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp",
+      "tar",
+      "zip"
+    ],
+    "tags": [
+      "archive",
+      "zip",
+      "backup"
+    ]
+  },
+  {
+    "id": "remote-tar-xzf-backup-tar-gz",
+    "command": "tar -xzf backup.tar.gz",
+    "title": "tar.gz extract karna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Compressed tar backup ko extract karne ke liye.",
+    "syntax": "tar -xzf backup.tar.gz",
+    "example": "tar -xzf backup.tar.gz",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp",
+      "tar",
+      "zip"
+    ],
+    "tags": [
+      "archive",
+      "zip",
+      "backup"
+    ]
+  },
+  {
+    "id": "remote-tar-tzf-backup-tar-gz-head",
+    "command": "tar -tzf backup.tar.gz | head",
+    "title": "tar.gz content list karna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Extract karne se pehle backup ke andar kya hai dekhne ke liye.",
+    "syntax": "tar -tzf backup.tar.gz | head",
+    "example": "tar -tzf backup.tar.gz | head",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp",
+      "tar",
+      "zip"
+    ],
+    "tags": [
+      "archive",
+      "zip",
+      "backup"
+    ]
+  },
+  {
+    "id": "remote-gzip-database-sql",
+    "command": "gzip database.sql",
+    "title": "SQL file compress karna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Large SQL dump ko gzip me compress karne ke liye.",
+    "syntax": "gzip database.sql",
+    "example": "gzip wp_artisanalbyte.sql",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp",
+      "tar",
+      "zip"
+    ],
+    "tags": [
+      "archive",
+      "zip",
+      "backup"
+    ]
+  },
+  {
+    "id": "remote-gunzip-database-sql-gz",
+    "command": "gunzip database.sql.gz",
+    "title": "Gzip extract karna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Compressed SQL file ko decompress karne ke liye.",
+    "syntax": "gunzip database.sql.gz",
+    "example": "gunzip wp_artisanalbyte.sql.gz",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp",
+      "tar",
+      "zip"
+    ],
+    "tags": [
+      "archive",
+      "zip",
+      "backup"
+    ]
+  },
+  {
+    "id": "remote-chown-r-www-data-www-data-var-www-site",
+    "command": "chown -R www-data:www-data /var/www/site",
+    "title": "Owner/group change recursive",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Web app files ka owner web server user set karne ke liye.",
+    "syntax": "chown -R www-data:www-data /var/www/site",
+    "example": "chown -R www-data:www-data /var/www/artisanal_byte",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ls -lah",
+      "id username"
+    ],
+    "tags": [
+      "permission",
+      "chown",
+      "chmod"
+    ]
+  },
+  {
+    "id": "remote-chown-r-user-group-folder",
+    "command": "chown -R user:group folder",
+    "title": "Folder ownership change",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Project folder ko specific Linux user/group ke naam par set karne ke liye.",
+    "syntax": "chown -R user:group folder",
+    "example": "chown -R sahil:webapps /var/www/app",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ls -lah",
+      "id username"
+    ],
+    "tags": [
+      "permission",
+      "chown",
+      "chmod"
+    ]
+  },
+  {
+    "id": "remote-chmod-r-755-folder",
+    "command": "chmod -R 755 folder",
+    "title": "Folder permissions 755",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Folder executable/readable permissions set karne ke liye.",
+    "syntax": "chmod -R 755 folder",
+    "example": "chmod -R 755 /var/www/artisanal_byte",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ls -lah",
+      "id username"
+    ],
+    "tags": [
+      "permission",
+      "chown",
+      "chmod"
+    ]
+  },
+  {
+    "id": "remote-chmod-r-775-storage-bootstrap-cache",
+    "command": "chmod -R 775 storage bootstrap/cache",
+    "title": "Laravel writable permissions",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Laravel storage/cache writable karne ke liye.",
+    "syntax": "chmod -R 775 storage bootstrap/cache",
+    "example": "chmod -R 775 storage bootstrap/cache",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ls -lah",
+      "id username"
+    ],
+    "tags": [
+      "permission",
+      "chown",
+      "chmod"
+    ]
+  },
+  {
+    "id": "remote-chmod-600-ssh-id-ed25519",
+    "command": "chmod 600 ~/.ssh/id_ed25519",
+    "title": "Private key secure permission",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "SSH private key too open error fix karne ke liye.",
+    "syntax": "chmod 600 ~/.ssh/id_ed25519",
+    "example": "chmod 600 ~/.ssh/id_ed25519",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ls -lah",
+      "id username"
+    ],
+    "tags": [
+      "permission",
+      "chown",
+      "chmod"
+    ]
+  },
+  {
+    "id": "remote-chmod-644-file-txt",
+    "command": "chmod 644 file.txt",
+    "title": "File readable permission",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Config/static file normal read permission set karne ke liye.",
+    "syntax": "chmod 644 file.txt",
+    "example": "chmod 644 .env",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ls -lah",
+      "id username"
+    ],
+    "tags": [
+      "permission",
+      "chown",
+      "chmod"
+    ]
+  },
+  {
+    "id": "remote-chmod-x-script-sh",
+    "command": "chmod +x script.sh",
+    "title": "Script executable banana",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Shell script run karne layak permission dene ke liye.",
+    "syntax": "chmod +x script.sh",
+    "example": "chmod +x deploy.sh",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ls -lah",
+      "id username"
+    ],
+    "tags": [
+      "permission",
+      "chown",
+      "chmod"
+    ]
+  },
+  {
+    "id": "remote-stat-file-txt",
+    "command": "stat file.txt",
+    "title": "Permission/owner detail dekhna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "File ka owner, permission aur timestamp detail check karne ke liye.",
+    "syntax": "stat file.txt",
+    "example": "stat .env",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ls -lah",
+      "id username"
+    ],
+    "tags": [
+      "permission",
+      "chown",
+      "chmod"
+    ]
+  },
+  {
+    "id": "remote-namei-l-var-www-site-public",
+    "command": "namei -l /var/www/site/public",
+    "title": "Path permission chain check",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Parent directories me permission issue debug karne ke liye.",
+    "syntax": "namei -l /var/www/site/public",
+    "example": "namei -l /var/www/artisanal_byte/public",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ls -lah",
+      "id username"
+    ],
+    "tags": [
+      "permission",
+      "chown",
+      "chmod"
+    ]
+  },
+  {
+    "id": "remote-ssh-keygen-t-ed25519-c-email-example-com",
+    "command": "ssh-keygen -t ed25519 -C \"email@example.com\"",
+    "title": "SSH key generate karna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "GitHub/server login ke liye new SSH key pair banane ke liye.",
+    "syntax": "ssh-keygen -t ed25519 -C \"email@example.com\"",
+    "example": "ssh-keygen -t ed25519 -C \"sahil@example.com\"",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ssh -i",
+      "chmod 600"
+    ],
+    "tags": [
+      "ssh-key",
+      "security"
+    ]
+  },
+  {
+    "id": "remote-cat-ssh-id-ed25519-pub",
+    "command": "cat ~/.ssh/id_ed25519.pub",
+    "title": "Public key print karna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Public SSH key copy karke GitHub/server me add karne ke liye.",
+    "syntax": "cat ~/.ssh/id_ed25519.pub",
+    "example": "cat ~/.ssh/id_ed25519.pub",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ssh -i",
+      "chmod 600"
+    ],
+    "tags": [
+      "ssh-key",
+      "security"
+    ]
+  },
+  {
+    "id": "remote-ssh-copy-id-user-server",
+    "command": "ssh-copy-id user@server",
+    "title": "Public key server par install karna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Password login ke baad SSH key login enable karne ke liye.",
+    "syntax": "ssh-copy-id user@server",
+    "example": "ssh-copy-id sahil@217.216.79.214",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ssh -i",
+      "chmod 600"
+    ],
+    "tags": [
+      "ssh-key",
+      "security"
+    ]
+  },
+  {
+    "id": "remote-eval-ssh-agent-s",
+    "command": "eval \"$(ssh-agent -s)\"",
+    "title": "SSH agent start karna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Local SSH agent start karne ke liye.",
+    "syntax": "eval \"$(ssh-agent -s)\"",
+    "example": "eval \"$(ssh-agent -s)\"",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ssh -i",
+      "chmod 600"
+    ],
+    "tags": [
+      "ssh-key",
+      "security"
+    ]
+  },
+  {
+    "id": "remote-ssh-add-ssh-id-ed25519",
+    "command": "ssh-add ~/.ssh/id_ed25519",
+    "title": "SSH key agent me add karna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Private key ko SSH agent me load karne ke liye.",
+    "syntax": "ssh-add ~/.ssh/id_ed25519",
+    "example": "ssh-add ~/.ssh/id_ed25519",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ssh -i",
+      "chmod 600"
+    ],
+    "tags": [
+      "ssh-key",
+      "security"
+    ]
+  },
+  {
+    "id": "remote-ssh-add-l",
+    "command": "ssh-add -l",
+    "title": "Loaded SSH keys list",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Agent me kaunsi keys loaded hain check karne ke liye.",
+    "syntax": "ssh-add -l",
+    "example": "ssh-add -l",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ssh -i",
+      "chmod 600"
+    ],
+    "tags": [
+      "ssh-key",
+      "security"
+    ]
+  },
+  {
+    "id": "remote-ssh-keyscan-github-com-ssh-known-hosts",
+    "command": "ssh-keyscan github.com >> ~/.ssh/known_hosts",
+    "title": "Known hosts add karna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "CI/server me host verification prompt avoid karne ke liye.",
+    "syntax": "ssh-keyscan github.com >> ~/.ssh/known_hosts",
+    "example": "ssh-keyscan github.com >> ~/.ssh/known_hosts",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "ssh -i",
+      "chmod 600"
+    ],
+    "tags": [
+      "ssh-key",
+      "security"
+    ]
+  },
+  {
+    "id": "remote-systemctl-status-nginx",
+    "command": "systemctl status nginx",
+    "title": "Nginx status check",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Nginx service running hai ya failed ye check karne ke liye.",
+    "syntax": "systemctl status nginx",
+    "example": "systemctl status nginx",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "systemctl",
+      "journalctl"
+    ],
+    "tags": [
+      "server",
+      "service",
+      "debug"
+    ]
+  },
+  {
+    "id": "remote-systemctl-restart-nginx",
+    "command": "systemctl restart nginx",
+    "title": "Nginx restart karna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Nginx config/deploy ke baad service restart karne ke liye.",
+    "syntax": "systemctl restart nginx",
+    "example": "systemctl restart nginx",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "systemctl",
+      "journalctl"
+    ],
+    "tags": [
+      "server",
+      "service",
+      "debug"
+    ]
+  },
+  {
+    "id": "remote-systemctl-reload-nginx",
+    "command": "systemctl reload nginx",
+    "title": "Nginx reload karna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Downtime kam rakhte hue config reload karne ke liye.",
+    "syntax": "systemctl reload nginx",
+    "example": "systemctl reload nginx",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "systemctl",
+      "journalctl"
+    ],
+    "tags": [
+      "server",
+      "service",
+      "debug"
+    ]
+  },
+  {
+    "id": "remote-nginx-t",
+    "command": "nginx -t",
+    "title": "Nginx config test",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Restart/reload se pehle config syntax verify karne ke liye.",
+    "syntax": "nginx -t",
+    "example": "nginx -t",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "systemctl",
+      "journalctl"
+    ],
+    "tags": [
+      "server",
+      "service",
+      "debug"
+    ]
+  },
+  {
+    "id": "remote-systemctl-status-php8-4-fpm",
+    "command": "systemctl status php8.4-fpm",
+    "title": "PHP-FPM status check",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Laravel/PHP site ke PHP-FPM service status check karne ke liye.",
+    "syntax": "systemctl status php8.4-fpm",
+    "example": "systemctl status php8.4-fpm",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "systemctl",
+      "journalctl"
+    ],
+    "tags": [
+      "server",
+      "service",
+      "debug"
+    ]
+  },
+  {
+    "id": "remote-systemctl-restart-php8-4-fpm",
+    "command": "systemctl restart php8.4-fpm",
+    "title": "PHP-FPM restart",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "PHP config/deploy ke baad PHP-FPM restart karne ke liye.",
+    "syntax": "systemctl restart php8.4-fpm",
+    "example": "systemctl restart php8.4-fpm",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "systemctl",
+      "journalctl"
+    ],
+    "tags": [
+      "server",
+      "service",
+      "debug"
+    ]
+  },
+  {
+    "id": "remote-journalctl-u-nginx-n-100-no-pager",
+    "command": "journalctl -u nginx -n 100 --no-pager",
+    "title": "Nginx service logs",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Nginx service ke recent logs dekhne ke liye.",
+    "syntax": "journalctl -u nginx -n 100 --no-pager",
+    "example": "journalctl -u nginx -n 100 --no-pager",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "systemctl",
+      "journalctl"
+    ],
+    "tags": [
+      "server",
+      "service",
+      "debug"
+    ]
+  },
+  {
+    "id": "remote-journalctl-u-php8-4-fpm-f",
+    "command": "journalctl -u php8.4-fpm -f",
+    "title": "PHP-FPM live logs",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "PHP-FPM service logs realtime dekhne ke liye.",
+    "syntax": "journalctl -u php8.4-fpm -f",
+    "example": "journalctl -u php8.4-fpm -f",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "systemctl",
+      "journalctl"
+    ],
+    "tags": [
+      "server",
+      "service",
+      "debug"
+    ]
+  },
+  {
+    "id": "remote-ps-aux-grep-nginx",
+    "command": "ps aux | grep nginx",
+    "title": "Process search",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Nginx process running hai ya nahi check karne ke liye.",
+    "syntax": "ps aux | grep nginx",
+    "example": "ps aux | grep nginx",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "systemctl",
+      "journalctl"
+    ],
+    "tags": [
+      "server",
+      "service",
+      "debug"
+    ]
+  },
+  {
+    "id": "remote-kill-9-pid",
+    "command": "kill -9 PID",
+    "title": "Process force kill",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Stuck process ko forcefully stop karne ke liye.",
+    "syntax": "kill -9 PID",
+    "example": "kill -9 1234",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "systemctl",
+      "journalctl"
+    ],
+    "tags": [
+      "server",
+      "service",
+      "debug"
+    ]
+  },
+  {
+    "id": "remote-ss-tulpn",
+    "command": "ss -tulpn",
+    "title": "Open ports check",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Server par kaunse ports listening hain dekhne ke liye.",
+    "syntax": "ss -tulpn",
+    "example": "ss -tulpn",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "systemctl",
+      "journalctl"
+    ],
+    "tags": [
+      "server",
+      "service",
+      "debug"
+    ]
+  },
+  {
+    "id": "remote-curl-i-https-example-com",
+    "command": "curl -I https://example.com",
+    "title": "HTTP headers check",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Site status, redirect aur headers verify karne ke liye.",
+    "syntax": "curl -I https://example.com",
+    "example": "curl -I https://saifinance.com.au",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "systemctl",
+      "journalctl"
+    ],
+    "tags": [
+      "server",
+      "service",
+      "debug"
+    ]
+  },
+  {
+    "id": "remote-curl-vk-https-example-com",
+    "command": "curl -vk https://example.com",
+    "title": "SSL/HTTP verbose debug",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "SSL handshake ya HTTP issue debug karne ke liye.",
+    "syntax": "curl -vk https://example.com",
+    "example": "curl -vk https://example.com",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "systemctl",
+      "journalctl"
+    ],
+    "tags": [
+      "server",
+      "service",
+      "debug"
+    ]
+  },
+  {
+    "id": "remote-adduser-username",
+    "command": "adduser username",
+    "title": "New Linux user create",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Server par new user create karne ke liye.",
+    "syntax": "adduser username",
+    "example": "adduser sahil",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "id username",
+      "groups username"
+    ],
+    "tags": [
+      "user-management",
+      "linux"
+    ]
+  },
+  {
+    "id": "remote-usermod-ag-sudo-username",
+    "command": "usermod -aG sudo username",
+    "title": "User ko sudo group me add",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "User ko sudo permission dene ke liye.",
+    "syntax": "usermod -aG sudo username",
+    "example": "usermod -aG sudo sahil",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "id username",
+      "groups username"
+    ],
+    "tags": [
+      "user-management",
+      "linux"
+    ]
+  },
+  {
+    "id": "remote-passwd-username",
+    "command": "passwd username",
+    "title": "User password change",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Linux user ka password set/change karne ke liye.",
+    "syntax": "passwd username",
+    "example": "passwd sahil",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "id username",
+      "groups username"
+    ],
+    "tags": [
+      "user-management",
+      "linux"
+    ]
+  },
+  {
+    "id": "remote-deluser-username",
+    "command": "deluser username",
+    "title": "User delete karna",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Unused Linux user remove karne ke liye.",
+    "syntax": "deluser username",
+    "example": "deluser olduser",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "id username",
+      "groups username"
+    ],
+    "tags": [
+      "user-management",
+      "linux"
+    ]
+  },
+  {
+    "id": "remote-deluser-username-sudo",
+    "command": "deluser username sudo",
+    "title": "Sudo group se remove",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "User ki sudo access revoke karne ke liye.",
+    "syntax": "deluser username sudo",
+    "example": "deluser sahil sudo",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "id username",
+      "groups username"
+    ],
+    "tags": [
+      "user-management",
+      "linux"
+    ]
+  },
+  {
+    "id": "remote-getent-passwd-username",
+    "command": "getent passwd username",
+    "title": "User exists check",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Server par user exist karta hai ya nahi verify karne ke liye.",
+    "syntax": "getent passwd username",
+    "example": "getent passwd sahil",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "id username",
+      "groups username"
+    ],
+    "tags": [
+      "user-management",
+      "linux"
+    ]
+  },
+  {
+    "id": "remote-last-a-head",
+    "command": "last -a | head",
+    "title": "Recent login history",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Server par recent logins check karne ke liye.",
+    "syntax": "last -a | head",
+    "example": "last -a | head",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "id username",
+      "groups username"
+    ],
+    "tags": [
+      "user-management",
+      "linux"
+    ]
+  },
+  {
+    "id": "remote-lastlog",
+    "command": "lastlog",
+    "title": "All users last login",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Users ka last login audit karne ke liye.",
+    "syntax": "lastlog",
+    "example": "lastlog",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "id username",
+      "groups username"
+    ],
+    "tags": [
+      "user-management",
+      "linux"
+    ]
+  },
+  {
+    "id": "remote-sftp-user-server",
+    "command": "sftp user@server",
+    "title": "Interactive SFTP session",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "Interactive file upload/download shell open karne ke liye.",
+    "syntax": "sftp user@server",
+    "example": "sftp root@217.216.79.214",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp",
+      "rsync"
+    ],
+    "tags": [
+      "sftp",
+      "file-transfer"
+    ]
+  },
+  {
+    "id": "remote-put-file-zip",
+    "command": "put file.zip",
+    "title": "SFTP me file upload",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "SFTP shell ke andar local file upload karne ke liye.",
+    "syntax": "put file.zip",
+    "example": "put wordpres.zip",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp",
+      "rsync"
+    ],
+    "tags": [
+      "sftp",
+      "file-transfer"
+    ]
+  },
+  {
+    "id": "remote-get-file-zip",
+    "command": "get file.zip",
+    "title": "SFTP me file download",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "SFTP shell ke andar remote file download karne ke liye.",
+    "syntax": "get file.zip",
+    "example": "get backup.zip",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp",
+      "rsync"
+    ],
+    "tags": [
+      "sftp",
+      "file-transfer"
+    ]
+  },
+  {
+    "id": "remote-mput-zip",
+    "command": "mput *.zip",
+    "title": "SFTP multiple upload",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "SFTP shell me multiple files pattern se upload karne ke liye.",
+    "syntax": "mput *.zip",
+    "example": "mput *.zip",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp",
+      "rsync"
+    ],
+    "tags": [
+      "sftp",
+      "file-transfer"
+    ]
+  },
+  {
+    "id": "remote-mget-log",
+    "command": "mget *.log",
+    "title": "SFTP multiple download",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "SFTP shell me multiple logs/files download karne ke liye.",
+    "syntax": "mget *.log",
+    "example": "mget *.log",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp",
+      "rsync"
+    ],
+    "tags": [
+      "sftp",
+      "file-transfer"
+    ]
+  },
+  {
+    "id": "remote-lcd-d-backups",
+    "command": "lcd D:\\Backups",
+    "title": "SFTP local directory change",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "SFTP shell me local Windows folder change karne ke liye.",
+    "syntax": "lcd D:\\Backups",
+    "example": "lcd D:\\Backups",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp",
+      "rsync"
+    ],
+    "tags": [
+      "sftp",
+      "file-transfer"
+    ]
+  },
+  {
+    "id": "remote-cd-var-www-site",
+    "command": "cd /var/www/site",
+    "title": "SFTP remote directory change",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "SFTP shell me remote folder change karne ke liye.",
+    "syntax": "cd /var/www/site",
+    "example": "cd /var/www/artisanal_byte",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp",
+      "rsync"
+    ],
+    "tags": [
+      "sftp",
+      "file-transfer"
+    ]
+  },
+  {
+    "id": "remote-test-netconnection-server-port-22",
+    "command": "Test-NetConnection server -Port 22",
+    "title": "Windows se port test",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "Windows PowerShell me SSH port reachable hai ya nahi test karne ke liye.",
+    "syntax": "Test-NetConnection server -Port 22",
+    "example": "Test-NetConnection 217.216.79.214 -Port 22",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp",
+      "ssh"
+    ],
+    "tags": [
+      "windows",
+      "powershell",
+      "ssh"
+    ]
+  },
+  {
+    "id": "remote-get-content-ssh-id-ed25519-pub",
+    "command": "Get-Content ~/.ssh/id_ed25519.pub",
+    "title": "Windows me public key read",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "PowerShell se SSH public key print/copy karne ke liye.",
+    "syntax": "Get-Content ~/.ssh/id_ed25519.pub",
+    "example": "Get-Content ~/.ssh/id_ed25519.pub",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp",
+      "ssh"
+    ],
+    "tags": [
+      "windows",
+      "powershell",
+      "ssh"
+    ]
+  },
+  {
+    "id": "remote-remove-item-file-zip",
+    "command": "Remove-Item file.zip",
+    "title": "Windows file delete",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "PowerShell se local file delete karne ke liye.",
+    "syntax": "Remove-Item file.zip",
+    "example": "Remove-Item wordpres.zip",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp",
+      "ssh"
+    ],
+    "tags": [
+      "windows",
+      "powershell",
+      "ssh"
+    ]
+  },
+  {
+    "id": "remote-expand-archive-file-zip-destinationpath-folder",
+    "command": "Expand-Archive file.zip -DestinationPath folder",
+    "title": "Windows zip extract",
+    "category": "Remote Access & Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "PowerShell se local zip extract karne ke liye.",
+    "syntax": "Expand-Archive file.zip -DestinationPath folder",
+    "example": "Expand-Archive wordpres.zip -DestinationPath .\\wordpress",
+    "output_explanation": "Success hone par command ka result/transfer progress terminal me dikhega; error aaye to path, permission, SSH key, password, port aur firewall check karo.",
+    "warning": "Production server par run karne se pehle host, user, path aur command impact verify karo.",
+    "related_commands": [
+      "scp",
+      "ssh"
+    ],
+    "tags": [
+      "windows",
+      "powershell",
+      "ssh"
+    ]
+  }
+]

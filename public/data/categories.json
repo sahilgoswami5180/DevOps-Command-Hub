@@ -1,25 +1,122 @@
 [
-  { "id": "all", "name": "All Commands", "file": null },
-  { "id": "linux", "name": "Linux", "file": "linux.commands.json" },
-  { "id": "git", "name": "Git / GitHub", "file": "git.commands.json" },
-  { "id": "docker", "name": "Docker", "file": "docker.commands.json" },
-  { "id": "kubernetes", "name": "Kubernetes", "file": "kubernetes.commands.json" },
-  { "id": "nginx", "name": "Nginx", "file": "nginx.commands.json" },
-  { "id": "apache", "name": "Apache", "file": "apache.commands.json" },
-  { "id": "cicd", "name": "CI/CD", "file": "cicd.commands.json" },
-  { "id": "jenkins", "name": "Jenkins", "file": "jenkins.commands.json" },
-  { "id": "github-actions", "name": "GitHub Actions", "file": "github-actions.commands.json" },
-  { "id": "aws", "name": "AWS CLI", "file": "aws.commands.json" },
-  { "id": "gcp", "name": "GCP CLI", "file": "gcp.commands.json" },
-  { "id": "azure", "name": "Azure CLI", "file": "azure.commands.json" },
-  { "id": "terraform", "name": "Terraform", "file": "terraform.commands.json" },
-  { "id": "ansible", "name": "Ansible", "file": "ansible.commands.json" },
-  { "id": "helm", "name": "Helm", "file": "helm.commands.json" },
-  { "id": "monitoring", "name": "Prometheus / Grafana", "file": "monitoring.commands.json" },
-  { "id": "database-backup", "name": "PostgreSQL / MySQL Backup", "file": "database-backup.commands.json" },
-  { "id": "security", "name": "Server Security", "file": "security.commands.json" },
-  { "id": "ssl-certbot", "name": "SSL / Certbot", "file": "ssl-certbot.commands.json" },
-  { "id": "firewall", "name": "Firewall", "file": "firewall.commands.json" },
-  { "id": "system-monitoring", "name": "System Monitoring", "file": "system-monitoring.commands.json" },
-  { "id": "logs-debugging", "name": "Logs / Debugging", "file": "logs-debugging.commands.json" }
+  {
+    "id": "all",
+    "name": "All Commands",
+    "file": null
+  },
+  {
+    "id": "linux",
+    "name": "Linux",
+    "file": "linux.commands.json"
+  },
+  {
+    "id": "git",
+    "name": "Git / GitHub",
+    "file": "git.commands.json"
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "file": "docker.commands.json"
+  },
+  {
+    "id": "kubernetes",
+    "name": "Kubernetes",
+    "file": "kubernetes.commands.json"
+  },
+  {
+    "id": "nginx",
+    "name": "Nginx",
+    "file": "nginx.commands.json"
+  },
+  {
+    "id": "apache",
+    "name": "Apache",
+    "file": "apache.commands.json"
+  },
+  {
+    "id": "cicd",
+    "name": "CI/CD",
+    "file": "cicd.commands.json"
+  },
+  {
+    "id": "jenkins",
+    "name": "Jenkins",
+    "file": "jenkins.commands.json"
+  },
+  {
+    "id": "github-actions",
+    "name": "GitHub Actions",
+    "file": "github-actions.commands.json"
+  },
+  {
+    "id": "aws",
+    "name": "AWS CLI",
+    "file": "aws.commands.json"
+  },
+  {
+    "id": "gcp",
+    "name": "GCP CLI",
+    "file": "gcp.commands.json"
+  },
+  {
+    "id": "azure",
+    "name": "Azure CLI",
+    "file": "azure.commands.json"
+  },
+  {
+    "id": "terraform",
+    "name": "Terraform",
+    "file": "terraform.commands.json"
+  },
+  {
+    "id": "ansible",
+    "name": "Ansible",
+    "file": "ansible.commands.json"
+  },
+  {
+    "id": "helm",
+    "name": "Helm",
+    "file": "helm.commands.json"
+  },
+  {
+    "id": "monitoring",
+    "name": "Prometheus / Grafana",
+    "file": "monitoring.commands.json"
+  },
+  {
+    "id": "database-backup",
+    "name": "PostgreSQL / MySQL Backup",
+    "file": "database-backup.commands.json"
+  },
+  {
+    "id": "security",
+    "name": "Server Security",
+    "file": "security.commands.json"
+  },
+  {
+    "id": "ssl-certbot",
+    "name": "SSL / Certbot",
+    "file": "ssl-certbot.commands.json"
+  },
+  {
+    "id": "firewall",
+    "name": "Firewall",
+    "file": "firewall.commands.json"
+  },
+  {
+    "id": "system-monitoring",
+    "name": "System Monitoring",
+    "file": "system-monitoring.commands.json"
+  },
+  {
+    "id": "logs-debugging",
+    "name": "Logs / Debugging",
+    "file": "logs-debugging.commands.json"
+  },
+  {
+    "id": "remote-server-ops",
+    "name": "Remote Access & Server Ops",
+    "file": "remote-server-ops.commands.json"
+  }
 ]

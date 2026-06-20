@@ -23,3 +23,29 @@ select {
     background: #06b6d4;
     color: #ffffff;
 }
+
+.command-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: #06b6d4 transparent;
+}
+
+.command-scroll::-webkit-scrollbar {
+    width: 10px;
+}
+
+.command-scroll::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.command-scroll::-webkit-scrollbar-thumb {
+    background: #06b6d4;
+    border: 3px solid transparent;
+    border-radius: 999px;
+    background-clip: content-box;
+}
+
+.command-scroll::-webkit-scrollbar-thumb:hover {
+    background: #0891b2;
+    border: 3px solid transparent;
+    background-clip: content-box;
+}

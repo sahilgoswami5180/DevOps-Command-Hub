@@ -181,7 +181,7 @@ const activeCategoryCount = computed(() => {
     >
         <div class="flex min-h-screen">
             <aside
-                class="fixed inset-y-0 left-0 z-40 w-80 -translate-x-full border-r border-slate-200 bg-white/95 p-5 shadow-2xl backdrop-blur transition dark:border-slate-800 dark:bg-slate-900/95 lg:sticky lg:top-0 lg:translate-x-0 lg:shadow-none"
+                class="fixed inset-y-0 left-0 z-40 h-screen w-80 -translate-x-full border-r border-slate-200 bg-white/95 p-5 shadow-2xl backdrop-blur transition dark:border-slate-800 dark:bg-slate-900/95 lg:sticky lg:top-0 lg:translate-x-0 lg:shadow-none"
                 :class="{ 'translate-x-0': isMobileSidebarOpen }"
             >
                 <div class="mb-8 flex items-start justify-between gap-4">
@@ -210,7 +210,7 @@ const activeCategoryCount = computed(() => {
                     </button>
                 </div>
 
-                <nav class="space-y-1 overflow-y-auto pb-8">
+                <nav class="command-scroll max-h-[calc(100vh-11rem)] space-y-1 overflow-y-auto pb-8">
                     <button
                         v-for="category in categories"
                         :key="category.id"
@@ -441,7 +441,10 @@ const activeCategoryCount = computed(() => {
                         </p>
                     </div>
 
-                    <div v-else class="mt-6 space-y-4">
+                    <div
+                        v-else
+                        class="command-scroll mt-6 max-h-[calc(100vh-27rem)] space-y-4 overflow-y-auto rounded-[2rem] pr-2 pb-4 sm:max-h-[calc(100vh-25rem)]"
+                    >
                         <article
                             v-for="command in filteredCommands"
                             :key="command.id"
