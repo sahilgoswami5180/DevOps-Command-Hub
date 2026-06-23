@@ -1,0 +1,444 @@
+[
+  {
+    "id": "cpanel-hosting-001-curl-i-https-cpanel-example-com-2083",
+    "command": "curl -I https://cpanel.example.com:2083",
+    "title": "cPanel/hosting command: curl -I https://cpanel.example.com:2083",
+    "category": "cPanel / Shared Hosting Ops",
+    "difficulty": "Intermediate",
+    "use_case": "cPanel/hosting command: curl -I https://cpanel.example.com:2083 ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "curl -I https://cpanel.example.com:2083",
+    "example": "curl -I https://cpanel.example.com:2083",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cpanel",
+      "hosting"
+    ]
+  },
+  {
+    "id": "cpanel-hosting-002-curl-i-https-webmail-example-com-2096",
+    "command": "curl -I https://webmail.example.com:2096",
+    "title": "cPanel/hosting command: curl -I https://webmail.example.com:2096",
+    "category": "cPanel / Shared Hosting Ops",
+    "difficulty": "Intermediate",
+    "use_case": "cPanel/hosting command: curl -I https://webmail.example.com:2096 ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "curl -I https://webmail.example.com:2096",
+    "example": "curl -I https://webmail.example.com:2096",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cpanel",
+      "hosting"
+    ]
+  },
+  {
+    "id": "cpanel-hosting-003-dig-mx-example-com",
+    "command": "dig MX example.com",
+    "title": "cPanel/hosting command: dig MX example.com",
+    "category": "cPanel / Shared Hosting Ops",
+    "difficulty": "Intermediate",
+    "use_case": "cPanel/hosting command: dig MX example.com ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "dig MX example.com",
+    "example": "dig MX example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cpanel",
+      "hosting"
+    ]
+  },
+  {
+    "id": "cpanel-hosting-004-dig-txt-example-com",
+    "command": "dig TXT example.com",
+    "title": "cPanel/hosting command: dig TXT example.com",
+    "category": "cPanel / Shared Hosting Ops",
+    "difficulty": "Intermediate",
+    "use_case": "cPanel/hosting command: dig TXT example.com ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "dig TXT example.com",
+    "example": "dig TXT example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cpanel",
+      "hosting"
+    ]
+  },
+  {
+    "id": "cpanel-hosting-005-openssl-s-client-connect-mail-example-com-465",
+    "command": "openssl s_client -connect mail.example.com:465",
+    "title": "cPanel/hosting command: openssl s_client -connect mail.example.com:465",
+    "category": "cPanel / Shared Hosting Ops",
+    "difficulty": "Intermediate",
+    "use_case": "cPanel/hosting command: openssl s_client -connect mail.example.com:465 ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "openssl s_client -connect mail.example.com:465",
+    "example": "openssl s_client -connect mail.example.com:465",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cpanel",
+      "hosting"
+    ]
+  },
+  {
+    "id": "cpanel-hosting-006-openssl-s-client-connect-mail-example-com-993",
+    "command": "openssl s_client -connect mail.example.com:993",
+    "title": "cPanel/hosting command: openssl s_client -connect mail.example.com:993",
+    "category": "cPanel / Shared Hosting Ops",
+    "difficulty": "Intermediate",
+    "use_case": "cPanel/hosting command: openssl s_client -connect mail.example.com:993 ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "openssl s_client -connect mail.example.com:993",
+    "example": "openssl s_client -connect mail.example.com:993",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cpanel",
+      "hosting"
+    ]
+  },
+  {
+    "id": "cpanel-hosting-007-rsync-avz-public-html-user-server-home-user-public-html",
+    "command": "rsync -avz public_html/ user@server:/home/user/public_html/",
+    "title": "cPanel/hosting command: rsync -avz public_html/ user@server:/home/user/public_html/",
+    "category": "cPanel / Shared Hosting Ops",
+    "difficulty": "Intermediate",
+    "use_case": "cPanel/hosting command: rsync -avz public_html/ user@server:/home/user/public_html/ ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "rsync -avz public_html/ user@server:/home/user/public_html/",
+    "example": "rsync -avz public_html/ user@server:/home/user/public_html/",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cpanel",
+      "hosting"
+    ]
+  },
+  {
+    "id": "cpanel-hosting-008-zip-r-public-html-backup-zip-public-html",
+    "command": "zip -r public_html-backup.zip public_html",
+    "title": "cPanel/hosting command: zip -r public_html-backup.zip public_html",
+    "category": "cPanel / Shared Hosting Ops",
+    "difficulty": "Intermediate",
+    "use_case": "cPanel/hosting command: zip -r public_html-backup.zip public_html ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "zip -r public_html-backup.zip public_html",
+    "example": "zip -r public_html-backup.zip public_html",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cpanel",
+      "hosting"
+    ]
+  },
+  {
+    "id": "cpanel-hosting-009-unzip-public-html-backup-zip-d-public-html-restore",
+    "command": "unzip public_html-backup.zip -d public_html-restore",
+    "title": "cPanel/hosting command: unzip public_html-backup.zip -d public_html-restore",
+    "category": "cPanel / Shared Hosting Ops",
+    "difficulty": "Intermediate",
+    "use_case": "cPanel/hosting command: unzip public_html-backup.zip -d public_html-restore ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "unzip public_html-backup.zip -d public_html-restore",
+    "example": "unzip public_html-backup.zip -d public_html-restore",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cpanel",
+      "hosting"
+    ]
+  },
+  {
+    "id": "cpanel-hosting-010-find-public-html-type-f-name-php-wc-l",
+    "command": "find public_html -type f -name \"*.php\" | wc -l",
+    "title": "cPanel/hosting command: find public_html -type f -name \"*.php\" | wc -l",
+    "category": "cPanel / Shared Hosting Ops",
+    "difficulty": "Intermediate",
+    "use_case": "cPanel/hosting command: find public_html -type f -name \"*.php\" | wc -l ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "find public_html -type f -name \"*.php\" | wc -l",
+    "example": "find public_html -type f -name \"*.php\" | wc -l",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cpanel",
+      "hosting"
+    ]
+  },
+  {
+    "id": "cpanel-hosting-011-find-public-html-type-f-mtime-1",
+    "command": "find public_html -type f -mtime -1",
+    "title": "cPanel/hosting command: find public_html -type f -mtime -1",
+    "category": "cPanel / Shared Hosting Ops",
+    "difficulty": "Intermediate",
+    "use_case": "cPanel/hosting command: find public_html -type f -mtime -1 ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "find public_html -type f -mtime -1",
+    "example": "find public_html -type f -mtime -1",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cpanel",
+      "hosting"
+    ]
+  },
+  {
+    "id": "cpanel-hosting-012-du-sh-public-html",
+    "command": "du -sh public_html",
+    "title": "cPanel/hosting command: du -sh public_html",
+    "category": "cPanel / Shared Hosting Ops",
+    "difficulty": "Intermediate",
+    "use_case": "cPanel/hosting command: du -sh public_html ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "du -sh public_html",
+    "example": "du -sh public_html",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cpanel",
+      "hosting"
+    ]
+  },
+  {
+    "id": "cpanel-hosting-013-du-sh-mail",
+    "command": "du -sh mail",
+    "title": "cPanel/hosting command: du -sh mail",
+    "category": "cPanel / Shared Hosting Ops",
+    "difficulty": "Intermediate",
+    "use_case": "cPanel/hosting command: du -sh mail ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "du -sh mail",
+    "example": "du -sh mail",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cpanel",
+      "hosting"
+    ]
+  },
+  {
+    "id": "cpanel-hosting-014-grep-r-db-name-public-html-wp-config-php",
+    "command": "grep -R \"DB_NAME\" public_html/wp-config.php",
+    "title": "cPanel/hosting command: grep -R \"DB_NAME\" public_html/wp-config.php",
+    "category": "cPanel / Shared Hosting Ops",
+    "difficulty": "Intermediate",
+    "use_case": "cPanel/hosting command: grep -R \"DB_NAME\" public_html/wp-config.php ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "grep -R \"DB_NAME\" public_html/wp-config.php",
+    "example": "grep -R \"DB_NAME\" public_html/wp-config.php",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cpanel",
+      "hosting"
+    ]
+  },
+  {
+    "id": "cpanel-hosting-015-test-netconnection-hosting-example-com-port-2082",
+    "command": "Test-NetConnection hosting.example.com -Port 2082",
+    "title": "cPanel hosting port 2082 check karna",
+    "category": "cPanel / Shared Hosting Ops",
+    "difficulty": "Beginner",
+    "use_case": "cPanel hosting port 2082 check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Test-NetConnection hosting.example.com -Port 2082",
+    "example": "Test-NetConnection hosting.example.com -Port 2082",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cpanel",
+      "port"
+    ]
+  },
+  {
+    "id": "cpanel-hosting-016-test-netconnection-hosting-example-com-port-2083",
+    "command": "Test-NetConnection hosting.example.com -Port 2083",
+    "title": "cPanel hosting port 2083 check karna",
+    "category": "cPanel / Shared Hosting Ops",
+    "difficulty": "Beginner",
+    "use_case": "cPanel hosting port 2083 check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Test-NetConnection hosting.example.com -Port 2083",
+    "example": "Test-NetConnection hosting.example.com -Port 2083",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cpanel",
+      "port"
+    ]
+  },
+  {
+    "id": "cpanel-hosting-017-test-netconnection-hosting-example-com-port-2086",
+    "command": "Test-NetConnection hosting.example.com -Port 2086",
+    "title": "cPanel hosting port 2086 check karna",
+    "category": "cPanel / Shared Hosting Ops",
+    "difficulty": "Beginner",
+    "use_case": "cPanel hosting port 2086 check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Test-NetConnection hosting.example.com -Port 2086",
+    "example": "Test-NetConnection hosting.example.com -Port 2086",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cpanel",
+      "port"
+    ]
+  },
+  {
+    "id": "cpanel-hosting-018-test-netconnection-hosting-example-com-port-2087",
+    "command": "Test-NetConnection hosting.example.com -Port 2087",
+    "title": "cPanel hosting port 2087 check karna",
+    "category": "cPanel / Shared Hosting Ops",
+    "difficulty": "Beginner",
+    "use_case": "cPanel hosting port 2087 check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Test-NetConnection hosting.example.com -Port 2087",
+    "example": "Test-NetConnection hosting.example.com -Port 2087",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cpanel",
+      "port"
+    ]
+  },
+  {
+    "id": "cpanel-hosting-019-test-netconnection-hosting-example-com-port-2095",
+    "command": "Test-NetConnection hosting.example.com -Port 2095",
+    "title": "cPanel hosting port 2095 check karna",
+    "category": "cPanel / Shared Hosting Ops",
+    "difficulty": "Beginner",
+    "use_case": "cPanel hosting port 2095 check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Test-NetConnection hosting.example.com -Port 2095",
+    "example": "Test-NetConnection hosting.example.com -Port 2095",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cpanel",
+      "port"
+    ]
+  },
+  {
+    "id": "cpanel-hosting-020-test-netconnection-hosting-example-com-port-2096",
+    "command": "Test-NetConnection hosting.example.com -Port 2096",
+    "title": "cPanel hosting port 2096 check karna",
+    "category": "cPanel / Shared Hosting Ops",
+    "difficulty": "Beginner",
+    "use_case": "cPanel hosting port 2096 check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Test-NetConnection hosting.example.com -Port 2096",
+    "example": "Test-NetConnection hosting.example.com -Port 2096",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cpanel",
+      "port"
+    ]
+  },
+  {
+    "id": "cpanel-hosting-021-test-netconnection-hosting-example-com-port-21",
+    "command": "Test-NetConnection hosting.example.com -Port 21",
+    "title": "cPanel hosting port 21 check karna",
+    "category": "cPanel / Shared Hosting Ops",
+    "difficulty": "Beginner",
+    "use_case": "cPanel hosting port 21 check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Test-NetConnection hosting.example.com -Port 21",
+    "example": "Test-NetConnection hosting.example.com -Port 21",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cpanel",
+      "port"
+    ]
+  },
+  {
+    "id": "cpanel-hosting-022-test-netconnection-hosting-example-com-port-22",
+    "command": "Test-NetConnection hosting.example.com -Port 22",
+    "title": "cPanel hosting port 22 check karna",
+    "category": "cPanel / Shared Hosting Ops",
+    "difficulty": "Beginner",
+    "use_case": "cPanel hosting port 22 check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Test-NetConnection hosting.example.com -Port 22",
+    "example": "Test-NetConnection hosting.example.com -Port 22",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cpanel",
+      "port"
+    ]
+  },
+  {
+    "id": "cpanel-hosting-023-test-netconnection-hosting-example-com-port-25",
+    "command": "Test-NetConnection hosting.example.com -Port 25",
+    "title": "cPanel hosting port 25 check karna",
+    "category": "cPanel / Shared Hosting Ops",
+    "difficulty": "Beginner",
+    "use_case": "cPanel hosting port 25 check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Test-NetConnection hosting.example.com -Port 25",
+    "example": "Test-NetConnection hosting.example.com -Port 25",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cpanel",
+      "port"
+    ]
+  },
+  {
+    "id": "cpanel-hosting-024-test-netconnection-hosting-example-com-port-465",
+    "command": "Test-NetConnection hosting.example.com -Port 465",
+    "title": "cPanel hosting port 465 check karna",
+    "category": "cPanel / Shared Hosting Ops",
+    "difficulty": "Beginner",
+    "use_case": "cPanel hosting port 465 check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Test-NetConnection hosting.example.com -Port 465",
+    "example": "Test-NetConnection hosting.example.com -Port 465",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cpanel",
+      "port"
+    ]
+  },
+  {
+    "id": "cpanel-hosting-025-test-netconnection-hosting-example-com-port-587",
+    "command": "Test-NetConnection hosting.example.com -Port 587",
+    "title": "cPanel hosting port 587 check karna",
+    "category": "cPanel / Shared Hosting Ops",
+    "difficulty": "Beginner",
+    "use_case": "cPanel hosting port 587 check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Test-NetConnection hosting.example.com -Port 587",
+    "example": "Test-NetConnection hosting.example.com -Port 587",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cpanel",
+      "port"
+    ]
+  },
+  {
+    "id": "cpanel-hosting-026-test-netconnection-hosting-example-com-port-993",
+    "command": "Test-NetConnection hosting.example.com -Port 993",
+    "title": "cPanel hosting port 993 check karna",
+    "category": "cPanel / Shared Hosting Ops",
+    "difficulty": "Beginner",
+    "use_case": "cPanel hosting port 993 check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Test-NetConnection hosting.example.com -Port 993",
+    "example": "Test-NetConnection hosting.example.com -Port 993",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cpanel",
+      "port"
+    ]
+  }
+]

@@ -1,0 +1,1534 @@
+[
+  {
+    "id": "networking-deep-001-ping-c-4-example-com",
+    "command": "ping -c 4 example.com",
+    "title": "example.com ping test karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "example.com ping test karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "ping -c 4 example.com",
+    "example": "ping -c 4 example.com",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "networking-deep-002-tracepath-example-com",
+    "command": "tracepath example.com",
+    "title": "example.com route path check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "example.com route path check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "tracepath example.com",
+    "example": "tracepath example.com",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "networking-deep-003-mtr-rw-example-com",
+    "command": "mtr -rw example.com",
+    "title": "example.com network loss report banana",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "example.com network loss report banana ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "mtr -rw example.com",
+    "example": "mtr -rw example.com",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "networking-deep-004-curl-i-https-example-com",
+    "command": "curl -I https://example.com",
+    "title": "example.com HTTPS headers check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "example.com HTTPS headers check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "curl -I https://example.com",
+    "example": "curl -I https://example.com",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "networking-deep-005-ping-c-4-google-com",
+    "command": "ping -c 4 google.com",
+    "title": "google.com ping test karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "google.com ping test karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "ping -c 4 google.com",
+    "example": "ping -c 4 google.com",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "networking-deep-006-tracepath-google-com",
+    "command": "tracepath google.com",
+    "title": "google.com route path check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "google.com route path check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "tracepath google.com",
+    "example": "tracepath google.com",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "networking-deep-007-mtr-rw-google-com",
+    "command": "mtr -rw google.com",
+    "title": "google.com network loss report banana",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "google.com network loss report banana ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "mtr -rw google.com",
+    "example": "mtr -rw google.com",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "networking-deep-008-curl-i-https-google-com",
+    "command": "curl -I https://google.com",
+    "title": "google.com HTTPS headers check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "google.com HTTPS headers check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "curl -I https://google.com",
+    "example": "curl -I https://google.com",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "networking-deep-009-ping-c-4-github-com",
+    "command": "ping -c 4 github.com",
+    "title": "github.com ping test karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "github.com ping test karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "ping -c 4 github.com",
+    "example": "ping -c 4 github.com",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "networking-deep-010-tracepath-github-com",
+    "command": "tracepath github.com",
+    "title": "github.com route path check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "github.com route path check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "tracepath github.com",
+    "example": "tracepath github.com",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "networking-deep-011-mtr-rw-github-com",
+    "command": "mtr -rw github.com",
+    "title": "github.com network loss report banana",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "github.com network loss report banana ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "mtr -rw github.com",
+    "example": "mtr -rw github.com",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "networking-deep-012-curl-i-https-github-com",
+    "command": "curl -I https://github.com",
+    "title": "github.com HTTPS headers check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "github.com HTTPS headers check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "curl -I https://github.com",
+    "example": "curl -I https://github.com",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "networking-deep-013-ping-c-4-8-8-8-8",
+    "command": "ping -c 4 8.8.8.8",
+    "title": "8.8.8.8 ping test karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "8.8.8.8 ping test karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "ping -c 4 8.8.8.8",
+    "example": "ping -c 4 8.8.8.8",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "networking-deep-014-tracepath-8-8-8-8",
+    "command": "tracepath 8.8.8.8",
+    "title": "8.8.8.8 route path check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "8.8.8.8 route path check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "tracepath 8.8.8.8",
+    "example": "tracepath 8.8.8.8",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "networking-deep-015-mtr-rw-8-8-8-8",
+    "command": "mtr -rw 8.8.8.8",
+    "title": "8.8.8.8 network loss report banana",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "8.8.8.8 network loss report banana ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "mtr -rw 8.8.8.8",
+    "example": "mtr -rw 8.8.8.8",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "networking-deep-016-curl-i-https-8-8-8-8",
+    "command": "curl -I https://8.8.8.8",
+    "title": "8.8.8.8 HTTPS headers check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "8.8.8.8 HTTPS headers check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "curl -I https://8.8.8.8",
+    "example": "curl -I https://8.8.8.8",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "networking-deep-017-ping-c-4-1-1-1-1",
+    "command": "ping -c 4 1.1.1.1",
+    "title": "1.1.1.1 ping test karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "1.1.1.1 ping test karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "ping -c 4 1.1.1.1",
+    "example": "ping -c 4 1.1.1.1",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "networking-deep-018-tracepath-1-1-1-1",
+    "command": "tracepath 1.1.1.1",
+    "title": "1.1.1.1 route path check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "1.1.1.1 route path check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "tracepath 1.1.1.1",
+    "example": "tracepath 1.1.1.1",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "networking-deep-019-mtr-rw-1-1-1-1",
+    "command": "mtr -rw 1.1.1.1",
+    "title": "1.1.1.1 network loss report banana",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "1.1.1.1 network loss report banana ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "mtr -rw 1.1.1.1",
+    "example": "mtr -rw 1.1.1.1",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "networking-deep-020-curl-i-https-1-1-1-1",
+    "command": "curl -I https://1.1.1.1",
+    "title": "1.1.1.1 HTTPS headers check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "1.1.1.1 HTTPS headers check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "curl -I https://1.1.1.1",
+    "example": "curl -I https://1.1.1.1",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "networking-deep-021-ping-c-4-server-local",
+    "command": "ping -c 4 server.local",
+    "title": "server.local ping test karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "server.local ping test karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "ping -c 4 server.local",
+    "example": "ping -c 4 server.local",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "networking-deep-022-tracepath-server-local",
+    "command": "tracepath server.local",
+    "title": "server.local route path check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "server.local route path check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "tracepath server.local",
+    "example": "tracepath server.local",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "networking-deep-023-mtr-rw-server-local",
+    "command": "mtr -rw server.local",
+    "title": "server.local network loss report banana",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "server.local network loss report banana ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "mtr -rw server.local",
+    "example": "mtr -rw server.local",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "networking-deep-024-curl-i-https-server-local",
+    "command": "curl -I https://server.local",
+    "title": "server.local HTTPS headers check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "server.local HTTPS headers check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "curl -I https://server.local",
+    "example": "curl -I https://server.local",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "networking-deep-025-ping-c-4-api-example-com",
+    "command": "ping -c 4 api.example.com",
+    "title": "api.example.com ping test karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "api.example.com ping test karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "ping -c 4 api.example.com",
+    "example": "ping -c 4 api.example.com",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "networking-deep-026-tracepath-api-example-com",
+    "command": "tracepath api.example.com",
+    "title": "api.example.com route path check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "api.example.com route path check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "tracepath api.example.com",
+    "example": "tracepath api.example.com",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "networking-deep-027-mtr-rw-api-example-com",
+    "command": "mtr -rw api.example.com",
+    "title": "api.example.com network loss report banana",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "api.example.com network loss report banana ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "mtr -rw api.example.com",
+    "example": "mtr -rw api.example.com",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "networking-deep-028-curl-i-https-api-example-com",
+    "command": "curl -I https://api.example.com",
+    "title": "api.example.com HTTPS headers check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "api.example.com HTTPS headers check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "curl -I https://api.example.com",
+    "example": "curl -I https://api.example.com",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "networking-deep-029-ping-c-4-db-example-com",
+    "command": "ping -c 4 db.example.com",
+    "title": "db.example.com ping test karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "db.example.com ping test karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "ping -c 4 db.example.com",
+    "example": "ping -c 4 db.example.com",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "networking-deep-030-tracepath-db-example-com",
+    "command": "tracepath db.example.com",
+    "title": "db.example.com route path check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "db.example.com route path check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "tracepath db.example.com",
+    "example": "tracepath db.example.com",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "networking-deep-031-mtr-rw-db-example-com",
+    "command": "mtr -rw db.example.com",
+    "title": "db.example.com network loss report banana",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "db.example.com network loss report banana ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "mtr -rw db.example.com",
+    "example": "mtr -rw db.example.com",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "networking-deep-032-curl-i-https-db-example-com",
+    "command": "curl -I https://db.example.com",
+    "title": "db.example.com HTTPS headers check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "db.example.com HTTPS headers check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "curl -I https://db.example.com",
+    "example": "curl -I https://db.example.com",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network"
+    ]
+  },
+  {
+    "id": "networking-deep-033-nc-vz-example-com-20",
+    "command": "nc -vz example.com 20",
+    "title": "Linux se port 20 connectivity check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Linux se port 20 connectivity check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "nc -vz example.com 20",
+    "example": "nc -vz example.com 20",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-034-telnet-example-com-20",
+    "command": "telnet example.com 20",
+    "title": "Telnet se port 20 connectivity test karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Telnet se port 20 connectivity test karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "telnet example.com 20",
+    "example": "telnet example.com 20",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-035-nc-vz-example-com-21",
+    "command": "nc -vz example.com 21",
+    "title": "Linux se port 21 connectivity check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Linux se port 21 connectivity check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "nc -vz example.com 21",
+    "example": "nc -vz example.com 21",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-036-telnet-example-com-21",
+    "command": "telnet example.com 21",
+    "title": "Telnet se port 21 connectivity test karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Telnet se port 21 connectivity test karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "telnet example.com 21",
+    "example": "telnet example.com 21",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-037-nc-vz-example-com-22",
+    "command": "nc -vz example.com 22",
+    "title": "Linux se port 22 connectivity check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Linux se port 22 connectivity check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "nc -vz example.com 22",
+    "example": "nc -vz example.com 22",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-038-telnet-example-com-22",
+    "command": "telnet example.com 22",
+    "title": "Telnet se port 22 connectivity test karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Telnet se port 22 connectivity test karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "telnet example.com 22",
+    "example": "telnet example.com 22",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-039-nc-vz-example-com-25",
+    "command": "nc -vz example.com 25",
+    "title": "Linux se port 25 connectivity check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Linux se port 25 connectivity check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "nc -vz example.com 25",
+    "example": "nc -vz example.com 25",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-040-telnet-example-com-25",
+    "command": "telnet example.com 25",
+    "title": "Telnet se port 25 connectivity test karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Telnet se port 25 connectivity test karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "telnet example.com 25",
+    "example": "telnet example.com 25",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-041-nc-vz-example-com-53",
+    "command": "nc -vz example.com 53",
+    "title": "Linux se port 53 connectivity check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Linux se port 53 connectivity check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "nc -vz example.com 53",
+    "example": "nc -vz example.com 53",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-042-telnet-example-com-53",
+    "command": "telnet example.com 53",
+    "title": "Telnet se port 53 connectivity test karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Telnet se port 53 connectivity test karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "telnet example.com 53",
+    "example": "telnet example.com 53",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-043-nc-vz-example-com-80",
+    "command": "nc -vz example.com 80",
+    "title": "Linux se port 80 connectivity check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Linux se port 80 connectivity check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "nc -vz example.com 80",
+    "example": "nc -vz example.com 80",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-044-telnet-example-com-80",
+    "command": "telnet example.com 80",
+    "title": "Telnet se port 80 connectivity test karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Telnet se port 80 connectivity test karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "telnet example.com 80",
+    "example": "telnet example.com 80",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-045-nc-vz-example-com-110",
+    "command": "nc -vz example.com 110",
+    "title": "Linux se port 110 connectivity check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Linux se port 110 connectivity check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "nc -vz example.com 110",
+    "example": "nc -vz example.com 110",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-046-telnet-example-com-110",
+    "command": "telnet example.com 110",
+    "title": "Telnet se port 110 connectivity test karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Telnet se port 110 connectivity test karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "telnet example.com 110",
+    "example": "telnet example.com 110",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-047-nc-vz-example-com-143",
+    "command": "nc -vz example.com 143",
+    "title": "Linux se port 143 connectivity check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Linux se port 143 connectivity check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "nc -vz example.com 143",
+    "example": "nc -vz example.com 143",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-048-telnet-example-com-143",
+    "command": "telnet example.com 143",
+    "title": "Telnet se port 143 connectivity test karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Telnet se port 143 connectivity test karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "telnet example.com 143",
+    "example": "telnet example.com 143",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-049-nc-vz-example-com-443",
+    "command": "nc -vz example.com 443",
+    "title": "Linux se port 443 connectivity check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Linux se port 443 connectivity check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "nc -vz example.com 443",
+    "example": "nc -vz example.com 443",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-050-telnet-example-com-443",
+    "command": "telnet example.com 443",
+    "title": "Telnet se port 443 connectivity test karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Telnet se port 443 connectivity test karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "telnet example.com 443",
+    "example": "telnet example.com 443",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-051-nc-vz-example-com-465",
+    "command": "nc -vz example.com 465",
+    "title": "Linux se port 465 connectivity check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Linux se port 465 connectivity check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "nc -vz example.com 465",
+    "example": "nc -vz example.com 465",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-052-telnet-example-com-465",
+    "command": "telnet example.com 465",
+    "title": "Telnet se port 465 connectivity test karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Telnet se port 465 connectivity test karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "telnet example.com 465",
+    "example": "telnet example.com 465",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-053-nc-vz-example-com-587",
+    "command": "nc -vz example.com 587",
+    "title": "Linux se port 587 connectivity check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Linux se port 587 connectivity check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "nc -vz example.com 587",
+    "example": "nc -vz example.com 587",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-054-telnet-example-com-587",
+    "command": "telnet example.com 587",
+    "title": "Telnet se port 587 connectivity test karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Telnet se port 587 connectivity test karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "telnet example.com 587",
+    "example": "telnet example.com 587",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-055-nc-vz-example-com-993",
+    "command": "nc -vz example.com 993",
+    "title": "Linux se port 993 connectivity check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Linux se port 993 connectivity check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "nc -vz example.com 993",
+    "example": "nc -vz example.com 993",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-056-telnet-example-com-993",
+    "command": "telnet example.com 993",
+    "title": "Telnet se port 993 connectivity test karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Telnet se port 993 connectivity test karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "telnet example.com 993",
+    "example": "telnet example.com 993",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-057-nc-vz-example-com-995",
+    "command": "nc -vz example.com 995",
+    "title": "Linux se port 995 connectivity check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Linux se port 995 connectivity check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "nc -vz example.com 995",
+    "example": "nc -vz example.com 995",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-058-telnet-example-com-995",
+    "command": "telnet example.com 995",
+    "title": "Telnet se port 995 connectivity test karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Telnet se port 995 connectivity test karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "telnet example.com 995",
+    "example": "telnet example.com 995",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-059-nc-vz-example-com-2083",
+    "command": "nc -vz example.com 2083",
+    "title": "Linux se port 2083 connectivity check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Linux se port 2083 connectivity check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "nc -vz example.com 2083",
+    "example": "nc -vz example.com 2083",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-060-telnet-example-com-2083",
+    "command": "telnet example.com 2083",
+    "title": "Telnet se port 2083 connectivity test karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Telnet se port 2083 connectivity test karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "telnet example.com 2083",
+    "example": "telnet example.com 2083",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-061-nc-vz-example-com-2096",
+    "command": "nc -vz example.com 2096",
+    "title": "Linux se port 2096 connectivity check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Linux se port 2096 connectivity check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "nc -vz example.com 2096",
+    "example": "nc -vz example.com 2096",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-062-telnet-example-com-2096",
+    "command": "telnet example.com 2096",
+    "title": "Telnet se port 2096 connectivity test karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Telnet se port 2096 connectivity test karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "telnet example.com 2096",
+    "example": "telnet example.com 2096",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-063-nc-vz-example-com-3000",
+    "command": "nc -vz example.com 3000",
+    "title": "Linux se port 3000 connectivity check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Linux se port 3000 connectivity check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "nc -vz example.com 3000",
+    "example": "nc -vz example.com 3000",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-064-telnet-example-com-3000",
+    "command": "telnet example.com 3000",
+    "title": "Telnet se port 3000 connectivity test karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Telnet se port 3000 connectivity test karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "telnet example.com 3000",
+    "example": "telnet example.com 3000",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-065-nc-vz-example-com-3306",
+    "command": "nc -vz example.com 3306",
+    "title": "Linux se port 3306 connectivity check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Linux se port 3306 connectivity check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "nc -vz example.com 3306",
+    "example": "nc -vz example.com 3306",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-066-telnet-example-com-3306",
+    "command": "telnet example.com 3306",
+    "title": "Telnet se port 3306 connectivity test karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Telnet se port 3306 connectivity test karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "telnet example.com 3306",
+    "example": "telnet example.com 3306",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-067-nc-vz-example-com-5432",
+    "command": "nc -vz example.com 5432",
+    "title": "Linux se port 5432 connectivity check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Linux se port 5432 connectivity check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "nc -vz example.com 5432",
+    "example": "nc -vz example.com 5432",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-068-telnet-example-com-5432",
+    "command": "telnet example.com 5432",
+    "title": "Telnet se port 5432 connectivity test karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Telnet se port 5432 connectivity test karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "telnet example.com 5432",
+    "example": "telnet example.com 5432",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-069-nc-vz-example-com-6379",
+    "command": "nc -vz example.com 6379",
+    "title": "Linux se port 6379 connectivity check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Linux se port 6379 connectivity check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "nc -vz example.com 6379",
+    "example": "nc -vz example.com 6379",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-070-telnet-example-com-6379",
+    "command": "telnet example.com 6379",
+    "title": "Telnet se port 6379 connectivity test karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Telnet se port 6379 connectivity test karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "telnet example.com 6379",
+    "example": "telnet example.com 6379",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-071-nc-vz-example-com-8000",
+    "command": "nc -vz example.com 8000",
+    "title": "Linux se port 8000 connectivity check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Linux se port 8000 connectivity check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "nc -vz example.com 8000",
+    "example": "nc -vz example.com 8000",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-072-telnet-example-com-8000",
+    "command": "telnet example.com 8000",
+    "title": "Telnet se port 8000 connectivity test karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Telnet se port 8000 connectivity test karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "telnet example.com 8000",
+    "example": "telnet example.com 8000",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-073-nc-vz-example-com-8080",
+    "command": "nc -vz example.com 8080",
+    "title": "Linux se port 8080 connectivity check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Linux se port 8080 connectivity check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "nc -vz example.com 8080",
+    "example": "nc -vz example.com 8080",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-074-telnet-example-com-8080",
+    "command": "telnet example.com 8080",
+    "title": "Telnet se port 8080 connectivity test karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Telnet se port 8080 connectivity test karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "telnet example.com 8080",
+    "example": "telnet example.com 8080",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-075-nc-vz-example-com-8443",
+    "command": "nc -vz example.com 8443",
+    "title": "Linux se port 8443 connectivity check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Linux se port 8443 connectivity check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "nc -vz example.com 8443",
+    "example": "nc -vz example.com 8443",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-076-telnet-example-com-8443",
+    "command": "telnet example.com 8443",
+    "title": "Telnet se port 8443 connectivity test karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Telnet se port 8443 connectivity test karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "telnet example.com 8443",
+    "example": "telnet example.com 8443",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-077-nc-vz-example-com-9000",
+    "command": "nc -vz example.com 9000",
+    "title": "Linux se port 9000 connectivity check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Linux se port 9000 connectivity check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "nc -vz example.com 9000",
+    "example": "nc -vz example.com 9000",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-078-telnet-example-com-9000",
+    "command": "telnet example.com 9000",
+    "title": "Telnet se port 9000 connectivity test karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Telnet se port 9000 connectivity test karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "telnet example.com 9000",
+    "example": "telnet example.com 9000",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-079-nc-vz-example-com-9200",
+    "command": "nc -vz example.com 9200",
+    "title": "Linux se port 9200 connectivity check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Linux se port 9200 connectivity check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "nc -vz example.com 9200",
+    "example": "nc -vz example.com 9200",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-080-telnet-example-com-9200",
+    "command": "telnet example.com 9200",
+    "title": "Telnet se port 9200 connectivity test karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Telnet se port 9200 connectivity test karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "telnet example.com 9200",
+    "example": "telnet example.com 9200",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-081-nc-vz-example-com-9300",
+    "command": "nc -vz example.com 9300",
+    "title": "Linux se port 9300 connectivity check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Linux se port 9300 connectivity check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "nc -vz example.com 9300",
+    "example": "nc -vz example.com 9300",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-082-telnet-example-com-9300",
+    "command": "telnet example.com 9300",
+    "title": "Telnet se port 9300 connectivity test karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Telnet se port 9300 connectivity test karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "telnet example.com 9300",
+    "example": "telnet example.com 9300",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-083-nc-vz-example-com-27017",
+    "command": "nc -vz example.com 27017",
+    "title": "Linux se port 27017 connectivity check karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Linux se port 27017 connectivity check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "nc -vz example.com 27017",
+    "example": "nc -vz example.com 27017",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-084-telnet-example-com-27017",
+    "command": "telnet example.com 27017",
+    "title": "Telnet se port 27017 connectivity test karna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "Telnet se port 27017 connectivity test karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "telnet example.com 27017",
+    "example": "telnet example.com 27017",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "port"
+    ]
+  },
+  {
+    "id": "networking-deep-085-ip-addr-show-eth0",
+    "command": "ip addr show eth0",
+    "title": "eth0 IP address details dekhna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "eth0 IP address details dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "ip addr show eth0",
+    "example": "ip addr show eth0",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "interface"
+    ]
+  },
+  {
+    "id": "networking-deep-086-ip-s-link-show-eth0",
+    "command": "ip -s link show eth0",
+    "title": "eth0 traffic statistics dekhna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Intermediate",
+    "use_case": "eth0 traffic statistics dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "ip -s link show eth0",
+    "example": "ip -s link show eth0",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "interface"
+    ]
+  },
+  {
+    "id": "networking-deep-087-ip-addr-show-ens3",
+    "command": "ip addr show ens3",
+    "title": "ens3 IP address details dekhna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "ens3 IP address details dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "ip addr show ens3",
+    "example": "ip addr show ens3",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "interface"
+    ]
+  },
+  {
+    "id": "networking-deep-088-ip-s-link-show-ens3",
+    "command": "ip -s link show ens3",
+    "title": "ens3 traffic statistics dekhna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Intermediate",
+    "use_case": "ens3 traffic statistics dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "ip -s link show ens3",
+    "example": "ip -s link show ens3",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "interface"
+    ]
+  },
+  {
+    "id": "networking-deep-089-ip-addr-show-enp1s0",
+    "command": "ip addr show enp1s0",
+    "title": "enp1s0 IP address details dekhna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "enp1s0 IP address details dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "ip addr show enp1s0",
+    "example": "ip addr show enp1s0",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "interface"
+    ]
+  },
+  {
+    "id": "networking-deep-090-ip-s-link-show-enp1s0",
+    "command": "ip -s link show enp1s0",
+    "title": "enp1s0 traffic statistics dekhna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Intermediate",
+    "use_case": "enp1s0 traffic statistics dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "ip -s link show enp1s0",
+    "example": "ip -s link show enp1s0",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "interface"
+    ]
+  },
+  {
+    "id": "networking-deep-091-ip-addr-show-wlan0",
+    "command": "ip addr show wlan0",
+    "title": "wlan0 IP address details dekhna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Beginner",
+    "use_case": "wlan0 IP address details dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "ip addr show wlan0",
+    "example": "ip addr show wlan0",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "interface"
+    ]
+  },
+  {
+    "id": "networking-deep-092-ip-s-link-show-wlan0",
+    "command": "ip -s link show wlan0",
+    "title": "wlan0 traffic statistics dekhna",
+    "category": "Networking Deep Debug",
+    "difficulty": "Intermediate",
+    "use_case": "wlan0 traffic statistics dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "ip -s link show wlan0",
+    "example": "ip -s link show wlan0",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "network",
+      "interface"
+    ]
+  }
+]

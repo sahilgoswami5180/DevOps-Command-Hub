@@ -1,0 +1,597 @@
+[
+  {
+    "id": "cloudflare-001-cloudflared-tunnel-version",
+    "command": "cloudflared tunnel --version",
+    "title": "Cloudflared version check karna",
+    "category": "Cloudflare",
+    "difficulty": "Beginner",
+    "use_case": "Cloudflared version check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "cloudflared tunnel --version",
+    "example": "cloudflared tunnel --version",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cloudflare",
+      "cloudflared"
+    ]
+  },
+  {
+    "id": "cloudflare-002-cloudflared-tunnel-login",
+    "command": "cloudflared tunnel login",
+    "title": "Cloudflare tunnel login karna",
+    "category": "Cloudflare",
+    "difficulty": "Intermediate",
+    "use_case": "Cloudflare tunnel login karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "cloudflared tunnel login",
+    "example": "cloudflared tunnel login",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cloudflare",
+      "tunnel"
+    ]
+  },
+  {
+    "id": "cloudflare-003-cloudflared-tunnel-list",
+    "command": "cloudflared tunnel list",
+    "title": "Cloudflare tunnels list karna",
+    "category": "Cloudflare",
+    "difficulty": "Beginner",
+    "use_case": "Cloudflare tunnels list karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "cloudflared tunnel list",
+    "example": "cloudflared tunnel list",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cloudflare",
+      "tunnel"
+    ]
+  },
+  {
+    "id": "cloudflare-004-cloudflared-tunnel-create-my-tunnel",
+    "command": "cloudflared tunnel create my-tunnel",
+    "title": "Naya Cloudflare tunnel create karna",
+    "category": "Cloudflare",
+    "difficulty": "Intermediate",
+    "use_case": "Naya Cloudflare tunnel create karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "cloudflared tunnel create my-tunnel",
+    "example": "cloudflared tunnel create my-tunnel",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cloudflare",
+      "tunnel"
+    ]
+  },
+  {
+    "id": "cloudflare-005-cloudflared-tunnel-route-dns-my-tunnel-app-example-com",
+    "command": "cloudflared tunnel route dns my-tunnel app.example.com",
+    "title": "Tunnel ke liye DNS route banana",
+    "category": "Cloudflare",
+    "difficulty": "Intermediate",
+    "use_case": "Tunnel ke liye DNS route banana ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "cloudflared tunnel route dns my-tunnel app.example.com",
+    "example": "cloudflared tunnel route dns my-tunnel app.example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cloudflare",
+      "dns"
+    ]
+  },
+  {
+    "id": "cloudflare-006-cloudflared-tunnel-run-my-tunnel",
+    "command": "cloudflared tunnel run my-tunnel",
+    "title": "Cloudflare tunnel run karna",
+    "category": "Cloudflare",
+    "difficulty": "Intermediate",
+    "use_case": "Cloudflare tunnel run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "cloudflared tunnel run my-tunnel",
+    "example": "cloudflared tunnel run my-tunnel",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cloudflare",
+      "tunnel"
+    ]
+  },
+  {
+    "id": "cloudflare-007-sudo-systemctl-status-cloudflared",
+    "command": "sudo systemctl status cloudflared",
+    "title": "cloudflared service status dekhna",
+    "category": "Cloudflare",
+    "difficulty": "Beginner",
+    "use_case": "cloudflared service status dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl status cloudflared",
+    "example": "sudo systemctl status cloudflared",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cloudflare",
+      "systemd"
+    ]
+  },
+  {
+    "id": "cloudflare-008-sudo-journalctl-u-cloudflared-f",
+    "command": "sudo journalctl -u cloudflared -f",
+    "title": "cloudflared live logs dekhna",
+    "category": "Cloudflare",
+    "difficulty": "Beginner",
+    "use_case": "cloudflared live logs dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo journalctl -u cloudflared -f",
+    "example": "sudo journalctl -u cloudflared -f",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cloudflare",
+      "logs"
+    ]
+  },
+  {
+    "id": "cloudflare-009-curl-x-get-https-api-cloudflare-com-client-v4-user-tokens-verify-h-authorization-bearer-cf",
+    "command": "curl -X GET \"https://api.cloudflare.com/client/v4/user/tokens/verify\" -H \"Authorization: Bearer $CF_API_TOKEN\"",
+    "title": "Cloudflare API token verify karna",
+    "category": "Cloudflare",
+    "difficulty": "Advanced",
+    "use_case": "Cloudflare API token verify karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "curl -X GET \"https://api.cloudflare.com/client/v4/user/tokens/verify\" -H \"Authorization: Bearer $CF_API_TOKEN\"",
+    "example": "curl -X GET \"https://api.cloudflare.com/client/v4/user/tokens/verify\" -H \"Authorization: Bearer $CF_API_TOKEN\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cloudflare",
+      "api"
+    ]
+  },
+  {
+    "id": "cloudflare-010-curl-x-get-https-api-cloudflare-com-client-v4-zones-h-authorization-bearer-cf-api-token",
+    "command": "curl -X GET \"https://api.cloudflare.com/client/v4/zones\" -H \"Authorization: Bearer $CF_API_TOKEN\"",
+    "title": "Cloudflare zones list karna",
+    "category": "Cloudflare",
+    "difficulty": "Advanced",
+    "use_case": "Cloudflare zones list karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "curl -X GET \"https://api.cloudflare.com/client/v4/zones\" -H \"Authorization: Bearer $CF_API_TOKEN\"",
+    "example": "curl -X GET \"https://api.cloudflare.com/client/v4/zones\" -H \"Authorization: Bearer $CF_API_TOKEN\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cloudflare",
+      "api"
+    ]
+  },
+  {
+    "id": "cloudflare-011-dig-a-example-com",
+    "command": "dig A example.com",
+    "title": "Cloudflare DNS A record verify karna",
+    "category": "Cloudflare",
+    "difficulty": "Beginner",
+    "use_case": "Cloudflare DNS A record verify karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "dig A example.com",
+    "example": "dig A example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "dns",
+      "cloudflare"
+    ]
+  },
+  {
+    "id": "cloudflare-012-dig-aaaa-example-com",
+    "command": "dig AAAA example.com",
+    "title": "Cloudflare DNS AAAA record verify karna",
+    "category": "Cloudflare",
+    "difficulty": "Beginner",
+    "use_case": "Cloudflare DNS AAAA record verify karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "dig AAAA example.com",
+    "example": "dig AAAA example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "dns",
+      "cloudflare"
+    ]
+  },
+  {
+    "id": "cloudflare-013-dig-cname-example-com",
+    "command": "dig CNAME example.com",
+    "title": "Cloudflare DNS CNAME record verify karna",
+    "category": "Cloudflare",
+    "difficulty": "Beginner",
+    "use_case": "Cloudflare DNS CNAME record verify karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "dig CNAME example.com",
+    "example": "dig CNAME example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "dns",
+      "cloudflare"
+    ]
+  },
+  {
+    "id": "cloudflare-014-dig-mx-example-com",
+    "command": "dig MX example.com",
+    "title": "Cloudflare DNS MX record verify karna",
+    "category": "Cloudflare",
+    "difficulty": "Beginner",
+    "use_case": "Cloudflare DNS MX record verify karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "dig MX example.com",
+    "example": "dig MX example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "dns",
+      "cloudflare"
+    ]
+  },
+  {
+    "id": "cloudflare-015-dig-txt-example-com",
+    "command": "dig TXT example.com",
+    "title": "Cloudflare DNS TXT record verify karna",
+    "category": "Cloudflare",
+    "difficulty": "Beginner",
+    "use_case": "Cloudflare DNS TXT record verify karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "dig TXT example.com",
+    "example": "dig TXT example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "dns",
+      "cloudflare"
+    ]
+  },
+  {
+    "id": "cloudflare-016-dig-ns-example-com",
+    "command": "dig NS example.com",
+    "title": "Cloudflare DNS NS record verify karna",
+    "category": "Cloudflare",
+    "difficulty": "Beginner",
+    "use_case": "Cloudflare DNS NS record verify karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "dig NS example.com",
+    "example": "dig NS example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "dns",
+      "cloudflare"
+    ]
+  },
+  {
+    "id": "cloudflare-017-dig-caa-example-com",
+    "command": "dig CAA example.com",
+    "title": "Cloudflare DNS CAA record verify karna",
+    "category": "Cloudflare",
+    "difficulty": "Beginner",
+    "use_case": "Cloudflare DNS CAA record verify karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "dig CAA example.com",
+    "example": "dig CAA example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "dns",
+      "cloudflare"
+    ]
+  },
+  {
+    "id": "cloudflare-018-echo-cloudflare-setting-check-development-mode",
+    "command": "echo \"Cloudflare setting check: development_mode\"",
+    "title": "Cloudflare development_mode setting checklist note",
+    "category": "Cloudflare",
+    "difficulty": "Beginner",
+    "use_case": "Cloudflare development_mode setting checklist note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"Cloudflare setting check: development_mode\"",
+    "example": "echo \"Cloudflare setting check: development_mode\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cloudflare",
+      "checklist"
+    ]
+  },
+  {
+    "id": "cloudflare-019-echo-cloudflare-setting-check-always-online",
+    "command": "echo \"Cloudflare setting check: always_online\"",
+    "title": "Cloudflare always_online setting checklist note",
+    "category": "Cloudflare",
+    "difficulty": "Beginner",
+    "use_case": "Cloudflare always_online setting checklist note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"Cloudflare setting check: always_online\"",
+    "example": "echo \"Cloudflare setting check: always_online\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cloudflare",
+      "checklist"
+    ]
+  },
+  {
+    "id": "cloudflare-020-echo-cloudflare-setting-check-browser-cache-ttl",
+    "command": "echo \"Cloudflare setting check: browser_cache_ttl\"",
+    "title": "Cloudflare browser_cache_ttl setting checklist note",
+    "category": "Cloudflare",
+    "difficulty": "Beginner",
+    "use_case": "Cloudflare browser_cache_ttl setting checklist note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"Cloudflare setting check: browser_cache_ttl\"",
+    "example": "echo \"Cloudflare setting check: browser_cache_ttl\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cloudflare",
+      "checklist"
+    ]
+  },
+  {
+    "id": "cloudflare-021-echo-cloudflare-setting-check-cache-level",
+    "command": "echo \"Cloudflare setting check: cache_level\"",
+    "title": "Cloudflare cache_level setting checklist note",
+    "category": "Cloudflare",
+    "difficulty": "Beginner",
+    "use_case": "Cloudflare cache_level setting checklist note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"Cloudflare setting check: cache_level\"",
+    "example": "echo \"Cloudflare setting check: cache_level\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cloudflare",
+      "checklist"
+    ]
+  },
+  {
+    "id": "cloudflare-022-echo-cloudflare-setting-check-ssl",
+    "command": "echo \"Cloudflare setting check: ssl\"",
+    "title": "Cloudflare ssl setting checklist note",
+    "category": "Cloudflare",
+    "difficulty": "Beginner",
+    "use_case": "Cloudflare ssl setting checklist note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"Cloudflare setting check: ssl\"",
+    "example": "echo \"Cloudflare setting check: ssl\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cloudflare",
+      "checklist"
+    ]
+  },
+  {
+    "id": "cloudflare-023-curl-i-https-example-com-cdn-cgi-trace",
+    "command": "curl -I https://example.com/cdn-cgi/trace",
+    "title": "Cloudflare/proxy se /cdn-cgi/trace response check karna",
+    "category": "Cloudflare",
+    "difficulty": "Beginner",
+    "use_case": "Cloudflare/proxy se /cdn-cgi/trace response check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "curl -I https://example.com/cdn-cgi/trace",
+    "example": "curl -I https://example.com/cdn-cgi/trace",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cloudflare",
+      "curl"
+    ]
+  },
+  {
+    "id": "cloudflare-024-curl-i-https-example-com-robots-txt",
+    "command": "curl -I https://example.com/robots.txt",
+    "title": "Cloudflare/proxy se /robots.txt response check karna",
+    "category": "Cloudflare",
+    "difficulty": "Beginner",
+    "use_case": "Cloudflare/proxy se /robots.txt response check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "curl -I https://example.com/robots.txt",
+    "example": "curl -I https://example.com/robots.txt",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cloudflare",
+      "curl"
+    ]
+  },
+  {
+    "id": "cloudflare-025-curl-i-https-example-com-sitemap-xml",
+    "command": "curl -I https://example.com/sitemap.xml",
+    "title": "Cloudflare/proxy se /sitemap.xml response check karna",
+    "category": "Cloudflare",
+    "difficulty": "Beginner",
+    "use_case": "Cloudflare/proxy se /sitemap.xml response check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "curl -I https://example.com/sitemap.xml",
+    "example": "curl -I https://example.com/sitemap.xml",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cloudflare",
+      "curl"
+    ]
+  },
+  {
+    "id": "cloudflare-026-curl-i-https-example-com-favicon-ico",
+    "command": "curl -I https://example.com/favicon.ico",
+    "title": "Cloudflare/proxy se /favicon.ico response check karna",
+    "category": "Cloudflare",
+    "difficulty": "Beginner",
+    "use_case": "Cloudflare/proxy se /favicon.ico response check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "curl -I https://example.com/favicon.ico",
+    "example": "curl -I https://example.com/favicon.ico",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cloudflare",
+      "curl"
+    ]
+  },
+  {
+    "id": "cloudflare-027-echo-cloudflare-http-200-troubleshooting-checklist",
+    "command": "echo \"Cloudflare HTTP 200 troubleshooting checklist\"",
+    "title": "Cloudflare HTTP 200 issue troubleshoot note",
+    "category": "Cloudflare",
+    "difficulty": "Beginner",
+    "use_case": "Cloudflare HTTP 200 issue troubleshoot note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"Cloudflare HTTP 200 troubleshooting checklist\"",
+    "example": "echo \"Cloudflare HTTP 200 troubleshooting checklist\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cloudflare",
+      "http"
+    ]
+  },
+  {
+    "id": "cloudflare-028-echo-cloudflare-http-301-troubleshooting-checklist",
+    "command": "echo \"Cloudflare HTTP 301 troubleshooting checklist\"",
+    "title": "Cloudflare HTTP 301 issue troubleshoot note",
+    "category": "Cloudflare",
+    "difficulty": "Beginner",
+    "use_case": "Cloudflare HTTP 301 issue troubleshoot note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"Cloudflare HTTP 301 troubleshooting checklist\"",
+    "example": "echo \"Cloudflare HTTP 301 troubleshooting checklist\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cloudflare",
+      "http"
+    ]
+  },
+  {
+    "id": "cloudflare-029-echo-cloudflare-http-302-troubleshooting-checklist",
+    "command": "echo \"Cloudflare HTTP 302 troubleshooting checklist\"",
+    "title": "Cloudflare HTTP 302 issue troubleshoot note",
+    "category": "Cloudflare",
+    "difficulty": "Beginner",
+    "use_case": "Cloudflare HTTP 302 issue troubleshoot note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"Cloudflare HTTP 302 troubleshooting checklist\"",
+    "example": "echo \"Cloudflare HTTP 302 troubleshooting checklist\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cloudflare",
+      "http"
+    ]
+  },
+  {
+    "id": "cloudflare-030-echo-cloudflare-http-403-troubleshooting-checklist",
+    "command": "echo \"Cloudflare HTTP 403 troubleshooting checklist\"",
+    "title": "Cloudflare HTTP 403 issue troubleshoot note",
+    "category": "Cloudflare",
+    "difficulty": "Beginner",
+    "use_case": "Cloudflare HTTP 403 issue troubleshoot note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"Cloudflare HTTP 403 troubleshooting checklist\"",
+    "example": "echo \"Cloudflare HTTP 403 troubleshooting checklist\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cloudflare",
+      "http"
+    ]
+  },
+  {
+    "id": "cloudflare-031-echo-cloudflare-http-404-troubleshooting-checklist",
+    "command": "echo \"Cloudflare HTTP 404 troubleshooting checklist\"",
+    "title": "Cloudflare HTTP 404 issue troubleshoot note",
+    "category": "Cloudflare",
+    "difficulty": "Beginner",
+    "use_case": "Cloudflare HTTP 404 issue troubleshoot note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"Cloudflare HTTP 404 troubleshooting checklist\"",
+    "example": "echo \"Cloudflare HTTP 404 troubleshooting checklist\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cloudflare",
+      "http"
+    ]
+  },
+  {
+    "id": "cloudflare-032-echo-cloudflare-http-500-troubleshooting-checklist",
+    "command": "echo \"Cloudflare HTTP 500 troubleshooting checklist\"",
+    "title": "Cloudflare HTTP 500 issue troubleshoot note",
+    "category": "Cloudflare",
+    "difficulty": "Beginner",
+    "use_case": "Cloudflare HTTP 500 issue troubleshoot note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"Cloudflare HTTP 500 troubleshooting checklist\"",
+    "example": "echo \"Cloudflare HTTP 500 troubleshooting checklist\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cloudflare",
+      "http"
+    ]
+  },
+  {
+    "id": "cloudflare-033-echo-cloudflare-http-502-troubleshooting-checklist",
+    "command": "echo \"Cloudflare HTTP 502 troubleshooting checklist\"",
+    "title": "Cloudflare HTTP 502 issue troubleshoot note",
+    "category": "Cloudflare",
+    "difficulty": "Beginner",
+    "use_case": "Cloudflare HTTP 502 issue troubleshoot note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"Cloudflare HTTP 502 troubleshooting checklist\"",
+    "example": "echo \"Cloudflare HTTP 502 troubleshooting checklist\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cloudflare",
+      "http"
+    ]
+  },
+  {
+    "id": "cloudflare-034-echo-cloudflare-http-522-troubleshooting-checklist",
+    "command": "echo \"Cloudflare HTTP 522 troubleshooting checklist\"",
+    "title": "Cloudflare HTTP 522 issue troubleshoot note",
+    "category": "Cloudflare",
+    "difficulty": "Beginner",
+    "use_case": "Cloudflare HTTP 522 issue troubleshoot note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"Cloudflare HTTP 522 troubleshooting checklist\"",
+    "example": "echo \"Cloudflare HTTP 522 troubleshooting checklist\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cloudflare",
+      "http"
+    ]
+  },
+  {
+    "id": "cloudflare-035-echo-cloudflare-http-524-troubleshooting-checklist",
+    "command": "echo \"Cloudflare HTTP 524 troubleshooting checklist\"",
+    "title": "Cloudflare HTTP 524 issue troubleshoot note",
+    "category": "Cloudflare",
+    "difficulty": "Beginner",
+    "use_case": "Cloudflare HTTP 524 issue troubleshoot note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"Cloudflare HTTP 524 troubleshooting checklist\"",
+    "example": "echo \"Cloudflare HTTP 524 troubleshooting checklist\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "cloudflare",
+      "http"
+    ]
+  }
+]

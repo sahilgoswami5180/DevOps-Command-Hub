@@ -118,5 +118,105 @@
     "id": "remote-server-ops",
     "name": "Remote Access & Server Ops",
     "file": "remote-server-ops.commands.json"
+  },
+  {
+    "id": "caddy",
+    "name": "Caddy Web Server",
+    "file": "caddy.commands.json"
+  },
+  {
+    "id": "cloudflare",
+    "name": "Cloudflare",
+    "file": "cloudflare.commands.json"
+  },
+  {
+    "id": "dns-email",
+    "name": "DNS & Email Ops",
+    "file": "dns-email.commands.json"
+  },
+  {
+    "id": "laravel-ops",
+    "name": "Laravel Server Ops",
+    "file": "laravel-ops.commands.json"
+  },
+  {
+    "id": "wordpress-ops",
+    "name": "WordPress Ops",
+    "file": "wordpress-ops.commands.json"
+  },
+  {
+    "id": "node-npm-vite",
+    "name": "Node / NPM / Vite",
+    "file": "node-npm-vite.commands.json"
+  },
+  {
+    "id": "php-composer",
+    "name": "PHP & Composer",
+    "file": "php-composer.commands.json"
+  },
+  {
+    "id": "redis",
+    "name": "Redis Ops",
+    "file": "redis.commands.json"
+  },
+  {
+    "id": "systemd-supervisor",
+    "name": "Systemd & Supervisor",
+    "file": "systemd-supervisor.commands.json"
+  },
+  {
+    "id": "backup-restore",
+    "name": "Backup & Restore Ops",
+    "file": "backup-restore.commands.json"
+  },
+  {
+    "id": "windows-devops",
+    "name": "Windows DevOps Commands",
+    "file": "windows-devops.commands.json"
+  },
+  {
+    "id": "github-cli",
+    "name": "GitHub CLI",
+    "file": "github-cli.commands.json"
+  },
+  {
+    "id": "cpanel-hosting",
+    "name": "cPanel / Shared Hosting Ops",
+    "file": "cpanel-hosting.commands.json"
+  },
+  {
+    "id": "networking-deep",
+    "name": "Networking Deep Debug",
+    "file": "networking-deep.commands.json"
+  },
+  {
+    "id": "database-admin",
+    "name": "Database Admin Deep",
+    "file": "database-admin.commands.json"
+  },
+  {
+    "id": "cron-automation",
+    "name": "Cron & Automation",
+    "file": "cron-automation.commands.json"
+  },
+  {
+    "id": "container-registry",
+    "name": "Container Registry Ops",
+    "file": "container-registry.commands.json"
+  },
+  {
+    "id": "ssl-openssl-deep",
+    "name": "SSL OpenSSL Deep",
+    "file": "ssl-openssl-deep.commands.json"
+  },
+  {
+    "id": "deployment-release",
+    "name": "Deployment & Release Ops",
+    "file": "deployment-release.commands.json"
+  },
+  {
+    "id": "observability-practical",
+    "name": "Observability Practical",
+    "file": "observability-practical.commands.json"
   }
 ]

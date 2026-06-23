@@ -1,0 +1,742 @@
+[
+  {
+    "id": "dns-email-001-nslookup-type-a-example-com",
+    "command": "nslookup -type=A example.com",
+    "title": "nslookup se A record check karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Beginner",
+    "use_case": "nslookup se A record check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "nslookup -type=A example.com",
+    "example": "nslookup -type=A example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "dns",
+      "a"
+    ]
+  },
+  {
+    "id": "dns-email-002-dig-short-a-example-com",
+    "command": "dig +short A example.com",
+    "title": "dig se short A record check karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Beginner",
+    "use_case": "dig se short A record check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "dig +short A example.com",
+    "example": "dig +short A example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "dns",
+      "a"
+    ]
+  },
+  {
+    "id": "dns-email-003-nslookup-type-aaaa-example-com",
+    "command": "nslookup -type=AAAA example.com",
+    "title": "nslookup se AAAA record check karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Beginner",
+    "use_case": "nslookup se AAAA record check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "nslookup -type=AAAA example.com",
+    "example": "nslookup -type=AAAA example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "dns",
+      "aaaa"
+    ]
+  },
+  {
+    "id": "dns-email-004-dig-short-aaaa-example-com",
+    "command": "dig +short AAAA example.com",
+    "title": "dig se short AAAA record check karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Beginner",
+    "use_case": "dig se short AAAA record check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "dig +short AAAA example.com",
+    "example": "dig +short AAAA example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "dns",
+      "aaaa"
+    ]
+  },
+  {
+    "id": "dns-email-005-nslookup-type-cname-example-com",
+    "command": "nslookup -type=CNAME example.com",
+    "title": "nslookup se CNAME record check karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Beginner",
+    "use_case": "nslookup se CNAME record check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "nslookup -type=CNAME example.com",
+    "example": "nslookup -type=CNAME example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "dns",
+      "cname"
+    ]
+  },
+  {
+    "id": "dns-email-006-dig-short-cname-example-com",
+    "command": "dig +short CNAME example.com",
+    "title": "dig se short CNAME record check karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Beginner",
+    "use_case": "dig se short CNAME record check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "dig +short CNAME example.com",
+    "example": "dig +short CNAME example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "dns",
+      "cname"
+    ]
+  },
+  {
+    "id": "dns-email-007-nslookup-type-mx-example-com",
+    "command": "nslookup -type=MX example.com",
+    "title": "nslookup se MX record check karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Beginner",
+    "use_case": "nslookup se MX record check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "nslookup -type=MX example.com",
+    "example": "nslookup -type=MX example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "dns",
+      "mx"
+    ]
+  },
+  {
+    "id": "dns-email-008-dig-short-mx-example-com",
+    "command": "dig +short MX example.com",
+    "title": "dig se short MX record check karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Beginner",
+    "use_case": "dig se short MX record check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "dig +short MX example.com",
+    "example": "dig +short MX example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "dns",
+      "mx"
+    ]
+  },
+  {
+    "id": "dns-email-009-nslookup-type-txt-example-com",
+    "command": "nslookup -type=TXT example.com",
+    "title": "nslookup se TXT record check karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Beginner",
+    "use_case": "nslookup se TXT record check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "nslookup -type=TXT example.com",
+    "example": "nslookup -type=TXT example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "dns",
+      "txt"
+    ]
+  },
+  {
+    "id": "dns-email-010-dig-short-txt-example-com",
+    "command": "dig +short TXT example.com",
+    "title": "dig se short TXT record check karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Beginner",
+    "use_case": "dig se short TXT record check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "dig +short TXT example.com",
+    "example": "dig +short TXT example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "dns",
+      "txt"
+    ]
+  },
+  {
+    "id": "dns-email-011-nslookup-type-ns-example-com",
+    "command": "nslookup -type=NS example.com",
+    "title": "nslookup se NS record check karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Beginner",
+    "use_case": "nslookup se NS record check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "nslookup -type=NS example.com",
+    "example": "nslookup -type=NS example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "dns",
+      "ns"
+    ]
+  },
+  {
+    "id": "dns-email-012-dig-short-ns-example-com",
+    "command": "dig +short NS example.com",
+    "title": "dig se short NS record check karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Beginner",
+    "use_case": "dig se short NS record check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "dig +short NS example.com",
+    "example": "dig +short NS example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "dns",
+      "ns"
+    ]
+  },
+  {
+    "id": "dns-email-013-nslookup-type-soa-example-com",
+    "command": "nslookup -type=SOA example.com",
+    "title": "nslookup se SOA record check karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Beginner",
+    "use_case": "nslookup se SOA record check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "nslookup -type=SOA example.com",
+    "example": "nslookup -type=SOA example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "dns",
+      "soa"
+    ]
+  },
+  {
+    "id": "dns-email-014-dig-short-soa-example-com",
+    "command": "dig +short SOA example.com",
+    "title": "dig se short SOA record check karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Beginner",
+    "use_case": "dig se short SOA record check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "dig +short SOA example.com",
+    "example": "dig +short SOA example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "dns",
+      "soa"
+    ]
+  },
+  {
+    "id": "dns-email-015-nslookup-type-caa-example-com",
+    "command": "nslookup -type=CAA example.com",
+    "title": "nslookup se CAA record check karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Beginner",
+    "use_case": "nslookup se CAA record check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "nslookup -type=CAA example.com",
+    "example": "nslookup -type=CAA example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "dns",
+      "caa"
+    ]
+  },
+  {
+    "id": "dns-email-016-dig-short-caa-example-com",
+    "command": "dig +short CAA example.com",
+    "title": "dig se short CAA record check karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Beginner",
+    "use_case": "dig se short CAA record check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "dig +short CAA example.com",
+    "example": "dig +short CAA example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "dns",
+      "caa"
+    ]
+  },
+  {
+    "id": "dns-email-017-nslookup-type-srv-example-com",
+    "command": "nslookup -type=SRV example.com",
+    "title": "nslookup se SRV record check karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Beginner",
+    "use_case": "nslookup se SRV record check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "nslookup -type=SRV example.com",
+    "example": "nslookup -type=SRV example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "dns",
+      "srv"
+    ]
+  },
+  {
+    "id": "dns-email-018-dig-short-srv-example-com",
+    "command": "dig +short SRV example.com",
+    "title": "dig se short SRV record check karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Beginner",
+    "use_case": "dig se short SRV record check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "dig +short SRV example.com",
+    "example": "dig +short SRV example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "dns",
+      "srv"
+    ]
+  },
+  {
+    "id": "dns-email-019-ping-mail-example-com",
+    "command": "ping mail.example.com",
+    "title": "mail.example.com DNS resolve/ping check karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Beginner",
+    "use_case": "mail.example.com DNS resolve/ping check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "ping mail.example.com",
+    "example": "ping mail.example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "dns",
+      "ping"
+    ]
+  },
+  {
+    "id": "dns-email-020-ping-smtp-example-com",
+    "command": "ping smtp.example.com",
+    "title": "smtp.example.com DNS resolve/ping check karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Beginner",
+    "use_case": "smtp.example.com DNS resolve/ping check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "ping smtp.example.com",
+    "example": "ping smtp.example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "dns",
+      "ping"
+    ]
+  },
+  {
+    "id": "dns-email-021-ping-webmail-example-com",
+    "command": "ping webmail.example.com",
+    "title": "webmail.example.com DNS resolve/ping check karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Beginner",
+    "use_case": "webmail.example.com DNS resolve/ping check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "ping webmail.example.com",
+    "example": "ping webmail.example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "dns",
+      "ping"
+    ]
+  },
+  {
+    "id": "dns-email-022-ping-cpanel-example-com",
+    "command": "ping cpanel.example.com",
+    "title": "cpanel.example.com DNS resolve/ping check karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Beginner",
+    "use_case": "cpanel.example.com DNS resolve/ping check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "ping cpanel.example.com",
+    "example": "ping cpanel.example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "dns",
+      "ping"
+    ]
+  },
+  {
+    "id": "dns-email-023-ping-example-com",
+    "command": "ping example.com",
+    "title": "example.com DNS resolve/ping check karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Beginner",
+    "use_case": "example.com DNS resolve/ping check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "ping example.com",
+    "example": "ping example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "dns",
+      "ping"
+    ]
+  },
+  {
+    "id": "dns-email-024-test-netconnection-mail-example-com-port-25",
+    "command": "Test-NetConnection mail.example.com -Port 25",
+    "title": "Windows se mail port 25 test karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Beginner",
+    "use_case": "Windows se mail port 25 test karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Test-NetConnection mail.example.com -Port 25",
+    "example": "Test-NetConnection mail.example.com -Port 25",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "mail",
+      "port",
+      "windows"
+    ]
+  },
+  {
+    "id": "dns-email-025-test-netconnection-mail-example-com-port-465",
+    "command": "Test-NetConnection mail.example.com -Port 465",
+    "title": "Windows se mail port 465 test karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Beginner",
+    "use_case": "Windows se mail port 465 test karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Test-NetConnection mail.example.com -Port 465",
+    "example": "Test-NetConnection mail.example.com -Port 465",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "mail",
+      "port",
+      "windows"
+    ]
+  },
+  {
+    "id": "dns-email-026-test-netconnection-mail-example-com-port-587",
+    "command": "Test-NetConnection mail.example.com -Port 587",
+    "title": "Windows se mail port 587 test karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Beginner",
+    "use_case": "Windows se mail port 587 test karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Test-NetConnection mail.example.com -Port 587",
+    "example": "Test-NetConnection mail.example.com -Port 587",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "mail",
+      "port",
+      "windows"
+    ]
+  },
+  {
+    "id": "dns-email-027-test-netconnection-mail-example-com-port-993",
+    "command": "Test-NetConnection mail.example.com -Port 993",
+    "title": "Windows se mail port 993 test karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Beginner",
+    "use_case": "Windows se mail port 993 test karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Test-NetConnection mail.example.com -Port 993",
+    "example": "Test-NetConnection mail.example.com -Port 993",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "mail",
+      "port",
+      "windows"
+    ]
+  },
+  {
+    "id": "dns-email-028-test-netconnection-mail-example-com-port-995",
+    "command": "Test-NetConnection mail.example.com -Port 995",
+    "title": "Windows se mail port 995 test karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Beginner",
+    "use_case": "Windows se mail port 995 test karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Test-NetConnection mail.example.com -Port 995",
+    "example": "Test-NetConnection mail.example.com -Port 995",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "mail",
+      "port",
+      "windows"
+    ]
+  },
+  {
+    "id": "dns-email-029-test-netconnection-mail-example-com-port-110",
+    "command": "Test-NetConnection mail.example.com -Port 110",
+    "title": "Windows se mail port 110 test karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Beginner",
+    "use_case": "Windows se mail port 110 test karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Test-NetConnection mail.example.com -Port 110",
+    "example": "Test-NetConnection mail.example.com -Port 110",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "mail",
+      "port",
+      "windows"
+    ]
+  },
+  {
+    "id": "dns-email-030-test-netconnection-mail-example-com-port-143",
+    "command": "Test-NetConnection mail.example.com -Port 143",
+    "title": "Windows se mail port 143 test karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Beginner",
+    "use_case": "Windows se mail port 143 test karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Test-NetConnection mail.example.com -Port 143",
+    "example": "Test-NetConnection mail.example.com -Port 143",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "mail",
+      "port",
+      "windows"
+    ]
+  },
+  {
+    "id": "dns-email-031-test-netconnection-mail-example-com-port-2096",
+    "command": "Test-NetConnection mail.example.com -Port 2096",
+    "title": "Windows se mail port 2096 test karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Beginner",
+    "use_case": "Windows se mail port 2096 test karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Test-NetConnection mail.example.com -Port 2096",
+    "example": "Test-NetConnection mail.example.com -Port 2096",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "mail",
+      "port",
+      "windows"
+    ]
+  },
+  {
+    "id": "dns-email-032-test-netconnection-mail-example-com-port-2083",
+    "command": "Test-NetConnection mail.example.com -Port 2083",
+    "title": "Windows se mail port 2083 test karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Beginner",
+    "use_case": "Windows se mail port 2083 test karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Test-NetConnection mail.example.com -Port 2083",
+    "example": "Test-NetConnection mail.example.com -Port 2083",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "mail",
+      "port",
+      "windows"
+    ]
+  },
+  {
+    "id": "dns-email-033-dig-txt-example-com-grep-i-v-spf1",
+    "command": "dig TXT example.com | grep -i \"v=spf1\"",
+    "title": "TXT me v=spf1 value find karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Intermediate",
+    "use_case": "TXT me v=spf1 value find karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "dig TXT example.com | grep -i \"v=spf1\"",
+    "example": "dig TXT example.com | grep -i \"v=spf1\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "dns",
+      "email"
+    ]
+  },
+  {
+    "id": "dns-email-034-dig-txt-example-com-grep-i-dkim",
+    "command": "dig TXT example.com | grep -i \"dkim\"",
+    "title": "TXT me dkim value find karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Intermediate",
+    "use_case": "TXT me dkim value find karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "dig TXT example.com | grep -i \"dkim\"",
+    "example": "dig TXT example.com | grep -i \"dkim\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "dns",
+      "email"
+    ]
+  },
+  {
+    "id": "dns-email-035-dig-txt-example-com-grep-i-dmarc",
+    "command": "dig TXT example.com | grep -i \"_dmarc\"",
+    "title": "TXT me _dmarc value find karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Intermediate",
+    "use_case": "TXT me _dmarc value find karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "dig TXT example.com | grep -i \"_dmarc\"",
+    "example": "dig TXT example.com | grep -i \"_dmarc\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "dns",
+      "email"
+    ]
+  },
+  {
+    "id": "dns-email-036-dig-txt-example-com-grep-i-google-site-verification",
+    "command": "dig TXT example.com | grep -i \"google-site-verification\"",
+    "title": "TXT me google-site-verification value find karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Intermediate",
+    "use_case": "TXT me google-site-verification value find karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "dig TXT example.com | grep -i \"google-site-verification\"",
+    "example": "dig TXT example.com | grep -i \"google-site-verification\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "dns",
+      "email"
+    ]
+  },
+  {
+    "id": "dns-email-037-dig-txt-example-com-grep-i-amazonses",
+    "command": "dig TXT example.com | grep -i \"amazonses\"",
+    "title": "TXT me amazonses value find karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Intermediate",
+    "use_case": "TXT me amazonses value find karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "dig TXT example.com | grep -i \"amazonses\"",
+    "example": "dig TXT example.com | grep -i \"amazonses\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "dns",
+      "email"
+    ]
+  },
+  {
+    "id": "dns-email-038-openssl-s-client-connect-smtp-gmail-com-587-starttls-smtp",
+    "command": "openssl s_client -connect smtp.gmail.com:587 -starttls smtp",
+    "title": "SMTP STARTTLS certificate check karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Advanced",
+    "use_case": "SMTP STARTTLS certificate check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "openssl s_client -connect smtp.gmail.com:587 -starttls smtp",
+    "example": "openssl s_client -connect smtp.gmail.com:587 -starttls smtp",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "smtp",
+      "openssl"
+    ]
+  },
+  {
+    "id": "dns-email-039-openssl-s-client-connect-mail-example-com-993",
+    "command": "openssl s_client -connect mail.example.com:993",
+    "title": "IMAPS certificate check karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Advanced",
+    "use_case": "IMAPS certificate check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "openssl s_client -connect mail.example.com:993",
+    "example": "openssl s_client -connect mail.example.com:993",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "imap",
+      "openssl"
+    ]
+  },
+  {
+    "id": "dns-email-040-swaks-to-test-example-com-server-smtp-example-com-port-587-auth-login",
+    "command": "swaks --to test@example.com --server smtp.example.com --port 587 --auth LOGIN",
+    "title": "SMTP send test swaks se karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Advanced",
+    "use_case": "SMTP send test swaks se karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "swaks --to test@example.com --server smtp.example.com --port 587 --auth LOGIN",
+    "example": "swaks --to test@example.com --server smtp.example.com --port 587 --auth LOGIN",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "smtp",
+      "swaks"
+    ]
+  },
+  {
+    "id": "dns-email-041-postqueue-p",
+    "command": "postqueue -p",
+    "title": "Postfix mail queue dekhna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Postfix mail queue dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "postqueue -p",
+    "example": "postqueue -p",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "postfix",
+      "queue"
+    ]
+  },
+  {
+    "id": "dns-email-042-sudo-postsuper-d-all",
+    "command": "sudo postsuper -d ALL",
+    "title": "Postfix queue clear karna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Advanced",
+    "use_case": "Postfix queue clear karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo postsuper -d ALL",
+    "example": "sudo postsuper -d ALL",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "postfix",
+      "danger"
+    ]
+  },
+  {
+    "id": "dns-email-043-sudo-tail-f-var-log-mail-log",
+    "command": "sudo tail -f /var/log/mail.log",
+    "title": "Mail server logs live dekhna",
+    "category": "DNS & Email Ops",
+    "difficulty": "Beginner",
+    "use_case": "Mail server logs live dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo tail -f /var/log/mail.log",
+    "example": "sudo tail -f /var/log/mail.log",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "mail",
+      "logs"
+    ]
+  }
+]

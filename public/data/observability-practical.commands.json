@@ -1,0 +1,614 @@
+[
+  {
+    "id": "observability-practical-001-sudo-journalctl-u-caddy-since-10-minutes-ago-no-pager",
+    "command": "sudo journalctl -u caddy --since \"10 minutes ago\" --no-pager",
+    "title": "caddy last 10 minute logs dekhna",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "caddy last 10 minute logs dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo journalctl -u caddy --since \"10 minutes ago\" --no-pager",
+    "example": "sudo journalctl -u caddy --since \"10 minutes ago\" --no-pager",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "observability",
+      "logs"
+    ]
+  },
+  {
+    "id": "observability-practical-002-sudo-systemctl-status-caddy-no-pager",
+    "command": "sudo systemctl status caddy --no-pager",
+    "title": "caddy status quick check karna",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "caddy status quick check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo systemctl status caddy --no-pager",
+    "example": "sudo systemctl status caddy --no-pager",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "observability",
+      "service"
+    ]
+  },
+  {
+    "id": "observability-practical-003-sudo-journalctl-u-nginx-since-10-minutes-ago-no-pager",
+    "command": "sudo journalctl -u nginx --since \"10 minutes ago\" --no-pager",
+    "title": "nginx last 10 minute logs dekhna",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "nginx last 10 minute logs dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo journalctl -u nginx --since \"10 minutes ago\" --no-pager",
+    "example": "sudo journalctl -u nginx --since \"10 minutes ago\" --no-pager",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "observability",
+      "logs"
+    ]
+  },
+  {
+    "id": "observability-practical-004-sudo-systemctl-status-nginx-no-pager",
+    "command": "sudo systemctl status nginx --no-pager",
+    "title": "nginx status quick check karna",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "nginx status quick check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo systemctl status nginx --no-pager",
+    "example": "sudo systemctl status nginx --no-pager",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "observability",
+      "service"
+    ]
+  },
+  {
+    "id": "observability-practical-005-sudo-journalctl-u-apache2-since-10-minutes-ago-no-pager",
+    "command": "sudo journalctl -u apache2 --since \"10 minutes ago\" --no-pager",
+    "title": "apache2 last 10 minute logs dekhna",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "apache2 last 10 minute logs dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo journalctl -u apache2 --since \"10 minutes ago\" --no-pager",
+    "example": "sudo journalctl -u apache2 --since \"10 minutes ago\" --no-pager",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "observability",
+      "logs"
+    ]
+  },
+  {
+    "id": "observability-practical-006-sudo-systemctl-status-apache2-no-pager",
+    "command": "sudo systemctl status apache2 --no-pager",
+    "title": "apache2 status quick check karna",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "apache2 status quick check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo systemctl status apache2 --no-pager",
+    "example": "sudo systemctl status apache2 --no-pager",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "observability",
+      "service"
+    ]
+  },
+  {
+    "id": "observability-practical-007-sudo-journalctl-u-php8-4-fpm-since-10-minutes-ago-no-pager",
+    "command": "sudo journalctl -u php8.4-fpm --since \"10 minutes ago\" --no-pager",
+    "title": "php8.4-fpm last 10 minute logs dekhna",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "php8.4-fpm last 10 minute logs dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo journalctl -u php8.4-fpm --since \"10 minutes ago\" --no-pager",
+    "example": "sudo journalctl -u php8.4-fpm --since \"10 minutes ago\" --no-pager",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "observability",
+      "logs"
+    ]
+  },
+  {
+    "id": "observability-practical-008-sudo-systemctl-status-php8-4-fpm-no-pager",
+    "command": "sudo systemctl status php8.4-fpm --no-pager",
+    "title": "php8.4-fpm status quick check karna",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "php8.4-fpm status quick check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo systemctl status php8.4-fpm --no-pager",
+    "example": "sudo systemctl status php8.4-fpm --no-pager",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "observability",
+      "service"
+    ]
+  },
+  {
+    "id": "observability-practical-009-sudo-journalctl-u-mysql-since-10-minutes-ago-no-pager",
+    "command": "sudo journalctl -u mysql --since \"10 minutes ago\" --no-pager",
+    "title": "mysql last 10 minute logs dekhna",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "mysql last 10 minute logs dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo journalctl -u mysql --since \"10 minutes ago\" --no-pager",
+    "example": "sudo journalctl -u mysql --since \"10 minutes ago\" --no-pager",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "observability",
+      "logs"
+    ]
+  },
+  {
+    "id": "observability-practical-010-sudo-systemctl-status-mysql-no-pager",
+    "command": "sudo systemctl status mysql --no-pager",
+    "title": "mysql status quick check karna",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "mysql status quick check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo systemctl status mysql --no-pager",
+    "example": "sudo systemctl status mysql --no-pager",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "observability",
+      "service"
+    ]
+  },
+  {
+    "id": "observability-practical-011-sudo-journalctl-u-postgresql-since-10-minutes-ago-no-pager",
+    "command": "sudo journalctl -u postgresql --since \"10 minutes ago\" --no-pager",
+    "title": "postgresql last 10 minute logs dekhna",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "postgresql last 10 minute logs dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo journalctl -u postgresql --since \"10 minutes ago\" --no-pager",
+    "example": "sudo journalctl -u postgresql --since \"10 minutes ago\" --no-pager",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "observability",
+      "logs"
+    ]
+  },
+  {
+    "id": "observability-practical-012-sudo-systemctl-status-postgresql-no-pager",
+    "command": "sudo systemctl status postgresql --no-pager",
+    "title": "postgresql status quick check karna",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "postgresql status quick check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo systemctl status postgresql --no-pager",
+    "example": "sudo systemctl status postgresql --no-pager",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "observability",
+      "service"
+    ]
+  },
+  {
+    "id": "observability-practical-013-sudo-journalctl-u-redis-server-since-10-minutes-ago-no-pager",
+    "command": "sudo journalctl -u redis-server --since \"10 minutes ago\" --no-pager",
+    "title": "redis-server last 10 minute logs dekhna",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "redis-server last 10 minute logs dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo journalctl -u redis-server --since \"10 minutes ago\" --no-pager",
+    "example": "sudo journalctl -u redis-server --since \"10 minutes ago\" --no-pager",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "observability",
+      "logs"
+    ]
+  },
+  {
+    "id": "observability-practical-014-sudo-systemctl-status-redis-server-no-pager",
+    "command": "sudo systemctl status redis-server --no-pager",
+    "title": "redis-server status quick check karna",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "redis-server status quick check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo systemctl status redis-server --no-pager",
+    "example": "sudo systemctl status redis-server --no-pager",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "observability",
+      "service"
+    ]
+  },
+  {
+    "id": "observability-practical-015-sudo-journalctl-u-docker-since-10-minutes-ago-no-pager",
+    "command": "sudo journalctl -u docker --since \"10 minutes ago\" --no-pager",
+    "title": "docker last 10 minute logs dekhna",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "docker last 10 minute logs dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo journalctl -u docker --since \"10 minutes ago\" --no-pager",
+    "example": "sudo journalctl -u docker --since \"10 minutes ago\" --no-pager",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "observability",
+      "logs"
+    ]
+  },
+  {
+    "id": "observability-practical-016-sudo-systemctl-status-docker-no-pager",
+    "command": "sudo systemctl status docker --no-pager",
+    "title": "docker status quick check karna",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "docker status quick check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo systemctl status docker --no-pager",
+    "example": "sudo systemctl status docker --no-pager",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "observability",
+      "service"
+    ]
+  },
+  {
+    "id": "observability-practical-017-sudo-journalctl-u-supervisor-since-10-minutes-ago-no-pager",
+    "command": "sudo journalctl -u supervisor --since \"10 minutes ago\" --no-pager",
+    "title": "supervisor last 10 minute logs dekhna",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "supervisor last 10 minute logs dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo journalctl -u supervisor --since \"10 minutes ago\" --no-pager",
+    "example": "sudo journalctl -u supervisor --since \"10 minutes ago\" --no-pager",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "observability",
+      "logs"
+    ]
+  },
+  {
+    "id": "observability-practical-018-sudo-systemctl-status-supervisor-no-pager",
+    "command": "sudo systemctl status supervisor --no-pager",
+    "title": "supervisor status quick check karna",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "supervisor status quick check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo systemctl status supervisor --no-pager",
+    "example": "sudo systemctl status supervisor --no-pager",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "observability",
+      "service"
+    ]
+  },
+  {
+    "id": "observability-practical-019-sudo-journalctl-u-ssh-since-10-minutes-ago-no-pager",
+    "command": "sudo journalctl -u ssh --since \"10 minutes ago\" --no-pager",
+    "title": "ssh last 10 minute logs dekhna",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "ssh last 10 minute logs dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo journalctl -u ssh --since \"10 minutes ago\" --no-pager",
+    "example": "sudo journalctl -u ssh --since \"10 minutes ago\" --no-pager",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "observability",
+      "logs"
+    ]
+  },
+  {
+    "id": "observability-practical-020-sudo-systemctl-status-ssh-no-pager",
+    "command": "sudo systemctl status ssh --no-pager",
+    "title": "ssh status quick check karna",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "ssh status quick check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo systemctl status ssh --no-pager",
+    "example": "sudo systemctl status ssh --no-pager",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "observability",
+      "service"
+    ]
+  },
+  {
+    "id": "observability-practical-021-sudo-journalctl-u-cron-since-10-minutes-ago-no-pager",
+    "command": "sudo journalctl -u cron --since \"10 minutes ago\" --no-pager",
+    "title": "cron last 10 minute logs dekhna",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "cron last 10 minute logs dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo journalctl -u cron --since \"10 minutes ago\" --no-pager",
+    "example": "sudo journalctl -u cron --since \"10 minutes ago\" --no-pager",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "observability",
+      "logs"
+    ]
+  },
+  {
+    "id": "observability-practical-022-sudo-systemctl-status-cron-no-pager",
+    "command": "sudo systemctl status cron --no-pager",
+    "title": "cron status quick check karna",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "cron status quick check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo systemctl status cron --no-pager",
+    "example": "sudo systemctl status cron --no-pager",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "observability",
+      "service"
+    ]
+  },
+  {
+    "id": "observability-practical-023-echo-check-cpu-metrics-dashboard",
+    "command": "echo \"Check cpu metrics dashboard\"",
+    "title": "cpu metric monitoring checklist",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "cpu metric monitoring checklist ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "echo \"Check cpu metrics dashboard\"",
+    "example": "echo \"Check cpu metrics dashboard\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "observability",
+      "metrics"
+    ]
+  },
+  {
+    "id": "observability-practical-024-echo-check-memory-metrics-dashboard",
+    "command": "echo \"Check memory metrics dashboard\"",
+    "title": "memory metric monitoring checklist",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "memory metric monitoring checklist ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "echo \"Check memory metrics dashboard\"",
+    "example": "echo \"Check memory metrics dashboard\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "observability",
+      "metrics"
+    ]
+  },
+  {
+    "id": "observability-practical-025-echo-check-disk-metrics-dashboard",
+    "command": "echo \"Check disk metrics dashboard\"",
+    "title": "disk metric monitoring checklist",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "disk metric monitoring checklist ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "echo \"Check disk metrics dashboard\"",
+    "example": "echo \"Check disk metrics dashboard\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "observability",
+      "metrics"
+    ]
+  },
+  {
+    "id": "observability-practical-026-echo-check-network-metrics-dashboard",
+    "command": "echo \"Check network metrics dashboard\"",
+    "title": "network metric monitoring checklist",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "network metric monitoring checklist ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "echo \"Check network metrics dashboard\"",
+    "example": "echo \"Check network metrics dashboard\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "observability",
+      "metrics"
+    ]
+  },
+  {
+    "id": "observability-practical-027-echo-check-load-metrics-dashboard",
+    "command": "echo \"Check load metrics dashboard\"",
+    "title": "load metric monitoring checklist",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "load metric monitoring checklist ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "echo \"Check load metrics dashboard\"",
+    "example": "echo \"Check load metrics dashboard\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "observability",
+      "metrics"
+    ]
+  },
+  {
+    "id": "observability-practical-028-echo-check-process-metrics-dashboard",
+    "command": "echo \"Check process metrics dashboard\"",
+    "title": "process metric monitoring checklist",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "process metric monitoring checklist ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "echo \"Check process metrics dashboard\"",
+    "example": "echo \"Check process metrics dashboard\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "observability",
+      "metrics"
+    ]
+  },
+  {
+    "id": "observability-practical-029-echo-check-inode-metrics-dashboard",
+    "command": "echo \"Check inode metrics dashboard\"",
+    "title": "inode metric monitoring checklist",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "inode metric monitoring checklist ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "echo \"Check inode metrics dashboard\"",
+    "example": "echo \"Check inode metrics dashboard\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "observability",
+      "metrics"
+    ]
+  },
+  {
+    "id": "observability-practical-030-echo-check-swap-metrics-dashboard",
+    "command": "echo \"Check swap metrics dashboard\"",
+    "title": "swap metric monitoring checklist",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "swap metric monitoring checklist ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "echo \"Check swap metrics dashboard\"",
+    "example": "echo \"Check swap metrics dashboard\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "observability",
+      "metrics"
+    ]
+  },
+  {
+    "id": "observability-practical-031-echo-check-io-metrics-dashboard",
+    "command": "echo \"Check io metrics dashboard\"",
+    "title": "io metric monitoring checklist",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "io metric monitoring checklist ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "echo \"Check io metrics dashboard\"",
+    "example": "echo \"Check io metrics dashboard\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "observability",
+      "metrics"
+    ]
+  },
+  {
+    "id": "observability-practical-032-echo-check-ports-metrics-dashboard",
+    "command": "echo \"Check ports metrics dashboard\"",
+    "title": "ports metric monitoring checklist",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "ports metric monitoring checklist ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "echo \"Check ports metrics dashboard\"",
+    "example": "echo \"Check ports metrics dashboard\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "observability",
+      "metrics"
+    ]
+  },
+  {
+    "id": "observability-practical-033-curl-fss-https-example-com-health",
+    "command": "curl -fsS https://example.com/health",
+    "title": "Health check endpoint https://example.com/health verify karna",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "Health check endpoint https://example.com/health verify karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "curl -fsS https://example.com/health",
+    "example": "curl -fsS https://example.com/health",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "healthcheck",
+      "curl"
+    ]
+  },
+  {
+    "id": "observability-practical-034-curl-fss-https-api-example-com-health",
+    "command": "curl -fsS https://api.example.com/health",
+    "title": "Health check endpoint https://api.example.com/health verify karna",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "Health check endpoint https://api.example.com/health verify karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "curl -fsS https://api.example.com/health",
+    "example": "curl -fsS https://api.example.com/health",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "healthcheck",
+      "curl"
+    ]
+  },
+  {
+    "id": "observability-practical-035-curl-fss-http-127-0-0-1-3000-health",
+    "command": "curl -fsS http://127.0.0.1:3000/health",
+    "title": "Health check endpoint http://127.0.0.1:3000/health verify karna",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "Health check endpoint http://127.0.0.1:3000/health verify karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "curl -fsS http://127.0.0.1:3000/health",
+    "example": "curl -fsS http://127.0.0.1:3000/health",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "healthcheck",
+      "curl"
+    ]
+  },
+  {
+    "id": "observability-practical-036-curl-fss-http-localhost-8080-status",
+    "command": "curl -fsS http://localhost:8080/status",
+    "title": "Health check endpoint http://localhost:8080/status verify karna",
+    "category": "Observability Practical",
+    "difficulty": "Beginner",
+    "use_case": "Health check endpoint http://localhost:8080/status verify karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "curl -fsS http://localhost:8080/status",
+    "example": "curl -fsS http://localhost:8080/status",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "healthcheck",
+      "curl"
+    ]
+  }
+]

@@ -1,0 +1,449 @@
+[
+  {
+    "id": "cron-automation-001-crontab-l",
+    "command": "crontab -l",
+    "title": "Cron command: crontab -l",
+    "category": "Cron & Automation",
+    "difficulty": "Beginner",
+    "use_case": "Cron command: crontab -l ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "crontab -l",
+    "example": "crontab -l",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "cron"
+    ]
+  },
+  {
+    "id": "cron-automation-002-crontab-e",
+    "command": "crontab -e",
+    "title": "Cron command: crontab -e",
+    "category": "Cron & Automation",
+    "difficulty": "Beginner",
+    "use_case": "Cron command: crontab -e ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "crontab -e",
+    "example": "crontab -e",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "cron"
+    ]
+  },
+  {
+    "id": "cron-automation-003-sudo-crontab-l",
+    "command": "sudo crontab -l",
+    "title": "Cron command: sudo crontab -l",
+    "category": "Cron & Automation",
+    "difficulty": "Beginner",
+    "use_case": "Cron command: sudo crontab -l ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo crontab -l",
+    "example": "sudo crontab -l",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "cron"
+    ]
+  },
+  {
+    "id": "cron-automation-004-sudo-crontab-e",
+    "command": "sudo crontab -e",
+    "title": "Cron command: sudo crontab -e",
+    "category": "Cron & Automation",
+    "difficulty": "Beginner",
+    "use_case": "Cron command: sudo crontab -e ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo crontab -e",
+    "example": "sudo crontab -e",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "cron"
+    ]
+  },
+  {
+    "id": "cron-automation-005-systemctl-list-timers",
+    "command": "systemctl list-timers",
+    "title": "Cron command: systemctl list-timers",
+    "category": "Cron & Automation",
+    "difficulty": "Beginner",
+    "use_case": "Cron command: systemctl list-timers ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "systemctl list-timers",
+    "example": "systemctl list-timers",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "cron"
+    ]
+  },
+  {
+    "id": "cron-automation-006-systemctl-list-timers-all",
+    "command": "systemctl list-timers --all",
+    "title": "Cron command: systemctl list-timers --all",
+    "category": "Cron & Automation",
+    "difficulty": "Beginner",
+    "use_case": "Cron command: systemctl list-timers --all ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "systemctl list-timers --all",
+    "example": "systemctl list-timers --all",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "cron"
+    ]
+  },
+  {
+    "id": "cron-automation-007-sudo-journalctl-u-cron-f",
+    "command": "sudo journalctl -u cron -f",
+    "title": "Cron command: sudo journalctl -u cron -f",
+    "category": "Cron & Automation",
+    "difficulty": "Beginner",
+    "use_case": "Cron command: sudo journalctl -u cron -f ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo journalctl -u cron -f",
+    "example": "sudo journalctl -u cron -f",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "cron"
+    ]
+  },
+  {
+    "id": "cron-automation-008-grep-cron-var-log-syslog-tail-100",
+    "command": "grep CRON /var/log/syslog | tail -100",
+    "title": "Cron command: grep CRON /var/log/syslog | tail -100",
+    "category": "Cron & Automation",
+    "difficulty": "Beginner",
+    "use_case": "Cron command: grep CRON /var/log/syslog | tail -100 ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "grep CRON /var/log/syslog | tail -100",
+    "example": "grep CRON /var/log/syslog | tail -100",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "cron"
+    ]
+  },
+  {
+    "id": "cron-automation-009-run-parts-test-etc-cron-daily",
+    "command": "run-parts --test /etc/cron.daily",
+    "title": "Cron command: run-parts --test /etc/cron.daily",
+    "category": "Cron & Automation",
+    "difficulty": "Beginner",
+    "use_case": "Cron command: run-parts --test /etc/cron.daily ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "run-parts --test /etc/cron.daily",
+    "example": "run-parts --test /etc/cron.daily",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "cron"
+    ]
+  },
+  {
+    "id": "cron-automation-010-ls-la-etc-cron-d",
+    "command": "ls -la /etc/cron.d",
+    "title": "Cron command: ls -la /etc/cron.d",
+    "category": "Cron & Automation",
+    "difficulty": "Beginner",
+    "use_case": "Cron command: ls -la /etc/cron.d ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "ls -la /etc/cron.d",
+    "example": "ls -la /etc/cron.d",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "cron"
+    ]
+  },
+  {
+    "id": "cron-automation-011-ls-la-etc-cron-daily",
+    "command": "ls -la /etc/cron.daily",
+    "title": "Cron command: ls -la /etc/cron.daily",
+    "category": "Cron & Automation",
+    "difficulty": "Beginner",
+    "use_case": "Cron command: ls -la /etc/cron.daily ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "ls -la /etc/cron.daily",
+    "example": "ls -la /etc/cron.daily",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "cron"
+    ]
+  },
+  {
+    "id": "cron-automation-012-ls-la-var-spool-cron-crontabs",
+    "command": "ls -la /var/spool/cron/crontabs",
+    "title": "Cron command: ls -la /var/spool/cron/crontabs",
+    "category": "Cron & Automation",
+    "difficulty": "Beginner",
+    "use_case": "Cron command: ls -la /var/spool/cron/crontabs ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "ls -la /var/spool/cron/crontabs",
+    "example": "ls -la /var/spool/cron/crontabs",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "cron"
+    ]
+  },
+  {
+    "id": "cron-automation-013-echo-usr-bin-php-var-www-app-artisan-schedule-run-dev-null-2-1",
+    "command": "echo \"* * * * * /usr/bin/php /var/www/app/artisan schedule:run >> /dev/null 2>&1\"",
+    "title": "Cron expression * * * * * example dekhna",
+    "category": "Cron & Automation",
+    "difficulty": "Beginner",
+    "use_case": "Cron expression * * * * * example dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "echo \"* * * * * /usr/bin/php /var/www/app/artisan schedule:run >> /dev/null 2>&1\"",
+    "example": "echo \"* * * * * /usr/bin/php /var/www/app/artisan schedule:run >> /dev/null 2>&1\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "cron",
+      "schedule"
+    ]
+  },
+  {
+    "id": "cron-automation-014-echo-5-usr-bin-php-var-www-app-artisan-schedule-run-dev-null-2-1",
+    "command": "echo \"*/5 * * * * /usr/bin/php /var/www/app/artisan schedule:run >> /dev/null 2>&1\"",
+    "title": "Cron expression */5 * * * * example dekhna",
+    "category": "Cron & Automation",
+    "difficulty": "Beginner",
+    "use_case": "Cron expression */5 * * * * example dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "echo \"*/5 * * * * /usr/bin/php /var/www/app/artisan schedule:run >> /dev/null 2>&1\"",
+    "example": "echo \"*/5 * * * * /usr/bin/php /var/www/app/artisan schedule:run >> /dev/null 2>&1\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "cron",
+      "schedule"
+    ]
+  },
+  {
+    "id": "cron-automation-015-echo-0-usr-bin-php-var-www-app-artisan-schedule-run-dev-null-2-1",
+    "command": "echo \"0 * * * * /usr/bin/php /var/www/app/artisan schedule:run >> /dev/null 2>&1\"",
+    "title": "Cron expression 0 * * * * example dekhna",
+    "category": "Cron & Automation",
+    "difficulty": "Beginner",
+    "use_case": "Cron expression 0 * * * * example dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "echo \"0 * * * * /usr/bin/php /var/www/app/artisan schedule:run >> /dev/null 2>&1\"",
+    "example": "echo \"0 * * * * /usr/bin/php /var/www/app/artisan schedule:run >> /dev/null 2>&1\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "cron",
+      "schedule"
+    ]
+  },
+  {
+    "id": "cron-automation-016-echo-0-0-usr-bin-php-var-www-app-artisan-schedule-run-dev-null-2-1",
+    "command": "echo \"0 0 * * * /usr/bin/php /var/www/app/artisan schedule:run >> /dev/null 2>&1\"",
+    "title": "Cron expression 0 0 * * * example dekhna",
+    "category": "Cron & Automation",
+    "difficulty": "Beginner",
+    "use_case": "Cron expression 0 0 * * * example dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "echo \"0 0 * * * /usr/bin/php /var/www/app/artisan schedule:run >> /dev/null 2>&1\"",
+    "example": "echo \"0 0 * * * /usr/bin/php /var/www/app/artisan schedule:run >> /dev/null 2>&1\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "cron",
+      "schedule"
+    ]
+  },
+  {
+    "id": "cron-automation-017-echo-0-3-0-usr-bin-php-var-www-app-artisan-schedule-run-dev-null-2-1",
+    "command": "echo \"0 3 * * 0 /usr/bin/php /var/www/app/artisan schedule:run >> /dev/null 2>&1\"",
+    "title": "Cron expression 0 3 * * 0 example dekhna",
+    "category": "Cron & Automation",
+    "difficulty": "Beginner",
+    "use_case": "Cron expression 0 3 * * 0 example dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "echo \"0 3 * * 0 /usr/bin/php /var/www/app/artisan schedule:run >> /dev/null 2>&1\"",
+    "example": "echo \"0 3 * * 0 /usr/bin/php /var/www/app/artisan schedule:run >> /dev/null 2>&1\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "cron",
+      "schedule"
+    ]
+  },
+  {
+    "id": "cron-automation-018-echo-30-2-usr-bin-php-var-www-app-artisan-schedule-run-dev-null-2-1",
+    "command": "echo \"30 2 * * * /usr/bin/php /var/www/app/artisan schedule:run >> /dev/null 2>&1\"",
+    "title": "Cron expression 30 2 * * * example dekhna",
+    "category": "Cron & Automation",
+    "difficulty": "Beginner",
+    "use_case": "Cron expression 30 2 * * * example dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "echo \"30 2 * * * /usr/bin/php /var/www/app/artisan schedule:run >> /dev/null 2>&1\"",
+    "example": "echo \"30 2 * * * /usr/bin/php /var/www/app/artisan schedule:run >> /dev/null 2>&1\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "cron",
+      "schedule"
+    ]
+  },
+  {
+    "id": "cron-automation-019-sudo-grep-i-cron-var-log-syslog-tail-50",
+    "command": "sudo grep -i cron /var/log/syslog | tail -50",
+    "title": "/var/log/syslog me cron entries dekhna",
+    "category": "Cron & Automation",
+    "difficulty": "Intermediate",
+    "use_case": "/var/log/syslog me cron entries dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo grep -i cron /var/log/syslog | tail -50",
+    "example": "sudo grep -i cron /var/log/syslog | tail -50",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "cron",
+      "logs"
+    ]
+  },
+  {
+    "id": "cron-automation-020-sudo-grep-i-cron-var-log-cron-tail-50",
+    "command": "sudo grep -i cron /var/log/cron | tail -50",
+    "title": "/var/log/cron me cron entries dekhna",
+    "category": "Cron & Automation",
+    "difficulty": "Intermediate",
+    "use_case": "/var/log/cron me cron entries dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo grep -i cron /var/log/cron | tail -50",
+    "example": "sudo grep -i cron /var/log/cron | tail -50",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "cron",
+      "logs"
+    ]
+  },
+  {
+    "id": "cron-automation-021-sudo-grep-i-cron-var-log-messages-tail-50",
+    "command": "sudo grep -i cron /var/log/messages | tail -50",
+    "title": "/var/log/messages me cron entries dekhna",
+    "category": "Cron & Automation",
+    "difficulty": "Intermediate",
+    "use_case": "/var/log/messages me cron entries dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo grep -i cron /var/log/messages | tail -50",
+    "example": "sudo grep -i cron /var/log/messages | tail -50",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "cron",
+      "logs"
+    ]
+  },
+  {
+    "id": "cron-automation-022-sudo-grep-i-cron-var-log-auth-log-tail-50",
+    "command": "sudo grep -i cron /var/log/auth.log | tail -50",
+    "title": "/var/log/auth.log me cron entries dekhna",
+    "category": "Cron & Automation",
+    "difficulty": "Intermediate",
+    "use_case": "/var/log/auth.log me cron entries dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo grep -i cron /var/log/auth.log | tail -50",
+    "example": "sudo grep -i cron /var/log/auth.log | tail -50",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "cron",
+      "logs"
+    ]
+  },
+  {
+    "id": "cron-automation-023-sudo-crontab-u-root-l",
+    "command": "sudo crontab -u root -l",
+    "title": "root user ka crontab dekhna",
+    "category": "Cron & Automation",
+    "difficulty": "Intermediate",
+    "use_case": "root user ka crontab dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo crontab -u root -l",
+    "example": "sudo crontab -u root -l",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "cron",
+      "user"
+    ]
+  },
+  {
+    "id": "cron-automation-024-sudo-crontab-u-www-data-l",
+    "command": "sudo crontab -u www-data -l",
+    "title": "www-data user ka crontab dekhna",
+    "category": "Cron & Automation",
+    "difficulty": "Intermediate",
+    "use_case": "www-data user ka crontab dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo crontab -u www-data -l",
+    "example": "sudo crontab -u www-data -l",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "cron",
+      "user"
+    ]
+  },
+  {
+    "id": "cron-automation-025-sudo-crontab-u-ubuntu-l",
+    "command": "sudo crontab -u ubuntu -l",
+    "title": "ubuntu user ka crontab dekhna",
+    "category": "Cron & Automation",
+    "difficulty": "Intermediate",
+    "use_case": "ubuntu user ka crontab dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo crontab -u ubuntu -l",
+    "example": "sudo crontab -u ubuntu -l",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "cron",
+      "user"
+    ]
+  },
+  {
+    "id": "cron-automation-026-sudo-crontab-u-deploy-l",
+    "command": "sudo crontab -u deploy -l",
+    "title": "deploy user ka crontab dekhna",
+    "category": "Cron & Automation",
+    "difficulty": "Intermediate",
+    "use_case": "deploy user ka crontab dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo crontab -u deploy -l",
+    "example": "sudo crontab -u deploy -l",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "cron",
+      "user"
+    ]
+  },
+  {
+    "id": "cron-automation-027-sudo-crontab-u-laravel-user-l",
+    "command": "sudo crontab -u laravel_user -l",
+    "title": "laravel_user user ka crontab dekhna",
+    "category": "Cron & Automation",
+    "difficulty": "Intermediate",
+    "use_case": "laravel_user user ka crontab dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo crontab -u laravel_user -l",
+    "example": "sudo crontab -u laravel_user -l",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "cron",
+      "user"
+    ]
+  }
+]

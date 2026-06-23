@@ -1,0 +1,512 @@
+[
+  {
+    "id": "php-composer-001-php-v",
+    "command": "php -v",
+    "title": "PHP/Composer command: php -v",
+    "category": "PHP & Composer",
+    "difficulty": "Beginner",
+    "use_case": "PHP/Composer command: php -v ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php -v",
+    "example": "php -v",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "php",
+      "composer"
+    ]
+  },
+  {
+    "id": "php-composer-002-php-m",
+    "command": "php -m",
+    "title": "PHP/Composer command: php -m",
+    "category": "PHP & Composer",
+    "difficulty": "Intermediate",
+    "use_case": "PHP/Composer command: php -m ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php -m",
+    "example": "php -m",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "php",
+      "composer"
+    ]
+  },
+  {
+    "id": "php-composer-003-php-ini",
+    "command": "php --ini",
+    "title": "PHP/Composer command: php --ini",
+    "category": "PHP & Composer",
+    "difficulty": "Intermediate",
+    "use_case": "PHP/Composer command: php --ini ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php --ini",
+    "example": "php --ini",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "php",
+      "composer"
+    ]
+  },
+  {
+    "id": "php-composer-004-composer-v",
+    "command": "composer -V",
+    "title": "PHP/Composer command: composer -V",
+    "category": "PHP & Composer",
+    "difficulty": "Beginner",
+    "use_case": "PHP/Composer command: composer -V ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "composer -V",
+    "example": "composer -V",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "php",
+      "composer"
+    ]
+  },
+  {
+    "id": "php-composer-005-composer-install",
+    "command": "composer install",
+    "title": "PHP/Composer command: composer install",
+    "category": "PHP & Composer",
+    "difficulty": "Intermediate",
+    "use_case": "PHP/Composer command: composer install ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "composer install",
+    "example": "composer install",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "php",
+      "composer"
+    ]
+  },
+  {
+    "id": "php-composer-006-composer-install-no-dev-optimize-autoloader",
+    "command": "composer install --no-dev --optimize-autoloader",
+    "title": "PHP/Composer command: composer install --no-dev --optimize-autoloader",
+    "category": "PHP & Composer",
+    "difficulty": "Intermediate",
+    "use_case": "PHP/Composer command: composer install --no-dev --optimize-autoloader ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "composer install --no-dev --optimize-autoloader",
+    "example": "composer install --no-dev --optimize-autoloader",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "php",
+      "composer"
+    ]
+  },
+  {
+    "id": "php-composer-007-composer-update",
+    "command": "composer update",
+    "title": "PHP/Composer command: composer update",
+    "category": "PHP & Composer",
+    "difficulty": "Intermediate",
+    "use_case": "PHP/Composer command: composer update ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "composer update",
+    "example": "composer update",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "php",
+      "composer"
+    ]
+  },
+  {
+    "id": "php-composer-008-composer-dump-autoload",
+    "command": "composer dump-autoload",
+    "title": "PHP/Composer command: composer dump-autoload",
+    "category": "PHP & Composer",
+    "difficulty": "Intermediate",
+    "use_case": "PHP/Composer command: composer dump-autoload ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "composer dump-autoload",
+    "example": "composer dump-autoload",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "php",
+      "composer"
+    ]
+  },
+  {
+    "id": "php-composer-009-composer-dump-autoload-o",
+    "command": "composer dump-autoload -o",
+    "title": "PHP/Composer command: composer dump-autoload -o",
+    "category": "PHP & Composer",
+    "difficulty": "Intermediate",
+    "use_case": "PHP/Composer command: composer dump-autoload -o ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "composer dump-autoload -o",
+    "example": "composer dump-autoload -o",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "php",
+      "composer"
+    ]
+  },
+  {
+    "id": "php-composer-010-composer-show",
+    "command": "composer show",
+    "title": "PHP/Composer command: composer show",
+    "category": "PHP & Composer",
+    "difficulty": "Intermediate",
+    "use_case": "PHP/Composer command: composer show ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "composer show",
+    "example": "composer show",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "php",
+      "composer"
+    ]
+  },
+  {
+    "id": "php-composer-011-composer-outdated",
+    "command": "composer outdated",
+    "title": "PHP/Composer command: composer outdated",
+    "category": "PHP & Composer",
+    "difficulty": "Intermediate",
+    "use_case": "PHP/Composer command: composer outdated ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "composer outdated",
+    "example": "composer outdated",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "php",
+      "composer"
+    ]
+  },
+  {
+    "id": "php-composer-012-composer-diagnose",
+    "command": "composer diagnose",
+    "title": "PHP/Composer command: composer diagnose",
+    "category": "PHP & Composer",
+    "difficulty": "Intermediate",
+    "use_case": "PHP/Composer command: composer diagnose ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "composer diagnose",
+    "example": "composer diagnose",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "php",
+      "composer"
+    ]
+  },
+  {
+    "id": "php-composer-013-composer-validate",
+    "command": "composer validate",
+    "title": "PHP/Composer command: composer validate",
+    "category": "PHP & Composer",
+    "difficulty": "Intermediate",
+    "use_case": "PHP/Composer command: composer validate ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "composer validate",
+    "example": "composer validate",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "php",
+      "composer"
+    ]
+  },
+  {
+    "id": "php-composer-014-composer-clear-cache",
+    "command": "composer clear-cache",
+    "title": "PHP/Composer command: composer clear-cache",
+    "category": "PHP & Composer",
+    "difficulty": "Intermediate",
+    "use_case": "PHP/Composer command: composer clear-cache ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "composer clear-cache",
+    "example": "composer clear-cache",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "php",
+      "composer"
+    ]
+  },
+  {
+    "id": "php-composer-015-composer-require-vendor-package",
+    "command": "composer require vendor/package",
+    "title": "PHP/Composer command: composer require vendor/package",
+    "category": "PHP & Composer",
+    "difficulty": "Intermediate",
+    "use_case": "PHP/Composer command: composer require vendor/package ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "composer require vendor/package",
+    "example": "composer require vendor/package",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "php",
+      "composer"
+    ]
+  },
+  {
+    "id": "php-composer-016-composer-remove-vendor-package",
+    "command": "composer remove vendor/package",
+    "title": "PHP/Composer command: composer remove vendor/package",
+    "category": "PHP & Composer",
+    "difficulty": "Intermediate",
+    "use_case": "PHP/Composer command: composer remove vendor/package ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "composer remove vendor/package",
+    "example": "composer remove vendor/package",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "php",
+      "composer"
+    ]
+  },
+  {
+    "id": "php-composer-017-composer-why-laravel-framework",
+    "command": "composer why laravel/framework",
+    "title": "PHP/Composer command: composer why laravel/framework",
+    "category": "PHP & Composer",
+    "difficulty": "Intermediate",
+    "use_case": "PHP/Composer command: composer why laravel/framework ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "composer why laravel/framework",
+    "example": "composer why laravel/framework",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "php",
+      "composer"
+    ]
+  },
+  {
+    "id": "php-composer-018-composer-why-not-php-8-4",
+    "command": "composer why-not php 8.4",
+    "title": "PHP/Composer command: composer why-not php 8.4",
+    "category": "PHP & Composer",
+    "difficulty": "Intermediate",
+    "use_case": "PHP/Composer command: composer why-not php 8.4 ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "composer why-not php 8.4",
+    "example": "composer why-not php 8.4",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "php",
+      "composer"
+    ]
+  },
+  {
+    "id": "php-composer-019-composer-check-platform-reqs",
+    "command": "composer check-platform-reqs",
+    "title": "PHP/Composer command: composer check-platform-reqs",
+    "category": "PHP & Composer",
+    "difficulty": "Intermediate",
+    "use_case": "PHP/Composer command: composer check-platform-reqs ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "composer check-platform-reqs",
+    "example": "composer check-platform-reqs",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "php",
+      "composer"
+    ]
+  },
+  {
+    "id": "php-composer-020-php-m-grep-i-curl",
+    "command": "php -m | grep -i curl",
+    "title": "PHP curl extension installed hai ya nahi check karna",
+    "category": "PHP & Composer",
+    "difficulty": "Beginner",
+    "use_case": "PHP curl extension installed hai ya nahi check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php -m | grep -i curl",
+    "example": "php -m | grep -i curl",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "php",
+      "extension"
+    ]
+  },
+  {
+    "id": "php-composer-021-php-m-grep-i-mbstring",
+    "command": "php -m | grep -i mbstring",
+    "title": "PHP mbstring extension installed hai ya nahi check karna",
+    "category": "PHP & Composer",
+    "difficulty": "Beginner",
+    "use_case": "PHP mbstring extension installed hai ya nahi check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php -m | grep -i mbstring",
+    "example": "php -m | grep -i mbstring",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "php",
+      "extension"
+    ]
+  },
+  {
+    "id": "php-composer-022-php-m-grep-i-xml",
+    "command": "php -m | grep -i xml",
+    "title": "PHP xml extension installed hai ya nahi check karna",
+    "category": "PHP & Composer",
+    "difficulty": "Beginner",
+    "use_case": "PHP xml extension installed hai ya nahi check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php -m | grep -i xml",
+    "example": "php -m | grep -i xml",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "php",
+      "extension"
+    ]
+  },
+  {
+    "id": "php-composer-023-php-m-grep-i-zip",
+    "command": "php -m | grep -i zip",
+    "title": "PHP zip extension installed hai ya nahi check karna",
+    "category": "PHP & Composer",
+    "difficulty": "Beginner",
+    "use_case": "PHP zip extension installed hai ya nahi check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php -m | grep -i zip",
+    "example": "php -m | grep -i zip",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "php",
+      "extension"
+    ]
+  },
+  {
+    "id": "php-composer-024-php-m-grep-i-pgsql",
+    "command": "php -m | grep -i pgsql",
+    "title": "PHP pgsql extension installed hai ya nahi check karna",
+    "category": "PHP & Composer",
+    "difficulty": "Beginner",
+    "use_case": "PHP pgsql extension installed hai ya nahi check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php -m | grep -i pgsql",
+    "example": "php -m | grep -i pgsql",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "php",
+      "extension"
+    ]
+  },
+  {
+    "id": "php-composer-025-php-m-grep-i-mysql",
+    "command": "php -m | grep -i mysql",
+    "title": "PHP mysql extension installed hai ya nahi check karna",
+    "category": "PHP & Composer",
+    "difficulty": "Beginner",
+    "use_case": "PHP mysql extension installed hai ya nahi check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php -m | grep -i mysql",
+    "example": "php -m | grep -i mysql",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "php",
+      "extension"
+    ]
+  },
+  {
+    "id": "php-composer-026-php-m-grep-i-redis",
+    "command": "php -m | grep -i redis",
+    "title": "PHP redis extension installed hai ya nahi check karna",
+    "category": "PHP & Composer",
+    "difficulty": "Beginner",
+    "use_case": "PHP redis extension installed hai ya nahi check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php -m | grep -i redis",
+    "example": "php -m | grep -i redis",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "php",
+      "extension"
+    ]
+  },
+  {
+    "id": "php-composer-027-php-m-grep-i-gd",
+    "command": "php -m | grep -i gd",
+    "title": "PHP gd extension installed hai ya nahi check karna",
+    "category": "PHP & Composer",
+    "difficulty": "Beginner",
+    "use_case": "PHP gd extension installed hai ya nahi check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php -m | grep -i gd",
+    "example": "php -m | grep -i gd",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "php",
+      "extension"
+    ]
+  },
+  {
+    "id": "php-composer-028-php-m-grep-i-intl",
+    "command": "php -m | grep -i intl",
+    "title": "PHP intl extension installed hai ya nahi check karna",
+    "category": "PHP & Composer",
+    "difficulty": "Beginner",
+    "use_case": "PHP intl extension installed hai ya nahi check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php -m | grep -i intl",
+    "example": "php -m | grep -i intl",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "php",
+      "extension"
+    ]
+  },
+  {
+    "id": "php-composer-029-php-m-grep-i-bcmath",
+    "command": "php -m | grep -i bcmath",
+    "title": "PHP bcmath extension installed hai ya nahi check karna",
+    "category": "PHP & Composer",
+    "difficulty": "Beginner",
+    "use_case": "PHP bcmath extension installed hai ya nahi check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php -m | grep -i bcmath",
+    "example": "php -m | grep -i bcmath",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "php",
+      "extension"
+    ]
+  },
+  {
+    "id": "php-composer-030-php-m-grep-i-opcache",
+    "command": "php -m | grep -i opcache",
+    "title": "PHP opcache extension installed hai ya nahi check karna",
+    "category": "PHP & Composer",
+    "difficulty": "Beginner",
+    "use_case": "PHP opcache extension installed hai ya nahi check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php -m | grep -i opcache",
+    "example": "php -m | grep -i opcache",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "php",
+      "extension"
+    ]
+  }
+]

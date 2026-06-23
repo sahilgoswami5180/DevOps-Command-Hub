@@ -1,0 +1,717 @@
+[
+  {
+    "id": "laravel-ops-001-php-artisan-about",
+    "command": "php artisan about",
+    "title": "Laravel artisan about run karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Laravel artisan about run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php artisan about",
+    "example": "php artisan about",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "artisan"
+    ]
+  },
+  {
+    "id": "laravel-ops-002-php-artisan-env",
+    "command": "php artisan env",
+    "title": "Laravel artisan env run karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Laravel artisan env run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php artisan env",
+    "example": "php artisan env",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "artisan"
+    ]
+  },
+  {
+    "id": "laravel-ops-003-php-artisan-route-list",
+    "command": "php artisan route:list",
+    "title": "Laravel artisan route:list run karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Laravel artisan route:list run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php artisan route:list",
+    "example": "php artisan route:list",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "artisan"
+    ]
+  },
+  {
+    "id": "laravel-ops-004-php-artisan-config-clear",
+    "command": "php artisan config:clear",
+    "title": "Laravel artisan config:clear run karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Laravel artisan config:clear run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php artisan config:clear",
+    "example": "php artisan config:clear",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "artisan"
+    ]
+  },
+  {
+    "id": "laravel-ops-005-php-artisan-cache-clear",
+    "command": "php artisan cache:clear",
+    "title": "Laravel artisan cache:clear run karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Laravel artisan cache:clear run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php artisan cache:clear",
+    "example": "php artisan cache:clear",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "artisan"
+    ]
+  },
+  {
+    "id": "laravel-ops-006-php-artisan-view-clear",
+    "command": "php artisan view:clear",
+    "title": "Laravel artisan view:clear run karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Laravel artisan view:clear run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php artisan view:clear",
+    "example": "php artisan view:clear",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "artisan"
+    ]
+  },
+  {
+    "id": "laravel-ops-007-php-artisan-event-clear",
+    "command": "php artisan event:clear",
+    "title": "Laravel artisan event:clear run karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Laravel artisan event:clear run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php artisan event:clear",
+    "example": "php artisan event:clear",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "artisan"
+    ]
+  },
+  {
+    "id": "laravel-ops-008-php-artisan-optimize-clear",
+    "command": "php artisan optimize:clear",
+    "title": "Laravel artisan optimize:clear run karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Laravel artisan optimize:clear run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php artisan optimize:clear",
+    "example": "php artisan optimize:clear",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "artisan"
+    ]
+  },
+  {
+    "id": "laravel-ops-009-php-artisan-optimize",
+    "command": "php artisan optimize",
+    "title": "Laravel artisan optimize run karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Laravel artisan optimize run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php artisan optimize",
+    "example": "php artisan optimize",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "artisan"
+    ]
+  },
+  {
+    "id": "laravel-ops-010-php-artisan-migrate",
+    "command": "php artisan migrate",
+    "title": "Laravel artisan migrate run karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Laravel artisan migrate run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php artisan migrate",
+    "example": "php artisan migrate",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "artisan"
+    ]
+  },
+  {
+    "id": "laravel-ops-011-php-artisan-migrate-force",
+    "command": "php artisan migrate --force",
+    "title": "Laravel artisan migrate --force run karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Laravel artisan migrate --force run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php artisan migrate --force",
+    "example": "php artisan migrate --force",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "artisan"
+    ]
+  },
+  {
+    "id": "laravel-ops-012-php-artisan-migrate-status",
+    "command": "php artisan migrate:status",
+    "title": "Laravel artisan migrate:status run karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Laravel artisan migrate:status run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php artisan migrate:status",
+    "example": "php artisan migrate:status",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "artisan"
+    ]
+  },
+  {
+    "id": "laravel-ops-013-php-artisan-queue-work-tries-3",
+    "command": "php artisan queue:work --tries=3",
+    "title": "Laravel artisan queue:work --tries=3 run karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Laravel artisan queue:work --tries=3 run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php artisan queue:work --tries=3",
+    "example": "php artisan queue:work --tries=3",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "artisan"
+    ]
+  },
+  {
+    "id": "laravel-ops-014-php-artisan-queue-restart",
+    "command": "php artisan queue:restart",
+    "title": "Laravel artisan queue:restart run karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Laravel artisan queue:restart run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php artisan queue:restart",
+    "example": "php artisan queue:restart",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "artisan"
+    ]
+  },
+  {
+    "id": "laravel-ops-015-php-artisan-schedule-list",
+    "command": "php artisan schedule:list",
+    "title": "Laravel artisan schedule:list run karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Laravel artisan schedule:list run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php artisan schedule:list",
+    "example": "php artisan schedule:list",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "artisan"
+    ]
+  },
+  {
+    "id": "laravel-ops-016-php-artisan-schedule-run",
+    "command": "php artisan schedule:run",
+    "title": "Laravel artisan schedule:run run karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Laravel artisan schedule:run run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php artisan schedule:run",
+    "example": "php artisan schedule:run",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "artisan"
+    ]
+  },
+  {
+    "id": "laravel-ops-017-php-artisan-storage-link",
+    "command": "php artisan storage:link",
+    "title": "Laravel artisan storage:link run karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Laravel artisan storage:link run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php artisan storage:link",
+    "example": "php artisan storage:link",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "artisan"
+    ]
+  },
+  {
+    "id": "laravel-ops-018-php-artisan-key-generate",
+    "command": "php artisan key:generate",
+    "title": "Laravel artisan key:generate run karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Laravel artisan key:generate run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php artisan key:generate",
+    "example": "php artisan key:generate",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "artisan"
+    ]
+  },
+  {
+    "id": "laravel-ops-019-php-artisan-db-show",
+    "command": "php artisan db:show",
+    "title": "Laravel artisan db:show run karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Laravel artisan db:show run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php artisan db:show",
+    "example": "php artisan db:show",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "artisan"
+    ]
+  },
+  {
+    "id": "laravel-ops-020-php-artisan-db-monitor",
+    "command": "php artisan db:monitor",
+    "title": "Laravel artisan db:monitor run karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Laravel artisan db:monitor run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php artisan db:monitor",
+    "example": "php artisan db:monitor",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "artisan"
+    ]
+  },
+  {
+    "id": "laravel-ops-021-php-artisan-model-show-user",
+    "command": "php artisan model:show User",
+    "title": "Laravel artisan model:show User run karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Laravel artisan model:show User run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php artisan model:show User",
+    "example": "php artisan model:show User",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "artisan"
+    ]
+  },
+  {
+    "id": "laravel-ops-022-php-artisan-tinker",
+    "command": "php artisan tinker",
+    "title": "Laravel artisan tinker run karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Laravel artisan tinker run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php artisan tinker",
+    "example": "php artisan tinker",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "artisan"
+    ]
+  },
+  {
+    "id": "laravel-ops-023-php-artisan-test",
+    "command": "php artisan test",
+    "title": "Laravel artisan test run karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Laravel artisan test run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php artisan test",
+    "example": "php artisan test",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "artisan"
+    ]
+  },
+  {
+    "id": "laravel-ops-024-php-artisan-test-filter-logintest",
+    "command": "php artisan test --filter=LoginTest",
+    "title": "Laravel artisan test --filter=LoginTest run karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Laravel artisan test --filter=LoginTest run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php artisan test --filter=LoginTest",
+    "example": "php artisan test --filter=LoginTest",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "artisan"
+    ]
+  },
+  {
+    "id": "laravel-ops-025-php-artisan-tinker-execute-dump-config-app-env",
+    "command": "php artisan tinker --execute=\"dump(config('app.env'));\"",
+    "title": "Laravel APP_ENV config inspect karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Advanced",
+    "use_case": "Laravel APP_ENV config inspect karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php artisan tinker --execute=\"dump(config('app.env'));\"",
+    "example": "php artisan tinker --execute=\"dump(config('app.env'));\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "config"
+    ]
+  },
+  {
+    "id": "laravel-ops-026-php-artisan-tinker-execute-dump-config-app-debug",
+    "command": "php artisan tinker --execute=\"dump(config('app.debug'));\"",
+    "title": "Laravel APP_DEBUG config inspect karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Advanced",
+    "use_case": "Laravel APP_DEBUG config inspect karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php artisan tinker --execute=\"dump(config('app.debug'));\"",
+    "example": "php artisan tinker --execute=\"dump(config('app.debug'));\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "config"
+    ]
+  },
+  {
+    "id": "laravel-ops-027-php-artisan-tinker-execute-dump-config-app-url",
+    "command": "php artisan tinker --execute=\"dump(config('app.url'));\"",
+    "title": "Laravel APP_URL config inspect karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Advanced",
+    "use_case": "Laravel APP_URL config inspect karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php artisan tinker --execute=\"dump(config('app.url'));\"",
+    "example": "php artisan tinker --execute=\"dump(config('app.url'));\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "config"
+    ]
+  },
+  {
+    "id": "laravel-ops-028-php-artisan-tinker-execute-dump-config-db-connection",
+    "command": "php artisan tinker --execute=\"dump(config('db.connection'));\"",
+    "title": "Laravel DB_CONNECTION config inspect karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Advanced",
+    "use_case": "Laravel DB_CONNECTION config inspect karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php artisan tinker --execute=\"dump(config('db.connection'));\"",
+    "example": "php artisan tinker --execute=\"dump(config('db.connection'));\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "config"
+    ]
+  },
+  {
+    "id": "laravel-ops-029-php-artisan-tinker-execute-dump-config-queue-connection",
+    "command": "php artisan tinker --execute=\"dump(config('queue.connection'));\"",
+    "title": "Laravel QUEUE_CONNECTION config inspect karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Advanced",
+    "use_case": "Laravel QUEUE_CONNECTION config inspect karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php artisan tinker --execute=\"dump(config('queue.connection'));\"",
+    "example": "php artisan tinker --execute=\"dump(config('queue.connection'));\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "config"
+    ]
+  },
+  {
+    "id": "laravel-ops-030-php-artisan-tinker-execute-dump-config-cache-store",
+    "command": "php artisan tinker --execute=\"dump(config('cache.store'));\"",
+    "title": "Laravel CACHE_STORE config inspect karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Advanced",
+    "use_case": "Laravel CACHE_STORE config inspect karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php artisan tinker --execute=\"dump(config('cache.store'));\"",
+    "example": "php artisan tinker --execute=\"dump(config('cache.store'));\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "config"
+    ]
+  },
+  {
+    "id": "laravel-ops-031-php-artisan-tinker-execute-dump-config-mail-mailer",
+    "command": "php artisan tinker --execute=\"dump(config('mail.mailer'));\"",
+    "title": "Laravel MAIL_MAILER config inspect karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Advanced",
+    "use_case": "Laravel MAIL_MAILER config inspect karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "php artisan tinker --execute=\"dump(config('mail.mailer'));\"",
+    "example": "php artisan tinker --execute=\"dump(config('mail.mailer'));\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "config"
+    ]
+  },
+  {
+    "id": "laravel-ops-032-ls-la-storage",
+    "command": "ls -la storage",
+    "title": "Laravel storage permissions check karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "Laravel storage permissions check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "ls -la storage",
+    "example": "ls -la storage",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "permissions"
+    ]
+  },
+  {
+    "id": "laravel-ops-033-ls-la-storage-logs",
+    "command": "ls -la storage/logs",
+    "title": "Laravel storage/logs permissions check karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "Laravel storage/logs permissions check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "ls -la storage/logs",
+    "example": "ls -la storage/logs",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "permissions"
+    ]
+  },
+  {
+    "id": "laravel-ops-034-ls-la-bootstrap-cache",
+    "command": "ls -la bootstrap/cache",
+    "title": "Laravel bootstrap/cache permissions check karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "Laravel bootstrap/cache permissions check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "ls -la bootstrap/cache",
+    "example": "ls -la bootstrap/cache",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "permissions"
+    ]
+  },
+  {
+    "id": "laravel-ops-035-ls-la-public-storage",
+    "command": "ls -la public/storage",
+    "title": "Laravel public/storage permissions check karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "Laravel public/storage permissions check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "ls -la public/storage",
+    "example": "ls -la public/storage",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "permissions"
+    ]
+  },
+  {
+    "id": "laravel-ops-036-tail-f-storage-logs-laravel-log",
+    "command": "tail -f storage/logs/laravel.log",
+    "title": "Laravel live error log dekhna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Beginner",
+    "use_case": "Laravel live error log dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "tail -f storage/logs/laravel.log",
+    "example": "tail -f storage/logs/laravel.log",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "logs"
+    ]
+  },
+  {
+    "id": "laravel-ops-037-grep-r-error-storage-logs-laravel-log-tail-50",
+    "command": "grep -R \"ERROR\" storage/logs/laravel.log | tail -50",
+    "title": "Laravel latest ERROR lines find karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Laravel latest ERROR lines find karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "grep -R \"ERROR\" storage/logs/laravel.log | tail -50",
+    "example": "grep -R \"ERROR\" storage/logs/laravel.log | tail -50",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "logs"
+    ]
+  },
+  {
+    "id": "laravel-ops-038-composer-install-no-dev-optimize-autoloader",
+    "command": "composer install --no-dev --optimize-autoloader",
+    "title": "Production composer install karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Production composer install karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "composer install --no-dev --optimize-autoloader",
+    "example": "composer install --no-dev --optimize-autoloader",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "composer",
+      "laravel"
+    ]
+  },
+  {
+    "id": "laravel-ops-039-npm-ci-npm-run-build",
+    "command": "npm ci && npm run build",
+    "title": "Laravel frontend production build karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Laravel frontend production build karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "npm ci && npm run build",
+    "example": "npm ci && npm run build",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "npm",
+      "vite",
+      "laravel"
+    ]
+  },
+  {
+    "id": "laravel-ops-040-sudo-u-www-data-php-artisan-queue-work-tries-3",
+    "command": "sudo -u www-data php artisan queue:work --tries=3",
+    "title": "www-data user se queue worker run karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Advanced",
+    "use_case": "www-data user se queue worker run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo -u www-data php artisan queue:work --tries=3",
+    "example": "sudo -u www-data php artisan queue:work --tries=3",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "queue"
+    ]
+  },
+  {
+    "id": "laravel-ops-041-sudo-chown-r-www-data-www-data-storage-bootstrap-cache",
+    "command": "sudo chown -R www-data:www-data storage bootstrap/cache",
+    "title": "Laravel writable folders owner set karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Laravel writable folders owner set karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo chown -R www-data:www-data storage bootstrap/cache",
+    "example": "sudo chown -R www-data:www-data storage bootstrap/cache",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "permissions"
+    ]
+  },
+  {
+    "id": "laravel-ops-042-sudo-chmod-r-ug-rwx-storage-bootstrap-cache",
+    "command": "sudo chmod -R ug+rwX storage bootstrap/cache",
+    "title": "Laravel writable folders permission set karna",
+    "category": "Laravel Server Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Laravel writable folders permission set karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo chmod -R ug+rwX storage bootstrap/cache",
+    "example": "sudo chmod -R ug+rwX storage bootstrap/cache",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "laravel",
+      "permissions"
+    ]
+  }
+]

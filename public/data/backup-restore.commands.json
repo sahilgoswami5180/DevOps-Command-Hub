@@ -1,0 +1,682 @@
+[
+  {
+    "id": "backup-restore-001-tar-czf-backup-tar-gz-var-www-app",
+    "command": "tar -czf backup.tar.gz /var/www/app",
+    "title": "Folder ka tar.gz backup banana",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Folder ka tar.gz backup banana ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "tar -czf backup.tar.gz /var/www/app",
+    "example": "tar -czf backup.tar.gz /var/www/app",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "tar"
+    ]
+  },
+  {
+    "id": "backup-restore-002-tar-xzf-backup-tar-gz-c-restore-path",
+    "command": "tar -xzf backup.tar.gz -C /restore/path",
+    "title": "tar.gz backup extract karna",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Intermediate",
+    "use_case": "tar.gz backup extract karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "tar -xzf backup.tar.gz -C /restore/path",
+    "example": "tar -xzf backup.tar.gz -C /restore/path",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "restore"
+    ]
+  },
+  {
+    "id": "backup-restore-003-zip-r-backup-zip-var-www-app",
+    "command": "zip -r backup.zip /var/www/app",
+    "title": "Folder zip backup banana",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Folder zip backup banana ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "zip -r backup.zip /var/www/app",
+    "example": "zip -r backup.zip /var/www/app",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "zip"
+    ]
+  },
+  {
+    "id": "backup-restore-004-unzip-backup-zip-d-restore-path",
+    "command": "unzip backup.zip -d /restore/path",
+    "title": "zip backup extract karna",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Intermediate",
+    "use_case": "zip backup extract karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "unzip backup.zip -d /restore/path",
+    "example": "unzip backup.zip -d /restore/path",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "restore"
+    ]
+  },
+  {
+    "id": "backup-restore-005-rsync-avh-progress-src-dest",
+    "command": "rsync -avh --progress /src/ /dest/",
+    "title": "Local rsync backup copy karna",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Local rsync backup copy karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "rsync -avh --progress /src/ /dest/",
+    "example": "rsync -avh --progress /src/ /dest/",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "rsync"
+    ]
+  },
+  {
+    "id": "backup-restore-006-rsync-avz-delete-src-user-server-backup",
+    "command": "rsync -avz --delete /src/ user@server:/backup/",
+    "title": "Remote mirror backup sync karna",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Advanced",
+    "use_case": "Remote mirror backup sync karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "rsync -avz --delete /src/ user@server:/backup/",
+    "example": "rsync -avz --delete /src/ user@server:/backup/",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "rsync"
+    ]
+  },
+  {
+    "id": "backup-restore-007-find-backup-type-f-mtime-14-delete",
+    "command": "find /backup -type f -mtime +14 -delete",
+    "title": "14 din purane backup delete karna",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Advanced",
+    "use_case": "14 din purane backup delete karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "find /backup -type f -mtime +14 -delete",
+    "example": "find /backup -type f -mtime +14 -delete",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "cleanup"
+    ]
+  },
+  {
+    "id": "backup-restore-008-sha256sum-backup-tar-gz",
+    "command": "sha256sum backup.tar.gz",
+    "title": "Backup checksum banana",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Beginner",
+    "use_case": "Backup checksum banana ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sha256sum backup.tar.gz",
+    "example": "sha256sum backup.tar.gz",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "checksum"
+    ]
+  },
+  {
+    "id": "backup-restore-009-sha256sum-c-backup-tar-gz-sha256",
+    "command": "sha256sum -c backup.tar.gz.sha256",
+    "title": "Backup checksum verify karna",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Beginner",
+    "use_case": "Backup checksum verify karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sha256sum -c backup.tar.gz.sha256",
+    "example": "sha256sum -c backup.tar.gz.sha256",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "checksum"
+    ]
+  },
+  {
+    "id": "backup-restore-010-echo-mysql-backup-dump-checklist",
+    "command": "echo \"mysql backup dump checklist\"",
+    "title": "mysql backup dump checklist note",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Beginner",
+    "use_case": "mysql backup dump checklist note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"mysql backup dump checklist\"",
+    "example": "echo \"mysql backup dump checklist\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "mysql"
+    ]
+  },
+  {
+    "id": "backup-restore-011-echo-mysql-backup-restore-checklist",
+    "command": "echo \"mysql backup restore checklist\"",
+    "title": "mysql backup restore checklist note",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Beginner",
+    "use_case": "mysql backup restore checklist note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"mysql backup restore checklist\"",
+    "example": "echo \"mysql backup restore checklist\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "mysql"
+    ]
+  },
+  {
+    "id": "backup-restore-012-echo-mysql-backup-verify-checklist",
+    "command": "echo \"mysql backup verify checklist\"",
+    "title": "mysql backup verify checklist note",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Beginner",
+    "use_case": "mysql backup verify checklist note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"mysql backup verify checklist\"",
+    "example": "echo \"mysql backup verify checklist\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "mysql"
+    ]
+  },
+  {
+    "id": "backup-restore-013-echo-mysql-backup-compress-checklist",
+    "command": "echo \"mysql backup compress checklist\"",
+    "title": "mysql backup compress checklist note",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Beginner",
+    "use_case": "mysql backup compress checklist note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"mysql backup compress checklist\"",
+    "example": "echo \"mysql backup compress checklist\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "mysql"
+    ]
+  },
+  {
+    "id": "backup-restore-014-echo-mysql-backup-encrypt-checklist",
+    "command": "echo \"mysql backup encrypt checklist\"",
+    "title": "mysql backup encrypt checklist note",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Beginner",
+    "use_case": "mysql backup encrypt checklist note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"mysql backup encrypt checklist\"",
+    "example": "echo \"mysql backup encrypt checklist\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "mysql"
+    ]
+  },
+  {
+    "id": "backup-restore-015-echo-mysql-backup-decrypt-checklist",
+    "command": "echo \"mysql backup decrypt checklist\"",
+    "title": "mysql backup decrypt checklist note",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Beginner",
+    "use_case": "mysql backup decrypt checklist note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"mysql backup decrypt checklist\"",
+    "example": "echo \"mysql backup decrypt checklist\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "mysql"
+    ]
+  },
+  {
+    "id": "backup-restore-016-echo-postgres-backup-dump-checklist",
+    "command": "echo \"postgres backup dump checklist\"",
+    "title": "postgres backup dump checklist note",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Beginner",
+    "use_case": "postgres backup dump checklist note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"postgres backup dump checklist\"",
+    "example": "echo \"postgres backup dump checklist\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "postgres"
+    ]
+  },
+  {
+    "id": "backup-restore-017-echo-postgres-backup-restore-checklist",
+    "command": "echo \"postgres backup restore checklist\"",
+    "title": "postgres backup restore checklist note",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Beginner",
+    "use_case": "postgres backup restore checklist note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"postgres backup restore checklist\"",
+    "example": "echo \"postgres backup restore checklist\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "postgres"
+    ]
+  },
+  {
+    "id": "backup-restore-018-echo-postgres-backup-verify-checklist",
+    "command": "echo \"postgres backup verify checklist\"",
+    "title": "postgres backup verify checklist note",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Beginner",
+    "use_case": "postgres backup verify checklist note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"postgres backup verify checklist\"",
+    "example": "echo \"postgres backup verify checklist\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "postgres"
+    ]
+  },
+  {
+    "id": "backup-restore-019-echo-postgres-backup-compress-checklist",
+    "command": "echo \"postgres backup compress checklist\"",
+    "title": "postgres backup compress checklist note",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Beginner",
+    "use_case": "postgres backup compress checklist note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"postgres backup compress checklist\"",
+    "example": "echo \"postgres backup compress checklist\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "postgres"
+    ]
+  },
+  {
+    "id": "backup-restore-020-echo-postgres-backup-encrypt-checklist",
+    "command": "echo \"postgres backup encrypt checklist\"",
+    "title": "postgres backup encrypt checklist note",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Beginner",
+    "use_case": "postgres backup encrypt checklist note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"postgres backup encrypt checklist\"",
+    "example": "echo \"postgres backup encrypt checklist\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "postgres"
+    ]
+  },
+  {
+    "id": "backup-restore-021-echo-postgres-backup-decrypt-checklist",
+    "command": "echo \"postgres backup decrypt checklist\"",
+    "title": "postgres backup decrypt checklist note",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Beginner",
+    "use_case": "postgres backup decrypt checklist note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"postgres backup decrypt checklist\"",
+    "example": "echo \"postgres backup decrypt checklist\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "postgres"
+    ]
+  },
+  {
+    "id": "backup-restore-022-echo-redis-backup-dump-checklist",
+    "command": "echo \"redis backup dump checklist\"",
+    "title": "redis backup dump checklist note",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Beginner",
+    "use_case": "redis backup dump checklist note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"redis backup dump checklist\"",
+    "example": "echo \"redis backup dump checklist\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "redis"
+    ]
+  },
+  {
+    "id": "backup-restore-023-echo-redis-backup-restore-checklist",
+    "command": "echo \"redis backup restore checklist\"",
+    "title": "redis backup restore checklist note",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Beginner",
+    "use_case": "redis backup restore checklist note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"redis backup restore checklist\"",
+    "example": "echo \"redis backup restore checklist\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "redis"
+    ]
+  },
+  {
+    "id": "backup-restore-024-echo-redis-backup-verify-checklist",
+    "command": "echo \"redis backup verify checklist\"",
+    "title": "redis backup verify checklist note",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Beginner",
+    "use_case": "redis backup verify checklist note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"redis backup verify checklist\"",
+    "example": "echo \"redis backup verify checklist\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "redis"
+    ]
+  },
+  {
+    "id": "backup-restore-025-echo-redis-backup-compress-checklist",
+    "command": "echo \"redis backup compress checklist\"",
+    "title": "redis backup compress checklist note",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Beginner",
+    "use_case": "redis backup compress checklist note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"redis backup compress checklist\"",
+    "example": "echo \"redis backup compress checklist\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "redis"
+    ]
+  },
+  {
+    "id": "backup-restore-026-echo-redis-backup-encrypt-checklist",
+    "command": "echo \"redis backup encrypt checklist\"",
+    "title": "redis backup encrypt checklist note",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Beginner",
+    "use_case": "redis backup encrypt checklist note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"redis backup encrypt checklist\"",
+    "example": "echo \"redis backup encrypt checklist\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "redis"
+    ]
+  },
+  {
+    "id": "backup-restore-027-echo-redis-backup-decrypt-checklist",
+    "command": "echo \"redis backup decrypt checklist\"",
+    "title": "redis backup decrypt checklist note",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Beginner",
+    "use_case": "redis backup decrypt checklist note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"redis backup decrypt checklist\"",
+    "example": "echo \"redis backup decrypt checklist\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "redis"
+    ]
+  },
+  {
+    "id": "backup-restore-028-echo-mongodb-backup-dump-checklist",
+    "command": "echo \"mongodb backup dump checklist\"",
+    "title": "mongodb backup dump checklist note",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Beginner",
+    "use_case": "mongodb backup dump checklist note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"mongodb backup dump checklist\"",
+    "example": "echo \"mongodb backup dump checklist\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "mongodb"
+    ]
+  },
+  {
+    "id": "backup-restore-029-echo-mongodb-backup-restore-checklist",
+    "command": "echo \"mongodb backup restore checklist\"",
+    "title": "mongodb backup restore checklist note",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Beginner",
+    "use_case": "mongodb backup restore checklist note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"mongodb backup restore checklist\"",
+    "example": "echo \"mongodb backup restore checklist\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "mongodb"
+    ]
+  },
+  {
+    "id": "backup-restore-030-echo-mongodb-backup-verify-checklist",
+    "command": "echo \"mongodb backup verify checklist\"",
+    "title": "mongodb backup verify checklist note",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Beginner",
+    "use_case": "mongodb backup verify checklist note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"mongodb backup verify checklist\"",
+    "example": "echo \"mongodb backup verify checklist\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "mongodb"
+    ]
+  },
+  {
+    "id": "backup-restore-031-echo-mongodb-backup-compress-checklist",
+    "command": "echo \"mongodb backup compress checklist\"",
+    "title": "mongodb backup compress checklist note",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Beginner",
+    "use_case": "mongodb backup compress checklist note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"mongodb backup compress checklist\"",
+    "example": "echo \"mongodb backup compress checklist\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "mongodb"
+    ]
+  },
+  {
+    "id": "backup-restore-032-echo-mongodb-backup-encrypt-checklist",
+    "command": "echo \"mongodb backup encrypt checklist\"",
+    "title": "mongodb backup encrypt checklist note",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Beginner",
+    "use_case": "mongodb backup encrypt checklist note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"mongodb backup encrypt checklist\"",
+    "example": "echo \"mongodb backup encrypt checklist\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "mongodb"
+    ]
+  },
+  {
+    "id": "backup-restore-033-echo-mongodb-backup-decrypt-checklist",
+    "command": "echo \"mongodb backup decrypt checklist\"",
+    "title": "mongodb backup decrypt checklist note",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Beginner",
+    "use_case": "mongodb backup decrypt checklist note ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "echo \"mongodb backup decrypt checklist\"",
+    "example": "echo \"mongodb backup decrypt checklist\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "mongodb"
+    ]
+  },
+  {
+    "id": "backup-restore-034-find-backup-type-f-mtime-7-print",
+    "command": "find /backup -type f -mtime +7 -print",
+    "title": "7 din purane backups list karna",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Beginner",
+    "use_case": "7 din purane backups list karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "find /backup -type f -mtime +7 -print",
+    "example": "find /backup -type f -mtime +7 -print",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "retention"
+    ]
+  },
+  {
+    "id": "backup-restore-035-find-backup-type-f-mtime-14-print",
+    "command": "find /backup -type f -mtime +14 -print",
+    "title": "14 din purane backups list karna",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Beginner",
+    "use_case": "14 din purane backups list karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "find /backup -type f -mtime +14 -print",
+    "example": "find /backup -type f -mtime +14 -print",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "retention"
+    ]
+  },
+  {
+    "id": "backup-restore-036-find-backup-type-f-mtime-30-print",
+    "command": "find /backup -type f -mtime +30 -print",
+    "title": "30 din purane backups list karna",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Beginner",
+    "use_case": "30 din purane backups list karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "find /backup -type f -mtime +30 -print",
+    "example": "find /backup -type f -mtime +30 -print",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "retention"
+    ]
+  },
+  {
+    "id": "backup-restore-037-find-backup-type-f-mtime-60-print",
+    "command": "find /backup -type f -mtime +60 -print",
+    "title": "60 din purane backups list karna",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Beginner",
+    "use_case": "60 din purane backups list karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "find /backup -type f -mtime +60 -print",
+    "example": "find /backup -type f -mtime +60 -print",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "retention"
+    ]
+  },
+  {
+    "id": "backup-restore-038-find-backup-type-f-mtime-90-print",
+    "command": "find /backup -type f -mtime +90 -print",
+    "title": "90 din purane backups list karna",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Beginner",
+    "use_case": "90 din purane backups list karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "find /backup -type f -mtime +90 -print",
+    "example": "find /backup -type f -mtime +90 -print",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "retention"
+    ]
+  },
+  {
+    "id": "backup-restore-039-find-backup-type-f-mtime-180-print",
+    "command": "find /backup -type f -mtime +180 -print",
+    "title": "180 din purane backups list karna",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Beginner",
+    "use_case": "180 din purane backups list karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "find /backup -type f -mtime +180 -print",
+    "example": "find /backup -type f -mtime +180 -print",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "retention"
+    ]
+  },
+  {
+    "id": "backup-restore-040-find-backup-type-f-mtime-365-print",
+    "command": "find /backup -type f -mtime +365 -print",
+    "title": "365 din purane backups list karna",
+    "category": "Backup & Restore Ops",
+    "difficulty": "Beginner",
+    "use_case": "365 din purane backups list karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "find /backup -type f -mtime +365 -print",
+    "example": "find /backup -type f -mtime +365 -print",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "backup",
+      "retention"
+    ]
+  }
+]

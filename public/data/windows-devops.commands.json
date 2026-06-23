@@ -1,0 +1,631 @@
+[
+  {
+    "id": "windows-devops-001-get-childitem",
+    "command": "Get-ChildItem",
+    "title": "Windows PowerShell command: Get-ChildItem",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows PowerShell command: Get-ChildItem ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Get-ChildItem",
+    "example": "Get-ChildItem",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "powershell"
+    ]
+  },
+  {
+    "id": "windows-devops-002-get-childitem-force",
+    "command": "Get-ChildItem -Force",
+    "title": "Windows PowerShell command: Get-ChildItem -Force",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows PowerShell command: Get-ChildItem -Force ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Get-ChildItem -Force",
+    "example": "Get-ChildItem -Force",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "powershell"
+    ]
+  },
+  {
+    "id": "windows-devops-003-get-location",
+    "command": "Get-Location",
+    "title": "Windows PowerShell command: Get-Location",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows PowerShell command: Get-Location ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Get-Location",
+    "example": "Get-Location",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "powershell"
+    ]
+  },
+  {
+    "id": "windows-devops-004-set-location-d-ab",
+    "command": "Set-Location D:\\AB",
+    "title": "Windows PowerShell command: Set-Location D:\\AB",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows PowerShell command: Set-Location D:\\AB ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Set-Location D:\\AB",
+    "example": "Set-Location D:\\AB",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "powershell"
+    ]
+  },
+  {
+    "id": "windows-devops-005-copy-item-source-txt-dest-txt",
+    "command": "Copy-Item source.txt dest.txt",
+    "title": "Windows PowerShell command: Copy-Item source.txt dest.txt",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows PowerShell command: Copy-Item source.txt dest.txt ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Copy-Item source.txt dest.txt",
+    "example": "Copy-Item source.txt dest.txt",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "powershell"
+    ]
+  },
+  {
+    "id": "windows-devops-006-copy-item-recurse-folder-backup",
+    "command": "Copy-Item -Recurse folder backup",
+    "title": "Windows PowerShell command: Copy-Item -Recurse folder backup",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows PowerShell command: Copy-Item -Recurse folder backup ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Copy-Item -Recurse folder backup",
+    "example": "Copy-Item -Recurse folder backup",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "powershell"
+    ]
+  },
+  {
+    "id": "windows-devops-007-remove-item-file-txt",
+    "command": "Remove-Item file.txt",
+    "title": "Windows PowerShell command: Remove-Item file.txt",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows PowerShell command: Remove-Item file.txt ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Remove-Item file.txt",
+    "example": "Remove-Item file.txt",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "powershell"
+    ]
+  },
+  {
+    "id": "windows-devops-008-remove-item-recurse-folder",
+    "command": "Remove-Item -Recurse folder",
+    "title": "Windows PowerShell command: Remove-Item -Recurse folder",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows PowerShell command: Remove-Item -Recurse folder ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Remove-Item -Recurse folder",
+    "example": "Remove-Item -Recurse folder",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "powershell"
+    ]
+  },
+  {
+    "id": "windows-devops-009-test-netconnection-example-com-port-443",
+    "command": "Test-NetConnection example.com -Port 443",
+    "title": "Windows PowerShell command: Test-NetConnection example.com -Port 443",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows PowerShell command: Test-NetConnection example.com -Port 443 ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Test-NetConnection example.com -Port 443",
+    "example": "Test-NetConnection example.com -Port 443",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "powershell"
+    ]
+  },
+  {
+    "id": "windows-devops-010-invoke-webrequest-https-example-com",
+    "command": "Invoke-WebRequest https://example.com",
+    "title": "Windows PowerShell command: Invoke-WebRequest https://example.com",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows PowerShell command: Invoke-WebRequest https://example.com ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Invoke-WebRequest https://example.com",
+    "example": "Invoke-WebRequest https://example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "powershell"
+    ]
+  },
+  {
+    "id": "windows-devops-011-curl-exe-i-https-example-com",
+    "command": "curl.exe -I https://example.com",
+    "title": "Windows PowerShell command: curl.exe -I https://example.com",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows PowerShell command: curl.exe -I https://example.com ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "curl.exe -I https://example.com",
+    "example": "curl.exe -I https://example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "powershell"
+    ]
+  },
+  {
+    "id": "windows-devops-012-get-content-env",
+    "command": "Get-Content .env",
+    "title": "Windows PowerShell command: Get-Content .env",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows PowerShell command: Get-Content .env ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Get-Content .env",
+    "example": "Get-Content .env",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "powershell"
+    ]
+  },
+  {
+    "id": "windows-devops-013-get-content-laravel-log-tail-100-wait",
+    "command": "Get-Content laravel.log -Tail 100 -Wait",
+    "title": "Windows PowerShell command: Get-Content laravel.log -Tail 100 -Wait",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows PowerShell command: Get-Content laravel.log -Tail 100 -Wait ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Get-Content laravel.log -Tail 100 -Wait",
+    "example": "Get-Content laravel.log -Tail 100 -Wait",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "powershell"
+    ]
+  },
+  {
+    "id": "windows-devops-014-select-string-path-laravel-log-pattern-error",
+    "command": "Select-String -Path laravel.log -Pattern \"ERROR\"",
+    "title": "Windows PowerShell command: Select-String -Path laravel.log -Pattern \"ERROR\"",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows PowerShell command: Select-String -Path laravel.log -Pattern \"ERROR\" ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Select-String -Path laravel.log -Pattern \"ERROR\"",
+    "example": "Select-String -Path laravel.log -Pattern \"ERROR\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "powershell"
+    ]
+  },
+  {
+    "id": "windows-devops-015-get-process",
+    "command": "Get-Process",
+    "title": "Windows PowerShell command: Get-Process",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows PowerShell command: Get-Process ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Get-Process",
+    "example": "Get-Process",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "powershell"
+    ]
+  },
+  {
+    "id": "windows-devops-016-get-service",
+    "command": "Get-Service",
+    "title": "Windows PowerShell command: Get-Service",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows PowerShell command: Get-Service ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Get-Service",
+    "example": "Get-Service",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "powershell"
+    ]
+  },
+  {
+    "id": "windows-devops-017-get-nettcpconnection",
+    "command": "Get-NetTCPConnection",
+    "title": "Windows PowerShell command: Get-NetTCPConnection",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows PowerShell command: Get-NetTCPConnection ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Get-NetTCPConnection",
+    "example": "Get-NetTCPConnection",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "powershell"
+    ]
+  },
+  {
+    "id": "windows-devops-018-ipconfig-all",
+    "command": "ipconfig /all",
+    "title": "Windows PowerShell command: ipconfig /all",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows PowerShell command: ipconfig /all ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "ipconfig /all",
+    "example": "ipconfig /all",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "powershell"
+    ]
+  },
+  {
+    "id": "windows-devops-019-netstat-ano",
+    "command": "netstat -ano",
+    "title": "Windows PowerShell command: netstat -ano",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows PowerShell command: netstat -ano ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "netstat -ano",
+    "example": "netstat -ano",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "powershell"
+    ]
+  },
+  {
+    "id": "windows-devops-020-tasklist",
+    "command": "tasklist",
+    "title": "Windows PowerShell command: tasklist",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows PowerShell command: tasklist ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "tasklist",
+    "example": "tasklist",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "powershell"
+    ]
+  },
+  {
+    "id": "windows-devops-021-taskkill-pid-1234-f",
+    "command": "taskkill /PID 1234 /F",
+    "title": "Windows PowerShell command: taskkill /PID 1234 /F",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows PowerShell command: taskkill /PID 1234 /F ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "taskkill /PID 1234 /F",
+    "example": "taskkill /PID 1234 /F",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "powershell"
+    ]
+  },
+  {
+    "id": "windows-devops-022-ssh-user-server",
+    "command": "ssh user@server",
+    "title": "Windows PowerShell command: ssh user@server",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows PowerShell command: ssh user@server ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "ssh user@server",
+    "example": "ssh user@server",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "powershell"
+    ]
+  },
+  {
+    "id": "windows-devops-023-scp-file-txt-user-server-tmp",
+    "command": "scp file.txt user@server:/tmp/",
+    "title": "Windows PowerShell command: scp file.txt user@server:/tmp/",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows PowerShell command: scp file.txt user@server:/tmp/ ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "scp file.txt user@server:/tmp/",
+    "example": "scp file.txt user@server:/tmp/",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "powershell"
+    ]
+  },
+  {
+    "id": "windows-devops-024-where-node",
+    "command": "where node",
+    "title": "Windows PowerShell command: where node",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows PowerShell command: where node ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "where node",
+    "example": "where node",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "powershell"
+    ]
+  },
+  {
+    "id": "windows-devops-025-where-php",
+    "command": "where php",
+    "title": "Windows PowerShell command: where php",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows PowerShell command: where php ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "where php",
+    "example": "where php",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "powershell"
+    ]
+  },
+  {
+    "id": "windows-devops-026-where-composer",
+    "command": "where composer",
+    "title": "Windows PowerShell command: where composer",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows PowerShell command: where composer ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "where composer",
+    "example": "where composer",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "powershell"
+    ]
+  },
+  {
+    "id": "windows-devops-027-where-git",
+    "command": "where git",
+    "title": "Windows PowerShell command: where git",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows PowerShell command: where git ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "where git",
+    "example": "where git",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "powershell"
+    ]
+  },
+  {
+    "id": "windows-devops-028-env-path",
+    "command": "$env:PATH",
+    "title": "Windows PowerShell command: $env:PATH",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows PowerShell command: $env:PATH ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "$env:PATH",
+    "example": "$env:PATH",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "powershell"
+    ]
+  },
+  {
+    "id": "windows-devops-029-test-netconnection-127-0-0-1-port-22",
+    "command": "Test-NetConnection 127.0.0.1 -Port 22",
+    "title": "Windows se local port 22 test karna",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows se local port 22 test karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Test-NetConnection 127.0.0.1 -Port 22",
+    "example": "Test-NetConnection 127.0.0.1 -Port 22",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "port"
+    ]
+  },
+  {
+    "id": "windows-devops-030-test-netconnection-127-0-0-1-port-80",
+    "command": "Test-NetConnection 127.0.0.1 -Port 80",
+    "title": "Windows se local port 80 test karna",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows se local port 80 test karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Test-NetConnection 127.0.0.1 -Port 80",
+    "example": "Test-NetConnection 127.0.0.1 -Port 80",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "port"
+    ]
+  },
+  {
+    "id": "windows-devops-031-test-netconnection-127-0-0-1-port-443",
+    "command": "Test-NetConnection 127.0.0.1 -Port 443",
+    "title": "Windows se local port 443 test karna",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows se local port 443 test karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Test-NetConnection 127.0.0.1 -Port 443",
+    "example": "Test-NetConnection 127.0.0.1 -Port 443",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "port"
+    ]
+  },
+  {
+    "id": "windows-devops-032-test-netconnection-127-0-0-1-port-3306",
+    "command": "Test-NetConnection 127.0.0.1 -Port 3306",
+    "title": "Windows se local port 3306 test karna",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows se local port 3306 test karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Test-NetConnection 127.0.0.1 -Port 3306",
+    "example": "Test-NetConnection 127.0.0.1 -Port 3306",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "port"
+    ]
+  },
+  {
+    "id": "windows-devops-033-test-netconnection-127-0-0-1-port-5432",
+    "command": "Test-NetConnection 127.0.0.1 -Port 5432",
+    "title": "Windows se local port 5432 test karna",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows se local port 5432 test karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Test-NetConnection 127.0.0.1 -Port 5432",
+    "example": "Test-NetConnection 127.0.0.1 -Port 5432",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "port"
+    ]
+  },
+  {
+    "id": "windows-devops-034-test-netconnection-127-0-0-1-port-6379",
+    "command": "Test-NetConnection 127.0.0.1 -Port 6379",
+    "title": "Windows se local port 6379 test karna",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows se local port 6379 test karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Test-NetConnection 127.0.0.1 -Port 6379",
+    "example": "Test-NetConnection 127.0.0.1 -Port 6379",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "port"
+    ]
+  },
+  {
+    "id": "windows-devops-035-test-netconnection-127-0-0-1-port-5173",
+    "command": "Test-NetConnection 127.0.0.1 -Port 5173",
+    "title": "Windows se local port 5173 test karna",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows se local port 5173 test karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Test-NetConnection 127.0.0.1 -Port 5173",
+    "example": "Test-NetConnection 127.0.0.1 -Port 5173",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "port"
+    ]
+  },
+  {
+    "id": "windows-devops-036-test-netconnection-127-0-0-1-port-8080",
+    "command": "Test-NetConnection 127.0.0.1 -Port 8080",
+    "title": "Windows se local port 8080 test karna",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows se local port 8080 test karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Test-NetConnection 127.0.0.1 -Port 8080",
+    "example": "Test-NetConnection 127.0.0.1 -Port 8080",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "port"
+    ]
+  },
+  {
+    "id": "windows-devops-037-test-netconnection-127-0-0-1-port-9000",
+    "command": "Test-NetConnection 127.0.0.1 -Port 9000",
+    "title": "Windows se local port 9000 test karna",
+    "category": "Windows DevOps Commands",
+    "difficulty": "Beginner",
+    "use_case": "Windows se local port 9000 test karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "Test-NetConnection 127.0.0.1 -Port 9000",
+    "example": "Test-NetConnection 127.0.0.1 -Port 9000",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "windows",
+      "port"
+    ]
+  }
+]

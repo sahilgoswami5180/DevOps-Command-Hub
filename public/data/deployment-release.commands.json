@@ -1,0 +1,750 @@
+[
+  {
+    "id": "deployment-release-001-git-fetch-all-prune",
+    "command": "git fetch --all --prune",
+    "title": "Deployment step: git fetch --all --prune",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Deployment step: git fetch --all --prune ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "git fetch --all --prune",
+    "example": "git fetch --all --prune",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy"
+    ]
+  },
+  {
+    "id": "deployment-release-002-git-status",
+    "command": "git status",
+    "title": "Deployment step: git status",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Deployment step: git status ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "git status",
+    "example": "git status",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy"
+    ]
+  },
+  {
+    "id": "deployment-release-003-git-pull-ff-only",
+    "command": "git pull --ff-only",
+    "title": "Deployment step: git pull --ff-only",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Deployment step: git pull --ff-only ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "git pull --ff-only",
+    "example": "git pull --ff-only",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy"
+    ]
+  },
+  {
+    "id": "deployment-release-004-git-checkout-main",
+    "command": "git checkout main",
+    "title": "Deployment step: git checkout main",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Deployment step: git checkout main ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "git checkout main",
+    "example": "git checkout main",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy"
+    ]
+  },
+  {
+    "id": "deployment-release-005-git-checkout-staging",
+    "command": "git checkout staging",
+    "title": "Deployment step: git checkout staging",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Deployment step: git checkout staging ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "git checkout staging",
+    "example": "git checkout staging",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy"
+    ]
+  },
+  {
+    "id": "deployment-release-006-git-reset-hard-origin-main",
+    "command": "git reset --hard origin/main",
+    "title": "Deployment step: git reset --hard origin/main",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Deployment step: git reset --hard origin/main ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "git reset --hard origin/main",
+    "example": "git reset --hard origin/main",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy"
+    ]
+  },
+  {
+    "id": "deployment-release-007-composer-install-no-dev-optimize-autoloader",
+    "command": "composer install --no-dev --optimize-autoloader",
+    "title": "Deployment step: composer install --no-dev --optimize-autoloader",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Deployment step: composer install --no-dev --optimize-autoloader ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "composer install --no-dev --optimize-autoloader",
+    "example": "composer install --no-dev --optimize-autoloader",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy"
+    ]
+  },
+  {
+    "id": "deployment-release-008-npm-ci",
+    "command": "npm ci",
+    "title": "Deployment step: npm ci",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Deployment step: npm ci ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "npm ci",
+    "example": "npm ci",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy"
+    ]
+  },
+  {
+    "id": "deployment-release-009-npm-run-build",
+    "command": "npm run build",
+    "title": "Deployment step: npm run build",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Deployment step: npm run build ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "npm run build",
+    "example": "npm run build",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy"
+    ]
+  },
+  {
+    "id": "deployment-release-010-php-artisan-migrate-force",
+    "command": "php artisan migrate --force",
+    "title": "Deployment step: php artisan migrate --force",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Deployment step: php artisan migrate --force ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "php artisan migrate --force",
+    "example": "php artisan migrate --force",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy"
+    ]
+  },
+  {
+    "id": "deployment-release-011-php-artisan-optimize",
+    "command": "php artisan optimize",
+    "title": "Deployment step: php artisan optimize",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Deployment step: php artisan optimize ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "php artisan optimize",
+    "example": "php artisan optimize",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy"
+    ]
+  },
+  {
+    "id": "deployment-release-012-php-artisan-queue-restart",
+    "command": "php artisan queue:restart",
+    "title": "Deployment step: php artisan queue:restart",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Deployment step: php artisan queue:restart ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "php artisan queue:restart",
+    "example": "php artisan queue:restart",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy"
+    ]
+  },
+  {
+    "id": "deployment-release-013-sudo-systemctl-reload-php8-4-fpm",
+    "command": "sudo systemctl reload php8.4-fpm",
+    "title": "Deployment step: sudo systemctl reload php8.4-fpm",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Deployment step: sudo systemctl reload php8.4-fpm ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo systemctl reload php8.4-fpm",
+    "example": "sudo systemctl reload php8.4-fpm",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy"
+    ]
+  },
+  {
+    "id": "deployment-release-014-sudo-systemctl-reload-caddy",
+    "command": "sudo systemctl reload caddy",
+    "title": "Deployment step: sudo systemctl reload caddy",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Deployment step: sudo systemctl reload caddy ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo systemctl reload caddy",
+    "example": "sudo systemctl reload caddy",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy"
+    ]
+  },
+  {
+    "id": "deployment-release-015-curl-i-https-example-com",
+    "command": "curl -I https://example.com",
+    "title": "Deployment step: curl -I https://example.com",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Deployment step: curl -I https://example.com ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "curl -I https://example.com",
+    "example": "curl -I https://example.com",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy"
+    ]
+  },
+  {
+    "id": "deployment-release-016-git-tag-v1-0-0",
+    "command": "git tag v1.0.0",
+    "title": "Deployment step: git tag v1.0.0",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Deployment step: git tag v1.0.0 ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "git tag v1.0.0",
+    "example": "git tag v1.0.0",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy"
+    ]
+  },
+  {
+    "id": "deployment-release-017-git-push-origin-v1-0-0",
+    "command": "git push origin v1.0.0",
+    "title": "Deployment step: git push origin v1.0.0",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Deployment step: git push origin v1.0.0 ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "git push origin v1.0.0",
+    "example": "git push origin v1.0.0",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy"
+    ]
+  },
+  {
+    "id": "deployment-release-018-git-checkout-development",
+    "command": "git checkout development",
+    "title": "development branch checkout karna",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Beginner",
+    "use_case": "development branch checkout karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "git checkout development",
+    "example": "git checkout development",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy",
+      "git"
+    ]
+  },
+  {
+    "id": "deployment-release-019-git-pull-origin-development",
+    "command": "git pull origin development",
+    "title": "development branch latest pull karna",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Beginner",
+    "use_case": "development branch latest pull karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "git pull origin development",
+    "example": "git pull origin development",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy",
+      "git"
+    ]
+  },
+  {
+    "id": "deployment-release-020-echo-deploy-development-checklist",
+    "command": "echo \"Deploy development checklist\"",
+    "title": "development deploy checklist note",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Beginner",
+    "use_case": "development deploy checklist note ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "echo \"Deploy development checklist\"",
+    "example": "echo \"Deploy development checklist\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy",
+      "checklist"
+    ]
+  },
+  {
+    "id": "deployment-release-021-git-checkout-staging",
+    "command": "git checkout staging",
+    "title": "staging branch checkout karna",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Beginner",
+    "use_case": "staging branch checkout karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "git checkout staging",
+    "example": "git checkout staging",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy",
+      "git"
+    ]
+  },
+  {
+    "id": "deployment-release-022-git-pull-origin-staging",
+    "command": "git pull origin staging",
+    "title": "staging branch latest pull karna",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Beginner",
+    "use_case": "staging branch latest pull karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "git pull origin staging",
+    "example": "git pull origin staging",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy",
+      "git"
+    ]
+  },
+  {
+    "id": "deployment-release-023-echo-deploy-staging-checklist",
+    "command": "echo \"Deploy staging checklist\"",
+    "title": "staging deploy checklist note",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Beginner",
+    "use_case": "staging deploy checklist note ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "echo \"Deploy staging checklist\"",
+    "example": "echo \"Deploy staging checklist\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy",
+      "checklist"
+    ]
+  },
+  {
+    "id": "deployment-release-024-git-checkout-production",
+    "command": "git checkout production",
+    "title": "production branch checkout karna",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Beginner",
+    "use_case": "production branch checkout karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "git checkout production",
+    "example": "git checkout production",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy",
+      "git"
+    ]
+  },
+  {
+    "id": "deployment-release-025-git-pull-origin-production",
+    "command": "git pull origin production",
+    "title": "production branch latest pull karna",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Beginner",
+    "use_case": "production branch latest pull karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "git pull origin production",
+    "example": "git pull origin production",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy",
+      "git"
+    ]
+  },
+  {
+    "id": "deployment-release-026-echo-deploy-production-checklist",
+    "command": "echo \"Deploy production checklist\"",
+    "title": "production deploy checklist note",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Beginner",
+    "use_case": "production deploy checklist note ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "echo \"Deploy production checklist\"",
+    "example": "echo \"Deploy production checklist\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy",
+      "checklist"
+    ]
+  },
+  {
+    "id": "deployment-release-027-git-checkout-demo",
+    "command": "git checkout demo",
+    "title": "demo branch checkout karna",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Beginner",
+    "use_case": "demo branch checkout karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "git checkout demo",
+    "example": "git checkout demo",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy",
+      "git"
+    ]
+  },
+  {
+    "id": "deployment-release-028-git-pull-origin-demo",
+    "command": "git pull origin demo",
+    "title": "demo branch latest pull karna",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Beginner",
+    "use_case": "demo branch latest pull karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "git pull origin demo",
+    "example": "git pull origin demo",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy",
+      "git"
+    ]
+  },
+  {
+    "id": "deployment-release-029-echo-deploy-demo-checklist",
+    "command": "echo \"Deploy demo checklist\"",
+    "title": "demo deploy checklist note",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Beginner",
+    "use_case": "demo deploy checklist note ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "echo \"Deploy demo checklist\"",
+    "example": "echo \"Deploy demo checklist\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy",
+      "checklist"
+    ]
+  },
+  {
+    "id": "deployment-release-030-git-checkout-qa",
+    "command": "git checkout qa",
+    "title": "qa branch checkout karna",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Beginner",
+    "use_case": "qa branch checkout karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "git checkout qa",
+    "example": "git checkout qa",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy",
+      "git"
+    ]
+  },
+  {
+    "id": "deployment-release-031-git-pull-origin-qa",
+    "command": "git pull origin qa",
+    "title": "qa branch latest pull karna",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Beginner",
+    "use_case": "qa branch latest pull karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "git pull origin qa",
+    "example": "git pull origin qa",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy",
+      "git"
+    ]
+  },
+  {
+    "id": "deployment-release-032-echo-deploy-qa-checklist",
+    "command": "echo \"Deploy qa checklist\"",
+    "title": "qa deploy checklist note",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Beginner",
+    "use_case": "qa deploy checklist note ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "echo \"Deploy qa checklist\"",
+    "example": "echo \"Deploy qa checklist\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy",
+      "checklist"
+    ]
+  },
+  {
+    "id": "deployment-release-033-git-checkout-uat",
+    "command": "git checkout uat",
+    "title": "uat branch checkout karna",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Beginner",
+    "use_case": "uat branch checkout karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "git checkout uat",
+    "example": "git checkout uat",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy",
+      "git"
+    ]
+  },
+  {
+    "id": "deployment-release-034-git-pull-origin-uat",
+    "command": "git pull origin uat",
+    "title": "uat branch latest pull karna",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Beginner",
+    "use_case": "uat branch latest pull karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "git pull origin uat",
+    "example": "git pull origin uat",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy",
+      "git"
+    ]
+  },
+  {
+    "id": "deployment-release-035-echo-deploy-uat-checklist",
+    "command": "echo \"Deploy uat checklist\"",
+    "title": "uat deploy checklist note",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Beginner",
+    "use_case": "uat deploy checklist note ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "echo \"Deploy uat checklist\"",
+    "example": "echo \"Deploy uat checklist\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy",
+      "checklist"
+    ]
+  },
+  {
+    "id": "deployment-release-036-git-checkout-hotfix",
+    "command": "git checkout hotfix",
+    "title": "hotfix branch checkout karna",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Beginner",
+    "use_case": "hotfix branch checkout karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "git checkout hotfix",
+    "example": "git checkout hotfix",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy",
+      "git"
+    ]
+  },
+  {
+    "id": "deployment-release-037-git-pull-origin-hotfix",
+    "command": "git pull origin hotfix",
+    "title": "hotfix branch latest pull karna",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Beginner",
+    "use_case": "hotfix branch latest pull karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "git pull origin hotfix",
+    "example": "git pull origin hotfix",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy",
+      "git"
+    ]
+  },
+  {
+    "id": "deployment-release-038-echo-deploy-hotfix-checklist",
+    "command": "echo \"Deploy hotfix checklist\"",
+    "title": "hotfix deploy checklist note",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Beginner",
+    "use_case": "hotfix deploy checklist note ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "echo \"Deploy hotfix checklist\"",
+    "example": "echo \"Deploy hotfix checklist\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy",
+      "checklist"
+    ]
+  },
+  {
+    "id": "deployment-release-039-ls-la-var-www-app-current",
+    "command": "ls -la /var/www/app/current",
+    "title": "Deploy path current check karna",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Beginner",
+    "use_case": "Deploy path current check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "ls -la /var/www/app/current",
+    "example": "ls -la /var/www/app/current",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy",
+      "paths"
+    ]
+  },
+  {
+    "id": "deployment-release-040-ls-la-var-www-app-releases-20260623",
+    "command": "ls -la /var/www/app/releases/20260623",
+    "title": "Deploy path releases/20260623 check karna",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Beginner",
+    "use_case": "Deploy path releases/20260623 check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "ls -la /var/www/app/releases/20260623",
+    "example": "ls -la /var/www/app/releases/20260623",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy",
+      "paths"
+    ]
+  },
+  {
+    "id": "deployment-release-041-ls-la-var-www-app-shared",
+    "command": "ls -la /var/www/app/shared",
+    "title": "Deploy path shared check karna",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Beginner",
+    "use_case": "Deploy path shared check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "ls -la /var/www/app/shared",
+    "example": "ls -la /var/www/app/shared",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy",
+      "paths"
+    ]
+  },
+  {
+    "id": "deployment-release-042-ls-la-var-www-app-storage",
+    "command": "ls -la /var/www/app/storage",
+    "title": "Deploy path storage check karna",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Beginner",
+    "use_case": "Deploy path storage check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "ls -la /var/www/app/storage",
+    "example": "ls -la /var/www/app/storage",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy",
+      "paths"
+    ]
+  },
+  {
+    "id": "deployment-release-043-ls-la-var-www-app-bootstrap-cache",
+    "command": "ls -la /var/www/app/bootstrap/cache",
+    "title": "Deploy path bootstrap/cache check karna",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Beginner",
+    "use_case": "Deploy path bootstrap/cache check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "ls -la /var/www/app/bootstrap/cache",
+    "example": "ls -la /var/www/app/bootstrap/cache",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy",
+      "paths"
+    ]
+  },
+  {
+    "id": "deployment-release-044-ls-la-var-www-app-public-build",
+    "command": "ls -la /var/www/app/public/build",
+    "title": "Deploy path public/build check karna",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Beginner",
+    "use_case": "Deploy path public/build check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "ls -la /var/www/app/public/build",
+    "example": "ls -la /var/www/app/public/build",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy",
+      "paths"
+    ]
+  },
+  {
+    "id": "deployment-release-045-ls-la-var-www-app-vendor",
+    "command": "ls -la /var/www/app/vendor",
+    "title": "Deploy path vendor check karna",
+    "category": "Deployment & Release Ops",
+    "difficulty": "Beginner",
+    "use_case": "Deploy path vendor check karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "ls -la /var/www/app/vendor",
+    "example": "ls -la /var/www/app/vendor",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "deploy",
+      "paths"
+    ]
+  }
+]

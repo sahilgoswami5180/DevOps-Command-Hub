@@ -1,0 +1,767 @@
+[
+  {
+    "id": "container-registry-001-docker-login-docker-io",
+    "command": "docker login docker.io",
+    "title": "docker.io registry login karna",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "docker.io registry login karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker login docker.io",
+    "example": "docker login docker.io",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "registry"
+    ]
+  },
+  {
+    "id": "container-registry-002-docker-pull-docker-io-namespace-image-tag",
+    "command": "docker pull docker.io/namespace/image:tag",
+    "title": "docker.io se image pull karna",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "docker.io se image pull karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker pull docker.io/namespace/image:tag",
+    "example": "docker pull docker.io/namespace/image:tag",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "registry"
+    ]
+  },
+  {
+    "id": "container-registry-003-docker-push-docker-io-namespace-image-tag",
+    "command": "docker push docker.io/namespace/image:tag",
+    "title": "docker.io par image push karna",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "docker.io par image push karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker push docker.io/namespace/image:tag",
+    "example": "docker push docker.io/namespace/image:tag",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "registry"
+    ]
+  },
+  {
+    "id": "container-registry-004-docker-login-ghcr-io",
+    "command": "docker login ghcr.io",
+    "title": "ghcr.io registry login karna",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "ghcr.io registry login karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker login ghcr.io",
+    "example": "docker login ghcr.io",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "registry"
+    ]
+  },
+  {
+    "id": "container-registry-005-docker-pull-ghcr-io-namespace-image-tag",
+    "command": "docker pull ghcr.io/namespace/image:tag",
+    "title": "ghcr.io se image pull karna",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "ghcr.io se image pull karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker pull ghcr.io/namespace/image:tag",
+    "example": "docker pull ghcr.io/namespace/image:tag",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "registry"
+    ]
+  },
+  {
+    "id": "container-registry-006-docker-push-ghcr-io-namespace-image-tag",
+    "command": "docker push ghcr.io/namespace/image:tag",
+    "title": "ghcr.io par image push karna",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "ghcr.io par image push karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker push ghcr.io/namespace/image:tag",
+    "example": "docker push ghcr.io/namespace/image:tag",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "registry"
+    ]
+  },
+  {
+    "id": "container-registry-007-docker-login-registry-gitlab-com",
+    "command": "docker login registry.gitlab.com",
+    "title": "registry.gitlab.com registry login karna",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "registry.gitlab.com registry login karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker login registry.gitlab.com",
+    "example": "docker login registry.gitlab.com",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "registry"
+    ]
+  },
+  {
+    "id": "container-registry-008-docker-pull-registry-gitlab-com-namespace-image-tag",
+    "command": "docker pull registry.gitlab.com/namespace/image:tag",
+    "title": "registry.gitlab.com se image pull karna",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "registry.gitlab.com se image pull karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker pull registry.gitlab.com/namespace/image:tag",
+    "example": "docker pull registry.gitlab.com/namespace/image:tag",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "registry"
+    ]
+  },
+  {
+    "id": "container-registry-009-docker-push-registry-gitlab-com-namespace-image-tag",
+    "command": "docker push registry.gitlab.com/namespace/image:tag",
+    "title": "registry.gitlab.com par image push karna",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "registry.gitlab.com par image push karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker push registry.gitlab.com/namespace/image:tag",
+    "example": "docker push registry.gitlab.com/namespace/image:tag",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "registry"
+    ]
+  },
+  {
+    "id": "container-registry-010-docker-login-public-ecr-aws",
+    "command": "docker login public.ecr.aws",
+    "title": "public.ecr.aws registry login karna",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "public.ecr.aws registry login karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker login public.ecr.aws",
+    "example": "docker login public.ecr.aws",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "registry"
+    ]
+  },
+  {
+    "id": "container-registry-011-docker-pull-public-ecr-aws-namespace-image-tag",
+    "command": "docker pull public.ecr.aws/namespace/image:tag",
+    "title": "public.ecr.aws se image pull karna",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "public.ecr.aws se image pull karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker pull public.ecr.aws/namespace/image:tag",
+    "example": "docker pull public.ecr.aws/namespace/image:tag",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "registry"
+    ]
+  },
+  {
+    "id": "container-registry-012-docker-push-public-ecr-aws-namespace-image-tag",
+    "command": "docker push public.ecr.aws/namespace/image:tag",
+    "title": "public.ecr.aws par image push karna",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "public.ecr.aws par image push karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker push public.ecr.aws/namespace/image:tag",
+    "example": "docker push public.ecr.aws/namespace/image:tag",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "registry"
+    ]
+  },
+  {
+    "id": "container-registry-013-docker-login-asia-gcr-io",
+    "command": "docker login asia.gcr.io",
+    "title": "asia.gcr.io registry login karna",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "asia.gcr.io registry login karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker login asia.gcr.io",
+    "example": "docker login asia.gcr.io",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "registry"
+    ]
+  },
+  {
+    "id": "container-registry-014-docker-pull-asia-gcr-io-namespace-image-tag",
+    "command": "docker pull asia.gcr.io/namespace/image:tag",
+    "title": "asia.gcr.io se image pull karna",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "asia.gcr.io se image pull karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker pull asia.gcr.io/namespace/image:tag",
+    "example": "docker pull asia.gcr.io/namespace/image:tag",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "registry"
+    ]
+  },
+  {
+    "id": "container-registry-015-docker-push-asia-gcr-io-namespace-image-tag",
+    "command": "docker push asia.gcr.io/namespace/image:tag",
+    "title": "asia.gcr.io par image push karna",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "asia.gcr.io par image push karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker push asia.gcr.io/namespace/image:tag",
+    "example": "docker push asia.gcr.io/namespace/image:tag",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "registry"
+    ]
+  },
+  {
+    "id": "container-registry-016-docker-login-gcr-io",
+    "command": "docker login gcr.io",
+    "title": "gcr.io registry login karna",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "gcr.io registry login karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker login gcr.io",
+    "example": "docker login gcr.io",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "registry"
+    ]
+  },
+  {
+    "id": "container-registry-017-docker-pull-gcr-io-namespace-image-tag",
+    "command": "docker pull gcr.io/namespace/image:tag",
+    "title": "gcr.io se image pull karna",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "gcr.io se image pull karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker pull gcr.io/namespace/image:tag",
+    "example": "docker pull gcr.io/namespace/image:tag",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "registry"
+    ]
+  },
+  {
+    "id": "container-registry-018-docker-push-gcr-io-namespace-image-tag",
+    "command": "docker push gcr.io/namespace/image:tag",
+    "title": "gcr.io par image push karna",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "gcr.io par image push karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker push gcr.io/namespace/image:tag",
+    "example": "docker push gcr.io/namespace/image:tag",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "registry"
+    ]
+  },
+  {
+    "id": "container-registry-019-docker-login-quay-io",
+    "command": "docker login quay.io",
+    "title": "quay.io registry login karna",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "quay.io registry login karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker login quay.io",
+    "example": "docker login quay.io",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "registry"
+    ]
+  },
+  {
+    "id": "container-registry-020-docker-pull-quay-io-namespace-image-tag",
+    "command": "docker pull quay.io/namespace/image:tag",
+    "title": "quay.io se image pull karna",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "quay.io se image pull karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker pull quay.io/namespace/image:tag",
+    "example": "docker pull quay.io/namespace/image:tag",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "registry"
+    ]
+  },
+  {
+    "id": "container-registry-021-docker-push-quay-io-namespace-image-tag",
+    "command": "docker push quay.io/namespace/image:tag",
+    "title": "quay.io par image push karna",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "quay.io par image push karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker push quay.io/namespace/image:tag",
+    "example": "docker push quay.io/namespace/image:tag",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "registry"
+    ]
+  },
+  {
+    "id": "container-registry-022-docker-tag-app-local-registry-example-com-app-latest",
+    "command": "docker tag app:local registry.example.com/app:latest",
+    "title": "Docker image ko latest tag dena",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Docker image ko latest tag dena ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker tag app:local registry.example.com/app:latest",
+    "example": "docker tag app:local registry.example.com/app:latest",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "tag"
+    ]
+  },
+  {
+    "id": "container-registry-023-docker-image-inspect-registry-example-com-app-latest",
+    "command": "docker image inspect registry.example.com/app:latest",
+    "title": "Docker image latest inspect karna",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Docker image latest inspect karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker image inspect registry.example.com/app:latest",
+    "example": "docker image inspect registry.example.com/app:latest",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "inspect"
+    ]
+  },
+  {
+    "id": "container-registry-024-docker-tag-app-local-registry-example-com-app-staging",
+    "command": "docker tag app:local registry.example.com/app:staging",
+    "title": "Docker image ko staging tag dena",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Docker image ko staging tag dena ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker tag app:local registry.example.com/app:staging",
+    "example": "docker tag app:local registry.example.com/app:staging",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "tag"
+    ]
+  },
+  {
+    "id": "container-registry-025-docker-image-inspect-registry-example-com-app-staging",
+    "command": "docker image inspect registry.example.com/app:staging",
+    "title": "Docker image staging inspect karna",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Docker image staging inspect karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker image inspect registry.example.com/app:staging",
+    "example": "docker image inspect registry.example.com/app:staging",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "inspect"
+    ]
+  },
+  {
+    "id": "container-registry-026-docker-tag-app-local-registry-example-com-app-production",
+    "command": "docker tag app:local registry.example.com/app:production",
+    "title": "Docker image ko production tag dena",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Docker image ko production tag dena ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker tag app:local registry.example.com/app:production",
+    "example": "docker tag app:local registry.example.com/app:production",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "tag"
+    ]
+  },
+  {
+    "id": "container-registry-027-docker-image-inspect-registry-example-com-app-production",
+    "command": "docker image inspect registry.example.com/app:production",
+    "title": "Docker image production inspect karna",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Docker image production inspect karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker image inspect registry.example.com/app:production",
+    "example": "docker image inspect registry.example.com/app:production",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "inspect"
+    ]
+  },
+  {
+    "id": "container-registry-028-docker-tag-app-local-registry-example-com-app-v1-0-0",
+    "command": "docker tag app:local registry.example.com/app:v1.0.0",
+    "title": "Docker image ko v1.0.0 tag dena",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Docker image ko v1.0.0 tag dena ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker tag app:local registry.example.com/app:v1.0.0",
+    "example": "docker tag app:local registry.example.com/app:v1.0.0",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "tag"
+    ]
+  },
+  {
+    "id": "container-registry-029-docker-image-inspect-registry-example-com-app-v1-0-0",
+    "command": "docker image inspect registry.example.com/app:v1.0.0",
+    "title": "Docker image v1.0.0 inspect karna",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Docker image v1.0.0 inspect karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker image inspect registry.example.com/app:v1.0.0",
+    "example": "docker image inspect registry.example.com/app:v1.0.0",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "inspect"
+    ]
+  },
+  {
+    "id": "container-registry-030-docker-tag-app-local-registry-example-com-app-sha-abcdef",
+    "command": "docker tag app:local registry.example.com/app:sha-abcdef",
+    "title": "Docker image ko sha-abcdef tag dena",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Docker image ko sha-abcdef tag dena ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker tag app:local registry.example.com/app:sha-abcdef",
+    "example": "docker tag app:local registry.example.com/app:sha-abcdef",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "tag"
+    ]
+  },
+  {
+    "id": "container-registry-031-docker-image-inspect-registry-example-com-app-sha-abcdef",
+    "command": "docker image inspect registry.example.com/app:sha-abcdef",
+    "title": "Docker image sha-abcdef inspect karna",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Docker image sha-abcdef inspect karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker image inspect registry.example.com/app:sha-abcdef",
+    "example": "docker image inspect registry.example.com/app:sha-abcdef",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "inspect"
+    ]
+  },
+  {
+    "id": "container-registry-032-docker-tag-app-local-registry-example-com-app-dev",
+    "command": "docker tag app:local registry.example.com/app:dev",
+    "title": "Docker image ko dev tag dena",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Docker image ko dev tag dena ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker tag app:local registry.example.com/app:dev",
+    "example": "docker tag app:local registry.example.com/app:dev",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "tag"
+    ]
+  },
+  {
+    "id": "container-registry-033-docker-image-inspect-registry-example-com-app-dev",
+    "command": "docker image inspect registry.example.com/app:dev",
+    "title": "Docker image dev inspect karna",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Docker image dev inspect karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker image inspect registry.example.com/app:dev",
+    "example": "docker image inspect registry.example.com/app:dev",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "inspect"
+    ]
+  },
+  {
+    "id": "container-registry-034-docker-tag-app-local-registry-example-com-app-test",
+    "command": "docker tag app:local registry.example.com/app:test",
+    "title": "Docker image ko test tag dena",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Docker image ko test tag dena ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker tag app:local registry.example.com/app:test",
+    "example": "docker tag app:local registry.example.com/app:test",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "tag"
+    ]
+  },
+  {
+    "id": "container-registry-035-docker-image-inspect-registry-example-com-app-test",
+    "command": "docker image inspect registry.example.com/app:test",
+    "title": "Docker image test inspect karna",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Docker image test inspect karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker image inspect registry.example.com/app:test",
+    "example": "docker image inspect registry.example.com/app:test",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "inspect"
+    ]
+  },
+  {
+    "id": "container-registry-036-docker-tag-app-local-registry-example-com-app-rollback",
+    "command": "docker tag app:local registry.example.com/app:rollback",
+    "title": "Docker image ko rollback tag dena",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Docker image ko rollback tag dena ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker tag app:local registry.example.com/app:rollback",
+    "example": "docker tag app:local registry.example.com/app:rollback",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "tag"
+    ]
+  },
+  {
+    "id": "container-registry-037-docker-image-inspect-registry-example-com-app-rollback",
+    "command": "docker image inspect registry.example.com/app:rollback",
+    "title": "Docker image rollback inspect karna",
+    "category": "Container Registry Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Docker image rollback inspect karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker image inspect registry.example.com/app:rollback",
+    "example": "docker image inspect registry.example.com/app:rollback",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "inspect"
+    ]
+  },
+  {
+    "id": "container-registry-038-docker-manifest-inspect-image-tag",
+    "command": "docker manifest inspect image:tag",
+    "title": "Container registry/image command: docker manifest inspect image:tag",
+    "category": "Container Registry Ops",
+    "difficulty": "Advanced",
+    "use_case": "Container registry/image command: docker manifest inspect image:tag ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker manifest inspect image:tag",
+    "example": "docker manifest inspect image:tag",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "registry"
+    ]
+  },
+  {
+    "id": "container-registry-039-docker-buildx-ls",
+    "command": "docker buildx ls",
+    "title": "Container registry/image command: docker buildx ls",
+    "category": "Container Registry Ops",
+    "difficulty": "Advanced",
+    "use_case": "Container registry/image command: docker buildx ls ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker buildx ls",
+    "example": "docker buildx ls",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "registry"
+    ]
+  },
+  {
+    "id": "container-registry-040-docker-buildx-create-use",
+    "command": "docker buildx create --use",
+    "title": "Container registry/image command: docker buildx create --use",
+    "category": "Container Registry Ops",
+    "difficulty": "Advanced",
+    "use_case": "Container registry/image command: docker buildx create --use ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker buildx create --use",
+    "example": "docker buildx create --use",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "registry"
+    ]
+  },
+  {
+    "id": "container-registry-041-docker-buildx-build-platform-linux-amd64-linux-arm64-t-image-tag-push",
+    "command": "docker buildx build --platform linux/amd64,linux/arm64 -t image:tag --push .",
+    "title": "Container registry/image command: docker buildx build --platform linux/amd64,linux/arm64 -t image:tag --push .",
+    "category": "Container Registry Ops",
+    "difficulty": "Advanced",
+    "use_case": "Container registry/image command: docker buildx build --platform linux/amd64,linux/arm64 -t image:tag --push . ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker buildx build --platform linux/amd64,linux/arm64 -t image:tag --push .",
+    "example": "docker buildx build --platform linux/amd64,linux/arm64 -t image:tag --push .",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "registry"
+    ]
+  },
+  {
+    "id": "container-registry-042-docker-scout-quickview-image-tag",
+    "command": "docker scout quickview image:tag",
+    "title": "Container registry/image command: docker scout quickview image:tag",
+    "category": "Container Registry Ops",
+    "difficulty": "Advanced",
+    "use_case": "Container registry/image command: docker scout quickview image:tag ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker scout quickview image:tag",
+    "example": "docker scout quickview image:tag",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "registry"
+    ]
+  },
+  {
+    "id": "container-registry-043-docker-history-image-tag",
+    "command": "docker history image:tag",
+    "title": "Container registry/image command: docker history image:tag",
+    "category": "Container Registry Ops",
+    "difficulty": "Advanced",
+    "use_case": "Container registry/image command: docker history image:tag ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker history image:tag",
+    "example": "docker history image:tag",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "registry"
+    ]
+  },
+  {
+    "id": "container-registry-044-docker-save-image-tag-o-image-tar",
+    "command": "docker save image:tag -o image.tar",
+    "title": "Container registry/image command: docker save image:tag -o image.tar",
+    "category": "Container Registry Ops",
+    "difficulty": "Advanced",
+    "use_case": "Container registry/image command: docker save image:tag -o image.tar ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker save image:tag -o image.tar",
+    "example": "docker save image:tag -o image.tar",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "registry"
+    ]
+  },
+  {
+    "id": "container-registry-045-docker-load-i-image-tar",
+    "command": "docker load -i image.tar",
+    "title": "Container registry/image command: docker load -i image.tar",
+    "category": "Container Registry Ops",
+    "difficulty": "Advanced",
+    "use_case": "Container registry/image command: docker load -i image.tar ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "docker load -i image.tar",
+    "example": "docker load -i image.tar",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "docker",
+      "registry"
+    ]
+  }
+]

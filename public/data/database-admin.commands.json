@@ -1,0 +1,820 @@
+[
+  {
+    "id": "database-admin-001-psql-u-postgres-d-app-db-c-dt",
+    "command": "psql -U postgres -d app_db -c \"\\dt\"",
+    "title": "PostgreSQL app_db tables list karna",
+    "category": "Database Admin Deep",
+    "difficulty": "Intermediate",
+    "use_case": "PostgreSQL app_db tables list karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "psql -U postgres -d app_db -c \"\\dt\"",
+    "example": "psql -U postgres -d app_db -c \"\\dt\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "postgres"
+    ]
+  },
+  {
+    "id": "database-admin-002-psql-u-postgres-d-app-db-c-select-pg-size-pretty-pg-database-size-app-db",
+    "command": "psql -U postgres -d app_db -c \"SELECT pg_size_pretty(pg_database_size('app_db'));\"",
+    "title": "PostgreSQL app_db size dekhna",
+    "category": "Database Admin Deep",
+    "difficulty": "Intermediate",
+    "use_case": "PostgreSQL app_db size dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "psql -U postgres -d app_db -c \"SELECT pg_size_pretty(pg_database_size('app_db'));\"",
+    "example": "psql -U postgres -d app_db -c \"SELECT pg_size_pretty(pg_database_size('app_db'));\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "postgres"
+    ]
+  },
+  {
+    "id": "database-admin-003-pg-dump-u-postgres-app-db-app-db-sql",
+    "command": "pg_dump -U postgres app_db > app_db.sql",
+    "title": "PostgreSQL app_db dump lena",
+    "category": "Database Admin Deep",
+    "difficulty": "Intermediate",
+    "use_case": "PostgreSQL app_db dump lena ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "pg_dump -U postgres app_db > app_db.sql",
+    "example": "pg_dump -U postgres app_db > app_db.sql",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "postgres",
+      "backup"
+    ]
+  },
+  {
+    "id": "database-admin-004-pg-restore-u-postgres-d-app-db-backup-dump",
+    "command": "pg_restore -U postgres -d app_db backup.dump",
+    "title": "PostgreSQL app_db custom dump restore karna",
+    "category": "Database Admin Deep",
+    "difficulty": "Advanced",
+    "use_case": "PostgreSQL app_db custom dump restore karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "pg_restore -U postgres -d app_db backup.dump",
+    "example": "pg_restore -U postgres -d app_db backup.dump",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "postgres",
+      "restore"
+    ]
+  },
+  {
+    "id": "database-admin-005-psql-u-postgres-d-wordpress-db-c-dt",
+    "command": "psql -U postgres -d wordpress_db -c \"\\dt\"",
+    "title": "PostgreSQL wordpress_db tables list karna",
+    "category": "Database Admin Deep",
+    "difficulty": "Intermediate",
+    "use_case": "PostgreSQL wordpress_db tables list karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "psql -U postgres -d wordpress_db -c \"\\dt\"",
+    "example": "psql -U postgres -d wordpress_db -c \"\\dt\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "postgres"
+    ]
+  },
+  {
+    "id": "database-admin-006-psql-u-postgres-d-wordpress-db-c-select-pg-size-pretty-pg-database-size-wordpress-db",
+    "command": "psql -U postgres -d wordpress_db -c \"SELECT pg_size_pretty(pg_database_size('wordpress_db'));\"",
+    "title": "PostgreSQL wordpress_db size dekhna",
+    "category": "Database Admin Deep",
+    "difficulty": "Intermediate",
+    "use_case": "PostgreSQL wordpress_db size dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "psql -U postgres -d wordpress_db -c \"SELECT pg_size_pretty(pg_database_size('wordpress_db'));\"",
+    "example": "psql -U postgres -d wordpress_db -c \"SELECT pg_size_pretty(pg_database_size('wordpress_db'));\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "postgres"
+    ]
+  },
+  {
+    "id": "database-admin-007-pg-dump-u-postgres-wordpress-db-wordpress-db-sql",
+    "command": "pg_dump -U postgres wordpress_db > wordpress_db.sql",
+    "title": "PostgreSQL wordpress_db dump lena",
+    "category": "Database Admin Deep",
+    "difficulty": "Intermediate",
+    "use_case": "PostgreSQL wordpress_db dump lena ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "pg_dump -U postgres wordpress_db > wordpress_db.sql",
+    "example": "pg_dump -U postgres wordpress_db > wordpress_db.sql",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "postgres",
+      "backup"
+    ]
+  },
+  {
+    "id": "database-admin-008-pg-restore-u-postgres-d-wordpress-db-backup-dump",
+    "command": "pg_restore -U postgres -d wordpress_db backup.dump",
+    "title": "PostgreSQL wordpress_db custom dump restore karna",
+    "category": "Database Admin Deep",
+    "difficulty": "Advanced",
+    "use_case": "PostgreSQL wordpress_db custom dump restore karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "pg_restore -U postgres -d wordpress_db backup.dump",
+    "example": "pg_restore -U postgres -d wordpress_db backup.dump",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "postgres",
+      "restore"
+    ]
+  },
+  {
+    "id": "database-admin-009-psql-u-postgres-d-qms-neujin-demo-c-dt",
+    "command": "psql -U postgres -d qms_neujin_demo -c \"\\dt\"",
+    "title": "PostgreSQL qms_neujin_demo tables list karna",
+    "category": "Database Admin Deep",
+    "difficulty": "Intermediate",
+    "use_case": "PostgreSQL qms_neujin_demo tables list karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "psql -U postgres -d qms_neujin_demo -c \"\\dt\"",
+    "example": "psql -U postgres -d qms_neujin_demo -c \"\\dt\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "postgres"
+    ]
+  },
+  {
+    "id": "database-admin-010-psql-u-postgres-d-qms-neujin-demo-c-select-pg-size-pretty-pg-database-size-qms-neujin-demo",
+    "command": "psql -U postgres -d qms_neujin_demo -c \"SELECT pg_size_pretty(pg_database_size('qms_neujin_demo'));\"",
+    "title": "PostgreSQL qms_neujin_demo size dekhna",
+    "category": "Database Admin Deep",
+    "difficulty": "Intermediate",
+    "use_case": "PostgreSQL qms_neujin_demo size dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "psql -U postgres -d qms_neujin_demo -c \"SELECT pg_size_pretty(pg_database_size('qms_neujin_demo'));\"",
+    "example": "psql -U postgres -d qms_neujin_demo -c \"SELECT pg_size_pretty(pg_database_size('qms_neujin_demo'));\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "postgres"
+    ]
+  },
+  {
+    "id": "database-admin-011-pg-dump-u-postgres-qms-neujin-demo-qms-neujin-demo-sql",
+    "command": "pg_dump -U postgres qms_neujin_demo > qms_neujin_demo.sql",
+    "title": "PostgreSQL qms_neujin_demo dump lena",
+    "category": "Database Admin Deep",
+    "difficulty": "Intermediate",
+    "use_case": "PostgreSQL qms_neujin_demo dump lena ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "pg_dump -U postgres qms_neujin_demo > qms_neujin_demo.sql",
+    "example": "pg_dump -U postgres qms_neujin_demo > qms_neujin_demo.sql",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "postgres",
+      "backup"
+    ]
+  },
+  {
+    "id": "database-admin-012-pg-restore-u-postgres-d-qms-neujin-demo-backup-dump",
+    "command": "pg_restore -U postgres -d qms_neujin_demo backup.dump",
+    "title": "PostgreSQL qms_neujin_demo custom dump restore karna",
+    "category": "Database Admin Deep",
+    "difficulty": "Advanced",
+    "use_case": "PostgreSQL qms_neujin_demo custom dump restore karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "pg_restore -U postgres -d qms_neujin_demo backup.dump",
+    "example": "pg_restore -U postgres -d qms_neujin_demo backup.dump",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "postgres",
+      "restore"
+    ]
+  },
+  {
+    "id": "database-admin-013-psql-u-postgres-d-vidzooka-c-dt",
+    "command": "psql -U postgres -d vidzooka -c \"\\dt\"",
+    "title": "PostgreSQL vidzooka tables list karna",
+    "category": "Database Admin Deep",
+    "difficulty": "Intermediate",
+    "use_case": "PostgreSQL vidzooka tables list karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "psql -U postgres -d vidzooka -c \"\\dt\"",
+    "example": "psql -U postgres -d vidzooka -c \"\\dt\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "postgres"
+    ]
+  },
+  {
+    "id": "database-admin-014-psql-u-postgres-d-vidzooka-c-select-pg-size-pretty-pg-database-size-vidzooka",
+    "command": "psql -U postgres -d vidzooka -c \"SELECT pg_size_pretty(pg_database_size('vidzooka'));\"",
+    "title": "PostgreSQL vidzooka size dekhna",
+    "category": "Database Admin Deep",
+    "difficulty": "Intermediate",
+    "use_case": "PostgreSQL vidzooka size dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "psql -U postgres -d vidzooka -c \"SELECT pg_size_pretty(pg_database_size('vidzooka'));\"",
+    "example": "psql -U postgres -d vidzooka -c \"SELECT pg_size_pretty(pg_database_size('vidzooka'));\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "postgres"
+    ]
+  },
+  {
+    "id": "database-admin-015-pg-dump-u-postgres-vidzooka-vidzooka-sql",
+    "command": "pg_dump -U postgres vidzooka > vidzooka.sql",
+    "title": "PostgreSQL vidzooka dump lena",
+    "category": "Database Admin Deep",
+    "difficulty": "Intermediate",
+    "use_case": "PostgreSQL vidzooka dump lena ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "pg_dump -U postgres vidzooka > vidzooka.sql",
+    "example": "pg_dump -U postgres vidzooka > vidzooka.sql",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "postgres",
+      "backup"
+    ]
+  },
+  {
+    "id": "database-admin-016-pg-restore-u-postgres-d-vidzooka-backup-dump",
+    "command": "pg_restore -U postgres -d vidzooka backup.dump",
+    "title": "PostgreSQL vidzooka custom dump restore karna",
+    "category": "Database Admin Deep",
+    "difficulty": "Advanced",
+    "use_case": "PostgreSQL vidzooka custom dump restore karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "pg_restore -U postgres -d vidzooka backup.dump",
+    "example": "pg_restore -U postgres -d vidzooka backup.dump",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "postgres",
+      "restore"
+    ]
+  },
+  {
+    "id": "database-admin-017-psql-u-postgres-d-postgres-c-dt",
+    "command": "psql -U postgres -d postgres -c \"\\dt\"",
+    "title": "PostgreSQL postgres tables list karna",
+    "category": "Database Admin Deep",
+    "difficulty": "Intermediate",
+    "use_case": "PostgreSQL postgres tables list karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "psql -U postgres -d postgres -c \"\\dt\"",
+    "example": "psql -U postgres -d postgres -c \"\\dt\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "postgres"
+    ]
+  },
+  {
+    "id": "database-admin-018-psql-u-postgres-d-postgres-c-select-pg-size-pretty-pg-database-size-postgres",
+    "command": "psql -U postgres -d postgres -c \"SELECT pg_size_pretty(pg_database_size('postgres'));\"",
+    "title": "PostgreSQL postgres size dekhna",
+    "category": "Database Admin Deep",
+    "difficulty": "Intermediate",
+    "use_case": "PostgreSQL postgres size dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "psql -U postgres -d postgres -c \"SELECT pg_size_pretty(pg_database_size('postgres'));\"",
+    "example": "psql -U postgres -d postgres -c \"SELECT pg_size_pretty(pg_database_size('postgres'));\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "postgres"
+    ]
+  },
+  {
+    "id": "database-admin-019-pg-dump-u-postgres-postgres-postgres-sql",
+    "command": "pg_dump -U postgres postgres > postgres.sql",
+    "title": "PostgreSQL postgres dump lena",
+    "category": "Database Admin Deep",
+    "difficulty": "Intermediate",
+    "use_case": "PostgreSQL postgres dump lena ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "pg_dump -U postgres postgres > postgres.sql",
+    "example": "pg_dump -U postgres postgres > postgres.sql",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "postgres",
+      "backup"
+    ]
+  },
+  {
+    "id": "database-admin-020-pg-restore-u-postgres-d-postgres-backup-dump",
+    "command": "pg_restore -U postgres -d postgres backup.dump",
+    "title": "PostgreSQL postgres custom dump restore karna",
+    "category": "Database Admin Deep",
+    "difficulty": "Advanced",
+    "use_case": "PostgreSQL postgres custom dump restore karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "pg_restore -U postgres -d postgres backup.dump",
+    "example": "pg_restore -U postgres -d postgres backup.dump",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "postgres",
+      "restore"
+    ]
+  },
+  {
+    "id": "database-admin-021-psql-u-postgres-d-app-db-c-select-count-from-users",
+    "command": "psql -U postgres -d app_db -c \"SELECT count(*) FROM users;\"",
+    "title": "PostgreSQL users row count dekhna",
+    "category": "Database Admin Deep",
+    "difficulty": "Beginner",
+    "use_case": "PostgreSQL users row count dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "psql -U postgres -d app_db -c \"SELECT count(*) FROM users;\"",
+    "example": "psql -U postgres -d app_db -c \"SELECT count(*) FROM users;\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "postgres",
+      "query"
+    ]
+  },
+  {
+    "id": "database-admin-022-mysql-u-root-p-e-select-count-from-app-db-users",
+    "command": "mysql -u root -p -e \"SELECT COUNT(*) FROM app_db.users;\"",
+    "title": "MySQL users row count dekhna",
+    "category": "Database Admin Deep",
+    "difficulty": "Beginner",
+    "use_case": "MySQL users row count dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "mysql -u root -p -e \"SELECT COUNT(*) FROM app_db.users;\"",
+    "example": "mysql -u root -p -e \"SELECT COUNT(*) FROM app_db.users;\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "mysql",
+      "query"
+    ]
+  },
+  {
+    "id": "database-admin-023-psql-u-postgres-d-app-db-c-select-count-from-sessions",
+    "command": "psql -U postgres -d app_db -c \"SELECT count(*) FROM sessions;\"",
+    "title": "PostgreSQL sessions row count dekhna",
+    "category": "Database Admin Deep",
+    "difficulty": "Beginner",
+    "use_case": "PostgreSQL sessions row count dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "psql -U postgres -d app_db -c \"SELECT count(*) FROM sessions;\"",
+    "example": "psql -U postgres -d app_db -c \"SELECT count(*) FROM sessions;\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "postgres",
+      "query"
+    ]
+  },
+  {
+    "id": "database-admin-024-mysql-u-root-p-e-select-count-from-app-db-sessions",
+    "command": "mysql -u root -p -e \"SELECT COUNT(*) FROM app_db.sessions;\"",
+    "title": "MySQL sessions row count dekhna",
+    "category": "Database Admin Deep",
+    "difficulty": "Beginner",
+    "use_case": "MySQL sessions row count dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "mysql -u root -p -e \"SELECT COUNT(*) FROM app_db.sessions;\"",
+    "example": "mysql -u root -p -e \"SELECT COUNT(*) FROM app_db.sessions;\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "mysql",
+      "query"
+    ]
+  },
+  {
+    "id": "database-admin-025-psql-u-postgres-d-app-db-c-select-count-from-jobs",
+    "command": "psql -U postgres -d app_db -c \"SELECT count(*) FROM jobs;\"",
+    "title": "PostgreSQL jobs row count dekhna",
+    "category": "Database Admin Deep",
+    "difficulty": "Beginner",
+    "use_case": "PostgreSQL jobs row count dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "psql -U postgres -d app_db -c \"SELECT count(*) FROM jobs;\"",
+    "example": "psql -U postgres -d app_db -c \"SELECT count(*) FROM jobs;\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "postgres",
+      "query"
+    ]
+  },
+  {
+    "id": "database-admin-026-mysql-u-root-p-e-select-count-from-app-db-jobs",
+    "command": "mysql -u root -p -e \"SELECT COUNT(*) FROM app_db.jobs;\"",
+    "title": "MySQL jobs row count dekhna",
+    "category": "Database Admin Deep",
+    "difficulty": "Beginner",
+    "use_case": "MySQL jobs row count dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "mysql -u root -p -e \"SELECT COUNT(*) FROM app_db.jobs;\"",
+    "example": "mysql -u root -p -e \"SELECT COUNT(*) FROM app_db.jobs;\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "mysql",
+      "query"
+    ]
+  },
+  {
+    "id": "database-admin-027-psql-u-postgres-d-app-db-c-select-count-from-failed-jobs",
+    "command": "psql -U postgres -d app_db -c \"SELECT count(*) FROM failed_jobs;\"",
+    "title": "PostgreSQL failed_jobs row count dekhna",
+    "category": "Database Admin Deep",
+    "difficulty": "Beginner",
+    "use_case": "PostgreSQL failed_jobs row count dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "psql -U postgres -d app_db -c \"SELECT count(*) FROM failed_jobs;\"",
+    "example": "psql -U postgres -d app_db -c \"SELECT count(*) FROM failed_jobs;\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "postgres",
+      "query"
+    ]
+  },
+  {
+    "id": "database-admin-028-mysql-u-root-p-e-select-count-from-app-db-failed-jobs",
+    "command": "mysql -u root -p -e \"SELECT COUNT(*) FROM app_db.failed_jobs;\"",
+    "title": "MySQL failed_jobs row count dekhna",
+    "category": "Database Admin Deep",
+    "difficulty": "Beginner",
+    "use_case": "MySQL failed_jobs row count dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "mysql -u root -p -e \"SELECT COUNT(*) FROM app_db.failed_jobs;\"",
+    "example": "mysql -u root -p -e \"SELECT COUNT(*) FROM app_db.failed_jobs;\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "mysql",
+      "query"
+    ]
+  },
+  {
+    "id": "database-admin-029-psql-u-postgres-d-app-db-c-select-count-from-orders",
+    "command": "psql -U postgres -d app_db -c \"SELECT count(*) FROM orders;\"",
+    "title": "PostgreSQL orders row count dekhna",
+    "category": "Database Admin Deep",
+    "difficulty": "Beginner",
+    "use_case": "PostgreSQL orders row count dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "psql -U postgres -d app_db -c \"SELECT count(*) FROM orders;\"",
+    "example": "psql -U postgres -d app_db -c \"SELECT count(*) FROM orders;\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "postgres",
+      "query"
+    ]
+  },
+  {
+    "id": "database-admin-030-mysql-u-root-p-e-select-count-from-app-db-orders",
+    "command": "mysql -u root -p -e \"SELECT COUNT(*) FROM app_db.orders;\"",
+    "title": "MySQL orders row count dekhna",
+    "category": "Database Admin Deep",
+    "difficulty": "Beginner",
+    "use_case": "MySQL orders row count dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "mysql -u root -p -e \"SELECT COUNT(*) FROM app_db.orders;\"",
+    "example": "mysql -u root -p -e \"SELECT COUNT(*) FROM app_db.orders;\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "mysql",
+      "query"
+    ]
+  },
+  {
+    "id": "database-admin-031-psql-u-postgres-d-app-db-c-select-count-from-posts",
+    "command": "psql -U postgres -d app_db -c \"SELECT count(*) FROM posts;\"",
+    "title": "PostgreSQL posts row count dekhna",
+    "category": "Database Admin Deep",
+    "difficulty": "Beginner",
+    "use_case": "PostgreSQL posts row count dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "psql -U postgres -d app_db -c \"SELECT count(*) FROM posts;\"",
+    "example": "psql -U postgres -d app_db -c \"SELECT count(*) FROM posts;\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "postgres",
+      "query"
+    ]
+  },
+  {
+    "id": "database-admin-032-mysql-u-root-p-e-select-count-from-app-db-posts",
+    "command": "mysql -u root -p -e \"SELECT COUNT(*) FROM app_db.posts;\"",
+    "title": "MySQL posts row count dekhna",
+    "category": "Database Admin Deep",
+    "difficulty": "Beginner",
+    "use_case": "MySQL posts row count dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "mysql -u root -p -e \"SELECT COUNT(*) FROM app_db.posts;\"",
+    "example": "mysql -u root -p -e \"SELECT COUNT(*) FROM app_db.posts;\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "mysql",
+      "query"
+    ]
+  },
+  {
+    "id": "database-admin-033-psql-u-postgres-d-app-db-c-select-count-from-wp-options",
+    "command": "psql -U postgres -d app_db -c \"SELECT count(*) FROM wp_options;\"",
+    "title": "PostgreSQL wp_options row count dekhna",
+    "category": "Database Admin Deep",
+    "difficulty": "Beginner",
+    "use_case": "PostgreSQL wp_options row count dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "psql -U postgres -d app_db -c \"SELECT count(*) FROM wp_options;\"",
+    "example": "psql -U postgres -d app_db -c \"SELECT count(*) FROM wp_options;\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "postgres",
+      "query"
+    ]
+  },
+  {
+    "id": "database-admin-034-mysql-u-root-p-e-select-count-from-app-db-wp-options",
+    "command": "mysql -u root -p -e \"SELECT COUNT(*) FROM app_db.wp_options;\"",
+    "title": "MySQL wp_options row count dekhna",
+    "category": "Database Admin Deep",
+    "difficulty": "Beginner",
+    "use_case": "MySQL wp_options row count dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "mysql -u root -p -e \"SELECT COUNT(*) FROM app_db.wp_options;\"",
+    "example": "mysql -u root -p -e \"SELECT COUNT(*) FROM app_db.wp_options;\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "mysql",
+      "query"
+    ]
+  },
+  {
+    "id": "database-admin-035-psql-u-postgres-d-app-db-c-select-count-from-migrations",
+    "command": "psql -U postgres -d app_db -c \"SELECT count(*) FROM migrations;\"",
+    "title": "PostgreSQL migrations row count dekhna",
+    "category": "Database Admin Deep",
+    "difficulty": "Beginner",
+    "use_case": "PostgreSQL migrations row count dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "psql -U postgres -d app_db -c \"SELECT count(*) FROM migrations;\"",
+    "example": "psql -U postgres -d app_db -c \"SELECT count(*) FROM migrations;\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "postgres",
+      "query"
+    ]
+  },
+  {
+    "id": "database-admin-036-mysql-u-root-p-e-select-count-from-app-db-migrations",
+    "command": "mysql -u root -p -e \"SELECT COUNT(*) FROM app_db.migrations;\"",
+    "title": "MySQL migrations row count dekhna",
+    "category": "Database Admin Deep",
+    "difficulty": "Beginner",
+    "use_case": "MySQL migrations row count dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "mysql -u root -p -e \"SELECT COUNT(*) FROM app_db.migrations;\"",
+    "example": "mysql -u root -p -e \"SELECT COUNT(*) FROM app_db.migrations;\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "mysql",
+      "query"
+    ]
+  },
+  {
+    "id": "database-admin-037-psql-u-postgres-d-app-db-c-select-count-from-audit-logs",
+    "command": "psql -U postgres -d app_db -c \"SELECT count(*) FROM audit_logs;\"",
+    "title": "PostgreSQL audit_logs row count dekhna",
+    "category": "Database Admin Deep",
+    "difficulty": "Beginner",
+    "use_case": "PostgreSQL audit_logs row count dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "psql -U postgres -d app_db -c \"SELECT count(*) FROM audit_logs;\"",
+    "example": "psql -U postgres -d app_db -c \"SELECT count(*) FROM audit_logs;\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "postgres",
+      "query"
+    ]
+  },
+  {
+    "id": "database-admin-038-mysql-u-root-p-e-select-count-from-app-db-audit-logs",
+    "command": "mysql -u root -p -e \"SELECT COUNT(*) FROM app_db.audit_logs;\"",
+    "title": "MySQL audit_logs row count dekhna",
+    "category": "Database Admin Deep",
+    "difficulty": "Beginner",
+    "use_case": "MySQL audit_logs row count dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "mysql -u root -p -e \"SELECT COUNT(*) FROM app_db.audit_logs;\"",
+    "example": "mysql -u root -p -e \"SELECT COUNT(*) FROM app_db.audit_logs;\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "mysql",
+      "query"
+    ]
+  },
+  {
+    "id": "database-admin-039-psql-u-postgres-d-app-db-c-select-count-from-notifications",
+    "command": "psql -U postgres -d app_db -c \"SELECT count(*) FROM notifications;\"",
+    "title": "PostgreSQL notifications row count dekhna",
+    "category": "Database Admin Deep",
+    "difficulty": "Beginner",
+    "use_case": "PostgreSQL notifications row count dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "psql -U postgres -d app_db -c \"SELECT count(*) FROM notifications;\"",
+    "example": "psql -U postgres -d app_db -c \"SELECT count(*) FROM notifications;\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "postgres",
+      "query"
+    ]
+  },
+  {
+    "id": "database-admin-040-mysql-u-root-p-e-select-count-from-app-db-notifications",
+    "command": "mysql -u root -p -e \"SELECT COUNT(*) FROM app_db.notifications;\"",
+    "title": "MySQL notifications row count dekhna",
+    "category": "Database Admin Deep",
+    "difficulty": "Beginner",
+    "use_case": "MySQL notifications row count dekhna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "mysql -u root -p -e \"SELECT COUNT(*) FROM app_db.notifications;\"",
+    "example": "mysql -u root -p -e \"SELECT COUNT(*) FROM app_db.notifications;\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "mysql",
+      "query"
+    ]
+  },
+  {
+    "id": "database-admin-041-mysql-u-root-p-e-show-databases",
+    "command": "mysql -u root -p -e \"SHOW DATABASES;\"",
+    "title": "MySQL SHOW DATABASES; run karna",
+    "category": "Database Admin Deep",
+    "difficulty": "Intermediate",
+    "use_case": "MySQL SHOW DATABASES; run karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "mysql -u root -p -e \"SHOW DATABASES;\"",
+    "example": "mysql -u root -p -e \"SHOW DATABASES;\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "mysql"
+    ]
+  },
+  {
+    "id": "database-admin-042-mysql-u-root-p-e-show-tables",
+    "command": "mysql -u root -p -e \"SHOW TABLES;\"",
+    "title": "MySQL SHOW TABLES; run karna",
+    "category": "Database Admin Deep",
+    "difficulty": "Intermediate",
+    "use_case": "MySQL SHOW TABLES; run karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "mysql -u root -p -e \"SHOW TABLES;\"",
+    "example": "mysql -u root -p -e \"SHOW TABLES;\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "mysql"
+    ]
+  },
+  {
+    "id": "database-admin-043-mysql-u-root-p-e-show-processlist",
+    "command": "mysql -u root -p -e \"SHOW PROCESSLIST;\"",
+    "title": "MySQL SHOW PROCESSLIST; run karna",
+    "category": "Database Admin Deep",
+    "difficulty": "Intermediate",
+    "use_case": "MySQL SHOW PROCESSLIST; run karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "mysql -u root -p -e \"SHOW PROCESSLIST;\"",
+    "example": "mysql -u root -p -e \"SHOW PROCESSLIST;\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "mysql"
+    ]
+  },
+  {
+    "id": "database-admin-044-mysql-u-root-p-e-show-variables-like-max-connections",
+    "command": "mysql -u root -p -e \"SHOW VARIABLES LIKE \"max_connections\";\"",
+    "title": "MySQL SHOW VARIABLES LIKE \"max_connections\"; run karna",
+    "category": "Database Admin Deep",
+    "difficulty": "Intermediate",
+    "use_case": "MySQL SHOW VARIABLES LIKE \"max_connections\"; run karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "mysql -u root -p -e \"SHOW VARIABLES LIKE \"max_connections\";\"",
+    "example": "mysql -u root -p -e \"SHOW VARIABLES LIKE \"max_connections\";\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "mysql"
+    ]
+  },
+  {
+    "id": "database-admin-045-mysql-u-root-p-e-show-status-like-threads-connected",
+    "command": "mysql -u root -p -e \"SHOW STATUS LIKE \"Threads_connected\";\"",
+    "title": "MySQL SHOW STATUS LIKE \"Threads_connected\"; run karna",
+    "category": "Database Admin Deep",
+    "difficulty": "Intermediate",
+    "use_case": "MySQL SHOW STATUS LIKE \"Threads_connected\"; run karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "mysql -u root -p -e \"SHOW STATUS LIKE \"Threads_connected\";\"",
+    "example": "mysql -u root -p -e \"SHOW STATUS LIKE \"Threads_connected\";\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "mysql"
+    ]
+  },
+  {
+    "id": "database-admin-046-sudo-find-etc-name-postgresql-conf",
+    "command": "sudo find /etc -name \"postgresql.conf\"",
+    "title": "postgresql.conf config file locate karna",
+    "category": "Database Admin Deep",
+    "difficulty": "Beginner",
+    "use_case": "postgresql.conf config file locate karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo find /etc -name \"postgresql.conf\"",
+    "example": "sudo find /etc -name \"postgresql.conf\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "database",
+      "config"
+    ]
+  },
+  {
+    "id": "database-admin-047-sudo-find-etc-name-pg-hba-conf",
+    "command": "sudo find /etc -name \"pg_hba.conf\"",
+    "title": "pg_hba.conf config file locate karna",
+    "category": "Database Admin Deep",
+    "difficulty": "Beginner",
+    "use_case": "pg_hba.conf config file locate karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo find /etc -name \"pg_hba.conf\"",
+    "example": "sudo find /etc -name \"pg_hba.conf\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "database",
+      "config"
+    ]
+  },
+  {
+    "id": "database-admin-048-sudo-find-etc-name-my-cnf",
+    "command": "sudo find /etc -name \"my.cnf\"",
+    "title": "my.cnf config file locate karna",
+    "category": "Database Admin Deep",
+    "difficulty": "Beginner",
+    "use_case": "my.cnf config file locate karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo find /etc -name \"my.cnf\"",
+    "example": "sudo find /etc -name \"my.cnf\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "database",
+      "config"
+    ]
+  },
+  {
+    "id": "database-admin-049-sudo-find-etc-name-mysqld-cnf",
+    "command": "sudo find /etc -name \"mysqld.cnf\"",
+    "title": "mysqld.cnf config file locate karna",
+    "category": "Database Admin Deep",
+    "difficulty": "Beginner",
+    "use_case": "mysqld.cnf config file locate karna ke liye ye command practical DevOps workflow me use hota hai.",
+    "syntax": "sudo find /etc -name \"mysqld.cnf\"",
+    "example": "sudo find /etc -name \"mysqld.cnf\"",
+    "output_explanation": "Output me status/result/logs/config values show honge. Error aaye to permission, path, network, credentials aur service state verify karo.",
+    "warning": "Production par run karne se pehle target, command impact aur rollback/backup confirm karo.",
+    "related_commands": [],
+    "tags": [
+      "database",
+      "config"
+    ]
+  }
+]

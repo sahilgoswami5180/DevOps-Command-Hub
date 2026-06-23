@@ -1,0 +1,427 @@
+[
+  {
+    "id": "github-cli-001-gh-auth-login",
+    "command": "gh auth login",
+    "title": "GitHub CLI command: gh auth login",
+    "category": "GitHub CLI",
+    "difficulty": "Intermediate",
+    "use_case": "GitHub CLI command: gh auth login ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "gh auth login",
+    "example": "gh auth login",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh"
+    ]
+  },
+  {
+    "id": "github-cli-002-gh-auth-status",
+    "command": "gh auth status",
+    "title": "GitHub CLI command: gh auth status",
+    "category": "GitHub CLI",
+    "difficulty": "Intermediate",
+    "use_case": "GitHub CLI command: gh auth status ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "gh auth status",
+    "example": "gh auth status",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh"
+    ]
+  },
+  {
+    "id": "github-cli-003-gh-repo-clone-owner-repo",
+    "command": "gh repo clone owner/repo",
+    "title": "GitHub CLI command: gh repo clone owner/repo",
+    "category": "GitHub CLI",
+    "difficulty": "Intermediate",
+    "use_case": "GitHub CLI command: gh repo clone owner/repo ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "gh repo clone owner/repo",
+    "example": "gh repo clone owner/repo",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh"
+    ]
+  },
+  {
+    "id": "github-cli-004-gh-repo-view-web",
+    "command": "gh repo view --web",
+    "title": "GitHub CLI command: gh repo view --web",
+    "category": "GitHub CLI",
+    "difficulty": "Intermediate",
+    "use_case": "GitHub CLI command: gh repo view --web ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "gh repo view --web",
+    "example": "gh repo view --web",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh"
+    ]
+  },
+  {
+    "id": "github-cli-005-gh-pr-list",
+    "command": "gh pr list",
+    "title": "GitHub CLI command: gh pr list",
+    "category": "GitHub CLI",
+    "difficulty": "Intermediate",
+    "use_case": "GitHub CLI command: gh pr list ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "gh pr list",
+    "example": "gh pr list",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh"
+    ]
+  },
+  {
+    "id": "github-cli-006-gh-pr-checkout-1",
+    "command": "gh pr checkout 1",
+    "title": "GitHub CLI command: gh pr checkout 1",
+    "category": "GitHub CLI",
+    "difficulty": "Intermediate",
+    "use_case": "GitHub CLI command: gh pr checkout 1 ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "gh pr checkout 1",
+    "example": "gh pr checkout 1",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh"
+    ]
+  },
+  {
+    "id": "github-cli-007-gh-pr-create-fill",
+    "command": "gh pr create --fill",
+    "title": "GitHub CLI command: gh pr create --fill",
+    "category": "GitHub CLI",
+    "difficulty": "Intermediate",
+    "use_case": "GitHub CLI command: gh pr create --fill ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "gh pr create --fill",
+    "example": "gh pr create --fill",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh"
+    ]
+  },
+  {
+    "id": "github-cli-008-gh-pr-view-web",
+    "command": "gh pr view --web",
+    "title": "GitHub CLI command: gh pr view --web",
+    "category": "GitHub CLI",
+    "difficulty": "Intermediate",
+    "use_case": "GitHub CLI command: gh pr view --web ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "gh pr view --web",
+    "example": "gh pr view --web",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh"
+    ]
+  },
+  {
+    "id": "github-cli-009-gh-pr-merge-squash",
+    "command": "gh pr merge --squash",
+    "title": "GitHub CLI command: gh pr merge --squash",
+    "category": "GitHub CLI",
+    "difficulty": "Intermediate",
+    "use_case": "GitHub CLI command: gh pr merge --squash ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "gh pr merge --squash",
+    "example": "gh pr merge --squash",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh"
+    ]
+  },
+  {
+    "id": "github-cli-010-gh-issue-list",
+    "command": "gh issue list",
+    "title": "GitHub CLI command: gh issue list",
+    "category": "GitHub CLI",
+    "difficulty": "Intermediate",
+    "use_case": "GitHub CLI command: gh issue list ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "gh issue list",
+    "example": "gh issue list",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh"
+    ]
+  },
+  {
+    "id": "github-cli-011-gh-issue-create",
+    "command": "gh issue create",
+    "title": "GitHub CLI command: gh issue create",
+    "category": "GitHub CLI",
+    "difficulty": "Intermediate",
+    "use_case": "GitHub CLI command: gh issue create ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "gh issue create",
+    "example": "gh issue create",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh"
+    ]
+  },
+  {
+    "id": "github-cli-012-gh-run-list",
+    "command": "gh run list",
+    "title": "GitHub CLI command: gh run list",
+    "category": "GitHub CLI",
+    "difficulty": "Intermediate",
+    "use_case": "GitHub CLI command: gh run list ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "gh run list",
+    "example": "gh run list",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh"
+    ]
+  },
+  {
+    "id": "github-cli-013-gh-run-view-log",
+    "command": "gh run view --log",
+    "title": "GitHub CLI command: gh run view --log",
+    "category": "GitHub CLI",
+    "difficulty": "Intermediate",
+    "use_case": "GitHub CLI command: gh run view --log ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "gh run view --log",
+    "example": "gh run view --log",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh"
+    ]
+  },
+  {
+    "id": "github-cli-014-gh-run-watch",
+    "command": "gh run watch",
+    "title": "GitHub CLI command: gh run watch",
+    "category": "GitHub CLI",
+    "difficulty": "Intermediate",
+    "use_case": "GitHub CLI command: gh run watch ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "gh run watch",
+    "example": "gh run watch",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh"
+    ]
+  },
+  {
+    "id": "github-cli-015-gh-workflow-list",
+    "command": "gh workflow list",
+    "title": "GitHub CLI command: gh workflow list",
+    "category": "GitHub CLI",
+    "difficulty": "Intermediate",
+    "use_case": "GitHub CLI command: gh workflow list ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "gh workflow list",
+    "example": "gh workflow list",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh"
+    ]
+  },
+  {
+    "id": "github-cli-016-gh-workflow-run-deploy-yml",
+    "command": "gh workflow run deploy.yml",
+    "title": "GitHub CLI command: gh workflow run deploy.yml",
+    "category": "GitHub CLI",
+    "difficulty": "Intermediate",
+    "use_case": "GitHub CLI command: gh workflow run deploy.yml ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "gh workflow run deploy.yml",
+    "example": "gh workflow run deploy.yml",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh"
+    ]
+  },
+  {
+    "id": "github-cli-017-gh-secret-list",
+    "command": "gh secret list",
+    "title": "GitHub CLI command: gh secret list",
+    "category": "GitHub CLI",
+    "difficulty": "Intermediate",
+    "use_case": "GitHub CLI command: gh secret list ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "gh secret list",
+    "example": "gh secret list",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh"
+    ]
+  },
+  {
+    "id": "github-cli-018-gh-secret-set-app-key",
+    "command": "gh secret set APP_KEY",
+    "title": "GitHub CLI command: gh secret set APP_KEY",
+    "category": "GitHub CLI",
+    "difficulty": "Intermediate",
+    "use_case": "GitHub CLI command: gh secret set APP_KEY ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "gh secret set APP_KEY",
+    "example": "gh secret set APP_KEY",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh"
+    ]
+  },
+  {
+    "id": "github-cli-019-gh-release-list",
+    "command": "gh release list",
+    "title": "GitHub CLI command: gh release list",
+    "category": "GitHub CLI",
+    "difficulty": "Intermediate",
+    "use_case": "GitHub CLI command: gh release list ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "gh release list",
+    "example": "gh release list",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh"
+    ]
+  },
+  {
+    "id": "github-cli-020-gh-release-create-v1-0-0",
+    "command": "gh release create v1.0.0",
+    "title": "GitHub CLI command: gh release create v1.0.0",
+    "category": "GitHub CLI",
+    "difficulty": "Intermediate",
+    "use_case": "GitHub CLI command: gh release create v1.0.0 ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "gh release create v1.0.0",
+    "example": "gh release create v1.0.0",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "gh"
+    ]
+  },
+  {
+    "id": "github-cli-021-gh-pr-create-base-main-fill",
+    "command": "gh pr create --base main --fill",
+    "title": "main base branch ke against PR create karna",
+    "category": "GitHub CLI",
+    "difficulty": "Intermediate",
+    "use_case": "main base branch ke against PR create karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "gh pr create --base main --fill",
+    "example": "gh pr create --base main --fill",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "pr"
+    ]
+  },
+  {
+    "id": "github-cli-022-gh-pr-create-base-develop-fill",
+    "command": "gh pr create --base develop --fill",
+    "title": "develop base branch ke against PR create karna",
+    "category": "GitHub CLI",
+    "difficulty": "Intermediate",
+    "use_case": "develop base branch ke against PR create karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "gh pr create --base develop --fill",
+    "example": "gh pr create --base develop --fill",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "pr"
+    ]
+  },
+  {
+    "id": "github-cli-023-gh-pr-create-base-staging-fill",
+    "command": "gh pr create --base staging --fill",
+    "title": "staging base branch ke against PR create karna",
+    "category": "GitHub CLI",
+    "difficulty": "Intermediate",
+    "use_case": "staging base branch ke against PR create karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "gh pr create --base staging --fill",
+    "example": "gh pr create --base staging --fill",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "pr"
+    ]
+  },
+  {
+    "id": "github-cli-024-gh-pr-create-base-sahil-fill",
+    "command": "gh pr create --base sahil --fill",
+    "title": "sahil base branch ke against PR create karna",
+    "category": "GitHub CLI",
+    "difficulty": "Intermediate",
+    "use_case": "sahil base branch ke against PR create karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "gh pr create --base sahil --fill",
+    "example": "gh pr create --base sahil --fill",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "pr"
+    ]
+  },
+  {
+    "id": "github-cli-025-gh-pr-create-base-feature-devops-fill",
+    "command": "gh pr create --base feature/devops --fill",
+    "title": "feature/devops base branch ke against PR create karna",
+    "category": "GitHub CLI",
+    "difficulty": "Intermediate",
+    "use_case": "feature/devops base branch ke against PR create karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "gh pr create --base feature/devops --fill",
+    "example": "gh pr create --base feature/devops --fill",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "github",
+      "pr"
+    ]
+  }
+]

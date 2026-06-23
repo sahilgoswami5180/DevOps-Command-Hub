@@ -1,0 +1,1090 @@
+[
+  {
+    "id": "systemd-supervisor-001-sudo-systemctl-list-units-type-service-state-running",
+    "command": "sudo systemctl list-units --type=service --state=running",
+    "title": "Systemd/Supervisor command: sudo systemctl list-units --type=service --state=running",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "Systemd/Supervisor command: sudo systemctl list-units --type=service --state=running ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl list-units --type=service --state=running",
+    "example": "sudo systemctl list-units --type=service --state=running",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "supervisor"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-002-sudo-systemctl-failed",
+    "command": "sudo systemctl --failed",
+    "title": "Systemd/Supervisor command: sudo systemctl --failed",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "Systemd/Supervisor command: sudo systemctl --failed ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl --failed",
+    "example": "sudo systemctl --failed",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "supervisor"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-003-sudo-systemctl-daemon-reload",
+    "command": "sudo systemctl daemon-reload",
+    "title": "Systemd/Supervisor command: sudo systemctl daemon-reload",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "Systemd/Supervisor command: sudo systemctl daemon-reload ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl daemon-reload",
+    "example": "sudo systemctl daemon-reload",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "supervisor"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-004-sudo-systemctl-reset-failed",
+    "command": "sudo systemctl reset-failed",
+    "title": "Systemd/Supervisor command: sudo systemctl reset-failed",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "Systemd/Supervisor command: sudo systemctl reset-failed ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl reset-failed",
+    "example": "sudo systemctl reset-failed",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "supervisor"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-005-sudo-systemctl-status-supervisor",
+    "command": "sudo systemctl status supervisor",
+    "title": "Systemd/Supervisor command: sudo systemctl status supervisor",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "Systemd/Supervisor command: sudo systemctl status supervisor ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl status supervisor",
+    "example": "sudo systemctl status supervisor",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "supervisor"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-006-sudo-supervisorctl-status",
+    "command": "sudo supervisorctl status",
+    "title": "Systemd/Supervisor command: sudo supervisorctl status",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "Systemd/Supervisor command: sudo supervisorctl status ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo supervisorctl status",
+    "example": "sudo supervisorctl status",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "supervisor"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-007-sudo-supervisorctl-reread",
+    "command": "sudo supervisorctl reread",
+    "title": "Systemd/Supervisor command: sudo supervisorctl reread",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "Systemd/Supervisor command: sudo supervisorctl reread ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo supervisorctl reread",
+    "example": "sudo supervisorctl reread",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "supervisor"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-008-sudo-supervisorctl-update",
+    "command": "sudo supervisorctl update",
+    "title": "Systemd/Supervisor command: sudo supervisorctl update",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "Systemd/Supervisor command: sudo supervisorctl update ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo supervisorctl update",
+    "example": "sudo supervisorctl update",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "supervisor"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-009-sudo-supervisorctl-restart-all",
+    "command": "sudo supervisorctl restart all",
+    "title": "Systemd/Supervisor command: sudo supervisorctl restart all",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "Systemd/Supervisor command: sudo supervisorctl restart all ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo supervisorctl restart all",
+    "example": "sudo supervisorctl restart all",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "supervisor"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-010-sudo-supervisorctl-tail-f-worker-stdout",
+    "command": "sudo supervisorctl tail -f worker stdout",
+    "title": "Systemd/Supervisor command: sudo supervisorctl tail -f worker stdout",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "Systemd/Supervisor command: sudo supervisorctl tail -f worker stdout ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo supervisorctl tail -f worker stdout",
+    "example": "sudo supervisorctl tail -f worker stdout",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "supervisor"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-011-sudo-supervisorctl-tail-f-worker-stderr",
+    "command": "sudo supervisorctl tail -f worker stderr",
+    "title": "Systemd/Supervisor command: sudo supervisorctl tail -f worker stderr",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "Systemd/Supervisor command: sudo supervisorctl tail -f worker stderr ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo supervisorctl tail -f worker stderr",
+    "example": "sudo supervisorctl tail -f worker stderr",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "supervisor"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-012-sudo-journalctl-xe",
+    "command": "sudo journalctl -xe",
+    "title": "Systemd/Supervisor command: sudo journalctl -xe",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "Systemd/Supervisor command: sudo journalctl -xe ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo journalctl -xe",
+    "example": "sudo journalctl -xe",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "supervisor"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-013-sudo-journalctl-disk-usage",
+    "command": "sudo journalctl --disk-usage",
+    "title": "Systemd/Supervisor command: sudo journalctl --disk-usage",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "Systemd/Supervisor command: sudo journalctl --disk-usage ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo journalctl --disk-usage",
+    "example": "sudo journalctl --disk-usage",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "supervisor"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-014-sudo-journalctl-vacuum-time-7d",
+    "command": "sudo journalctl --vacuum-time=7d",
+    "title": "Systemd/Supervisor command: sudo journalctl --vacuum-time=7d",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "Systemd/Supervisor command: sudo journalctl --vacuum-time=7d ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo journalctl --vacuum-time=7d",
+    "example": "sudo journalctl --vacuum-time=7d",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "supervisor"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-015-sudo-systemctl-status-caddy",
+    "command": "sudo systemctl status caddy",
+    "title": "caddy service status karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "caddy service status karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl status caddy",
+    "example": "sudo systemctl status caddy",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "caddy"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-016-sudo-systemctl-restart-caddy",
+    "command": "sudo systemctl restart caddy",
+    "title": "caddy service restart karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "caddy service restart karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl restart caddy",
+    "example": "sudo systemctl restart caddy",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "caddy"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-017-sudo-systemctl-reload-caddy",
+    "command": "sudo systemctl reload caddy",
+    "title": "caddy service reload karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "caddy service reload karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl reload caddy",
+    "example": "sudo systemctl reload caddy",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "caddy"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-018-sudo-systemctl-enable-caddy",
+    "command": "sudo systemctl enable caddy",
+    "title": "caddy service enable karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "caddy service enable karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl enable caddy",
+    "example": "sudo systemctl enable caddy",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "caddy"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-019-sudo-systemctl-disable-caddy",
+    "command": "sudo systemctl disable caddy",
+    "title": "caddy service disable karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "caddy service disable karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl disable caddy",
+    "example": "sudo systemctl disable caddy",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "caddy"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-020-sudo-systemctl-status-nginx",
+    "command": "sudo systemctl status nginx",
+    "title": "nginx service status karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "nginx service status karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl status nginx",
+    "example": "sudo systemctl status nginx",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "nginx"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-021-sudo-systemctl-restart-nginx",
+    "command": "sudo systemctl restart nginx",
+    "title": "nginx service restart karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "nginx service restart karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl restart nginx",
+    "example": "sudo systemctl restart nginx",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "nginx"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-022-sudo-systemctl-reload-nginx",
+    "command": "sudo systemctl reload nginx",
+    "title": "nginx service reload karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "nginx service reload karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl reload nginx",
+    "example": "sudo systemctl reload nginx",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "nginx"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-023-sudo-systemctl-enable-nginx",
+    "command": "sudo systemctl enable nginx",
+    "title": "nginx service enable karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "nginx service enable karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl enable nginx",
+    "example": "sudo systemctl enable nginx",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "nginx"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-024-sudo-systemctl-disable-nginx",
+    "command": "sudo systemctl disable nginx",
+    "title": "nginx service disable karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "nginx service disable karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl disable nginx",
+    "example": "sudo systemctl disable nginx",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "nginx"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-025-sudo-systemctl-status-apache2",
+    "command": "sudo systemctl status apache2",
+    "title": "apache2 service status karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "apache2 service status karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl status apache2",
+    "example": "sudo systemctl status apache2",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "apache2"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-026-sudo-systemctl-restart-apache2",
+    "command": "sudo systemctl restart apache2",
+    "title": "apache2 service restart karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "apache2 service restart karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl restart apache2",
+    "example": "sudo systemctl restart apache2",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "apache2"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-027-sudo-systemctl-reload-apache2",
+    "command": "sudo systemctl reload apache2",
+    "title": "apache2 service reload karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "apache2 service reload karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl reload apache2",
+    "example": "sudo systemctl reload apache2",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "apache2"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-028-sudo-systemctl-enable-apache2",
+    "command": "sudo systemctl enable apache2",
+    "title": "apache2 service enable karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "apache2 service enable karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl enable apache2",
+    "example": "sudo systemctl enable apache2",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "apache2"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-029-sudo-systemctl-disable-apache2",
+    "command": "sudo systemctl disable apache2",
+    "title": "apache2 service disable karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "apache2 service disable karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl disable apache2",
+    "example": "sudo systemctl disable apache2",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "apache2"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-030-sudo-systemctl-status-php8-4-fpm",
+    "command": "sudo systemctl status php8.4-fpm",
+    "title": "php8.4-fpm service status karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "php8.4-fpm service status karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl status php8.4-fpm",
+    "example": "sudo systemctl status php8.4-fpm",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "php8.4-fpm"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-031-sudo-systemctl-restart-php8-4-fpm",
+    "command": "sudo systemctl restart php8.4-fpm",
+    "title": "php8.4-fpm service restart karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "php8.4-fpm service restart karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl restart php8.4-fpm",
+    "example": "sudo systemctl restart php8.4-fpm",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "php8.4-fpm"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-032-sudo-systemctl-reload-php8-4-fpm",
+    "command": "sudo systemctl reload php8.4-fpm",
+    "title": "php8.4-fpm service reload karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "php8.4-fpm service reload karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl reload php8.4-fpm",
+    "example": "sudo systemctl reload php8.4-fpm",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "php8.4-fpm"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-033-sudo-systemctl-enable-php8-4-fpm",
+    "command": "sudo systemctl enable php8.4-fpm",
+    "title": "php8.4-fpm service enable karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "php8.4-fpm service enable karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl enable php8.4-fpm",
+    "example": "sudo systemctl enable php8.4-fpm",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "php8.4-fpm"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-034-sudo-systemctl-disable-php8-4-fpm",
+    "command": "sudo systemctl disable php8.4-fpm",
+    "title": "php8.4-fpm service disable karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "php8.4-fpm service disable karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl disable php8.4-fpm",
+    "example": "sudo systemctl disable php8.4-fpm",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "php8.4-fpm"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-035-sudo-systemctl-status-mysql",
+    "command": "sudo systemctl status mysql",
+    "title": "mysql service status karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "mysql service status karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl status mysql",
+    "example": "sudo systemctl status mysql",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "mysql"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-036-sudo-systemctl-restart-mysql",
+    "command": "sudo systemctl restart mysql",
+    "title": "mysql service restart karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "mysql service restart karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl restart mysql",
+    "example": "sudo systemctl restart mysql",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "mysql"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-037-sudo-systemctl-reload-mysql",
+    "command": "sudo systemctl reload mysql",
+    "title": "mysql service reload karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "mysql service reload karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl reload mysql",
+    "example": "sudo systemctl reload mysql",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "mysql"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-038-sudo-systemctl-enable-mysql",
+    "command": "sudo systemctl enable mysql",
+    "title": "mysql service enable karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "mysql service enable karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl enable mysql",
+    "example": "sudo systemctl enable mysql",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "mysql"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-039-sudo-systemctl-disable-mysql",
+    "command": "sudo systemctl disable mysql",
+    "title": "mysql service disable karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "mysql service disable karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl disable mysql",
+    "example": "sudo systemctl disable mysql",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "mysql"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-040-sudo-systemctl-status-postgresql",
+    "command": "sudo systemctl status postgresql",
+    "title": "postgresql service status karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "postgresql service status karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl status postgresql",
+    "example": "sudo systemctl status postgresql",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "postgresql"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-041-sudo-systemctl-restart-postgresql",
+    "command": "sudo systemctl restart postgresql",
+    "title": "postgresql service restart karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "postgresql service restart karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl restart postgresql",
+    "example": "sudo systemctl restart postgresql",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "postgresql"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-042-sudo-systemctl-reload-postgresql",
+    "command": "sudo systemctl reload postgresql",
+    "title": "postgresql service reload karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "postgresql service reload karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl reload postgresql",
+    "example": "sudo systemctl reload postgresql",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "postgresql"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-043-sudo-systemctl-enable-postgresql",
+    "command": "sudo systemctl enable postgresql",
+    "title": "postgresql service enable karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "postgresql service enable karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl enable postgresql",
+    "example": "sudo systemctl enable postgresql",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "postgresql"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-044-sudo-systemctl-disable-postgresql",
+    "command": "sudo systemctl disable postgresql",
+    "title": "postgresql service disable karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "postgresql service disable karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl disable postgresql",
+    "example": "sudo systemctl disable postgresql",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "postgresql"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-045-sudo-systemctl-status-redis-server",
+    "command": "sudo systemctl status redis-server",
+    "title": "redis-server service status karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "redis-server service status karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl status redis-server",
+    "example": "sudo systemctl status redis-server",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "redis-server"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-046-sudo-systemctl-restart-redis-server",
+    "command": "sudo systemctl restart redis-server",
+    "title": "redis-server service restart karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "redis-server service restart karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl restart redis-server",
+    "example": "sudo systemctl restart redis-server",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "redis-server"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-047-sudo-systemctl-reload-redis-server",
+    "command": "sudo systemctl reload redis-server",
+    "title": "redis-server service reload karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "redis-server service reload karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl reload redis-server",
+    "example": "sudo systemctl reload redis-server",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "redis-server"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-048-sudo-systemctl-enable-redis-server",
+    "command": "sudo systemctl enable redis-server",
+    "title": "redis-server service enable karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "redis-server service enable karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl enable redis-server",
+    "example": "sudo systemctl enable redis-server",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "redis-server"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-049-sudo-systemctl-disable-redis-server",
+    "command": "sudo systemctl disable redis-server",
+    "title": "redis-server service disable karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "redis-server service disable karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl disable redis-server",
+    "example": "sudo systemctl disable redis-server",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "redis-server"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-050-sudo-systemctl-status-supervisor",
+    "command": "sudo systemctl status supervisor",
+    "title": "supervisor service status karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "supervisor service status karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl status supervisor",
+    "example": "sudo systemctl status supervisor",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "supervisor"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-051-sudo-systemctl-restart-supervisor",
+    "command": "sudo systemctl restart supervisor",
+    "title": "supervisor service restart karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "supervisor service restart karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl restart supervisor",
+    "example": "sudo systemctl restart supervisor",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "supervisor"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-052-sudo-systemctl-reload-supervisor",
+    "command": "sudo systemctl reload supervisor",
+    "title": "supervisor service reload karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "supervisor service reload karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl reload supervisor",
+    "example": "sudo systemctl reload supervisor",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "supervisor"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-053-sudo-systemctl-enable-supervisor",
+    "command": "sudo systemctl enable supervisor",
+    "title": "supervisor service enable karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "supervisor service enable karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl enable supervisor",
+    "example": "sudo systemctl enable supervisor",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "supervisor"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-054-sudo-systemctl-disable-supervisor",
+    "command": "sudo systemctl disable supervisor",
+    "title": "supervisor service disable karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "supervisor service disable karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl disable supervisor",
+    "example": "sudo systemctl disable supervisor",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "supervisor"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-055-sudo-systemctl-status-docker",
+    "command": "sudo systemctl status docker",
+    "title": "docker service status karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "docker service status karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl status docker",
+    "example": "sudo systemctl status docker",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "docker"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-056-sudo-systemctl-restart-docker",
+    "command": "sudo systemctl restart docker",
+    "title": "docker service restart karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "docker service restart karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl restart docker",
+    "example": "sudo systemctl restart docker",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "docker"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-057-sudo-systemctl-reload-docker",
+    "command": "sudo systemctl reload docker",
+    "title": "docker service reload karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "docker service reload karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl reload docker",
+    "example": "sudo systemctl reload docker",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "docker"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-058-sudo-systemctl-enable-docker",
+    "command": "sudo systemctl enable docker",
+    "title": "docker service enable karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "docker service enable karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl enable docker",
+    "example": "sudo systemctl enable docker",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "docker"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-059-sudo-systemctl-disable-docker",
+    "command": "sudo systemctl disable docker",
+    "title": "docker service disable karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "docker service disable karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl disable docker",
+    "example": "sudo systemctl disable docker",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "docker"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-060-sudo-systemctl-status-ssh",
+    "command": "sudo systemctl status ssh",
+    "title": "ssh service status karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "ssh service status karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl status ssh",
+    "example": "sudo systemctl status ssh",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "ssh"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-061-sudo-systemctl-restart-ssh",
+    "command": "sudo systemctl restart ssh",
+    "title": "ssh service restart karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "ssh service restart karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl restart ssh",
+    "example": "sudo systemctl restart ssh",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "ssh"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-062-sudo-systemctl-reload-ssh",
+    "command": "sudo systemctl reload ssh",
+    "title": "ssh service reload karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "ssh service reload karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl reload ssh",
+    "example": "sudo systemctl reload ssh",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "ssh"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-063-sudo-systemctl-enable-ssh",
+    "command": "sudo systemctl enable ssh",
+    "title": "ssh service enable karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "ssh service enable karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl enable ssh",
+    "example": "sudo systemctl enable ssh",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "ssh"
+    ]
+  },
+  {
+    "id": "systemd-supervisor-064-sudo-systemctl-disable-ssh",
+    "command": "sudo systemctl disable ssh",
+    "title": "ssh service disable karna",
+    "category": "Systemd & Supervisor",
+    "difficulty": "Intermediate",
+    "use_case": "ssh service disable karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl disable ssh",
+    "example": "sudo systemctl disable ssh",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "systemd",
+      "ssh"
+    ]
+  }
+]

@@ -1,0 +1,546 @@
+[
+  {
+    "id": "wordpress-ops-001-wp-core-version",
+    "command": "wp core version",
+    "title": "WP-CLI core version run karna",
+    "category": "WordPress Ops",
+    "difficulty": "Intermediate",
+    "use_case": "WP-CLI core version run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "wp core version",
+    "example": "wp core version",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "wordpress",
+      "wp-cli"
+    ]
+  },
+  {
+    "id": "wordpress-ops-002-wp-core-update-dry-run",
+    "command": "wp core update --dry-run",
+    "title": "WP-CLI core update --dry-run run karna",
+    "category": "WordPress Ops",
+    "difficulty": "Intermediate",
+    "use_case": "WP-CLI core update --dry-run run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "wp core update --dry-run",
+    "example": "wp core update --dry-run",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "wordpress",
+      "wp-cli"
+    ]
+  },
+  {
+    "id": "wordpress-ops-003-wp-plugin-list",
+    "command": "wp plugin list",
+    "title": "WP-CLI plugin list run karna",
+    "category": "WordPress Ops",
+    "difficulty": "Intermediate",
+    "use_case": "WP-CLI plugin list run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "wp plugin list",
+    "example": "wp plugin list",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "wordpress",
+      "wp-cli"
+    ]
+  },
+  {
+    "id": "wordpress-ops-004-wp-plugin-update-all-dry-run",
+    "command": "wp plugin update --all --dry-run",
+    "title": "WP-CLI plugin update --all --dry-run run karna",
+    "category": "WordPress Ops",
+    "difficulty": "Intermediate",
+    "use_case": "WP-CLI plugin update --all --dry-run run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "wp plugin update --all --dry-run",
+    "example": "wp plugin update --all --dry-run",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "wordpress",
+      "wp-cli"
+    ]
+  },
+  {
+    "id": "wordpress-ops-005-wp-theme-list",
+    "command": "wp theme list",
+    "title": "WP-CLI theme list run karna",
+    "category": "WordPress Ops",
+    "difficulty": "Intermediate",
+    "use_case": "WP-CLI theme list run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "wp theme list",
+    "example": "wp theme list",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "wordpress",
+      "wp-cli"
+    ]
+  },
+  {
+    "id": "wordpress-ops-006-wp-user-list",
+    "command": "wp user list",
+    "title": "WP-CLI user list run karna",
+    "category": "WordPress Ops",
+    "difficulty": "Intermediate",
+    "use_case": "WP-CLI user list run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "wp user list",
+    "example": "wp user list",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "wordpress",
+      "wp-cli"
+    ]
+  },
+  {
+    "id": "wordpress-ops-007-wp-option-get-siteurl",
+    "command": "wp option get siteurl",
+    "title": "WP-CLI option get siteurl run karna",
+    "category": "WordPress Ops",
+    "difficulty": "Intermediate",
+    "use_case": "WP-CLI option get siteurl run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "wp option get siteurl",
+    "example": "wp option get siteurl",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "wordpress",
+      "wp-cli"
+    ]
+  },
+  {
+    "id": "wordpress-ops-008-wp-option-get-home",
+    "command": "wp option get home",
+    "title": "WP-CLI option get home run karna",
+    "category": "WordPress Ops",
+    "difficulty": "Intermediate",
+    "use_case": "WP-CLI option get home run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "wp option get home",
+    "example": "wp option get home",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "wordpress",
+      "wp-cli"
+    ]
+  },
+  {
+    "id": "wordpress-ops-009-wp-rewrite-flush",
+    "command": "wp rewrite flush",
+    "title": "WP-CLI rewrite flush run karna",
+    "category": "WordPress Ops",
+    "difficulty": "Intermediate",
+    "use_case": "WP-CLI rewrite flush run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "wp rewrite flush",
+    "example": "wp rewrite flush",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "wordpress",
+      "wp-cli"
+    ]
+  },
+  {
+    "id": "wordpress-ops-010-wp-cache-flush",
+    "command": "wp cache flush",
+    "title": "WP-CLI cache flush run karna",
+    "category": "WordPress Ops",
+    "difficulty": "Intermediate",
+    "use_case": "WP-CLI cache flush run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "wp cache flush",
+    "example": "wp cache flush",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "wordpress",
+      "wp-cli"
+    ]
+  },
+  {
+    "id": "wordpress-ops-011-wp-db-check",
+    "command": "wp db check",
+    "title": "WP-CLI db check run karna",
+    "category": "WordPress Ops",
+    "difficulty": "Intermediate",
+    "use_case": "WP-CLI db check run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "wp db check",
+    "example": "wp db check",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "wordpress",
+      "wp-cli"
+    ]
+  },
+  {
+    "id": "wordpress-ops-012-wp-db-optimize",
+    "command": "wp db optimize",
+    "title": "WP-CLI db optimize run karna",
+    "category": "WordPress Ops",
+    "difficulty": "Intermediate",
+    "use_case": "WP-CLI db optimize run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "wp db optimize",
+    "example": "wp db optimize",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "wordpress",
+      "wp-cli"
+    ]
+  },
+  {
+    "id": "wordpress-ops-013-wp-db-size",
+    "command": "wp db size",
+    "title": "WP-CLI db size run karna",
+    "category": "WordPress Ops",
+    "difficulty": "Intermediate",
+    "use_case": "WP-CLI db size run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "wp db size",
+    "example": "wp db size",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "wordpress",
+      "wp-cli"
+    ]
+  },
+  {
+    "id": "wordpress-ops-014-wp-search-replace-http-old-com-https-new-com-dry-run",
+    "command": "wp search-replace http://old.com https://new.com --dry-run",
+    "title": "WP-CLI search-replace http://old.com https://new.com --dry-run run karna",
+    "category": "WordPress Ops",
+    "difficulty": "Intermediate",
+    "use_case": "WP-CLI search-replace http://old.com https://new.com --dry-run run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "wp search-replace http://old.com https://new.com --dry-run",
+    "example": "wp search-replace http://old.com https://new.com --dry-run",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "wordpress",
+      "wp-cli"
+    ]
+  },
+  {
+    "id": "wordpress-ops-015-wp-media-regenerate-yes",
+    "command": "wp media regenerate --yes",
+    "title": "WP-CLI media regenerate --yes run karna",
+    "category": "WordPress Ops",
+    "difficulty": "Intermediate",
+    "use_case": "WP-CLI media regenerate --yes run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "wp media regenerate --yes",
+    "example": "wp media regenerate --yes",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "wordpress",
+      "wp-cli"
+    ]
+  },
+  {
+    "id": "wordpress-ops-016-wp-cron-event-list",
+    "command": "wp cron event list",
+    "title": "WP-CLI cron event list run karna",
+    "category": "WordPress Ops",
+    "difficulty": "Intermediate",
+    "use_case": "WP-CLI cron event list run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "wp cron event list",
+    "example": "wp cron event list",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "wordpress",
+      "wp-cli"
+    ]
+  },
+  {
+    "id": "wordpress-ops-017-wp-cron-event-run-due-now",
+    "command": "wp cron event run --due-now",
+    "title": "WP-CLI cron event run --due-now run karna",
+    "category": "WordPress Ops",
+    "difficulty": "Intermediate",
+    "use_case": "WP-CLI cron event run --due-now run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "wp cron event run --due-now",
+    "example": "wp cron event run --due-now",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "wordpress",
+      "wp-cli"
+    ]
+  },
+  {
+    "id": "wordpress-ops-018-wp-transient-delete-all",
+    "command": "wp transient delete --all",
+    "title": "WP-CLI transient delete --all run karna",
+    "category": "WordPress Ops",
+    "difficulty": "Intermediate",
+    "use_case": "WP-CLI transient delete --all run karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "wp transient delete --all",
+    "example": "wp transient delete --all",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "wordpress",
+      "wp-cli"
+    ]
+  },
+  {
+    "id": "wordpress-ops-019-ls-la-wp-config-php",
+    "command": "ls -la wp-config.php",
+    "title": "WordPress wp-config.php check karna",
+    "category": "WordPress Ops",
+    "difficulty": "Beginner",
+    "use_case": "WordPress wp-config.php check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "ls -la wp-config.php",
+    "example": "ls -la wp-config.php",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "wordpress",
+      "files"
+    ]
+  },
+  {
+    "id": "wordpress-ops-020-ls-la-wp-content",
+    "command": "ls -la wp-content",
+    "title": "WordPress wp-content check karna",
+    "category": "WordPress Ops",
+    "difficulty": "Beginner",
+    "use_case": "WordPress wp-content check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "ls -la wp-content",
+    "example": "ls -la wp-content",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "wordpress",
+      "files"
+    ]
+  },
+  {
+    "id": "wordpress-ops-021-ls-la-wp-content-uploads",
+    "command": "ls -la wp-content/uploads",
+    "title": "WordPress wp-content/uploads check karna",
+    "category": "WordPress Ops",
+    "difficulty": "Beginner",
+    "use_case": "WordPress wp-content/uploads check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "ls -la wp-content/uploads",
+    "example": "ls -la wp-content/uploads",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "wordpress",
+      "files"
+    ]
+  },
+  {
+    "id": "wordpress-ops-022-ls-la-wp-content-plugins",
+    "command": "ls -la wp-content/plugins",
+    "title": "WordPress wp-content/plugins check karna",
+    "category": "WordPress Ops",
+    "difficulty": "Beginner",
+    "use_case": "WordPress wp-content/plugins check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "ls -la wp-content/plugins",
+    "example": "ls -la wp-content/plugins",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "wordpress",
+      "files"
+    ]
+  },
+  {
+    "id": "wordpress-ops-023-ls-la-wp-content-themes",
+    "command": "ls -la wp-content/themes",
+    "title": "WordPress wp-content/themes check karna",
+    "category": "WordPress Ops",
+    "difficulty": "Beginner",
+    "use_case": "WordPress wp-content/themes check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "ls -la wp-content/themes",
+    "example": "ls -la wp-content/themes",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "wordpress",
+      "files"
+    ]
+  },
+  {
+    "id": "wordpress-ops-024-ls-la-htaccess",
+    "command": "ls -la .htaccess",
+    "title": "WordPress .htaccess check karna",
+    "category": "WordPress Ops",
+    "difficulty": "Beginner",
+    "use_case": "WordPress .htaccess check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "ls -la .htaccess",
+    "example": "ls -la .htaccess",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "wordpress",
+      "files"
+    ]
+  },
+  {
+    "id": "wordpress-ops-025-grep-n-db-wp-config-php",
+    "command": "grep -n \"DB_\" wp-config.php",
+    "title": "WordPress DB config check karna",
+    "category": "WordPress Ops",
+    "difficulty": "Beginner",
+    "use_case": "WordPress DB config check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "grep -n \"DB_\" wp-config.php",
+    "example": "grep -n \"DB_\" wp-config.php",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "wordpress",
+      "db"
+    ]
+  },
+  {
+    "id": "wordpress-ops-026-grep-n-wp-debug-wp-config-php",
+    "command": "grep -n \"WP_DEBUG\" wp-config.php",
+    "title": "WP_DEBUG setting check karna",
+    "category": "WordPress Ops",
+    "difficulty": "Beginner",
+    "use_case": "WP_DEBUG setting check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "grep -n \"WP_DEBUG\" wp-config.php",
+    "example": "grep -n \"WP_DEBUG\" wp-config.php",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "wordpress",
+      "debug"
+    ]
+  },
+  {
+    "id": "wordpress-ops-027-tail-f-wp-content-debug-log",
+    "command": "tail -f wp-content/debug.log",
+    "title": "WordPress debug log live dekhna",
+    "category": "WordPress Ops",
+    "difficulty": "Beginner",
+    "use_case": "WordPress debug log live dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "tail -f wp-content/debug.log",
+    "example": "tail -f wp-content/debug.log",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "wordpress",
+      "logs"
+    ]
+  },
+  {
+    "id": "wordpress-ops-028-find-wp-content-uploads-type-f-wc-l",
+    "command": "find wp-content/uploads -type f | wc -l",
+    "title": "Uploads file count dekhna",
+    "category": "WordPress Ops",
+    "difficulty": "Beginner",
+    "use_case": "Uploads file count dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "find wp-content/uploads -type f | wc -l",
+    "example": "find wp-content/uploads -type f | wc -l",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "wordpress",
+      "uploads"
+    ]
+  },
+  {
+    "id": "wordpress-ops-029-du-sh-wp-content-uploads",
+    "command": "du -sh wp-content/uploads",
+    "title": "Uploads folder size dekhna",
+    "category": "WordPress Ops",
+    "difficulty": "Beginner",
+    "use_case": "Uploads folder size dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "du -sh wp-content/uploads",
+    "example": "du -sh wp-content/uploads",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "wordpress",
+      "disk"
+    ]
+  },
+  {
+    "id": "wordpress-ops-030-zip-r-wordpress-backup-zip-wp-content-wp-config-php",
+    "command": "zip -r wordpress-backup.zip wp-content wp-config.php",
+    "title": "WordPress files zip backup banana",
+    "category": "WordPress Ops",
+    "difficulty": "Intermediate",
+    "use_case": "WordPress files zip backup banana ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "zip -r wordpress-backup.zip wp-content wp-config.php",
+    "example": "zip -r wordpress-backup.zip wp-content wp-config.php",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "wordpress",
+      "backup"
+    ]
+  },
+  {
+    "id": "wordpress-ops-031-unzip-wordpres-zip-d-var-www-artisanal-byte",
+    "command": "unzip wordpres.zip -d /var/www/artisanal_byte/",
+    "title": "WordPress zip extract karna",
+    "category": "WordPress Ops",
+    "difficulty": "Intermediate",
+    "use_case": "WordPress zip extract karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "unzip wordpres.zip -d /var/www/artisanal_byte/",
+    "example": "unzip wordpres.zip -d /var/www/artisanal_byte/",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "wordpress",
+      "restore"
+    ]
+  },
+  {
+    "id": "wordpress-ops-032-sudo-chown-r-www-data-www-data-var-www-html-wordpress",
+    "command": "sudo chown -R www-data:www-data /var/www/html/wordpress",
+    "title": "WordPress ownership set karna",
+    "category": "WordPress Ops",
+    "difficulty": "Intermediate",
+    "use_case": "WordPress ownership set karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo chown -R www-data:www-data /var/www/html/wordpress",
+    "example": "sudo chown -R www-data:www-data /var/www/html/wordpress",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "wordpress",
+      "permissions"
+    ]
+  }
+]

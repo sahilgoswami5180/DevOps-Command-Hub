@@ -1,0 +1,495 @@
+[
+  {
+    "id": "redis-001-redis-cli-ping",
+    "command": "redis-cli ping",
+    "title": "Redis command: redis-cli ping",
+    "category": "Redis Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Redis command: redis-cli ping ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "redis-cli ping",
+    "example": "redis-cli ping",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "redis"
+    ]
+  },
+  {
+    "id": "redis-002-redis-cli-info",
+    "command": "redis-cli info",
+    "title": "Redis command: redis-cli info",
+    "category": "Redis Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Redis command: redis-cli info ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "redis-cli info",
+    "example": "redis-cli info",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "redis"
+    ]
+  },
+  {
+    "id": "redis-003-redis-cli-info-memory",
+    "command": "redis-cli info memory",
+    "title": "Redis command: redis-cli info memory",
+    "category": "Redis Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Redis command: redis-cli info memory ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "redis-cli info memory",
+    "example": "redis-cli info memory",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "redis"
+    ]
+  },
+  {
+    "id": "redis-004-redis-cli-info-clients",
+    "command": "redis-cli info clients",
+    "title": "Redis command: redis-cli info clients",
+    "category": "Redis Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Redis command: redis-cli info clients ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "redis-cli info clients",
+    "example": "redis-cli info clients",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "redis"
+    ]
+  },
+  {
+    "id": "redis-005-redis-cli-info-keyspace",
+    "command": "redis-cli info keyspace",
+    "title": "Redis command: redis-cli info keyspace",
+    "category": "Redis Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Redis command: redis-cli info keyspace ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "redis-cli info keyspace",
+    "example": "redis-cli info keyspace",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "redis"
+    ]
+  },
+  {
+    "id": "redis-006-redis-cli-dbsize",
+    "command": "redis-cli dbsize",
+    "title": "Redis command: redis-cli dbsize",
+    "category": "Redis Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Redis command: redis-cli dbsize ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "redis-cli dbsize",
+    "example": "redis-cli dbsize",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "redis"
+    ]
+  },
+  {
+    "id": "redis-007-redis-cli-keys",
+    "command": "redis-cli keys \"*\"",
+    "title": "Redis command: redis-cli keys \"*\"",
+    "category": "Redis Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Redis command: redis-cli keys \"*\" ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "redis-cli keys \"*\"",
+    "example": "redis-cli keys \"*\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "redis"
+    ]
+  },
+  {
+    "id": "redis-008-redis-cli-scan-0",
+    "command": "redis-cli scan 0",
+    "title": "Redis command: redis-cli scan 0",
+    "category": "Redis Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Redis command: redis-cli scan 0 ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "redis-cli scan 0",
+    "example": "redis-cli scan 0",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "redis"
+    ]
+  },
+  {
+    "id": "redis-009-redis-cli-monitor",
+    "command": "redis-cli monitor",
+    "title": "Redis command: redis-cli monitor",
+    "category": "Redis Ops",
+    "difficulty": "Advanced",
+    "use_case": "Redis command: redis-cli monitor ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "redis-cli monitor",
+    "example": "redis-cli monitor",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "redis"
+    ]
+  },
+  {
+    "id": "redis-010-redis-cli-slowlog-get-10",
+    "command": "redis-cli slowlog get 10",
+    "title": "Redis command: redis-cli slowlog get 10",
+    "category": "Redis Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Redis command: redis-cli slowlog get 10 ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "redis-cli slowlog get 10",
+    "example": "redis-cli slowlog get 10",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "redis"
+    ]
+  },
+  {
+    "id": "redis-011-redis-cli-config-get-maxmemory",
+    "command": "redis-cli config get maxmemory",
+    "title": "Redis command: redis-cli config get maxmemory",
+    "category": "Redis Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Redis command: redis-cli config get maxmemory ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "redis-cli config get maxmemory",
+    "example": "redis-cli config get maxmemory",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "redis"
+    ]
+  },
+  {
+    "id": "redis-012-redis-cli-config-get-databases",
+    "command": "redis-cli config get databases",
+    "title": "Redis command: redis-cli config get databases",
+    "category": "Redis Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Redis command: redis-cli config get databases ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "redis-cli config get databases",
+    "example": "redis-cli config get databases",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "redis"
+    ]
+  },
+  {
+    "id": "redis-013-redis-cli-client-list",
+    "command": "redis-cli client list",
+    "title": "Redis command: redis-cli client list",
+    "category": "Redis Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Redis command: redis-cli client list ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "redis-cli client list",
+    "example": "redis-cli client list",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "redis"
+    ]
+  },
+  {
+    "id": "redis-014-redis-cli-flushdb",
+    "command": "redis-cli flushdb",
+    "title": "Redis command: redis-cli flushdb",
+    "category": "Redis Ops",
+    "difficulty": "Advanced",
+    "use_case": "Redis command: redis-cli flushdb ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "redis-cli flushdb",
+    "example": "redis-cli flushdb",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "redis"
+    ]
+  },
+  {
+    "id": "redis-015-redis-cli-flushall",
+    "command": "redis-cli flushall",
+    "title": "Redis command: redis-cli flushall",
+    "category": "Redis Ops",
+    "difficulty": "Advanced",
+    "use_case": "Redis command: redis-cli flushall ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "redis-cli flushall",
+    "example": "redis-cli flushall",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "redis"
+    ]
+  },
+  {
+    "id": "redis-016-sudo-systemctl-status-redis-server",
+    "command": "sudo systemctl status redis-server",
+    "title": "Redis command: sudo systemctl status redis-server",
+    "category": "Redis Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Redis command: sudo systemctl status redis-server ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl status redis-server",
+    "example": "sudo systemctl status redis-server",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "redis"
+    ]
+  },
+  {
+    "id": "redis-017-sudo-journalctl-u-redis-server-f",
+    "command": "sudo journalctl -u redis-server -f",
+    "title": "Redis command: sudo journalctl -u redis-server -f",
+    "category": "Redis Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Redis command: sudo journalctl -u redis-server -f ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo journalctl -u redis-server -f",
+    "example": "sudo journalctl -u redis-server -f",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "redis"
+    ]
+  },
+  {
+    "id": "redis-018-redis-cli-n-0-dbsize",
+    "command": "redis-cli -n 0 dbsize",
+    "title": "Redis database 0 key count dekhna",
+    "category": "Redis Ops",
+    "difficulty": "Beginner",
+    "use_case": "Redis database 0 key count dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "redis-cli -n 0 dbsize",
+    "example": "redis-cli -n 0 dbsize",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "redis",
+      "db"
+    ]
+  },
+  {
+    "id": "redis-019-redis-cli-n-1-dbsize",
+    "command": "redis-cli -n 1 dbsize",
+    "title": "Redis database 1 key count dekhna",
+    "category": "Redis Ops",
+    "difficulty": "Beginner",
+    "use_case": "Redis database 1 key count dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "redis-cli -n 1 dbsize",
+    "example": "redis-cli -n 1 dbsize",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "redis",
+      "db"
+    ]
+  },
+  {
+    "id": "redis-020-redis-cli-n-2-dbsize",
+    "command": "redis-cli -n 2 dbsize",
+    "title": "Redis database 2 key count dekhna",
+    "category": "Redis Ops",
+    "difficulty": "Beginner",
+    "use_case": "Redis database 2 key count dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "redis-cli -n 2 dbsize",
+    "example": "redis-cli -n 2 dbsize",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "redis",
+      "db"
+    ]
+  },
+  {
+    "id": "redis-021-redis-cli-n-3-dbsize",
+    "command": "redis-cli -n 3 dbsize",
+    "title": "Redis database 3 key count dekhna",
+    "category": "Redis Ops",
+    "difficulty": "Beginner",
+    "use_case": "Redis database 3 key count dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "redis-cli -n 3 dbsize",
+    "example": "redis-cli -n 3 dbsize",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "redis",
+      "db"
+    ]
+  },
+  {
+    "id": "redis-022-redis-cli-n-4-dbsize",
+    "command": "redis-cli -n 4 dbsize",
+    "title": "Redis database 4 key count dekhna",
+    "category": "Redis Ops",
+    "difficulty": "Beginner",
+    "use_case": "Redis database 4 key count dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "redis-cli -n 4 dbsize",
+    "example": "redis-cli -n 4 dbsize",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "redis",
+      "db"
+    ]
+  },
+  {
+    "id": "redis-023-redis-cli-n-5-dbsize",
+    "command": "redis-cli -n 5 dbsize",
+    "title": "Redis database 5 key count dekhna",
+    "category": "Redis Ops",
+    "difficulty": "Beginner",
+    "use_case": "Redis database 5 key count dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "redis-cli -n 5 dbsize",
+    "example": "redis-cli -n 5 dbsize",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "redis",
+      "db"
+    ]
+  },
+  {
+    "id": "redis-024-redis-cli-n-6-dbsize",
+    "command": "redis-cli -n 6 dbsize",
+    "title": "Redis database 6 key count dekhna",
+    "category": "Redis Ops",
+    "difficulty": "Beginner",
+    "use_case": "Redis database 6 key count dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "redis-cli -n 6 dbsize",
+    "example": "redis-cli -n 6 dbsize",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "redis",
+      "db"
+    ]
+  },
+  {
+    "id": "redis-025-redis-cli-n-7-dbsize",
+    "command": "redis-cli -n 7 dbsize",
+    "title": "Redis database 7 key count dekhna",
+    "category": "Redis Ops",
+    "difficulty": "Beginner",
+    "use_case": "Redis database 7 key count dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "redis-cli -n 7 dbsize",
+    "example": "redis-cli -n 7 dbsize",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "redis",
+      "db"
+    ]
+  },
+  {
+    "id": "redis-026-redis-cli-scan-pattern-laravel-database-head",
+    "command": "redis-cli --scan --pattern \"laravel_database_*\" | head",
+    "title": "Redis keys pattern laravel_database_* sample dekhna",
+    "category": "Redis Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Redis keys pattern laravel_database_* sample dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "redis-cli --scan --pattern \"laravel_database_*\" | head",
+    "example": "redis-cli --scan --pattern \"laravel_database_*\" | head",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "redis",
+      "scan"
+    ]
+  },
+  {
+    "id": "redis-027-redis-cli-scan-pattern-cache-head",
+    "command": "redis-cli --scan --pattern \"cache:*\" | head",
+    "title": "Redis keys pattern cache:* sample dekhna",
+    "category": "Redis Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Redis keys pattern cache:* sample dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "redis-cli --scan --pattern \"cache:*\" | head",
+    "example": "redis-cli --scan --pattern \"cache:*\" | head",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "redis",
+      "scan"
+    ]
+  },
+  {
+    "id": "redis-028-redis-cli-scan-pattern-queues-head",
+    "command": "redis-cli --scan --pattern \"queues:*\" | head",
+    "title": "Redis keys pattern queues:* sample dekhna",
+    "category": "Redis Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Redis keys pattern queues:* sample dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "redis-cli --scan --pattern \"queues:*\" | head",
+    "example": "redis-cli --scan --pattern \"queues:*\" | head",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "redis",
+      "scan"
+    ]
+  },
+  {
+    "id": "redis-029-redis-cli-scan-pattern-sessions-head",
+    "command": "redis-cli --scan --pattern \"sessions:*\" | head",
+    "title": "Redis keys pattern sessions:* sample dekhna",
+    "category": "Redis Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Redis keys pattern sessions:* sample dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "redis-cli --scan --pattern \"sessions:*\" | head",
+    "example": "redis-cli --scan --pattern \"sessions:*\" | head",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "redis",
+      "scan"
+    ]
+  },
+  {
+    "id": "redis-030-redis-cli-scan-pattern-horizon-head",
+    "command": "redis-cli --scan --pattern \"horizon:*\" | head",
+    "title": "Redis keys pattern horizon:* sample dekhna",
+    "category": "Redis Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Redis keys pattern horizon:* sample dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "redis-cli --scan --pattern \"horizon:*\" | head",
+    "example": "redis-cli --scan --pattern \"horizon:*\" | head",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "redis",
+      "scan"
+    ]
+  }
+]

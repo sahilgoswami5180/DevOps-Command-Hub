@@ -1,0 +1,615 @@
+[
+  {
+    "id": "caddy-001-caddy-version",
+    "command": "caddy version",
+    "title": "Caddy version check karna",
+    "category": "Caddy Web Server",
+    "difficulty": "Beginner",
+    "use_case": "Caddy version check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "caddy version",
+    "example": "caddy version",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "caddy",
+      "version"
+    ]
+  },
+  {
+    "id": "caddy-002-sudo-systemctl-status-caddy-no-pager",
+    "command": "sudo systemctl status caddy --no-pager",
+    "title": "Caddy service status dekhna",
+    "category": "Caddy Web Server",
+    "difficulty": "Beginner",
+    "use_case": "Caddy service status dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl status caddy --no-pager",
+    "example": "sudo systemctl status caddy --no-pager",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "caddy",
+      "systemctl"
+    ]
+  },
+  {
+    "id": "caddy-003-sudo-systemctl-reload-caddy",
+    "command": "sudo systemctl reload caddy",
+    "title": "Caddy config reload karna",
+    "category": "Caddy Web Server",
+    "difficulty": "Beginner",
+    "use_case": "Caddy config reload karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl reload caddy",
+    "example": "sudo systemctl reload caddy",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "caddy",
+      "reload"
+    ]
+  },
+  {
+    "id": "caddy-004-sudo-systemctl-restart-caddy",
+    "command": "sudo systemctl restart caddy",
+    "title": "Caddy service restart karna",
+    "category": "Caddy Web Server",
+    "difficulty": "Intermediate",
+    "use_case": "Caddy service restart karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo systemctl restart caddy",
+    "example": "sudo systemctl restart caddy",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "caddy",
+      "restart"
+    ]
+  },
+  {
+    "id": "caddy-005-sudo-caddy-validate-config-etc-caddy-caddyfile",
+    "command": "sudo caddy validate --config /etc/caddy/Caddyfile",
+    "title": "Caddyfile validate karna",
+    "category": "Caddy Web Server",
+    "difficulty": "Beginner",
+    "use_case": "Caddyfile validate karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo caddy validate --config /etc/caddy/Caddyfile",
+    "example": "sudo caddy validate --config /etc/caddy/Caddyfile",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "caddy",
+      "validate"
+    ]
+  },
+  {
+    "id": "caddy-006-sudo-caddy-fmt-overwrite-etc-caddy-caddyfile",
+    "command": "sudo caddy fmt --overwrite /etc/caddy/Caddyfile",
+    "title": "Caddyfile format karna",
+    "category": "Caddy Web Server",
+    "difficulty": "Intermediate",
+    "use_case": "Caddyfile format karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo caddy fmt --overwrite /etc/caddy/Caddyfile",
+    "example": "sudo caddy fmt --overwrite /etc/caddy/Caddyfile",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "caddy",
+      "format"
+    ]
+  },
+  {
+    "id": "caddy-007-sudo-journalctl-u-caddy-f",
+    "command": "sudo journalctl -u caddy -f",
+    "title": "Caddy live logs dekhna",
+    "category": "Caddy Web Server",
+    "difficulty": "Beginner",
+    "use_case": "Caddy live logs dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo journalctl -u caddy -f",
+    "example": "sudo journalctl -u caddy -f",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "caddy",
+      "logs"
+    ]
+  },
+  {
+    "id": "caddy-008-sudo-journalctl-u-caddy-since-1-hour-ago",
+    "command": "sudo journalctl -u caddy --since \"1 hour ago\"",
+    "title": "Last 1 hour Caddy logs dekhna",
+    "category": "Caddy Web Server",
+    "difficulty": "Beginner",
+    "use_case": "Last 1 hour Caddy logs dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo journalctl -u caddy --since \"1 hour ago\"",
+    "example": "sudo journalctl -u caddy --since \"1 hour ago\"",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "caddy",
+      "logs"
+    ]
+  },
+  {
+    "id": "caddy-009-sudo-tail-f-var-log-caddy-access-log",
+    "command": "sudo tail -f /var/log/caddy/access.log",
+    "title": "Caddy access log live dekhna",
+    "category": "Caddy Web Server",
+    "difficulty": "Beginner",
+    "use_case": "Caddy access log live dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo tail -f /var/log/caddy/access.log",
+    "example": "sudo tail -f /var/log/caddy/access.log",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "caddy",
+      "logs"
+    ]
+  },
+  {
+    "id": "caddy-010-sudo-tail-f-var-log-caddy-error-log",
+    "command": "sudo tail -f /var/log/caddy/error.log",
+    "title": "Caddy error log live dekhna",
+    "category": "Caddy Web Server",
+    "difficulty": "Beginner",
+    "use_case": "Caddy error log live dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo tail -f /var/log/caddy/error.log",
+    "example": "sudo tail -f /var/log/caddy/error.log",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "caddy",
+      "logs"
+    ]
+  },
+  {
+    "id": "caddy-011-sudo-mkdir-p-etc-caddy-sites",
+    "command": "sudo mkdir -p /etc/caddy/sites",
+    "title": "Caddy sites folder banana",
+    "category": "Caddy Web Server",
+    "difficulty": "Beginner",
+    "use_case": "Caddy sites folder banana ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo mkdir -p /etc/caddy/sites",
+    "example": "sudo mkdir -p /etc/caddy/sites",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "caddy",
+      "setup"
+    ]
+  },
+  {
+    "id": "caddy-012-sudo-nano-etc-caddy-caddyfile",
+    "command": "sudo nano /etc/caddy/Caddyfile",
+    "title": "Main Caddyfile edit karna",
+    "category": "Caddy Web Server",
+    "difficulty": "Beginner",
+    "use_case": "Main Caddyfile edit karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo nano /etc/caddy/Caddyfile",
+    "example": "sudo nano /etc/caddy/Caddyfile",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "caddy",
+      "config"
+    ]
+  },
+  {
+    "id": "caddy-013-sudo-nano-etc-caddy-sites-example-caddy",
+    "command": "sudo nano /etc/caddy/sites/example.caddy",
+    "title": "Site-specific Caddy config edit karna",
+    "category": "Caddy Web Server",
+    "difficulty": "Beginner",
+    "use_case": "Site-specific Caddy config edit karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo nano /etc/caddy/sites/example.caddy",
+    "example": "sudo nano /etc/caddy/sites/example.caddy",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "caddy",
+      "config"
+    ]
+  },
+  {
+    "id": "caddy-014-curl-i-https-example-com",
+    "command": "curl -I https://example.com",
+    "title": "HTTPS response headers check karna",
+    "category": "Caddy Web Server",
+    "difficulty": "Beginner",
+    "use_case": "HTTPS response headers check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "curl -I https://example.com",
+    "example": "curl -I https://example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "curl",
+      "headers"
+    ]
+  },
+  {
+    "id": "caddy-015-curl-vk-https-example-com",
+    "command": "curl -vk https://example.com",
+    "title": "TLS handshake debug karna",
+    "category": "Caddy Web Server",
+    "difficulty": "Advanced",
+    "use_case": "TLS handshake debug karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "curl -vk https://example.com",
+    "example": "curl -vk https://example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "curl",
+      "ssl",
+      "debug"
+    ]
+  },
+  {
+    "id": "caddy-016-sudo-ss-tulpn-grep-80",
+    "command": "sudo ss -tulpn | grep :80",
+    "title": "Port 80 par kaunsi service listen kar rahi hai dekhna",
+    "category": "Caddy Web Server",
+    "difficulty": "Beginner",
+    "use_case": "Port 80 par kaunsi service listen kar rahi hai dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo ss -tulpn | grep :80",
+    "example": "sudo ss -tulpn | grep :80",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "port",
+      "caddy"
+    ]
+  },
+  {
+    "id": "caddy-017-sudo-ss-tulpn-grep-443",
+    "command": "sudo ss -tulpn | grep :443",
+    "title": "Port 443 par kaunsi service listen kar rahi hai dekhna",
+    "category": "Caddy Web Server",
+    "difficulty": "Beginner",
+    "use_case": "Port 443 par kaunsi service listen kar rahi hai dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo ss -tulpn | grep :443",
+    "example": "sudo ss -tulpn | grep :443",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "port",
+      "caddy"
+    ]
+  },
+  {
+    "id": "caddy-018-sudo-ss-tulpn-grep-2019",
+    "command": "sudo ss -tulpn | grep :2019",
+    "title": "Port 2019 par kaunsi service listen kar rahi hai dekhna",
+    "category": "Caddy Web Server",
+    "difficulty": "Beginner",
+    "use_case": "Port 2019 par kaunsi service listen kar rahi hai dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo ss -tulpn | grep :2019",
+    "example": "sudo ss -tulpn | grep :2019",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "port",
+      "caddy"
+    ]
+  },
+  {
+    "id": "caddy-019-sudo-ss-tulpn-grep-8080",
+    "command": "sudo ss -tulpn | grep :8080",
+    "title": "Port 8080 par kaunsi service listen kar rahi hai dekhna",
+    "category": "Caddy Web Server",
+    "difficulty": "Beginner",
+    "use_case": "Port 8080 par kaunsi service listen kar rahi hai dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo ss -tulpn | grep :8080",
+    "example": "sudo ss -tulpn | grep :8080",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "port",
+      "caddy"
+    ]
+  },
+  {
+    "id": "caddy-020-sudo-ss-tulpn-grep-5173",
+    "command": "sudo ss -tulpn | grep :5173",
+    "title": "Port 5173 par kaunsi service listen kar rahi hai dekhna",
+    "category": "Caddy Web Server",
+    "difficulty": "Beginner",
+    "use_case": "Port 5173 par kaunsi service listen kar rahi hai dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo ss -tulpn | grep :5173",
+    "example": "sudo ss -tulpn | grep :5173",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "port",
+      "caddy"
+    ]
+  },
+  {
+    "id": "caddy-021-sudo-ss-tulpn-grep-9000",
+    "command": "sudo ss -tulpn | grep :9000",
+    "title": "Port 9000 par kaunsi service listen kar rahi hai dekhna",
+    "category": "Caddy Web Server",
+    "difficulty": "Beginner",
+    "use_case": "Port 9000 par kaunsi service listen kar rahi hai dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo ss -tulpn | grep :9000",
+    "example": "sudo ss -tulpn | grep :9000",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "port",
+      "caddy"
+    ]
+  },
+  {
+    "id": "caddy-022-curl-i-https-example-com",
+    "command": "curl -I https://example.com",
+    "title": "example.com HTTPS headers verify karna",
+    "category": "Caddy Web Server",
+    "difficulty": "Beginner",
+    "use_case": "example.com HTTPS headers verify karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "curl -I https://example.com",
+    "example": "curl -I https://example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "https",
+      "verify"
+    ]
+  },
+  {
+    "id": "caddy-023-curl-i-https-www-example-com",
+    "command": "curl -I https://www.example.com",
+    "title": "www.example.com HTTPS headers verify karna",
+    "category": "Caddy Web Server",
+    "difficulty": "Beginner",
+    "use_case": "www.example.com HTTPS headers verify karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "curl -I https://www.example.com",
+    "example": "curl -I https://www.example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "https",
+      "verify"
+    ]
+  },
+  {
+    "id": "caddy-024-curl-i-https-api-example-com",
+    "command": "curl -I https://api.example.com",
+    "title": "api.example.com HTTPS headers verify karna",
+    "category": "Caddy Web Server",
+    "difficulty": "Beginner",
+    "use_case": "api.example.com HTTPS headers verify karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "curl -I https://api.example.com",
+    "example": "curl -I https://api.example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "https",
+      "verify"
+    ]
+  },
+  {
+    "id": "caddy-025-curl-i-https-staging-example-com",
+    "command": "curl -I https://staging.example.com",
+    "title": "staging.example.com HTTPS headers verify karna",
+    "category": "Caddy Web Server",
+    "difficulty": "Beginner",
+    "use_case": "staging.example.com HTTPS headers verify karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "curl -I https://staging.example.com",
+    "example": "curl -I https://staging.example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "https",
+      "verify"
+    ]
+  },
+  {
+    "id": "caddy-026-curl-i-https-dev-example-com",
+    "command": "curl -I https://dev.example.com",
+    "title": "dev.example.com HTTPS headers verify karna",
+    "category": "Caddy Web Server",
+    "difficulty": "Beginner",
+    "use_case": "dev.example.com HTTPS headers verify karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "curl -I https://dev.example.com",
+    "example": "curl -I https://dev.example.com",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "https",
+      "verify"
+    ]
+  },
+  {
+    "id": "caddy-027-sudo-caddy-validate-config-etc-caddy-caddyfile",
+    "command": "sudo caddy validate --config /etc/caddy/Caddyfile",
+    "title": "/etc/caddy/Caddyfile validate karna",
+    "category": "Caddy Web Server",
+    "difficulty": "Intermediate",
+    "use_case": "/etc/caddy/Caddyfile validate karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo caddy validate --config /etc/caddy/Caddyfile",
+    "example": "sudo caddy validate --config /etc/caddy/Caddyfile",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "caddy",
+      "validate"
+    ]
+  },
+  {
+    "id": "caddy-028-sudo-caddy-validate-config-etc-caddy-sites-app-caddy",
+    "command": "sudo caddy validate --config /etc/caddy/sites/app.caddy",
+    "title": "/etc/caddy/sites/app.caddy validate karna",
+    "category": "Caddy Web Server",
+    "difficulty": "Intermediate",
+    "use_case": "/etc/caddy/sites/app.caddy validate karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo caddy validate --config /etc/caddy/sites/app.caddy",
+    "example": "sudo caddy validate --config /etc/caddy/sites/app.caddy",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "caddy",
+      "validate"
+    ]
+  },
+  {
+    "id": "caddy-029-sudo-caddy-validate-config-etc-caddy-sites-api-caddy",
+    "command": "sudo caddy validate --config /etc/caddy/sites/api.caddy",
+    "title": "/etc/caddy/sites/api.caddy validate karna",
+    "category": "Caddy Web Server",
+    "difficulty": "Intermediate",
+    "use_case": "/etc/caddy/sites/api.caddy validate karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo caddy validate --config /etc/caddy/sites/api.caddy",
+    "example": "sudo caddy validate --config /etc/caddy/sites/api.caddy",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "caddy",
+      "validate"
+    ]
+  },
+  {
+    "id": "caddy-030-sudo-caddy-validate-config-etc-caddy-sites-wordpress-caddy",
+    "command": "sudo caddy validate --config /etc/caddy/sites/wordpress.caddy",
+    "title": "/etc/caddy/sites/wordpress.caddy validate karna",
+    "category": "Caddy Web Server",
+    "difficulty": "Intermediate",
+    "use_case": "/etc/caddy/sites/wordpress.caddy validate karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo caddy validate --config /etc/caddy/sites/wordpress.caddy",
+    "example": "sudo caddy validate --config /etc/caddy/sites/wordpress.caddy",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "caddy",
+      "validate"
+    ]
+  },
+  {
+    "id": "caddy-031-sudo-journalctl-u-caddy-since-today-no-pager",
+    "command": "sudo journalctl -u caddy --since today --no-pager",
+    "title": "caddy ke today logs dekhna",
+    "category": "Caddy Web Server",
+    "difficulty": "Intermediate",
+    "use_case": "caddy ke today logs dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo journalctl -u caddy --since today --no-pager",
+    "example": "sudo journalctl -u caddy --since today --no-pager",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "journalctl",
+      "logs"
+    ]
+  },
+  {
+    "id": "caddy-032-sudo-journalctl-u-php8-4-fpm-since-today-no-pager",
+    "command": "sudo journalctl -u php8.4-fpm --since today --no-pager",
+    "title": "php8.4-fpm ke today logs dekhna",
+    "category": "Caddy Web Server",
+    "difficulty": "Intermediate",
+    "use_case": "php8.4-fpm ke today logs dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo journalctl -u php8.4-fpm --since today --no-pager",
+    "example": "sudo journalctl -u php8.4-fpm --since today --no-pager",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "journalctl",
+      "logs"
+    ]
+  },
+  {
+    "id": "caddy-033-sudo-journalctl-u-php8-3-fpm-since-today-no-pager",
+    "command": "sudo journalctl -u php8.3-fpm --since today --no-pager",
+    "title": "php8.3-fpm ke today logs dekhna",
+    "category": "Caddy Web Server",
+    "difficulty": "Intermediate",
+    "use_case": "php8.3-fpm ke today logs dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo journalctl -u php8.3-fpm --since today --no-pager",
+    "example": "sudo journalctl -u php8.3-fpm --since today --no-pager",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "journalctl",
+      "logs"
+    ]
+  },
+  {
+    "id": "caddy-034-sudo-journalctl-u-redis-server-since-today-no-pager",
+    "command": "sudo journalctl -u redis-server --since today --no-pager",
+    "title": "redis-server ke today logs dekhna",
+    "category": "Caddy Web Server",
+    "difficulty": "Intermediate",
+    "use_case": "redis-server ke today logs dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo journalctl -u redis-server --since today --no-pager",
+    "example": "sudo journalctl -u redis-server --since today --no-pager",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "journalctl",
+      "logs"
+    ]
+  },
+  {
+    "id": "caddy-035-sudo-journalctl-u-postgresql-since-today-no-pager",
+    "command": "sudo journalctl -u postgresql --since today --no-pager",
+    "title": "postgresql ke today logs dekhna",
+    "category": "Caddy Web Server",
+    "difficulty": "Intermediate",
+    "use_case": "postgresql ke today logs dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo journalctl -u postgresql --since today --no-pager",
+    "example": "sudo journalctl -u postgresql --since today --no-pager",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "journalctl",
+      "logs"
+    ]
+  },
+  {
+    "id": "caddy-036-sudo-journalctl-u-mysql-since-today-no-pager",
+    "command": "sudo journalctl -u mysql --since today --no-pager",
+    "title": "mysql ke today logs dekhna",
+    "category": "Caddy Web Server",
+    "difficulty": "Intermediate",
+    "use_case": "mysql ke today logs dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "sudo journalctl -u mysql --since today --no-pager",
+    "example": "sudo journalctl -u mysql --since today --no-pager",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "journalctl",
+      "logs"
+    ]
+  }
+]

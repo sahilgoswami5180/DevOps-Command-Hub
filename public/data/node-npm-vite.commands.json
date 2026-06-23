@@ -1,0 +1,563 @@
+[
+  {
+    "id": "node-npm-vite-001-node-v",
+    "command": "node -v",
+    "title": "Node/NPM command: node -v",
+    "category": "Node / NPM / Vite",
+    "difficulty": "Beginner",
+    "use_case": "Node/NPM command: node -v ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "node -v",
+    "example": "node -v",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "node",
+      "npm"
+    ]
+  },
+  {
+    "id": "node-npm-vite-002-npm-v",
+    "command": "npm -v",
+    "title": "Node/NPM command: npm -v",
+    "category": "Node / NPM / Vite",
+    "difficulty": "Beginner",
+    "use_case": "Node/NPM command: npm -v ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "npm -v",
+    "example": "npm -v",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "node",
+      "npm"
+    ]
+  },
+  {
+    "id": "node-npm-vite-003-npm-install",
+    "command": "npm install",
+    "title": "Node/NPM command: npm install",
+    "category": "Node / NPM / Vite",
+    "difficulty": "Intermediate",
+    "use_case": "Node/NPM command: npm install ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "npm install",
+    "example": "npm install",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "node",
+      "npm"
+    ]
+  },
+  {
+    "id": "node-npm-vite-004-npm-ci",
+    "command": "npm ci",
+    "title": "Node/NPM command: npm ci",
+    "category": "Node / NPM / Vite",
+    "difficulty": "Intermediate",
+    "use_case": "Node/NPM command: npm ci ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "npm ci",
+    "example": "npm ci",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "node",
+      "npm"
+    ]
+  },
+  {
+    "id": "node-npm-vite-005-npm-run-dev",
+    "command": "npm run dev",
+    "title": "Node/NPM command: npm run dev",
+    "category": "Node / NPM / Vite",
+    "difficulty": "Intermediate",
+    "use_case": "Node/NPM command: npm run dev ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "npm run dev",
+    "example": "npm run dev",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "node",
+      "npm"
+    ]
+  },
+  {
+    "id": "node-npm-vite-006-npm-run-build",
+    "command": "npm run build",
+    "title": "Node/NPM command: npm run build",
+    "category": "Node / NPM / Vite",
+    "difficulty": "Intermediate",
+    "use_case": "Node/NPM command: npm run build ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "npm run build",
+    "example": "npm run build",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "node",
+      "npm"
+    ]
+  },
+  {
+    "id": "node-npm-vite-007-npm-run-preview",
+    "command": "npm run preview",
+    "title": "Node/NPM command: npm run preview",
+    "category": "Node / NPM / Vite",
+    "difficulty": "Intermediate",
+    "use_case": "Node/NPM command: npm run preview ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "npm run preview",
+    "example": "npm run preview",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "node",
+      "npm"
+    ]
+  },
+  {
+    "id": "node-npm-vite-008-npm-audit",
+    "command": "npm audit",
+    "title": "Node/NPM command: npm audit",
+    "category": "Node / NPM / Vite",
+    "difficulty": "Intermediate",
+    "use_case": "Node/NPM command: npm audit ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "npm audit",
+    "example": "npm audit",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "node",
+      "npm"
+    ]
+  },
+  {
+    "id": "node-npm-vite-009-npm-audit-fix",
+    "command": "npm audit fix",
+    "title": "Node/NPM command: npm audit fix",
+    "category": "Node / NPM / Vite",
+    "difficulty": "Intermediate",
+    "use_case": "Node/NPM command: npm audit fix ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "npm audit fix",
+    "example": "npm audit fix",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "node",
+      "npm"
+    ]
+  },
+  {
+    "id": "node-npm-vite-010-npm-outdated",
+    "command": "npm outdated",
+    "title": "Node/NPM command: npm outdated",
+    "category": "Node / NPM / Vite",
+    "difficulty": "Intermediate",
+    "use_case": "Node/NPM command: npm outdated ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "npm outdated",
+    "example": "npm outdated",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "node",
+      "npm"
+    ]
+  },
+  {
+    "id": "node-npm-vite-011-npm-list-depth-0",
+    "command": "npm list --depth=0",
+    "title": "Node/NPM command: npm list --depth=0",
+    "category": "Node / NPM / Vite",
+    "difficulty": "Intermediate",
+    "use_case": "Node/NPM command: npm list --depth=0 ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "npm list --depth=0",
+    "example": "npm list --depth=0",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "node",
+      "npm"
+    ]
+  },
+  {
+    "id": "node-npm-vite-012-npm-cache-verify",
+    "command": "npm cache verify",
+    "title": "Node/NPM command: npm cache verify",
+    "category": "Node / NPM / Vite",
+    "difficulty": "Intermediate",
+    "use_case": "Node/NPM command: npm cache verify ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "npm cache verify",
+    "example": "npm cache verify",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "node",
+      "npm"
+    ]
+  },
+  {
+    "id": "node-npm-vite-013-npm-cache-clean-force",
+    "command": "npm cache clean --force",
+    "title": "Node/NPM command: npm cache clean --force",
+    "category": "Node / NPM / Vite",
+    "difficulty": "Intermediate",
+    "use_case": "Node/NPM command: npm cache clean --force ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "npm cache clean --force",
+    "example": "npm cache clean --force",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "node",
+      "npm"
+    ]
+  },
+  {
+    "id": "node-npm-vite-014-npm-config-get-registry",
+    "command": "npm config get registry",
+    "title": "Node/NPM command: npm config get registry",
+    "category": "Node / NPM / Vite",
+    "difficulty": "Intermediate",
+    "use_case": "Node/NPM command: npm config get registry ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "npm config get registry",
+    "example": "npm config get registry",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "node",
+      "npm"
+    ]
+  },
+  {
+    "id": "node-npm-vite-015-npm-config-set-registry-https-registry-npmjs-org",
+    "command": "npm config set registry https://registry.npmjs.org/",
+    "title": "Node/NPM command: npm config set registry https://registry.npmjs.org/",
+    "category": "Node / NPM / Vite",
+    "difficulty": "Intermediate",
+    "use_case": "Node/NPM command: npm config set registry https://registry.npmjs.org/ ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "npm config set registry https://registry.npmjs.org/",
+    "example": "npm config set registry https://registry.npmjs.org/",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "node",
+      "npm"
+    ]
+  },
+  {
+    "id": "node-npm-vite-016-npx-vite-host-0-0-0-0",
+    "command": "npx vite --host 0.0.0.0",
+    "title": "Node/NPM command: npx vite --host 0.0.0.0",
+    "category": "Node / NPM / Vite",
+    "difficulty": "Intermediate",
+    "use_case": "Node/NPM command: npx vite --host 0.0.0.0 ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "npx vite --host 0.0.0.0",
+    "example": "npx vite --host 0.0.0.0",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "node",
+      "npm"
+    ]
+  },
+  {
+    "id": "node-npm-vite-017-npx-vite-debug",
+    "command": "npx vite --debug",
+    "title": "Node/NPM command: npx vite --debug",
+    "category": "Node / NPM / Vite",
+    "difficulty": "Intermediate",
+    "use_case": "Node/NPM command: npx vite --debug ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "npx vite --debug",
+    "example": "npx vite --debug",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "node",
+      "npm"
+    ]
+  },
+  {
+    "id": "node-npm-vite-018-npx-npm-check-updates",
+    "command": "npx npm-check-updates",
+    "title": "Node/NPM command: npx npm-check-updates",
+    "category": "Node / NPM / Vite",
+    "difficulty": "Intermediate",
+    "use_case": "Node/NPM command: npx npm-check-updates ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "npx npm-check-updates",
+    "example": "npx npm-check-updates",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "node",
+      "npm"
+    ]
+  },
+  {
+    "id": "node-npm-vite-019-npm-init-vite-latest",
+    "command": "npm init vite@latest",
+    "title": "Node/NPM command: npm init vite@latest",
+    "category": "Node / NPM / Vite",
+    "difficulty": "Intermediate",
+    "use_case": "Node/NPM command: npm init vite@latest ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "npm init vite@latest",
+    "example": "npm init vite@latest",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "node",
+      "npm"
+    ]
+  },
+  {
+    "id": "node-npm-vite-020-npm-view-vite-version",
+    "command": "npm view vite version",
+    "title": "vite latest npm version check karna",
+    "category": "Node / NPM / Vite",
+    "difficulty": "Beginner",
+    "use_case": "vite latest npm version check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "npm view vite version",
+    "example": "npm view vite version",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "npm",
+      "package"
+    ]
+  },
+  {
+    "id": "node-npm-vite-021-npm-view-vue-version",
+    "command": "npm view vue version",
+    "title": "vue latest npm version check karna",
+    "category": "Node / NPM / Vite",
+    "difficulty": "Beginner",
+    "use_case": "vue latest npm version check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "npm view vue version",
+    "example": "npm view vue version",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "npm",
+      "package"
+    ]
+  },
+  {
+    "id": "node-npm-vite-022-npm-view-react-version",
+    "command": "npm view react version",
+    "title": "react latest npm version check karna",
+    "category": "Node / NPM / Vite",
+    "difficulty": "Beginner",
+    "use_case": "react latest npm version check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "npm view react version",
+    "example": "npm view react version",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "npm",
+      "package"
+    ]
+  },
+  {
+    "id": "node-npm-vite-023-npm-view-typescript-version",
+    "command": "npm view typescript version",
+    "title": "typescript latest npm version check karna",
+    "category": "Node / NPM / Vite",
+    "difficulty": "Beginner",
+    "use_case": "typescript latest npm version check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "npm view typescript version",
+    "example": "npm view typescript version",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "npm",
+      "package"
+    ]
+  },
+  {
+    "id": "node-npm-vite-024-npm-view-tailwindcss-version",
+    "command": "npm view tailwindcss version",
+    "title": "tailwindcss latest npm version check karna",
+    "category": "Node / NPM / Vite",
+    "difficulty": "Beginner",
+    "use_case": "tailwindcss latest npm version check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "npm view tailwindcss version",
+    "example": "npm view tailwindcss version",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "npm",
+      "package"
+    ]
+  },
+  {
+    "id": "node-npm-vite-025-npm-view-eslint-version",
+    "command": "npm view eslint version",
+    "title": "eslint latest npm version check karna",
+    "category": "Node / NPM / Vite",
+    "difficulty": "Beginner",
+    "use_case": "eslint latest npm version check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "npm view eslint version",
+    "example": "npm view eslint version",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "npm",
+      "package"
+    ]
+  },
+  {
+    "id": "node-npm-vite-026-npm-view-prettier-version",
+    "command": "npm view prettier version",
+    "title": "prettier latest npm version check karna",
+    "category": "Node / NPM / Vite",
+    "difficulty": "Beginner",
+    "use_case": "prettier latest npm version check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "npm view prettier version",
+    "example": "npm view prettier version",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "npm",
+      "package"
+    ]
+  },
+  {
+    "id": "node-npm-vite-027-npm-view-pm2-version",
+    "command": "npm view pm2 version",
+    "title": "pm2 latest npm version check karna",
+    "category": "Node / NPM / Vite",
+    "difficulty": "Beginner",
+    "use_case": "pm2 latest npm version check karna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "npm view pm2 version",
+    "example": "npm view pm2 version",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "npm",
+      "package"
+    ]
+  },
+  {
+    "id": "node-npm-vite-028-npm-run-dev-help",
+    "command": "npm run dev -- --help",
+    "title": "npm script dev help dekhna",
+    "category": "Node / NPM / Vite",
+    "difficulty": "Intermediate",
+    "use_case": "npm script dev help dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "npm run dev -- --help",
+    "example": "npm run dev -- --help",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "npm",
+      "script"
+    ]
+  },
+  {
+    "id": "node-npm-vite-029-npm-run-build-help",
+    "command": "npm run build -- --help",
+    "title": "npm script build help dekhna",
+    "category": "Node / NPM / Vite",
+    "difficulty": "Intermediate",
+    "use_case": "npm script build help dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "npm run build -- --help",
+    "example": "npm run build -- --help",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "npm",
+      "script"
+    ]
+  },
+  {
+    "id": "node-npm-vite-030-npm-run-preview-help",
+    "command": "npm run preview -- --help",
+    "title": "npm script preview help dekhna",
+    "category": "Node / NPM / Vite",
+    "difficulty": "Intermediate",
+    "use_case": "npm script preview help dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "npm run preview -- --help",
+    "example": "npm run preview -- --help",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "npm",
+      "script"
+    ]
+  },
+  {
+    "id": "node-npm-vite-031-npm-run-test-help",
+    "command": "npm run test -- --help",
+    "title": "npm script test help dekhna",
+    "category": "Node / NPM / Vite",
+    "difficulty": "Intermediate",
+    "use_case": "npm script test help dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "npm run test -- --help",
+    "example": "npm run test -- --help",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "npm",
+      "script"
+    ]
+  },
+  {
+    "id": "node-npm-vite-032-npm-run-lint-help",
+    "command": "npm run lint -- --help",
+    "title": "npm script lint help dekhna",
+    "category": "Node / NPM / Vite",
+    "difficulty": "Intermediate",
+    "use_case": "npm script lint help dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "npm run lint -- --help",
+    "example": "npm run lint -- --help",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "npm",
+      "script"
+    ]
+  },
+  {
+    "id": "node-npm-vite-033-npm-run-format-help",
+    "command": "npm run format -- --help",
+    "title": "npm script format help dekhna",
+    "category": "Node / NPM / Vite",
+    "difficulty": "Intermediate",
+    "use_case": "npm script format help dekhna ke liye ye command use hota hai. DevOps/server troubleshooting me quick reference ke liye useful hai.",
+    "syntax": "npm run format -- --help",
+    "example": "npm run format -- --help",
+    "output_explanation": "Command ka output terminal me status, list, logs, configuration ya result show karega. Error aaye to path, permission, service name, credentials aur environment verify karo.",
+    "warning": "Production par run karne se pehle command impact, target environment aur backup/rollback verify karo.",
+    "related_commands": [],
+    "tags": [
+      "npm",
+      "script"
+    ]
+  }
+]
