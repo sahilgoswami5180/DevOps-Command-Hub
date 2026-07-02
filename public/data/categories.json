@@ -218,5 +218,10 @@
     "id": "observability-practical",
     "name": "Observability Practical",
     "file": "observability-practical.commands.json"
+  },
+  {
+    "id": "sahil-chats-real-ops",
+    "name": "Sahil-Chats Real Ops",
+    "file": "sahil-chats-real-ops.commands.json"
   }
 ]

@@ -1,0 +1,3302 @@
+[
+  {
+    "id": "sahil-chats-real-ops-windows-se-zip-server-par-upload-karna-scp-r-d-176-44867874-xenaxclou",
+    "command": "scp -r \"D:\\176_44867874-xenaxcloud-com_2026_05_16-00_13_51\\var\\www\\artisanal_byte\\wordpres.zip\" root@217.216.79.214:/var/www/artisanal_byte/",
+    "title": "Windows se zip server par upload karna",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Windows local path se Linux server ke remote folder me zip/project copy karne ke liye.",
+    "syntax": "scp -r \"<windows-path>\" <user>@<server-ip>:<remote-path>/",
+    "example": "scp -r \"D:\\176_44867874-xenaxcloud-com_2026_05_16-00_13_51\\var\\www\\artisanal_byte\\wordpres.zip\" root@217.216.79.214:/var/www/artisanal_byte/",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "ssh",
+      "scp",
+      "rsync",
+      "chown",
+      "chmod"
+    ],
+    "tags": [
+      "server",
+      "ssh",
+      "scp",
+      "permissions"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-custom-ssh-port-par-scp-upload-scp-p-22210-r-d-backup-site-zip-root-2",
+    "command": "scp -P 22210 -r \"D:\\backup\\site.zip\" root@217.216.79.214:/var/www/artisanal_byte/",
+    "title": "Custom SSH port par SCP upload",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Jab SSH non-standard port par ho, tab local file/folder server par copy karne ke liye.",
+    "syntax": "scp -P <port> -r \"<local-path>\" <user>@<host>:<remote-path>/",
+    "example": "scp -P 22210 -r \"D:\\backup\\site.zip\" root@217.216.79.214:/var/www/artisanal_byte/",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "ssh",
+      "scp",
+      "rsync",
+      "chown",
+      "chmod"
+    ],
+    "tags": [
+      "server",
+      "ssh",
+      "scp",
+      "permissions"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-server-se-windows-par-file-download-karna-scp-root-217-216-79-214-var",
+    "command": "scp root@217.216.79.214:/var/www/artisanal_byte/wordpres.zip \"D:\\restore\\\"",
+    "title": "Server se Windows par file download karna",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Remote server se backup zip ya SQL dump local Windows machine par lane ke liye.",
+    "syntax": "scp <user>@<host>:<remote-file> \"<local-folder>\"",
+    "example": "scp root@217.216.79.214:/var/www/artisanal_byte/wordpres.zip \"D:\\restore\\\"",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "ssh",
+      "scp",
+      "rsync",
+      "chown",
+      "chmod"
+    ],
+    "tags": [
+      "server",
+      "ssh",
+      "scp",
+      "permissions"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-build-folder-rsync-deploy-rsync-avz-progress-dist-root-217-216-79-214",
+    "command": "rsync -avz --progress ./dist/ root@217.216.79.214:/var/www/site/",
+    "title": "Build folder rsync deploy",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Static build ya release files fast incremental sync karne ke liye.",
+    "syntax": "rsync -avz --progress <source>/ <user>@<host>:<dest>/",
+    "example": "rsync -avz --progress ./dist/ root@217.216.79.214:/var/www/site/",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "ssh",
+      "scp",
+      "rsync",
+      "chown",
+      "chmod"
+    ],
+    "tags": [
+      "server",
+      "ssh",
+      "scp",
+      "permissions"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-remote-folder-ko-local-build-ke-jaisa-mirror-karna-rsync-avz-delete-d",
+    "command": "rsync -avz --delete ./dist/ root@217.216.79.214:/var/www/site/",
+    "title": "Remote folder ko local build ke jaisa mirror karna",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Old deleted files remote par bhi remove karne ke liye deploy me use hota hai.",
+    "syntax": "rsync -avz --delete <source>/ <user>@<host>:<dest>/",
+    "example": "rsync -avz --delete ./dist/ root@217.216.79.214:/var/www/site/",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "ssh",
+      "scp",
+      "rsync",
+      "chown",
+      "chmod"
+    ],
+    "tags": [
+      "server",
+      "ssh",
+      "scp",
+      "permissions"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-server-ssh-login-ssh-root-217-216-79-214",
+    "command": "ssh root@217.216.79.214",
+    "title": "Server SSH login",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Remote Linux server me login karne ke liye.",
+    "syntax": "ssh <user>@<host>",
+    "example": "ssh root@217.216.79.214",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "ssh",
+      "scp",
+      "rsync",
+      "chown",
+      "chmod"
+    ],
+    "tags": [
+      "server",
+      "ssh",
+      "scp",
+      "permissions"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-custom-port-ssh-login-ssh-p-22210-root-217-216-79-214",
+    "command": "ssh -p 22210 root@217.216.79.214",
+    "title": "Custom port SSH login",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "SSH port 22 ki jagah custom port ho to login karne ke liye.",
+    "syntax": "ssh -p <port> <user>@<host>",
+    "example": "ssh -p 22210 root@217.216.79.214",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "ssh",
+      "scp",
+      "rsync",
+      "chown",
+      "chmod"
+    ],
+    "tags": [
+      "server",
+      "ssh",
+      "scp",
+      "permissions"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-user-switch-login-shell-ke-sath-su-username",
+    "command": "su - username",
+    "title": "User switch login shell ke sath",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Server par root se specific Linux user me proper environment ke sath switch karne ke liye.",
+    "syntax": "su - <username>",
+    "example": "su - username",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "ssh",
+      "scp",
+      "rsync",
+      "chown",
+      "chmod"
+    ],
+    "tags": [
+      "server",
+      "ssh",
+      "scp",
+      "permissions"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-root-shell-open-karna-sudo-su",
+    "command": "sudo su -",
+    "title": "Root shell open karna",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Admin task ke liye temporary root shell me jana.",
+    "syntax": "sudo su -",
+    "example": "sudo su -",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "ssh",
+      "scp",
+      "rsync",
+      "chown",
+      "chmod"
+    ],
+    "tags": [
+      "server",
+      "ssh",
+      "scp",
+      "permissions"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-www-data-user-se-laravel-command-run-karna-sudo-u-www-data-php-artisa",
+    "command": "sudo -u www-data php artisan migrate",
+    "title": "www-data user se Laravel command run karna",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Web server user ke permission context me Laravel artisan command chalane ke liye.",
+    "syntax": "sudo -u <user> <command>",
+    "example": "sudo -u www-data php artisan migrate",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "ssh",
+      "scp",
+      "rsync",
+      "chown",
+      "chmod"
+    ],
+    "tags": [
+      "server",
+      "ssh",
+      "scp",
+      "permissions"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-current-user-check-karna-whoami",
+    "command": "whoami",
+    "title": "Current user check karna",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Abhi terminal kis user ke naam se chal raha hai check karne ke liye.",
+    "syntax": "whoami",
+    "example": "whoami",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "ssh",
+      "scp",
+      "rsync",
+      "chown",
+      "chmod"
+    ],
+    "tags": [
+      "server",
+      "ssh",
+      "scp",
+      "permissions"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-user-uid-gid-group-check-id-username",
+    "command": "id username",
+    "title": "User UID/GID/group check",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Linux user ka id aur group membership dekhne ke liye.",
+    "syntax": "id <username>",
+    "example": "id username",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "ssh",
+      "scp",
+      "rsync",
+      "chown",
+      "chmod"
+    ],
+    "tags": [
+      "server",
+      "ssh",
+      "scp",
+      "permissions"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-user-groups-dekhna-groups-username",
+    "command": "groups username",
+    "title": "User groups dekhna",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Permission issue debug karne ke liye user kis group me hai dekhna.",
+    "syntax": "groups <username>",
+    "example": "groups username",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "ssh",
+      "scp",
+      "rsync",
+      "chown",
+      "chmod"
+    ],
+    "tags": [
+      "server",
+      "ssh",
+      "scp",
+      "permissions"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-user-ko-group-me-add-karna-usermod-ag-webapps-git-deployer",
+    "command": "usermod -aG webapps git_deployer",
+    "title": "User ko group me add karna",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Deploy user ko shared web group permission dene ke liye.",
+    "syntax": "sudo usermod -aG <group> <user>",
+    "example": "usermod -aG webapps git_deployer",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "ssh",
+      "scp",
+      "rsync",
+      "chown",
+      "chmod"
+    ],
+    "tags": [
+      "server",
+      "ssh",
+      "scp",
+      "permissions"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-laravel-writable-folders-ownership-fix-chown-r-www-data-www-data-stor",
+    "command": "chown -R www-data:www-data storage bootstrap/cache",
+    "title": "Laravel writable folders ownership fix",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Laravel storage/cache permission issue solve karne ke liye.",
+    "syntax": "chown -R <user>:<group> <path>",
+    "example": "chown -R www-data:www-data storage bootstrap/cache",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "ssh",
+      "scp",
+      "rsync",
+      "chown",
+      "chmod"
+    ],
+    "tags": [
+      "server",
+      "ssh",
+      "scp",
+      "permissions"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-laravel-writable-folders-permission-fix-chmod-r-775-storage-bootstrap",
+    "command": "chmod -R 775 storage bootstrap/cache",
+    "title": "Laravel writable folders permission fix",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "storage aur bootstrap/cache ko group writable karne ke liye.",
+    "syntax": "chmod -R 775 <path>",
+    "example": "chmod -R 775 storage bootstrap/cache",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "ssh",
+      "scp",
+      "rsync",
+      "chown",
+      "chmod"
+    ],
+    "tags": [
+      "server",
+      "ssh",
+      "scp",
+      "permissions"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-laravel-directories-permission-set-find-storage-bootstrap-cache-type-",
+    "command": "find storage bootstrap/cache -type d -exec chmod 775 {} \\;",
+    "title": "Laravel directories permission set",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Only directories par executable bit ke sath permission set karne ke liye.",
+    "syntax": "find <paths> -type d -exec chmod 775 {} \\;",
+    "example": "find storage bootstrap/cache -type d -exec chmod 775 {} \\;",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "ssh",
+      "scp",
+      "rsync",
+      "chown",
+      "chmod"
+    ],
+    "tags": [
+      "server",
+      "ssh",
+      "scp",
+      "permissions"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-laravel-files-permission-set-find-storage-bootstrap-cache-type-f-exec",
+    "command": "find storage bootstrap/cache -type f -exec chmod 664 {} \\;",
+    "title": "Laravel files permission set",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Only files par safe permission set karne ke liye.",
+    "syntax": "find <paths> -type f -exec chmod 664 {} \\;",
+    "example": "find storage bootstrap/cache -type f -exec chmod 664 {} \\;",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "ssh",
+      "scp",
+      "rsync",
+      "chown",
+      "chmod"
+    ],
+    "tags": [
+      "server",
+      "ssh",
+      "scp",
+      "permissions"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-acl-se-shared-write-permission-setfacl-r-m-u-www-data-rwx-m-u-git-dep",
+    "command": "setfacl -R -m u:www-data:rwx -m u:git_deployer:rwx storage bootstrap/cache",
+    "title": "ACL se shared write permission",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Deploy user aur web user dono ko write permission dene ke liye.",
+    "syntax": "setfacl -R -m u:<user>:rwx <path>",
+    "example": "setfacl -R -m u:www-data:rwx -m u:git_deployer:rwx storage bootstrap/cache",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "ssh",
+      "scp",
+      "rsync",
+      "chown",
+      "chmod"
+    ],
+    "tags": [
+      "server",
+      "ssh",
+      "scp",
+      "permissions"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-acl-permission-inspect-getfacl-storage",
+    "command": "getfacl storage",
+    "title": "ACL permission inspect",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Folder par ACL permission debug karne ke liye.",
+    "syntax": "getfacl <path>",
+    "example": "getfacl storage",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "ssh",
+      "scp",
+      "rsync",
+      "chown",
+      "chmod"
+    ],
+    "tags": [
+      "server",
+      "ssh",
+      "scp",
+      "permissions"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-server-par-zip-extract-karna-unzip-wordpres-zip-d-var-www-artisanal-b",
+    "command": "unzip wordpres.zip -d /var/www/artisanal_byte/",
+    "title": "Server par zip extract karna",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Uploaded zip ko target directory me extract karne ke liye.",
+    "syntax": "unzip <file.zip> -d <target-dir>",
+    "example": "unzip wordpres.zip -d /var/www/artisanal_byte/",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "ssh",
+      "scp",
+      "rsync",
+      "chown",
+      "chmod"
+    ],
+    "tags": [
+      "server",
+      "ssh",
+      "scp",
+      "permissions"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-existing-files-overwrite-karke-unzip-unzip-o-wordpres-zip-d-var-www-a",
+    "command": "unzip -o wordpres.zip -d /var/www/artisanal_byte/",
+    "title": "Existing files overwrite karke unzip",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Restore/deploy me existing files replace karne ke liye.",
+    "syntax": "unzip -o <file.zip> -d <target-dir>",
+    "example": "unzip -o wordpres.zip -d /var/www/artisanal_byte/",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "ssh",
+      "scp",
+      "rsync",
+      "chown",
+      "chmod"
+    ],
+    "tags": [
+      "server",
+      "ssh",
+      "scp",
+      "permissions"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-website-folder-tar-gz-backup-tar-czf-site-backup-date-f-tar-gz-var-ww",
+    "command": "tar -czf site-backup-$(date +%F).tar.gz /var/www/site",
+    "title": "Website folder tar.gz backup",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Site files ka compressed backup banane ke liye.",
+    "syntax": "tar -czf <backup.tar.gz> <folder>",
+    "example": "tar -czf site-backup-$(date +%F).tar.gz /var/www/site",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "ssh",
+      "scp",
+      "rsync",
+      "chown",
+      "chmod"
+    ],
+    "tags": [
+      "server",
+      "ssh",
+      "scp",
+      "permissions"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-tar-gz-extract-karna-tar-xzf-site-backup-tar-gz-c-restore-path",
+    "command": "tar -xzf site-backup.tar.gz -C /restore/path",
+    "title": "tar.gz extract karna",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Backup archive ko restore folder me extract karne ke liye.",
+    "syntax": "tar -xzf <backup.tar.gz> -C <target>",
+    "example": "tar -xzf site-backup.tar.gz -C /restore/path",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "ssh",
+      "scp",
+      "rsync",
+      "chown",
+      "chmod"
+    ],
+    "tags": [
+      "server",
+      "ssh",
+      "scp",
+      "permissions"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-uncommitted-changes-safely-stash-karna-git-stash-push-u-m-wip-before-",
+    "command": "git stash push -u -m \"wip before merge\"",
+    "title": "Uncommitted changes safely stash karna",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Merge/rebase se pehle local tracked + untracked changes temporary save karne ke liye.",
+    "syntax": "git stash push -u -m \"<message>\"",
+    "example": "git stash push -u -m \"wip before merge\"",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git branch"
+    ],
+    "tags": [
+      "git",
+      "branch",
+      "merge",
+      "patch"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-all-stashes-dekhna-git-stash-list",
+    "command": "git stash list",
+    "title": "All stashes dekhna",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Saved WIP stashes list karne ke liye.",
+    "syntax": "git stash list",
+    "example": "git stash list",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git branch"
+    ],
+    "tags": [
+      "git",
+      "branch",
+      "merge",
+      "patch"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-stash-diff-dekhna-git-stash-show-p-stash-0",
+    "command": "git stash show -p stash@{0}",
+    "title": "Stash diff dekhna",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Stash me exactly kya changes hain inspect karne ke liye.",
+    "syntax": "git stash show -p <stash-ref>",
+    "example": "git stash show -p stash@{0}",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git branch"
+    ],
+    "tags": [
+      "git",
+      "branch",
+      "merge",
+      "patch"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-latest-stash-apply-and-remove-git-stash-pop",
+    "command": "git stash pop",
+    "title": "Latest stash apply and remove",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Saved local changes wapas lane ke liye.",
+    "syntax": "git stash pop",
+    "example": "git stash pop",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git branch"
+    ],
+    "tags": [
+      "git",
+      "branch",
+      "merge",
+      "patch"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-remote-branches-latest-refs-fetch-git-fetch-origin",
+    "command": "git fetch origin",
+    "title": "Remote branches/latest refs fetch",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Merge se pehle remote ka latest state local me lane ke liye.",
+    "syntax": "git fetch <remote>",
+    "example": "git fetch origin",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git branch"
+    ],
+    "tags": [
+      "git",
+      "branch",
+      "merge",
+      "patch"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-existing-branch-switch-karna-git-checkout-sahil",
+    "command": "git checkout sahil",
+    "title": "Existing branch switch karna",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Apni working branch par switch karne ke liye.",
+    "syntax": "git checkout <branch>",
+    "example": "git checkout sahil",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git branch"
+    ],
+    "tags": [
+      "git",
+      "branch",
+      "merge",
+      "patch"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-new-branch-create-and-switch-git-checkout-b-sahil",
+    "command": "git checkout -b sahil",
+    "title": "New branch create and switch",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Nayi feature branch banakar usme switch karne ke liye.",
+    "syntax": "git checkout -b <branch>",
+    "example": "git checkout -b sahil",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git branch"
+    ],
+    "tags": [
+      "git",
+      "branch",
+      "merge",
+      "patch"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-remote-branch-ko-rebase-karke-latest-karna-git-pull-rebase-origin-mer",
+    "command": "git pull --rebase origin merge_dump",
+    "title": "Remote branch ko rebase karke latest karna",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Apne commits ko remote latest ke upar clean history ke sath set karne ke liye.",
+    "syntax": "git pull --rebase origin <branch>",
+    "example": "git pull --rebase origin merge_dump",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git branch"
+    ],
+    "tags": [
+      "git",
+      "branch",
+      "merge",
+      "patch"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-remote-branch-merge-karna-git-merge-origin-merge-dump",
+    "command": "git merge origin/merge_dump",
+    "title": "Remote branch merge karna",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Dusre developer ka code apni branch me merge karne ke liye.",
+    "syntax": "git merge origin/<branch>",
+    "example": "git merge origin/merge_dump",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git branch"
+    ],
+    "tags": [
+      "git",
+      "branch",
+      "merge",
+      "patch"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-compact-git-status-git-status-short",
+    "command": "git status --short",
+    "title": "Compact git status",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Changed/untracked files quickly dekhne ke liye.",
+    "syntax": "git status --short",
+    "example": "git status --short",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git branch"
+    ],
+    "tags": [
+      "git",
+      "branch",
+      "merge",
+      "patch"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-changed-file-list-dekhna-git-diff-name-only",
+    "command": "git diff --name-only",
+    "title": "Changed file list dekhna",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Kaunsi files modified hain quickly dekhne ke liye.",
+    "syntax": "git diff --name-only",
+    "example": "git diff --name-only",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git branch"
+    ],
+    "tags": [
+      "git",
+      "branch",
+      "merge",
+      "patch"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-whitespace-conflict-error-check-git-diff-check",
+    "command": "git diff --check",
+    "title": "Whitespace conflict/error check",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Trailing spaces ya conflict marker detect karne ke liye.",
+    "syntax": "git diff --check",
+    "example": "git diff --check",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git branch"
+    ],
+    "tags": [
+      "git",
+      "branch",
+      "merge",
+      "patch"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-conflict-markers-search-git-grep",
+    "command": "git grep \"<<<<<<<\"",
+    "title": "Conflict markers search",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Manual merge conflict markers repo me bache hain ya nahi check karne ke liye.",
+    "syntax": "git grep \"<<<<<<<\"",
+    "example": "git grep \"<<<<<<<\"",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git branch"
+    ],
+    "tags": [
+      "git",
+      "branch",
+      "merge",
+      "patch"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-ssh-remote-ko-https-me-change-karna-git-remote-set-url-origin-https-g",
+    "command": "git remote set-url origin https://github.com/sahilgoswami5180/DevOps-Command-Hub.git",
+    "title": "SSH remote ko HTTPS me change karna",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Permission denied publickey error avoid karne ke liye HTTPS remote set karne ke liye.",
+    "syntax": "git remote set-url origin <https-url>",
+    "example": "git remote set-url origin https://github.com/sahilgoswami5180/DevOps-Command-Hub.git",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git branch"
+    ],
+    "tags": [
+      "git",
+      "branch",
+      "merge",
+      "patch"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-new-branch-github-par-push-git-push-u-origin-sahil",
+    "command": "git push -u origin sahil",
+    "title": "New branch GitHub par push",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Local branch ko remote par create karke upstream set karne ke liye.",
+    "syntax": "git push -u origin <branch>",
+    "example": "git push -u origin sahil",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git branch"
+    ],
+    "tags": [
+      "git",
+      "branch",
+      "merge",
+      "patch"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-patch-apply-karna-git-apply-patch-file-patch",
+    "command": "git apply patch-file.patch",
+    "title": "Patch apply karna",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Generated patch file se code changes project me apply karne ke liye.",
+    "syntax": "git apply <patch-file>",
+    "example": "git apply patch-file.patch",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git branch"
+    ],
+    "tags": [
+      "git",
+      "branch",
+      "merge",
+      "patch"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-patch-apply-hone-se-pehle-verify-git-apply-check-patch-file-patch",
+    "command": "git apply --check patch-file.patch",
+    "title": "Patch apply hone se pehle verify",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Patch cleanly apply hoga ya nahi bina file change kiye check karne ke liye.",
+    "syntax": "git apply --check <patch-file>",
+    "example": "git apply --check patch-file.patch",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git branch"
+    ],
+    "tags": [
+      "git",
+      "branch",
+      "merge",
+      "patch"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-whitespace-warning-auto-fix-karke-patch-apply-git-apply-whitespace-fi",
+    "command": "git apply --whitespace=fix patch-file.patch",
+    "title": "Whitespace warning auto fix karke patch apply",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Patch me trailing spaces/blank lines warning fix karte hue apply karne ke liye.",
+    "syntax": "git apply --whitespace=fix <patch-file>",
+    "example": "git apply --whitespace=fix patch-file.patch",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "git status",
+      "git diff",
+      "git branch"
+    ],
+    "tags": [
+      "git",
+      "branch",
+      "merge",
+      "patch"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-laravel-app-cache-clear-php-artisan-cache-clear",
+    "command": "php artisan cache:clear",
+    "title": "Laravel app cache clear",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Config/view/route changes ke baad stale cache clear karne ke liye.",
+    "syntax": "php artisan cache:clear",
+    "example": "php artisan cache:clear",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "php artisan optimize:clear",
+      "composer install",
+      "npm run build"
+    ],
+    "tags": [
+      "laravel",
+      "vidzooka",
+      "deploy"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-laravel-config-cache-clear-php-artisan-config-clear",
+    "command": "php artisan config:clear",
+    "title": "Laravel config cache clear",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "ENV/config change ke baad config reload karne ke liye.",
+    "syntax": "php artisan config:clear",
+    "example": "php artisan config:clear",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "php artisan optimize:clear",
+      "composer install",
+      "npm run build"
+    ],
+    "tags": [
+      "laravel",
+      "vidzooka",
+      "deploy"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-laravel-route-cache-clear-php-artisan-route-clear",
+    "command": "php artisan route:clear",
+    "title": "Laravel route cache clear",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Route changes reflect nahi ho rahe ho to route cache clear karne ke liye.",
+    "syntax": "php artisan route:clear",
+    "example": "php artisan route:clear",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "php artisan optimize:clear",
+      "composer install",
+      "npm run build"
+    ],
+    "tags": [
+      "laravel",
+      "vidzooka",
+      "deploy"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-laravel-compiled-views-clear-php-artisan-view-clear",
+    "command": "php artisan view:clear",
+    "title": "Laravel compiled views clear",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Blade/Vue SSR related stale view issue solve karne ke liye.",
+    "syntax": "php artisan view:clear",
+    "example": "php artisan view:clear",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "php artisan optimize:clear",
+      "composer install",
+      "npm run build"
+    ],
+    "tags": [
+      "laravel",
+      "vidzooka",
+      "deploy"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-laravel-all-caches-clear-php-artisan-optimize-clear",
+    "command": "php artisan optimize:clear",
+    "title": "Laravel all caches clear",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Deployment/debugging ke time all cache types clear karne ke liye.",
+    "syntax": "php artisan optimize:clear",
+    "example": "php artisan optimize:clear",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "php artisan optimize:clear",
+      "composer install",
+      "npm run build"
+    ],
+    "tags": [
+      "laravel",
+      "vidzooka",
+      "deploy"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-laravel-production-optimize-php-artisan-optimize",
+    "command": "php artisan optimize",
+    "title": "Laravel production optimize",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Production deploy ke baad config/routes/views optimize karne ke liye.",
+    "syntax": "php artisan optimize",
+    "example": "php artisan optimize",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "php artisan optimize:clear",
+      "composer install",
+      "npm run build"
+    ],
+    "tags": [
+      "laravel",
+      "vidzooka",
+      "deploy"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-production-migration-run-php-artisan-migrate-force",
+    "command": "php artisan migrate --force",
+    "title": "Production migration run",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Production me confirmation prompt ke bina DB migrations run karne ke liye.",
+    "syntax": "php artisan migrate --force",
+    "example": "php artisan migrate --force",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "php artisan optimize:clear",
+      "composer install",
+      "npm run build"
+    ],
+    "tags": [
+      "laravel",
+      "vidzooka",
+      "deploy"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-migration-status-check-php-artisan-migrate-status",
+    "command": "php artisan migrate:status",
+    "title": "Migration status check",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Kaunsi migrations ran/pending hain check karne ke liye.",
+    "syntax": "php artisan migrate:status",
+    "example": "php artisan migrate:status",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "php artisan optimize:clear",
+      "composer install",
+      "npm run build"
+    ],
+    "tags": [
+      "laravel",
+      "vidzooka",
+      "deploy"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-laravel-queue-worker-run-php-artisan-queue-work-queue-default-tries-3",
+    "command": "php artisan queue:work --queue=default --tries=3 --timeout=3600",
+    "title": "Laravel queue worker run",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Background jobs process karne ke liye.",
+    "syntax": "php artisan queue:work --queue=default --tries=3 --timeout=3600",
+    "example": "php artisan queue:work --queue=default --tries=3 --timeout=3600",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "php artisan optimize:clear",
+      "composer install",
+      "npm run build"
+    ],
+    "tags": [
+      "laravel",
+      "vidzooka",
+      "deploy"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-queue-workers-graceful-restart-php-artisan-queue-restart",
+    "command": "php artisan queue:restart",
+    "title": "Queue workers graceful restart",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "New code deploy ke baad workers ko latest code use karwane ke liye.",
+    "syntax": "php artisan queue:restart",
+    "example": "php artisan queue:restart",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "php artisan optimize:clear",
+      "composer install",
+      "npm run build"
+    ],
+    "tags": [
+      "laravel",
+      "vidzooka",
+      "deploy"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-storage-public-symlink-create-php-artisan-storage-link",
+    "command": "php artisan storage:link",
+    "title": "Storage public symlink create",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Uploaded files ko public URL se serve karne ke liye.",
+    "syntax": "php artisan storage:link",
+    "example": "php artisan storage:link",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "php artisan optimize:clear",
+      "composer install",
+      "npm run build"
+    ],
+    "tags": [
+      "laravel",
+      "vidzooka",
+      "deploy"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-laravel-repl-open-php-artisan-tinker",
+    "command": "php artisan tinker",
+    "title": "Laravel REPL open",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Config, DB, model ya mail test debug karne ke liye.",
+    "syntax": "php artisan tinker",
+    "example": "php artisan tinker",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "php artisan optimize:clear",
+      "composer install",
+      "npm run build"
+    ],
+    "tags": [
+      "laravel",
+      "vidzooka",
+      "deploy"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-production-composer-install-composer-install-no-dev-optimize-autoload",
+    "command": "composer install --no-dev --optimize-autoloader",
+    "title": "Production composer install",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Laravel production dependencies install/update karne ke liye.",
+    "syntax": "composer install --no-dev --optimize-autoloader",
+    "example": "composer install --no-dev --optimize-autoloader",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "php artisan optimize:clear",
+      "composer install",
+      "npm run build"
+    ],
+    "tags": [
+      "laravel",
+      "vidzooka",
+      "deploy"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-composer-autoload-refresh-composer-dump-autoload",
+    "command": "composer dump-autoload",
+    "title": "Composer autoload refresh",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Class not found/autoload issue fix karne ke liye.",
+    "syntax": "composer dump-autoload",
+    "example": "composer dump-autoload",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "php artisan optimize:clear",
+      "composer install",
+      "npm run build"
+    ],
+    "tags": [
+      "laravel",
+      "vidzooka",
+      "deploy"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-node-dependencies-install-npm-install",
+    "command": "npm install",
+    "title": "Node dependencies install",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Vite/Vue project dependencies install karne ke liye.",
+    "syntax": "npm install",
+    "example": "npm install",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "php artisan optimize:clear",
+      "composer install",
+      "npm run build"
+    ],
+    "tags": [
+      "laravel",
+      "vidzooka",
+      "deploy"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-production-frontend-build-npm-run-build",
+    "command": "npm run build",
+    "title": "Production frontend build",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Vite assets production ke liye build karne ke liye.",
+    "syntax": "npm run build",
+    "example": "npm run build",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "php artisan optimize:clear",
+      "composer install",
+      "npm run build"
+    ],
+    "tags": [
+      "laravel",
+      "vidzooka",
+      "deploy"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-local-vite-dev-server-npm-run-dev",
+    "command": "npm run dev",
+    "title": "Local Vite dev server",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Vue/Laravel local frontend dev server chalane ke liye.",
+    "syntax": "npm run dev",
+    "example": "npm run dev",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "php artisan optimize:clear",
+      "composer install",
+      "npm run build"
+    ],
+    "tags": [
+      "laravel",
+      "vidzooka",
+      "deploy"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-built-vite-app-preview-npm-run-preview",
+    "command": "npm run preview",
+    "title": "Built Vite app preview",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Static production build locally preview karne ke liye.",
+    "syntax": "npm run preview",
+    "example": "npm run preview",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "php artisan optimize:clear",
+      "composer install",
+      "npm run build"
+    ],
+    "tags": [
+      "laravel",
+      "vidzooka",
+      "deploy"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-caddy-config-validate-caddy-validate-config-etc-caddy-caddyfile",
+    "command": "caddy validate --config /etc/caddy/Caddyfile",
+    "title": "Caddy config validate",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Reload se pehle Caddyfile syntax check karne ke liye.",
+    "syntax": "caddy validate --config /etc/caddy/Caddyfile",
+    "example": "caddy validate --config /etc/caddy/Caddyfile",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "curl -I",
+      "dig",
+      "systemctl reload caddy"
+    ],
+    "tags": [
+      "caddy",
+      "wordpress",
+      "cloudflare",
+      "dns"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-caddy-reload-systemctl-reload-caddy",
+    "command": "systemctl reload caddy",
+    "title": "Caddy reload",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Config change ke baad downtime ke bina Caddy reload karne ke liye.",
+    "syntax": "systemctl reload caddy",
+    "example": "systemctl reload caddy",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "curl -I",
+      "dig",
+      "systemctl reload caddy"
+    ],
+    "tags": [
+      "caddy",
+      "wordpress",
+      "cloudflare",
+      "dns"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-caddy-status-check-systemctl-status-caddy-no-pager",
+    "command": "systemctl status caddy --no-pager",
+    "title": "Caddy status check",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Caddy running/error state dekhne ke liye.",
+    "syntax": "systemctl status caddy --no-pager",
+    "example": "systemctl status caddy --no-pager",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "curl -I",
+      "dig",
+      "systemctl reload caddy"
+    ],
+    "tags": [
+      "caddy",
+      "wordpress",
+      "cloudflare",
+      "dns"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-caddy-logs-dekhna-journalctl-u-caddy-n-100-no-pager",
+    "command": "journalctl -u caddy -n 100 --no-pager",
+    "title": "Caddy logs dekhna",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Reverse proxy/SSL/config error debug karne ke liye.",
+    "syntax": "journalctl -u caddy -n 100 --no-pager",
+    "example": "journalctl -u caddy -n 100 --no-pager",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "curl -I",
+      "dig",
+      "systemctl reload caddy"
+    ],
+    "tags": [
+      "caddy",
+      "wordpress",
+      "cloudflare",
+      "dns"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-wordpress-cloudflare-hook-config-search-grep-r-sf-cf-hook-n-var-www-a",
+    "command": "grep -R \"SF_CF_HOOK\" -n /var/www/artisanal_byte/wordpress",
+    "title": "WordPress Cloudflare hook config search",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "WP config/plugin me deploy hook constants locate karne ke liye.",
+    "syntax": "grep -R \"SF_CF_HOOK\" -n /var/www/artisanal_byte/wordpress",
+    "example": "grep -R \"SF_CF_HOOK\" -n /var/www/artisanal_byte/wordpress",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "curl -I",
+      "dig",
+      "systemctl reload caddy"
+    ],
+    "tags": [
+      "caddy",
+      "wordpress",
+      "cloudflare",
+      "dns"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-wp-plugin-list-wp-plugin-list-allow-root-path-var-www-artisanal-byte-",
+    "command": "wp plugin list --allow-root --path=/var/www/artisanal_byte/wordpress",
+    "title": "WP plugin list",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "WordPress active/inactive plugins terminal se dekhne ke liye.",
+    "syntax": "wp plugin list --allow-root --path=/var/www/artisanal_byte/wordpress",
+    "example": "wp plugin list --allow-root --path=/var/www/artisanal_byte/wordpress",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "curl -I",
+      "dig",
+      "systemctl reload caddy"
+    ],
+    "tags": [
+      "caddy",
+      "wordpress",
+      "cloudflare",
+      "dns"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-wordpress-siteurl-check-wp-option-get-siteurl-allow-root-path-var-www",
+    "command": "wp option get siteurl --allow-root --path=/var/www/artisanal_byte/wordpress",
+    "title": "WordPress siteurl check",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "WP URL misconfig/debug ke liye siteurl option dekhna.",
+    "syntax": "wp option get siteurl --allow-root --path=/var/www/artisanal_byte/wordpress",
+    "example": "wp option get siteurl --allow-root --path=/var/www/artisanal_byte/wordpress",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "curl -I",
+      "dig",
+      "systemctl reload caddy"
+    ],
+    "tags": [
+      "caddy",
+      "wordpress",
+      "cloudflare",
+      "dns"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-wp-cron-events-list-wp-cron-event-list-allow-root-path-var-www-artisa",
+    "command": "wp cron event list --allow-root --path=/var/www/artisanal_byte/wordpress",
+    "title": "WP cron events list",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Scheduled WP cron tasks inspect karne ke liye.",
+    "syntax": "wp cron event list --allow-root --path=/var/www/artisanal_byte/wordpress",
+    "example": "wp cron event list --allow-root --path=/var/www/artisanal_byte/wordpress",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "curl -I",
+      "dig",
+      "systemctl reload caddy"
+    ],
+    "tags": [
+      "caddy",
+      "wordpress",
+      "cloudflare",
+      "dns"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-http-headers-check-curl-i-https-saifinance-com-au",
+    "command": "curl -I https://saifinance.com.au",
+    "title": "HTTP headers check",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Redirect/status code/SSL headers debug karne ke liye.",
+    "syntax": "curl -I https://saifinance.com.au",
+    "example": "curl -I https://saifinance.com.au",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "curl -I",
+      "dig",
+      "systemctl reload caddy"
+    ],
+    "tags": [
+      "caddy",
+      "wordpress",
+      "cloudflare",
+      "dns"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-redirect-chain-check-curl-il-http-www-saifinance-com-au",
+    "command": "curl -IL http://www.saifinance.com.au",
+    "title": "Redirect chain check",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "www/http to apex/https redirect chain verify karne ke liye.",
+    "syntax": "curl -IL http://www.saifinance.com.au",
+    "example": "curl -IL http://www.saifinance.com.au",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "curl -I",
+      "dig",
+      "systemctl reload caddy"
+    ],
+    "tags": [
+      "caddy",
+      "wordpress",
+      "cloudflare",
+      "dns"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-dns-a-record-check-dig-saifinance-com-au-a-short",
+    "command": "dig saifinance.com.au A +short",
+    "title": "DNS A record check",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Domain kis IP par resolve ho raha hai quickly check karne ke liye.",
+    "syntax": "dig saifinance.com.au A +short",
+    "example": "dig saifinance.com.au A +short",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "curl -I",
+      "dig",
+      "systemctl reload caddy"
+    ],
+    "tags": [
+      "caddy",
+      "wordpress",
+      "cloudflare",
+      "dns"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-dns-mx-record-check-dig-mx-artisanalbyte-com-short",
+    "command": "dig MX artisanalbyte.com +short",
+    "title": "DNS MX record check",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Email routing records verify karne ke liye.",
+    "syntax": "dig MX artisanalbyte.com +short",
+    "example": "dig MX artisanalbyte.com +short",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "curl -I",
+      "dig",
+      "systemctl reload caddy"
+    ],
+    "tags": [
+      "caddy",
+      "wordpress",
+      "cloudflare",
+      "dns"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-spf-verification-txt-records-check-dig-txt-artisanalbyte-com-short",
+    "command": "dig TXT artisanalbyte.com +short",
+    "title": "SPF/verification TXT records check",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Email SPF/Google verification/SES TXT verify karne ke liye.",
+    "syntax": "dig TXT artisanalbyte.com +short",
+    "example": "dig TXT artisanalbyte.com +short",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "curl -I",
+      "dig",
+      "systemctl reload caddy"
+    ],
+    "tags": [
+      "caddy",
+      "wordpress",
+      "cloudflare",
+      "dns"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-dmarc-record-check-nslookup-type-txt-dmarc-artisanalbyte-com",
+    "command": "nslookup -type=TXT _dmarc.artisanalbyte.com",
+    "title": "DMARC record check",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "DMARC TXT record available hai ya nahi check karne ke liye.",
+    "syntax": "nslookup -type=TXT _dmarc.artisanalbyte.com",
+    "example": "nslookup -type=TXT _dmarc.artisanalbyte.com",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "curl -I",
+      "dig",
+      "systemctl reload caddy"
+    ],
+    "tags": [
+      "caddy",
+      "wordpress",
+      "cloudflare",
+      "dns"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-ssl-certificate-debug-openssl-s-client-connect-app-vidzooka-com-443-s",
+    "command": "openssl s_client -connect app.vidzooka.com:443 -servername app.vidzooka.com",
+    "title": "SSL certificate debug",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Certificate chain, expiry aur SNI debug karne ke liye.",
+    "syntax": "openssl s_client -connect app.vidzooka.com:443 -servername app.vidzooka.com",
+    "example": "openssl s_client -connect app.vidzooka.com:443 -servername app.vidzooka.com",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "curl -I",
+      "dig",
+      "systemctl reload caddy"
+    ],
+    "tags": [
+      "caddy",
+      "wordpress",
+      "cloudflare",
+      "dns"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-aws-current-identity-check-aws-sts-get-caller-identity",
+    "command": "aws sts get-caller-identity",
+    "title": "AWS current identity check",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "CLI kis AWS account/user/role se authenticated hai verify karne ke liye.",
+    "syntax": "aws sts get-caller-identity",
+    "example": "aws sts get-caller-identity",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "aws sts get-caller-identity",
+      "gcloud config list"
+    ],
+    "tags": [
+      "aws",
+      "gcp",
+      "cloud",
+      "vidzooka"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-aws-cli-config-inspect-aws-configure-list",
+    "command": "aws configure list",
+    "title": "AWS CLI config inspect",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Access key, region aur profile source debug karne ke liye.",
+    "syntax": "aws configure list",
+    "example": "aws configure list",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "aws sts get-caller-identity",
+      "gcloud config list"
+    ],
+    "tags": [
+      "aws",
+      "gcp",
+      "cloud",
+      "vidzooka"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-ses-domain-verification-status-aws-ses-get-identity-verification-attr",
+    "command": "aws ses get-identity-verification-attributes --identities vidzooka.com",
+    "title": "SES domain verification status",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "SES me domain verify hua ya pending hai check karne ke liye.",
+    "syntax": "aws ses get-identity-verification-attributes --identities vidzooka.com",
+    "example": "aws ses get-identity-verification-attributes --identities vidzooka.com",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "aws sts get-caller-identity",
+      "gcloud config list"
+    ],
+    "tags": [
+      "aws",
+      "gcp",
+      "cloud",
+      "vidzooka"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-ses-identities-list-aws-ses-list-identities",
+    "command": "aws ses list-identities",
+    "title": "SES identities list",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Verified domains/emails list karne ke liye.",
+    "syntax": "aws ses list-identities",
+    "example": "aws ses list-identities",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "aws sts get-caller-identity",
+      "gcloud config list"
+    ],
+    "tags": [
+      "aws",
+      "gcp",
+      "cloud",
+      "vidzooka"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-cloudtrail-trails-list-aws-cloudtrail-describe-trails",
+    "command": "aws cloudtrail describe-trails",
+    "title": "CloudTrail trails list",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "AWS account me configured trails dekhne ke liye.",
+    "syntax": "aws cloudtrail describe-trails",
+    "example": "aws cloudtrail describe-trails",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "aws sts get-caller-identity",
+      "gcloud config list"
+    ],
+    "tags": [
+      "aws",
+      "gcp",
+      "cloud",
+      "vidzooka"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-recent-cloudtrail-events-aws-cloudtrail-lookup-events-max-results-20",
+    "command": "aws cloudtrail lookup-events --max-results 20",
+    "title": "Recent CloudTrail events",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Recent AWS API activity audit karne ke liye.",
+    "syntax": "aws cloudtrail lookup-events --max-results 20",
+    "example": "aws cloudtrail lookup-events --max-results 20",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "aws sts get-caller-identity",
+      "gcloud config list"
+    ],
+    "tags": [
+      "aws",
+      "gcp",
+      "cloud",
+      "vidzooka"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-eventbridge-rules-list-aws-events-list-rules",
+    "command": "aws events list-rules",
+    "title": "EventBridge rules list",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "CloudTrail/EventBridge integration rules inspect karne ke liye.",
+    "syntax": "aws events list-rules",
+    "example": "aws events list-rules",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "aws sts get-caller-identity",
+      "gcloud config list"
+    ],
+    "tags": [
+      "aws",
+      "gcp",
+      "cloud",
+      "vidzooka"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-ecr-repos-list-aws-ecr-describe-repositories",
+    "command": "aws ecr describe-repositories",
+    "title": "ECR repos list",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Docker image repos exist karte hain ya nahi check karne ke liye.",
+    "syntax": "aws ecr describe-repositories",
+    "example": "aws ecr describe-repositories",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "aws sts get-caller-identity",
+      "gcloud config list"
+    ],
+    "tags": [
+      "aws",
+      "gcp",
+      "cloud",
+      "vidzooka"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-ecr-repository-create-aws-ecr-create-repository-repository-name-vidzo",
+    "command": "aws ecr create-repository --repository-name vidzooka-production-jobs",
+    "title": "ECR repository create",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "AWS ECR me Docker repo create karne ke liye.",
+    "syntax": "aws ecr create-repository --repository-name vidzooka-production-jobs",
+    "example": "aws ecr create-repository --repository-name vidzooka-production-jobs",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "aws sts get-caller-identity",
+      "gcloud config list"
+    ],
+    "tags": [
+      "aws",
+      "gcp",
+      "cloud",
+      "vidzooka"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-ecs-clusters-inspect-aws-ecs-describe-clusters",
+    "command": "aws ecs describe-clusters",
+    "title": "ECS clusters inspect",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Cluster exists/running hai ya nahi debug karne ke liye.",
+    "syntax": "aws ecs describe-clusters",
+    "example": "aws ecs describe-clusters",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "aws sts get-caller-identity",
+      "gcloud config list"
+    ],
+    "tags": [
+      "aws",
+      "gcp",
+      "cloud",
+      "vidzooka"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-ecs-service-details-aws-ecs-describe-services-cluster-my-cluster-serv",
+    "command": "aws ecs describe-services --cluster my-cluster --services my-service",
+    "title": "ECS service details",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Service deployment/status/debug karne ke liye.",
+    "syntax": "aws ecs describe-services --cluster my-cluster --services my-service",
+    "example": "aws ecs describe-services --cluster my-cluster --services my-service",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "aws sts get-caller-identity",
+      "gcloud config list"
+    ],
+    "tags": [
+      "aws",
+      "gcp",
+      "cloud",
+      "vidzooka"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-gcp-active-account-check-gcloud-auth-list",
+    "command": "gcloud auth list",
+    "title": "GCP active account check",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Kaunsa Google account active hai verify karne ke liye.",
+    "syntax": "gcloud auth list",
+    "example": "gcloud auth list",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "aws sts get-caller-identity",
+      "gcloud config list"
+    ],
+    "tags": [
+      "aws",
+      "gcp",
+      "cloud",
+      "vidzooka"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-gcp-config-inspect-gcloud-config-list",
+    "command": "gcloud config list",
+    "title": "GCP config inspect",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Project, region, account config dekhne ke liye.",
+    "syntax": "gcloud config list",
+    "example": "gcloud config list",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "aws sts get-caller-identity",
+      "gcloud config list"
+    ],
+    "tags": [
+      "aws",
+      "gcp",
+      "cloud",
+      "vidzooka"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-gcp-project-set-gcloud-config-set-project-project-id",
+    "command": "gcloud config set project PROJECT_ID",
+    "title": "GCP project set",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Commands ko correct GCP project par run karne ke liye.",
+    "syntax": "gcloud config set project PROJECT_ID",
+    "example": "gcloud config set project PROJECT_ID",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "aws sts get-caller-identity",
+      "gcloud config list"
+    ],
+    "tags": [
+      "aws",
+      "gcp",
+      "cloud",
+      "vidzooka"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-cloud-run-job-details-gcloud-run-jobs-describe-vidzooka-production-yo",
+    "command": "gcloud run jobs describe vidzooka-production-youtube-upload --region us-east4",
+    "title": "Cloud Run Job details",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Production YouTube upload job config inspect karne ke liye.",
+    "syntax": "gcloud run jobs describe vidzooka-production-youtube-upload --region us-east4",
+    "example": "gcloud run jobs describe vidzooka-production-youtube-upload --region us-east4",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "aws sts get-caller-identity",
+      "gcloud config list"
+    ],
+    "tags": [
+      "aws",
+      "gcp",
+      "cloud",
+      "vidzooka"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-cloud-run-job-manually-run-gcloud-run-jobs-execute-vidzooka-productio",
+    "command": "gcloud run jobs execute vidzooka-production-youtube-upload --region us-east4",
+    "title": "Cloud Run Job manually run",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "YouTube upload worker job manually trigger/test karne ke liye.",
+    "syntax": "gcloud run jobs execute vidzooka-production-youtube-upload --region us-east4",
+    "example": "gcloud run jobs execute vidzooka-production-youtube-upload --region us-east4",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "aws sts get-caller-identity",
+      "gcloud config list"
+    ],
+    "tags": [
+      "aws",
+      "gcp",
+      "cloud",
+      "vidzooka"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-cloud-run-job-executions-list-gcloud-run-jobs-executions-list-job-vid",
+    "command": "gcloud run jobs executions list --job vidzooka-production-youtube-upload --region us-east4",
+    "title": "Cloud Run Job executions list",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Job runs/history dekhne ke liye.",
+    "syntax": "gcloud run jobs executions list --job vidzooka-production-youtube-upload --region us-east4",
+    "example": "gcloud run jobs executions list --job vidzooka-production-youtube-upload --region us-east4",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "aws sts get-caller-identity",
+      "gcloud config list"
+    ],
+    "tags": [
+      "aws",
+      "gcp",
+      "cloud",
+      "vidzooka"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-cloud-run-job-logs-read-gcloud-logging-read-resource-type-cloud-run-j",
+    "command": "gcloud logging read \"resource.type=cloud_run_job\" --limit 50",
+    "title": "Cloud Run Job logs read",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "GCP Cloud Run Job logs terminal se dekhne ke liye.",
+    "syntax": "gcloud logging read \"resource.type=cloud_run_job\" --limit 50",
+    "example": "gcloud logging read \"resource.type=cloud_run_job\" --limit 50",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "aws sts get-caller-identity",
+      "gcloud config list"
+    ],
+    "tags": [
+      "aws",
+      "gcp",
+      "cloud",
+      "vidzooka"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-artifact-registry-repos-list-gcloud-artifacts-repositories-list-locat",
+    "command": "gcloud artifacts repositories list --location us-east4",
+    "title": "Artifact Registry repos list",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Docker image repository verify karne ke liye.",
+    "syntax": "gcloud artifacts repositories list --location us-east4",
+    "example": "gcloud artifacts repositories list --location us-east4",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "aws sts get-caller-identity",
+      "gcloud config list"
+    ],
+    "tags": [
+      "aws",
+      "gcp",
+      "cloud",
+      "vidzooka"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-artifact-registry-images-list-gcloud-artifacts-docker-images-list-us-",
+    "command": "gcloud artifacts docker images list us-east4-docker.pkg.dev/PROJECT_ID/vidzooka-production-jobs",
+    "title": "Artifact Registry images list",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Uploaded Docker images/tags verify karne ke liye.",
+    "syntax": "gcloud artifacts docker images list us-east4-docker.pkg.dev/PROJECT_ID/vidzooka-production-jobs",
+    "example": "gcloud artifacts docker images list us-east4-docker.pkg.dev/PROJECT_ID/vidzooka-production-jobs",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "aws sts get-caller-identity",
+      "gcloud config list"
+    ],
+    "tags": [
+      "aws",
+      "gcp",
+      "cloud",
+      "vidzooka"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-postgresql-custom-backup-pg-dump-h-127-0-0-1-u-laravel-user-d-vidzook",
+    "command": "pg_dump -h 127.0.0.1 -U laravel_user -d vidzooka -Fc -f vidzooka.dump",
+    "title": "PostgreSQL custom backup",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Laravel PostgreSQL DB ka compressed custom-format backup lene ke liye.",
+    "syntax": "pg_dump -h 127.0.0.1 -U laravel_user -d vidzooka -Fc -f vidzooka.dump",
+    "example": "pg_dump -h 127.0.0.1 -U laravel_user -d vidzooka -Fc -f vidzooka.dump",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "pg_dump",
+      "pg_restore",
+      "mysqldump",
+      "mysql"
+    ],
+    "tags": [
+      "database",
+      "backup",
+      "restore"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-postgresql-restore-pg-restore-h-127-0-0-1-u-laravel-user-d-vidzooka-c",
+    "command": "pg_restore -h 127.0.0.1 -U laravel_user -d vidzooka --clean --if-exists vidzooka.dump",
+    "title": "PostgreSQL restore",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Custom dump se DB restore karne ke liye.",
+    "syntax": "pg_restore -h 127.0.0.1 -U laravel_user -d vidzooka --clean --if-exists vidzooka.dump",
+    "example": "pg_restore -h 127.0.0.1 -U laravel_user -d vidzooka --clean --if-exists vidzooka.dump",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "pg_dump",
+      "pg_restore",
+      "mysqldump",
+      "mysql"
+    ],
+    "tags": [
+      "database",
+      "backup",
+      "restore"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-postgresql-connect-psql-h-127-0-0-1-u-laravel-user-d-vidzooka",
+    "command": "psql -h 127.0.0.1 -U laravel_user -d vidzooka",
+    "title": "PostgreSQL connect",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "DB manually inspect/query karne ke liye.",
+    "syntax": "psql -h 127.0.0.1 -U laravel_user -d vidzooka",
+    "example": "psql -h 127.0.0.1 -U laravel_user -d vidzooka",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "pg_dump",
+      "pg_restore",
+      "mysqldump",
+      "mysql"
+    ],
+    "tags": [
+      "database",
+      "backup",
+      "restore"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-postgresql-databases-list-psql-u-postgres-c-l",
+    "command": "psql -U postgres -c \"\\l\"",
+    "title": "PostgreSQL databases list",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Server par available databases list karne ke liye.",
+    "syntax": "psql -U postgres -c \"\\l\"",
+    "example": "psql -U postgres -c \"\\l\"",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "pg_dump",
+      "pg_restore",
+      "mysqldump",
+      "mysql"
+    ],
+    "tags": [
+      "database",
+      "backup",
+      "restore"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-postgresql-users-roles-list-psql-u-postgres-c-du",
+    "command": "psql -U postgres -c \"\\du\"",
+    "title": "PostgreSQL users/roles list",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "DB users, roles aur privileges inspect karne ke liye.",
+    "syntax": "psql -U postgres -c \"\\du\"",
+    "example": "psql -U postgres -c \"\\du\"",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "pg_dump",
+      "pg_restore",
+      "mysqldump",
+      "mysql"
+    ],
+    "tags": [
+      "database",
+      "backup",
+      "restore"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-mysql-gzip-backup-mysqldump-u-laravel-user-p-wp-artisanalbyte-gzip-wp",
+    "command": "mysqldump -u laravel_user -p wp_artisanalbyte | gzip > wp_artisanalbyte.sql.gz",
+    "title": "MySQL gzip backup",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "WordPress/MySQL database compressed backup lene ke liye.",
+    "syntax": "mysqldump -u laravel_user -p wp_artisanalbyte | gzip > wp_artisanalbyte.sql.gz",
+    "example": "mysqldump -u laravel_user -p wp_artisanalbyte | gzip > wp_artisanalbyte.sql.gz",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "pg_dump",
+      "pg_restore",
+      "mysqldump",
+      "mysql"
+    ],
+    "tags": [
+      "database",
+      "backup",
+      "restore"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-mysql-gzip-restore-gunzip-c-wp-artisanalbyte-sql-gz-mysql-u-laravel-u",
+    "command": "gunzip -c wp_artisanalbyte.sql.gz | mysql -u laravel_user -p wp_artisanalbyte",
+    "title": "MySQL gzip restore",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Compressed SQL backup se database restore karne ke liye.",
+    "syntax": "gunzip -c wp_artisanalbyte.sql.gz | mysql -u laravel_user -p wp_artisanalbyte",
+    "example": "gunzip -c wp_artisanalbyte.sql.gz | mysql -u laravel_user -p wp_artisanalbyte",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "pg_dump",
+      "pg_restore",
+      "mysqldump",
+      "mysql"
+    ],
+    "tags": [
+      "database",
+      "backup",
+      "restore"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-backup-sql-file-search-find-root-dr-db-20260520-013001-db-mysql-type-",
+    "command": "find /root/dr-db-20260520-013001/db/mysql -type f -iname \"*wp*\" -o -iname \"*artisanal*\"",
+    "title": "Backup SQL file search",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "DR backup folder me required WordPress DB dump locate karne ke liye.",
+    "syntax": "find /root/dr-db-20260520-013001/db/mysql -type f -iname \"*wp*\" -o -iname \"*artisanal*\"",
+    "example": "find /root/dr-db-20260520-013001/db/mysql -type f -iname \"*wp*\" -o -iname \"*artisanal*\"",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "pg_dump",
+      "pg_restore",
+      "mysqldump",
+      "mysql"
+    ],
+    "tags": [
+      "database",
+      "backup",
+      "restore"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-gzipped-sql-inspect-zcat-root-dr-db-20260520-013001-db-mysql-wp-artis",
+    "command": "zcat /root/dr-db-20260520-013001/db/mysql/wp_artisanalbyte.sql.gz | head",
+    "title": "Gzipped SQL inspect",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Compressed SQL file valid hai ya nahi quickly check karne ke liye.",
+    "syntax": "zcat /root/dr-db-20260520-013001/db/mysql/wp_artisanalbyte.sql.gz | head",
+    "example": "zcat /root/dr-db-20260520-013001/db/mysql/wp_artisanalbyte.sql.gz | head",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "pg_dump",
+      "pg_restore",
+      "mysqldump",
+      "mysql"
+    ],
+    "tags": [
+      "database",
+      "backup",
+      "restore"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-backup-bundle-sizes-check-du-sh-root-dr-db-bundles",
+    "command": "du -sh /root/dr-db-bundles/*",
+    "title": "Backup bundle sizes check",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Disk full issue me backup files ka size inspect karne ke liye.",
+    "syntax": "du -sh /root/dr-db-bundles/*",
+    "example": "du -sh /root/dr-db-bundles/*",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "pg_dump",
+      "pg_restore",
+      "mysqldump",
+      "mysql"
+    ],
+    "tags": [
+      "database",
+      "backup",
+      "restore"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-docker-compose-containers-start-docker-compose-up-d",
+    "command": "docker compose up -d",
+    "title": "Docker compose containers start",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Local/prod compose stack background me start karne ke liye.",
+    "syntax": "docker compose up -d",
+    "example": "docker compose up -d",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "docker compose logs",
+      "gh run list",
+      "ssh -T git@github.com"
+    ],
+    "tags": [
+      "docker",
+      "github-actions",
+      "windows"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-docker-compose-stack-stop-docker-compose-down",
+    "command": "docker compose down",
+    "title": "Docker compose stack stop",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Compose containers/network stop/remove karne ke liye.",
+    "syntax": "docker compose down",
+    "example": "docker compose down",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "docker compose logs",
+      "gh run list",
+      "ssh -T git@github.com"
+    ],
+    "tags": [
+      "docker",
+      "github-actions",
+      "windows"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-docker-compose-service-logs-docker-compose-logs-f-app",
+    "command": "docker compose logs -f app",
+    "title": "Docker compose service logs",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Specific service logs follow karne ke liye.",
+    "syntax": "docker compose logs -f app",
+    "example": "docker compose logs -f app",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "docker compose logs",
+      "gh run list",
+      "ssh -T git@github.com"
+    ],
+    "tags": [
+      "docker",
+      "github-actions",
+      "windows"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-container-ke-andar-artisan-run-docker-compose-exec-app-php-artisan-mi",
+    "command": "docker compose exec app php artisan migrate",
+    "title": "Container ke andar artisan run",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Dockerized Laravel app me migration run karne ke liye.",
+    "syntax": "docker compose exec app php artisan migrate",
+    "example": "docker compose exec app php artisan migrate",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "docker compose logs",
+      "gh run list",
+      "ssh -T git@github.com"
+    ],
+    "tags": [
+      "docker",
+      "github-actions",
+      "windows"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-container-shell-open-docker-compose-exec-app-bash",
+    "command": "docker compose exec app bash",
+    "title": "Container shell open",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "App container ke andar debug shell open karne ke liye.",
+    "syntax": "docker compose exec app bash",
+    "example": "docker compose exec app bash",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "docker compose logs",
+      "gh run list",
+      "ssh -T git@github.com"
+    ],
+    "tags": [
+      "docker",
+      "github-actions",
+      "windows"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-docker-image-build-docker-build-t-youtube-production-upload-worker",
+    "command": "docker build -t youtube-production-upload-worker .",
+    "title": "Docker image build",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Cloud Run/ECR/Artifact Registry ke liye worker image build karne ke liye.",
+    "syntax": "docker build -t youtube-production-upload-worker .",
+    "example": "docker build -t youtube-production-upload-worker .",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "docker compose logs",
+      "gh run list",
+      "ssh -T git@github.com"
+    ],
+    "tags": [
+      "docker",
+      "github-actions",
+      "windows"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-docker-image-tag-for-gcp-docker-tag-youtube-production-upload-worker-",
+    "command": "docker tag youtube-production-upload-worker us-east4-docker.pkg.dev/PROJECT_ID/vidzooka-production-jobs/youtube-production-upload-worker:latest",
+    "title": "Docker image tag for GCP",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Local image ko Artifact Registry target tag dene ke liye.",
+    "syntax": "docker tag youtube-production-upload-worker us-east4-docker.pkg.dev/PROJECT_ID/vidzooka-production-jobs/youtube-production-upload-worker:latest",
+    "example": "docker tag youtube-production-upload-worker us-east4-docker.pkg.dev/PROJECT_ID/vidzooka-production-jobs/youtube-production-upload-worker:latest",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "docker compose logs",
+      "gh run list",
+      "ssh -T git@github.com"
+    ],
+    "tags": [
+      "docker",
+      "github-actions",
+      "windows"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-docker-image-push-gcp-docker-push-us-east4-docker-pkg-dev-project-id-",
+    "command": "docker push us-east4-docker.pkg.dev/PROJECT_ID/vidzooka-production-jobs/youtube-production-upload-worker:latest",
+    "title": "Docker image push GCP",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Artifact Registry me image upload karne ke liye.",
+    "syntax": "docker push us-east4-docker.pkg.dev/PROJECT_ID/vidzooka-production-jobs/youtube-production-upload-worker:latest",
+    "example": "docker push us-east4-docker.pkg.dev/PROJECT_ID/vidzooka-production-jobs/youtube-production-upload-worker:latest",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "docker compose logs",
+      "gh run list",
+      "ssh -T git@github.com"
+    ],
+    "tags": [
+      "docker",
+      "github-actions",
+      "windows"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-github-cli-auth-check-gh-auth-status",
+    "command": "gh auth status",
+    "title": "GitHub CLI auth check",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "GitHub CLI login/status verify karne ke liye.",
+    "syntax": "gh auth status",
+    "example": "gh auth status",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "docker compose logs",
+      "gh run list",
+      "ssh -T git@github.com"
+    ],
+    "tags": [
+      "docker",
+      "github-actions",
+      "windows"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-github-actions-runs-list-gh-run-list-limit-10",
+    "command": "gh run list --limit 10",
+    "title": "GitHub Actions runs list",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Recent workflow runs terminal se dekhne ke liye.",
+    "syntax": "gh run list --limit 10",
+    "example": "gh run list --limit 10",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "docker compose logs",
+      "gh run list",
+      "ssh -T git@github.com"
+    ],
+    "tags": [
+      "docker",
+      "github-actions",
+      "windows"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-github-actions-logs-view-gh-run-view-log",
+    "command": "gh run view --log",
+    "title": "GitHub Actions logs view",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Failed workflow logs terminal me inspect karne ke liye.",
+    "syntax": "gh run view --log",
+    "example": "gh run view --log",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "docker compose logs",
+      "gh run list",
+      "ssh -T git@github.com"
+    ],
+    "tags": [
+      "docker",
+      "github-actions",
+      "windows"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-ssh-key-generate-ssh-keygen-t-ed25519-c-your-email-example-com",
+    "command": "ssh-keygen -t ed25519 -C \"your-email@example.com\"",
+    "title": "SSH key generate",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "GitHub SSH auth ke liye new key generate karne ke liye.",
+    "syntax": "ssh-keygen -t ed25519 -C \"your-email@example.com\"",
+    "example": "ssh-keygen -t ed25519 -C \"your-email@example.com\"",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "docker compose logs",
+      "gh run list",
+      "ssh -T git@github.com"
+    ],
+    "tags": [
+      "docker",
+      "github-actions",
+      "windows"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-powershell-me-public-ssh-key-read-get-content-ssh-id-ed25519-pub",
+    "command": "Get-Content ~/.ssh/id_ed25519.pub",
+    "title": "PowerShell me public SSH key read",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "GitHub settings me paste karne ke liye public key copy karna.",
+    "syntax": "Get-Content ~/.ssh/id_ed25519.pub",
+    "example": "Get-Content ~/.ssh/id_ed25519.pub",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "docker compose logs",
+      "gh run list",
+      "ssh -T git@github.com"
+    ],
+    "tags": [
+      "docker",
+      "github-actions",
+      "windows"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-github-ssh-auth-test-ssh-t-git-github-com",
+    "command": "ssh -T git@github.com",
+    "title": "GitHub SSH auth test",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "GitHub SSH key properly linked hai ya nahi verify karne ke liye.",
+    "syntax": "ssh -T git@github.com",
+    "example": "ssh -T git@github.com",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "docker compose logs",
+      "gh run list",
+      "ssh -T git@github.com"
+    ],
+    "tags": [
+      "docker",
+      "github-actions",
+      "windows"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-windows-se-ssh-port-test-test-netconnection-217-216-79-214-port-22",
+    "command": "Test-NetConnection 217.216.79.214 -Port 22",
+    "title": "Windows se SSH port test",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Windows PowerShell se server port reachable hai ya nahi check karne ke liye.",
+    "syntax": "Test-NetConnection 217.216.79.214 -Port 22",
+    "example": "Test-NetConnection 217.216.79.214 -Port 22",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "docker compose logs",
+      "gh run list",
+      "ssh -T git@github.com"
+    ],
+    "tags": [
+      "docker",
+      "github-actions",
+      "windows"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-prometheus-status-check-systemctl-status-prometheus-no-pager",
+    "command": "systemctl status prometheus --no-pager",
+    "title": "Prometheus status check",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Prometheus service running hai ya nahi verify karne ke liye.",
+    "syntax": "systemctl status prometheus --no-pager",
+    "example": "systemctl status prometheus --no-pager",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "systemctl status",
+      "journalctl",
+      "timedatectl"
+    ],
+    "tags": [
+      "prometheus",
+      "grafana",
+      "activitywatch"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-prometheus-logs-journalctl-u-prometheus-n-100-no-pager",
+    "command": "journalctl -u prometheus -n 100 --no-pager",
+    "title": "Prometheus logs",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Remote write/snappy/out-of-bounds errors debug karne ke liye.",
+    "syntax": "journalctl -u prometheus -n 100 --no-pager",
+    "example": "journalctl -u prometheus -n 100 --no-pager",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "systemctl status",
+      "journalctl",
+      "timedatectl"
+    ],
+    "tags": [
+      "prometheus",
+      "grafana",
+      "activitywatch"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-systemd-units-reload-systemctl-daemon-reload",
+    "command": "systemctl daemon-reload",
+    "title": "Systemd units reload",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Service file edit ke baad systemd config reload karne ke liye.",
+    "syntax": "systemctl daemon-reload",
+    "example": "systemctl daemon-reload",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "systemctl status",
+      "journalctl",
+      "timedatectl"
+    ],
+    "tags": [
+      "prometheus",
+      "grafana",
+      "activitywatch"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-prometheus-restart-systemctl-restart-prometheus",
+    "command": "systemctl restart prometheus",
+    "title": "Prometheus restart",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Retention/remote-write flags change ke baad restart karne ke liye.",
+    "syntax": "systemctl restart prometheus",
+    "example": "systemctl restart prometheus",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "systemctl status",
+      "journalctl",
+      "timedatectl"
+    ],
+    "tags": [
+      "prometheus",
+      "grafana",
+      "activitywatch"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-server-time-sync-status-timedatectl-status",
+    "command": "timedatectl status",
+    "title": "Server time sync status",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Clock/timezone/NTP status check karne ke liye.",
+    "syntax": "timedatectl status",
+    "example": "timedatectl status",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "systemctl status",
+      "journalctl",
+      "timedatectl"
+    ],
+    "tags": [
+      "prometheus",
+      "grafana",
+      "activitywatch"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-ntp-enable-sudo-timedatectl-set-ntp-true",
+    "command": "sudo timedatectl set-ntp true",
+    "title": "NTP enable",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Server clock sync enable karne ke liye.",
+    "syntax": "sudo timedatectl set-ntp true",
+    "example": "sudo timedatectl set-ntp true",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "systemctl status",
+      "journalctl",
+      "timedatectl"
+    ],
+    "tags": [
+      "prometheus",
+      "grafana",
+      "activitywatch"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-windows-time-resync-w32tm-resync",
+    "command": "w32tm /resync",
+    "title": "Windows time resync",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "ActivityWatch/Grafana data timestamp issue fix karne ke liye Windows clock resync.",
+    "syntax": "w32tm /resync",
+    "example": "w32tm /resync",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "systemctl status",
+      "journalctl",
+      "timedatectl"
+    ],
+    "tags": [
+      "prometheus",
+      "grafana",
+      "activitywatch"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-windows-aw-sync-scheduled-task-find-get-scheduledtask-where-object-ta",
+    "command": "Get-ScheduledTask | Where-Object {$_.TaskName -like \"*aw*\"}",
+    "title": "Windows AW sync scheduled task find",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "ActivityWatch sync task installed hai ya nahi check karne ke liye.",
+    "syntax": "Get-ScheduledTask | Where-Object {$_.TaskName -like \"*aw*\"}",
+    "example": "Get-ScheduledTask | Where-Object {$_.TaskName -like \"*aw*\"}",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "systemctl status",
+      "journalctl",
+      "timedatectl"
+    ],
+    "tags": [
+      "prometheus",
+      "grafana",
+      "activitywatch"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-aw-sync-logs-tail-get-content-d-aw-sync-aw-sync-log-csv-tail-50",
+    "command": "Get-Content D:\\aw-sync\\aw-sync-log.csv -Tail 50",
+    "title": "AW sync logs tail",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "ActivityWatch sync agent ke latest logs dekhne ke liye.",
+    "syntax": "Get-Content D:\\aw-sync\\aw-sync-log.csv -Tail 50",
+    "example": "Get-Content D:\\aw-sync\\aw-sync-log.csv -Tail 50",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "systemctl status",
+      "journalctl",
+      "timedatectl"
+    ],
+    "tags": [
+      "prometheus",
+      "grafana",
+      "activitywatch"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-activitywatch-buckets-api-check-curl-http-localhost-5600-api-0-bucket",
+    "command": "curl http://localhost:5600/api/0/buckets/",
+    "title": "ActivityWatch buckets API check",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Local ActivityWatch watcher data available hai ya nahi verify karne ke liye.",
+    "syntax": "curl http://localhost:5600/api/0/buckets/",
+    "example": "curl http://localhost:5600/api/0/buckets/",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "systemctl status",
+      "journalctl",
+      "timedatectl"
+    ],
+    "tags": [
+      "prometheus",
+      "grafana",
+      "activitywatch"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-ufw-firewall-status-ufw-status-verbose",
+    "command": "ufw status verbose",
+    "title": "UFW firewall status",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Allowed/denied ports verify karne ke liye.",
+    "syntax": "ufw status verbose",
+    "example": "ufw status verbose",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "ufw status",
+      "fail2ban-client status",
+      "ss -tulpn"
+    ],
+    "tags": [
+      "security",
+      "firewall",
+      "cloudflare"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-ssh-port-allow-ufw-allow-22-tcp",
+    "command": "ufw allow 22/tcp",
+    "title": "SSH port allow",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Firewall me SSH access allow karne ke liye.",
+    "syntax": "ufw allow 22/tcp",
+    "example": "ufw allow 22/tcp",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "ufw status",
+      "fail2ban-client status",
+      "ss -tulpn"
+    ],
+    "tags": [
+      "security",
+      "firewall",
+      "cloudflare"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-http-https-allow-ufw-allow-80-443-tcp",
+    "command": "ufw allow 80,443/tcp",
+    "title": "HTTP/HTTPS allow",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Web server traffic allow karne ke liye.",
+    "syntax": "ufw allow 80,443/tcp",
+    "example": "ufw allow 80,443/tcp",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "ufw status",
+      "fail2ban-client status",
+      "ss -tulpn"
+    ],
+    "tags": [
+      "security",
+      "firewall",
+      "cloudflare"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-fail2ban-status-fail2ban-client-status",
+    "command": "fail2ban-client status",
+    "title": "Fail2ban status",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Enabled jails aur ban status inspect karne ke liye.",
+    "syntax": "fail2ban-client status",
+    "example": "fail2ban-client status",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "ufw status",
+      "fail2ban-client status",
+      "ss -tulpn"
+    ],
+    "tags": [
+      "security",
+      "firewall",
+      "cloudflare"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-ssh-jail-status-fail2ban-client-status-sshd",
+    "command": "fail2ban-client status sshd",
+    "title": "SSH jail status",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "SSH brute-force ban list debug karne ke liye.",
+    "syntax": "fail2ban-client status sshd",
+    "example": "fail2ban-client status sshd",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "ufw status",
+      "fail2ban-client status",
+      "ss -tulpn"
+    ],
+    "tags": [
+      "security",
+      "firewall",
+      "cloudflare"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-ip-unban-karna-fail2ban-client-unban-1-2-3-4",
+    "command": "fail2ban-client unban 1.2.3.4",
+    "title": "IP unban karna",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Galti se ban hua IP unblock karne ke liye.",
+    "syntax": "fail2ban-client unban 1.2.3.4",
+    "example": "fail2ban-client unban 1.2.3.4",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "ufw status",
+      "fail2ban-client status",
+      "ss -tulpn"
+    ],
+    "tags": [
+      "security",
+      "firewall",
+      "cloudflare"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-listening-ports-check-ss-tulpn",
+    "command": "ss -tulpn",
+    "title": "Listening ports check",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Server par kaunsi services kaunse ports listen kar rahi hain dekhna.",
+    "syntax": "ss -tulpn",
+    "example": "ss -tulpn",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "ufw status",
+      "fail2ban-client status",
+      "ss -tulpn"
+    ],
+    "tags": [
+      "security",
+      "firewall",
+      "cloudflare"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-port-process-find-lsof-i-5432",
+    "command": "lsof -i :5432",
+    "title": "Port process find",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "PostgreSQL ya kisi port par kaunsa process hai dekhne ke liye.",
+    "syntax": "lsof -i :5432",
+    "example": "lsof -i :5432",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "ufw status",
+      "fail2ban-client status",
+      "ss -tulpn"
+    ],
+    "tags": [
+      "security",
+      "firewall",
+      "cloudflare"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-cloudflare-pages-deploy-hook-trigger-curl-x-post-https-api-cloudflare",
+    "command": "curl -X POST https://api.cloudflare.com/client/v4/pages/webhooks/deploy_hooks/HOOK_ID",
+    "title": "Cloudflare Pages deploy hook trigger",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "WordPress/admin action se static site rebuild trigger test karne ke liye.",
+    "syntax": "curl -X POST https://api.cloudflare.com/client/v4/pages/webhooks/deploy_hooks/HOOK_ID",
+    "example": "curl -X POST https://api.cloudflare.com/client/v4/pages/webhooks/deploy_hooks/HOOK_ID",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "ufw status",
+      "fail2ban-client status",
+      "ss -tulpn"
+    ],
+    "tags": [
+      "security",
+      "firewall",
+      "cloudflare"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-cloudflare-tunnels-list-cloudflared-tunnel-list",
+    "command": "cloudflared tunnel list",
+    "title": "Cloudflare tunnels list",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Configured tunnels inspect karne ke liye.",
+    "syntax": "cloudflared tunnel list",
+    "example": "cloudflared tunnel list",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "ufw status",
+      "fail2ban-client status",
+      "ss -tulpn"
+    ],
+    "tags": [
+      "security",
+      "firewall",
+      "cloudflare"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-all-json-files-validate-node-e-const-fs-require-fs-for-const-f-of-fs-",
+    "command": "node -e \"const fs=require('fs'); for(const f of fs.readdirSync('public/data').filter(f=>f.endsWith('.json'))){try{JSON.parse(fs.readFileSync('public/data/'+f,'utf8')); console.log('OK',f)}catch(e){console.log('ERROR',f,e.message)}}\"",
+    "title": "All JSON files validate",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "DevOps Command Hub data JSON parse errors quickly find karne ke liye.",
+    "syntax": "node -e \"const fs=require('fs'); for(const f of fs.readdirSync('public/data').filter(f=>f.endsWith('.json'))){try{JSON.parse(fs.readFileSync('public/data/'+f,'utf8')); console.log('OK',f)}catch(e){console.log('ERROR',f,e.message)}}\"",
+    "example": "node -e \"const fs=require('fs'); for(const f of fs.readdirSync('public/data').filter(f=>f.endsWith('.json'))){try{JSON.parse(fs.readFileSync('public/data/'+f,'utf8')); console.log('OK',f)}catch(e){console.log('ERROR',f,e.message)}}\"",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "git apply",
+      "npm run dev"
+    ],
+    "tags": [
+      "devops-command-hub",
+      "json",
+      "patch"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-patch-ke-baad-changed-files-check-git-status-short",
+    "command": "git status --short",
+    "title": "Patch ke baad changed files check",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Patch apply hone ke baad kaunsi files changed hain dekhne ke liye.",
+    "syntax": "git status --short",
+    "example": "git status --short",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "git apply",
+      "npm run dev"
+    ],
+    "tags": [
+      "devops-command-hub",
+      "json",
+      "patch"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-static-app-production-build-verify-npm-run-build",
+    "command": "npm run build",
+    "title": "Static app production build verify",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Vue app production build error-free hai ya nahi check karne ke liye.",
+    "syntax": "npm run build",
+    "example": "npm run build",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "git apply",
+      "npm run dev"
+    ],
+    "tags": [
+      "devops-command-hub",
+      "json",
+      "patch"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-browser-hard-refresh-ctrl-shift-r",
+    "command": "Ctrl + Shift + R",
+    "title": "Browser hard refresh",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Old cached command count/theme issue clear karne ke liye browser hard refresh karna.",
+    "syntax": "Ctrl + Shift + R",
+    "example": "Ctrl + Shift + R",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "git apply",
+      "npm run dev"
+    ],
+    "tags": [
+      "devops-command-hub",
+      "json",
+      "patch"
+    ]
+  },
+  {
+    "id": "sahil-chats-real-ops-powershell-patch-file-delete-remove-item-devops-command-hub-a-to-z-gu",
+    "command": "Remove-Item DevOps_Command_Hub_A_to_Z_Guide.patch",
+    "title": "PowerShell patch file delete",
+    "category": "Sahil-Chats Real Ops",
+    "difficulty": "Intermediate",
+    "use_case": "Patch apply ke baad extra patch file repo me commit na ho isliye delete karne ke liye.",
+    "syntax": "Remove-Item DevOps_Command_Hub_A_to_Z_Guide.patch",
+    "example": "Remove-Item DevOps_Command_Hub_A_to_Z_Guide.patch",
+    "output_explanation": "Command successful hone par terminal me result, status, id, URL, ya logs output show hota hai. Error aaye to permission, path, credentials, network, region aur config check karo.",
+    "warning": "Production par run karne se pehle path, user, region, project/account aur backup verify karo.",
+    "related_commands": [
+      "git apply",
+      "npm run dev"
+    ],
+    "tags": [
+      "devops-command-hub",
+      "json",
+      "patch"
+    ]
+  }
+]

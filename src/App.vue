@@ -288,13 +288,13 @@ const activeCategoryCount = computed(() => {
                             >
                                 Commands, use cases, warnings — sab ek jagah.
                             </h2>
-                            <p
+                            <!-- <p
                                 class="mt-4 text-sm leading-7 text-cyan-50 sm:text-base"
                             >
                                 Ye app fully static hai. Commands JSON files me
                                 stored hain, isliye aap manually edit karke apni
                                 personal DevOps library maintain kar sakte ho.
-                            </p>
+                            </p> -->
                         </div>
                     </div>
 
